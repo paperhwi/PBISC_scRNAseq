@@ -6,6 +6,7 @@
 - 루트의 `plot_*.py`, `recreate_*.py`, `summarize_*.py`는 표와 그림을 만듭니다.
 - `analysis_20261102/file_overview/`는 새 파일 구조와 발현 개요를 추출합니다.
 - `analysis_20261102/verification_20261102/`는 원본 무결성, label transfer, iLISI, DEG, 희귀 세포 출처 및 민감도 분석을 재검증합니다.
-- `analysis_20261102/figure_realism_rare/`, `figure_additions/`, `celldeep_source_deg/`는 후속 그림과 비교 입력을 만듭니다.
+- `analysis_20261102/figure_realism_rare/`, `figure_additions/`는 후속 그림과 비교 입력을 만듭니다.
+- [`analysis_20261102/celldeep_source_deg/`](analysis_20261102/celldeep_source_deg/README.md)는 Real과 New LoRA의 CellDEEP DEG 분석, 환자 단위 pseudobulk 대조, 유전자별 결과표 및 그림을 포함합니다.
 
-입력 H5AD, 메타데이터, 생성 결과표는 포함하지 않았습니다. 이 코드는 원본 `F:/PBISC` 폴더와 앞선 분석의 `ilisi_lib.py` 등을 참조하므로 경로와 필요한 앞 단계 산출물을 확인하세요.
+입력 H5AD와 대용량 중간 산출물은 포함하지 않았습니다. CellDEEP 분석의 결과표와 그림은 예외적으로 해당 폴더에 포함했습니다. 코드는 원본 `F:/PBISC` 폴더와 앞선 분석의 `ilisi_lib.py` 등을 참조하므로 경로와 필요한 앞 단계 산출물을 확인하세요.

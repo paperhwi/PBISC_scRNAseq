@@ -1,0 +1,20 @@
+"cohort","stratum","condition","celltype","n_real_samples","n_new_samples","n_cells_real","n_cells_new","n_metacells_each","n_genes_CellDEEP","n_genes_pseudobulk","n_DEG_CellDEEP","n_DEG_pseudobulk","n_overlap_same_direction","logFC_pearson","elapsed_seconds"
+"sepsis","sepsis__adult_HC__Tcell","adult_HC","T cell",7,7,210,210,21,5961,475,47,28,20,0.979706425449423,2.25475096702576
+"sepsis","sepsis__adult_HC__Bcell","adult_HC","B cell",7,7,210,210,21,5961,554,161,67,53,0.976267840830187,1.88123393058777
+"sepsis","sepsis__adult_HC__NKcell","adult_HC","NK cell",7,7,210,210,21,5961,512,74,33,22,0.976564326368098,1.8950297832489
+"sepsis","sepsis__adult_HC__Monocyte","adult_HC","Monocyte",7,7,210,210,21,5961,704,290,87,75,0.991100555998447,2.01105284690857
+"sepsis","sepsis__adult_ICU_ctrl__Tcell","adult_ICU_ctrl","T cell",8,8,240,240,24,5961,418,114,38,33,0.969543918446933,1.96144604682922
+"sepsis","sepsis__adult_ICU_ctrl__Bcell","adult_ICU_ctrl","B cell",7,7,210,210,21,5961,427,143,57,45,0.971421994063063,3.43581318855286
+"sepsis","sepsis__adult_ICU_ctrl__NKcell","adult_ICU_ctrl","NK cell",8,8,240,240,24,5961,451,125,40,32,0.981051323609105,2.10510897636414
+"sepsis","sepsis__adult_ICU_ctrl__Monocyte","adult_ICU_ctrl","Monocyte",8,8,240,240,24,5961,545,440,93,88,0.981659305356997,1.82574510574341
+"sepsis","sepsis__adult_sepsis__Tcell","adult_sepsis","T cell",20,20,600,600,60,5961,457,359,43,38,0.948742775933966,4.31948804855347
+"sepsis","sepsis__adult_sepsis__Bcell","adult_sepsis","B cell",20,20,600,600,60,5961,506,439,66,61,0.951876366618476,4.68715691566467
+"sepsis","sepsis__adult_sepsis__NKcell","adult_sepsis","NK cell",20,20,600,600,60,5961,492,421,54,48,0.974940180078262,4.26837301254272
+"sepsis","sepsis__adult_sepsis__Monocyte","adult_sepsis","Monocyte",20,20,600,600,60,5961,712,736,107,86,0.918209896652402,4.18509411811829
+"covid","covid__covid_negative__Tcell","covid_negative","T cell",18,18,540,540,54,5745,375,382,53,48,0.982848039323914,3.82142686843872
+"covid","covid__covid_negative__NKcell","covid_negative","NK cell",11,11,330,330,33,5745,384,224,64,61,0.986703082296141,2.76618909835815
+"covid","covid__covid_negative__Monocyte","covid_negative","Monocyte",12,12,360,360,36,5745,456,268,60,56,0.982886829384804,2.51687502861023
+"covid","covid__covid_positive__Tcell","covid_positive","T cell",20,20,600,600,60,5745,392,302,29,27,0.956070953012716,3.65124201774597
+"covid","covid__covid_positive__Bcell","covid_positive","B cell",20,20,600,600,60,5745,357,596,84,76,0.965548565397009,5.02618098258972
+"covid","covid__covid_positive__NKcell","covid_positive","NK cell",20,20,600,600,60,5745,384,412,49,44,0.992513068243892,3.58062291145325
+"covid","covid__covid_positive__Monocyte","covid_positive","Monocyte",20,20,600,600,60,5745,516,431,63,55,0.984760788026179,3.87437510490417

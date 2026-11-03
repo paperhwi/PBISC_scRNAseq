@@ -23,3 +23,11 @@ venv/
 *.pdf
 *.pptx
 *.docx
+
+# Published New LoRA CellDEEP analysis outputs (raw counts stay excluded)
+!analyses/NewLora/analysis_20261102/celldeep_source_deg/results/*.csv
+!analyses/NewLora/analysis_20261102/celldeep_source_deg/results/*.csv.gz
+!analyses/NewLora/analysis_20261102/celldeep_source_deg/results/*.png
+!analyses/NewLora/analysis_20261102/celldeep_source_deg/results/*.pdf
+!analyses/NewLora/analysis_20261102/celldeep_source_deg/sepsis/strata.csv
+!analyses/NewLora/analysis_20261102/celldeep_source_deg/covid/strata.csv

@@ -10,7 +10,9 @@ suppressPackageStartupMessages({
   library(limma)
 })
 
-root <- "F:/PBISC/NewLora/analysis_20261102/celldeep_source_deg"
+script_arg <- grep("^--file=", commandArgs(trailingOnly=FALSE), value=TRUE)[1]
+script_file <- normalizePath(sub("^--file=", "", script_arg), winslash="/", mustWork=TRUE)
+root <- Sys.getenv("PBISC_CELLDEEP_OUTPUT_ROOT", unset=dirname(script_file))
 dir.create(file.path(root, "results"), recursive=TRUE, showWarnings=FALSE)
 
 one_stratum <- function(cohort, stratum, index) {

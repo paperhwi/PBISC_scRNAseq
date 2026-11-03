@@ -9,6 +9,7 @@ from __future__ import annotations
 from pathlib import Path
 import hashlib
 import json
+import os
 import re
 import time
 
@@ -19,8 +20,8 @@ import pandas as pd
 import scipy.sparse as sp
 from scipy.io import mmwrite
 
-ROOT = Path(__file__).resolve().parents[3]
-OUT = Path(__file__).resolve().parent
+ROOT = Path(os.environ.get("PBISC_DATA_ROOT", "F:/PBISC")).resolve()
+OUT = Path(os.environ.get("PBISC_CELLDEEP_OUTPUT_ROOT", Path(__file__).resolve().parent)).resolve()
 ANALYSIS = ROOT / "bulkonly_lora5_20261006/analysis"
 BASE = ANALYSIS / "integration_report_20261012/ilisi_floor_20261021"
 NEW = ROOT / "NewLora/analysis_20261102"

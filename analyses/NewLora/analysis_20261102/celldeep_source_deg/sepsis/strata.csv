@@ -1,0 +1,13 @@
+stratum,cohort,group,celltype,status,n_real_eligible,n_new_eligible,n_samples_each
+sepsis__adult_HC__Tcell,sepsis,adult_HC,T cell,ready,7,36,7
+sepsis__adult_HC__Bcell,sepsis,adult_HC,B cell,ready,7,23,7
+sepsis__adult_HC__NKcell,sepsis,adult_HC,NK cell,ready,7,36,7
+sepsis__adult_HC__Monocyte,sepsis,adult_HC,Monocyte,ready,7,30,7
+sepsis__adult_ICU_ctrl__Tcell,sepsis,adult_ICU_ctrl,T cell,ready,8,17,8
+sepsis__adult_ICU_ctrl__Bcell,sepsis,adult_ICU_ctrl,B cell,ready,7,17,7
+sepsis__adult_ICU_ctrl__NKcell,sepsis,adult_ICU_ctrl,NK cell,ready,8,8,8
+sepsis__adult_ICU_ctrl__Monocyte,sepsis,adult_ICU_ctrl,Monocyte,ready,8,15,8
+sepsis__adult_sepsis__Tcell,sepsis,adult_sepsis,T cell,ready,93,68,20
+sepsis__adult_sepsis__Bcell,sepsis,adult_sepsis,B cell,ready,93,63,20
+sepsis__adult_sepsis__NKcell,sepsis,adult_sepsis,NK cell,ready,93,31,20
+sepsis__adult_sepsis__Monocyte,sepsis,adult_sepsis,Monocyte,ready,83,55,20

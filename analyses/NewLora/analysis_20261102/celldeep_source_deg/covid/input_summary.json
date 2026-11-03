@@ -1,0 +1,8 @@
+{
+  "cohort": "covid",
+  "n_genes": 5745,
+  "n_strata_ready": 7,
+  "n_selected_cells": 7260,
+  "cells_per_sample": 30,
+  "max_samples_per_source": 20
+}

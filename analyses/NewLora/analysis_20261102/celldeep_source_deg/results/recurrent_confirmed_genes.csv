@@ -1,0 +1,557 @@
+cohort,gene,direction,n_strata,n_celltypes,conditions,celltypes
+covid,NR3C1,New higher,6,4,covid_negative;covid_positive,B cell;Monocyte;NK cell;T cell
+covid,DUSP1,New lower,5,3,covid_negative;covid_positive,Monocyte;NK cell;T cell
+covid,FLI1,New higher,5,3,covid_negative;covid_positive,B cell;NK cell;T cell
+covid,PCGF5,New higher,5,3,covid_negative;covid_positive,B cell;NK cell;T cell
+covid,RPS17,New higher,5,4,covid_negative;covid_positive,B cell;Monocyte;NK cell;T cell
+covid,SRPK2,New higher,5,3,covid_negative;covid_positive,B cell;NK cell;T cell
+covid,TGFBR2,New higher,5,4,covid_negative;covid_positive,B cell;Monocyte;NK cell;T cell
+covid,TTC17,New higher,5,4,covid_negative;covid_positive,B cell;Monocyte;NK cell;T cell
+covid,ATXN10,New higher,4,3,covid_negative;covid_positive,B cell;NK cell;T cell
+covid,BBX,New higher,4,3,covid_negative;covid_positive,B cell;NK cell;T cell
+covid,CHD9,New higher,4,3,covid_negative;covid_positive,B cell;Monocyte;NK cell
+covid,DNAJC1,New higher,4,4,covid_negative;covid_positive,B cell;Monocyte;NK cell;T cell
+covid,FOS,New lower,4,2,covid_negative;covid_positive,NK cell;T cell
+covid,IFI16,New higher,4,4,covid_negative;covid_positive,B cell;Monocyte;NK cell;T cell
+covid,MAP4,New higher,4,4,covid_negative;covid_positive,B cell;Monocyte;NK cell;T cell
+covid,PRKACB,New higher,4,2,covid_negative;covid_positive,NK cell;T cell
+covid,RBMS1,New higher,4,3,covid_negative;covid_positive,Monocyte;NK cell;T cell
+covid,RSU1,New higher,4,3,covid_negative;covid_positive,Monocyte;NK cell;T cell
+covid,SND1,New higher,4,3,covid_negative;covid_positive,Monocyte;NK cell;T cell
+covid,AP3B1,New higher,3,3,covid_negative;covid_positive,B cell;Monocyte;NK cell
+covid,DUSP2,New lower,3,2,covid_negative;covid_positive,NK cell;T cell
+covid,JAZF1,New higher,3,2,covid_negative;covid_positive,B cell;NK cell
+covid,KAT6B,New higher,3,2,covid_negative;covid_positive,NK cell;T cell
+covid,MAN1A2,New higher,3,3,covid_negative;covid_positive,B cell;NK cell;T cell
+covid,MAP4K4,New higher,3,3,covid_negative;covid_positive,B cell;Monocyte;T cell
+covid,PIAS1,New higher,3,3,covid_negative;covid_positive,B cell;Monocyte;NK cell
+covid,PPP3CA,New higher,3,3,covid_positive,B cell;Monocyte;NK cell
+covid,PSMA1,New higher,3,2,covid_negative;covid_positive,Monocyte;T cell
+covid,PTK2B,New higher,3,2,covid_negative;covid_positive,B cell;NK cell
+covid,RAB27A,New higher,3,3,covid_negative;covid_positive,Monocyte;NK cell;T cell
+covid,RFTN1,New higher,3,3,covid_negative;covid_positive,B cell;NK cell;T cell
+covid,RPS4Y1,New higher,3,3,covid_negative;covid_positive,B cell;Monocyte;NK cell
+covid,SAMD9,New higher,3,2,covid_negative;covid_positive,B cell;NK cell
+covid,SSH2,New higher,3,2,covid_negative;covid_positive,B cell;T cell
+covid,ADGRG1,New lower,2,1,covid_negative;covid_positive,NK cell
+covid,AGTPBP1,New higher,2,2,covid_negative;covid_positive,Monocyte;NK cell
+covid,ARAP2,New higher,2,2,covid_negative,NK cell;T cell
+covid,AREG,New lower,2,1,covid_negative;covid_positive,NK cell
+covid,ARHGAP25,New higher,2,2,covid_negative;covid_positive,B cell;NK cell
+covid,ARHGEF3,New higher,2,2,covid_negative,NK cell;T cell
+covid,ARIH1,New higher,2,2,covid_negative;covid_positive,B cell;NK cell
+covid,B4GALT1,New higher,2,2,covid_positive,B cell;NK cell
+covid,BAZ1A,New higher,2,2,covid_negative;covid_positive,B cell;T cell
+covid,BCL2,New higher,2,2,covid_positive,B cell;T cell
+covid,BIRC3,New higher,2,2,covid_positive,B cell;T cell
+covid,CCL4,New lower,2,1,covid_negative;covid_positive,NK cell
+covid,CCNY,New higher,2,1,covid_negative;covid_positive,Monocyte
+covid,CDKN1C,New lower,2,1,covid_negative;covid_positive,Monocyte
+covid,CLIC3,New lower,2,1,covid_negative;covid_positive,NK cell
+covid,DENND4C,New higher,2,1,covid_negative;covid_positive,NK cell
+covid,FOXN3,New higher,2,2,covid_negative;covid_positive,B cell;T cell
+covid,GBP2,New higher,2,2,covid_negative,NK cell;T cell
+covid,HES4,New lower,2,1,covid_negative;covid_positive,Monocyte
+covid,IGF2R,New higher,2,1,covid_negative;covid_positive,Monocyte
+covid,IGFBP7,New lower,2,1,covid_negative;covid_positive,NK cell
+covid,IQGAP2,New higher,2,1,covid_negative;covid_positive,Monocyte
+covid,JARID2,New higher,2,1,covid_negative;covid_positive,Monocyte
+covid,KLF2,New lower,2,1,covid_negative;covid_positive,Monocyte
+covid,LMBRD1,New higher,2,2,covid_positive,B cell;T cell
+covid,LYST,New higher,2,2,covid_negative;covid_positive,B cell;NK cell
+covid,MATK,New lower,2,1,covid_negative;covid_positive,NK cell
+covid,MEF2A,New higher,2,2,covid_negative;covid_positive,B cell;Monocyte
+covid,MGAT4A,New higher,2,1,covid_negative;covid_positive,NK cell
+covid,MT-ATP8,New higher,2,1,covid_negative;covid_positive,Monocyte
+covid,NCK2,New higher,2,2,covid_positive,B cell;T cell
+covid,PARP14,New higher,2,2,covid_negative;covid_positive,B cell;Monocyte
+covid,PDE3B,New higher,2,1,covid_negative;covid_positive,T cell
+covid,PHC3,New higher,2,2,covid_negative;covid_positive,B cell;T cell
+covid,PIM1,New higher,2,2,covid_negative;covid_positive,Monocyte;NK cell
+covid,PLEKHA2,New higher,2,2,covid_negative;covid_positive,B cell;NK cell
+covid,PPP3CC,New higher,2,2,covid_positive,B cell;NK cell
+covid,PRSS23,New lower,2,1,covid_negative;covid_positive,NK cell
+covid,PTGDR,New lower,2,1,covid_negative;covid_positive,NK cell
+covid,PXN,New higher,2,1,covid_negative;covid_positive,Monocyte
+covid,R3HDM2,New higher,2,2,covid_negative;covid_positive,B cell;NK cell
+covid,RASA2,New higher,2,2,covid_negative;covid_positive,B cell;T cell
+covid,RB1,New higher,2,2,covid_negative;covid_positive,B cell;Monocyte
+covid,RBPJ,New higher,2,1,covid_negative;covid_positive,Monocyte
+covid,RHOB,New lower,2,1,covid_negative;covid_positive,Monocyte
+covid,RPS26,New lower,2,2,covid_negative,Monocyte;T cell
+covid,RPS6KA3,New higher,2,2,covid_negative;covid_positive,Monocyte;T cell
+covid,RUNX1,New higher,2,1,covid_negative;covid_positive,Monocyte
+covid,SETD2,New higher,2,2,covid_negative,NK cell;T cell
+covid,SLC2A3,New higher,2,1,covid_negative;covid_positive,Monocyte
+covid,SNX29,New higher,2,2,covid_negative;covid_positive,B cell;Monocyte
+covid,SORL1,New higher,2,1,covid_negative;covid_positive,Monocyte
+covid,STAT1,New higher,2,2,covid_negative;covid_positive,B cell;Monocyte
+covid,TANK,New higher,2,2,covid_negative;covid_positive,B cell;Monocyte
+covid,TBC1D1,New higher,2,2,covid_negative;covid_positive,B cell;Monocyte
+covid,UBAC2,New higher,2,1,covid_negative;covid_positive,T cell
+covid,ZDHHC20,New higher,2,1,covid_negative;covid_positive,Monocyte
+covid,ZNF148,New higher,2,2,covid_negative,NK cell;T cell
+covid,ACBD6,New higher,1,1,covid_negative,T cell
+covid,ADGRE5,New higher,1,1,covid_positive,B cell
+covid,ADK,New higher,1,1,covid_positive,B cell
+covid,APOBEC3A,New lower,1,1,covid_positive,Monocyte
+covid,ARHGAP17,New higher,1,1,covid_positive,B cell
+covid,ARHGAP26,New higher,1,1,covid_negative,NK cell
+covid,ARID5B,New higher,1,1,covid_negative,NK cell
+covid,ASAP1,New higher,1,1,covid_positive,Monocyte
+covid,ATP2B1,New higher,1,1,covid_positive,B cell
+covid,BACH1,New higher,1,1,covid_positive,B cell
+covid,BLK,New lower,1,1,covid_positive,B cell
+covid,CAMK1D,New higher,1,1,covid_positive,B cell
+covid,CAMK2D,New higher,1,1,covid_positive,B cell
+covid,CBLB,New higher,1,1,covid_negative,NK cell
+covid,CCNH,New higher,1,1,covid_negative,NK cell
+covid,CCSER2,New higher,1,1,covid_positive,NK cell
+covid,CD300A,New lower,1,1,covid_positive,Monocyte
+covid,CDKN1A,New lower,1,1,covid_positive,Monocyte
+covid,CEP85L,New higher,1,1,covid_positive,T cell
+covid,CHST11,New higher,1,1,covid_positive,NK cell
+covid,CMIP,New higher,1,1,covid_negative,Monocyte
+covid,COBLL1,New lower,1,1,covid_positive,B cell
+covid,COMMD1,New higher,1,1,covid_positive,Monocyte
+covid,CPPED1,New lower,1,1,covid_positive,Monocyte
+covid,CRTC3,New higher,1,1,covid_positive,T cell
+covid,CSNK1G3,New higher,1,1,covid_positive,B cell
+covid,CX3CR1,New lower,1,1,covid_positive,Monocyte
+covid,DGKD,New higher,1,1,covid_positive,B cell
+covid,DIP2A,New higher,1,1,covid_positive,NK cell
+covid,DMXL1,New higher,1,1,covid_positive,B cell
+covid,DNAJB1,New higher,1,1,covid_negative,Monocyte
+covid,DOCK10,New higher,1,1,covid_positive,Monocyte
+covid,EGR1,New lower,1,1,covid_positive,Monocyte
+covid,EIF2AK2,New higher,1,1,covid_positive,B cell
+covid,EIF4G3,New higher,1,1,covid_positive,NK cell
+covid,EPSTI1,New lower,1,1,covid_positive,Monocyte
+covid,FCGR2A,New lower,1,1,covid_positive,Monocyte
+covid,FKBP5,New higher,1,1,covid_positive,T cell
+covid,FRYL,New higher,1,1,covid_negative,NK cell
+covid,GNAQ,New higher,1,1,covid_positive,Monocyte
+covid,GNG2,New higher,1,1,covid_negative,T cell
+covid,GNLY,New lower,1,1,covid_negative,NK cell
+covid,GNPTAB,New higher,1,1,covid_negative,Monocyte
+covid,GSK3B,New higher,1,1,covid_positive,NK cell
+covid,GZMB,New lower,1,1,covid_positive,T cell
+covid,H1F0,New lower,1,1,covid_positive,Monocyte
+covid,HIF1A,New higher,1,1,covid_positive,B cell
+covid,HIPK2,New higher,1,1,covid_positive,Monocyte
+covid,HIST1H1C,New higher,1,1,covid_negative,Monocyte
+covid,HIST1H1D,New higher,1,1,covid_negative,Monocyte
+covid,HOPX,New lower,1,1,covid_negative,NK cell
+covid,IFI27,New lower,1,1,covid_positive,Monocyte
+covid,IFI44L,New lower,1,1,covid_positive,Monocyte
+covid,IQSEC1,New higher,1,1,covid_negative,Monocyte
+covid,IRAK3,New lower,1,1,covid_negative,Monocyte
+covid,KAT6A,New higher,1,1,covid_negative,T cell
+covid,KDM3B,New higher,1,1,covid_negative,Monocyte
+covid,KLF4,New lower,1,1,covid_positive,Monocyte
+covid,LPIN2,New higher,1,1,covid_negative,T cell
+covid,LPP,New higher,1,1,covid_negative,NK cell
+covid,LRRK2,New lower,1,1,covid_positive,Monocyte
+covid,MAP2K1,New higher,1,1,covid_negative,Monocyte
+covid,MAPRE2,New higher,1,1,covid_positive,B cell
+covid,MED13L,New higher,1,1,covid_negative,Monocyte
+covid,MGMT,New higher,1,1,covid_positive,Monocyte
+covid,MICU2,New higher,1,1,covid_positive,B cell
+covid,MLLT6,New higher,1,1,covid_negative,T cell
+covid,MX1,New lower,1,1,covid_positive,Monocyte
+covid,MX2,New higher,1,1,covid_positive,B cell
+covid,NCOA3,New higher,1,1,covid_positive,B cell
+covid,NCR3,New lower,1,1,covid_negative,NK cell
+covid,NFKB1,New higher,1,1,covid_negative,T cell
+covid,NLRP1,New higher,1,1,covid_negative,Monocyte
+covid,OAS1,New lower,1,1,covid_positive,Monocyte
+covid,OXNAD1,New higher,1,1,covid_negative,T cell
+covid,PACS1,New higher,1,1,covid_positive,B cell
+covid,PAG1,New higher,1,1,covid_negative,T cell
+covid,PARP15,New higher,1,1,covid_positive,B cell
+covid,PCED1B,New higher,1,1,covid_positive,T cell
+covid,PDE7A,New higher,1,1,covid_negative,T cell
+covid,PHACTR2,New higher,1,1,covid_positive,Monocyte
+covid,PI4KA,New higher,1,1,covid_positive,Monocyte
+covid,PICALM,New higher,1,1,covid_negative,Monocyte
+covid,PIK3CD,New higher,1,1,covid_negative,T cell
+covid,PILRA,New lower,1,1,covid_negative,Monocyte
+covid,PLAC8,New higher,1,1,covid_negative,Monocyte
+covid,PPP3R1,New higher,1,1,covid_positive,B cell
+covid,PRDM1,New lower,1,1,covid_positive,T cell
+covid,PREX1,New higher,1,1,covid_positive,B cell
+covid,PRKX,New higher,1,1,covid_negative,T cell
+covid,QKI,New higher,1,1,covid_positive,B cell
+covid,RAB1A,New higher,1,1,covid_negative,Monocyte
+covid,RAP1GDS1,New higher,1,1,covid_negative,T cell
+covid,RASGRP1,New higher,1,1,covid_negative,NK cell
+covid,RERE,New higher,1,1,covid_positive,B cell
+covid,RHOC,New lower,1,1,covid_negative,Monocyte
+covid,RNF13,New higher,1,1,covid_negative,Monocyte
+covid,RNF144B,New lower,1,1,covid_negative,Monocyte
+covid,SECISBP2L,New higher,1,1,covid_positive,B cell
+covid,SELL,New higher,1,1,covid_negative,Monocyte
+covid,SLC8A1,New lower,1,1,covid_positive,Monocyte
+covid,SP140,New higher,1,1,covid_negative,NK cell
+covid,SPON2,New lower,1,1,covid_positive,NK cell
+covid,ST3GAL1,New higher,1,1,covid_negative,T cell
+covid,ST6GAL1,New higher,1,1,covid_positive,B cell
+covid,STAT5B,New higher,1,1,covid_negative,T cell
+covid,STIM1,New higher,1,1,covid_negative,NK cell
+covid,STX8,New higher,1,1,covid_positive,NK cell
+covid,TAB2,New higher,1,1,covid_negative,Monocyte
+covid,TBX21,New lower,1,1,covid_positive,NK cell
+covid,TMEM131,New higher,1,1,covid_negative,Monocyte
+covid,TMEM131L,New higher,1,1,covid_positive,B cell
+covid,TMEM176B,New lower,1,1,covid_positive,Monocyte
+covid,TNFAIP2,New lower,1,1,covid_positive,Monocyte
+covid,TRAF5,New higher,1,1,covid_positive,B cell
+covid,TTC39C,New higher,1,1,covid_negative,Monocyte
+covid,UVRAG,New higher,1,1,covid_positive,B cell
+covid,VOPP1,New higher,1,1,covid_positive,NK cell
+covid,WWP2,New higher,1,1,covid_negative,Monocyte
+covid,XRN1,New higher,1,1,covid_negative,NK cell
+covid,ZCCHC7,New higher,1,1,covid_positive,B cell
+sepsis,LMBRD1,New higher,7,3,adult_HC;adult_ICU_ctrl;adult_sepsis,Monocyte;NK cell;T cell
+sepsis,PSMA1,New higher,7,3,adult_HC;adult_ICU_ctrl;adult_sepsis,B cell;NK cell;T cell
+sepsis,SRPK2,New higher,7,4,adult_HC;adult_ICU_ctrl;adult_sepsis,B cell;Monocyte;NK cell;T cell
+sepsis,ARL4C,New higher,6,2,adult_HC;adult_ICU_ctrl;adult_sepsis,B cell;Monocyte
+sepsis,BBX,New higher,6,4,adult_HC;adult_ICU_ctrl;adult_sepsis,B cell;Monocyte;NK cell;T cell
+sepsis,GNG2,New higher,6,2,adult_HC;adult_ICU_ctrl;adult_sepsis,B cell;Monocyte
+sepsis,MAP4,New higher,6,4,adult_HC;adult_ICU_ctrl;adult_sepsis,B cell;Monocyte;NK cell;T cell
+sepsis,NR3C1,New higher,6,3,adult_HC;adult_ICU_ctrl;adult_sepsis,Monocyte;NK cell;T cell
+sepsis,ZNF148,New higher,6,3,adult_HC;adult_ICU_ctrl;adult_sepsis,B cell;NK cell;T cell
+sepsis,CCNH,New higher,5,3,adult_HC;adult_ICU_ctrl;adult_sepsis,B cell;Monocyte;T cell
+sepsis,CCNY,New higher,5,3,adult_ICU_ctrl;adult_sepsis,B cell;NK cell;T cell
+sepsis,KAT6B,New higher,5,3,adult_ICU_ctrl;adult_sepsis,B cell;NK cell;T cell
+sepsis,NFKB1,New higher,5,4,adult_ICU_ctrl;adult_sepsis,B cell;Monocyte;NK cell;T cell
+sepsis,PPP3CA,New higher,5,3,adult_ICU_ctrl;adult_sepsis,B cell;Monocyte;NK cell
+sepsis,RASA2,New higher,5,3,adult_ICU_ctrl;adult_sepsis,B cell;Monocyte;T cell
+sepsis,ARID5B,New higher,4,3,adult_HC;adult_ICU_ctrl;adult_sepsis,Monocyte;NK cell;T cell
+sepsis,ATP2B1,New higher,4,3,adult_ICU_ctrl;adult_sepsis,Monocyte;NK cell;T cell
+sepsis,DNAJC1,New higher,4,3,adult_HC;adult_sepsis,B cell;Monocyte;T cell
+sepsis,DUSP1,New lower,4,4,adult_HC,B cell;Monocyte;NK cell;T cell
+sepsis,FOS,New lower,4,4,adult_HC,B cell;Monocyte;NK cell;T cell
+sepsis,HERC4,New higher,4,2,adult_HC;adult_ICU_ctrl;adult_sepsis,Monocyte;T cell
+sepsis,IFITM1,New higher,4,2,adult_HC;adult_ICU_ctrl;adult_sepsis,B cell;Monocyte
+sepsis,JUN,New lower,4,4,adult_HC,B cell;Monocyte;NK cell;T cell
+sepsis,MAML2,New higher,4,3,adult_ICU_ctrl;adult_sepsis,B cell;Monocyte;T cell
+sepsis,MAN1A2,New higher,4,4,adult_sepsis,B cell;Monocyte;NK cell;T cell
+sepsis,PHC3,New higher,4,3,adult_HC;adult_ICU_ctrl;adult_sepsis,Monocyte;NK cell;T cell
+sepsis,QKI,New higher,4,2,adult_HC;adult_ICU_ctrl;adult_sepsis,B cell;T cell
+sepsis,RAP1GDS1,New higher,4,4,adult_ICU_ctrl;adult_sepsis,B cell;Monocyte;NK cell;T cell
+sepsis,RPS17,New higher,4,3,adult_ICU_ctrl;adult_sepsis,B cell;Monocyte;NK cell
+sepsis,ABLIM1,New higher,3,2,adult_ICU_ctrl;adult_sepsis,NK cell;T cell
+sepsis,ADGRE5,New higher,3,1,adult_HC;adult_ICU_ctrl;adult_sepsis,B cell
+sepsis,CCL4,New lower,3,2,adult_HC;adult_sepsis,NK cell;T cell
+sepsis,CD22,New lower,3,1,adult_HC;adult_ICU_ctrl;adult_sepsis,B cell
+sepsis,CD72,New lower,3,1,adult_HC;adult_ICU_ctrl;adult_sepsis,B cell
+sepsis,CDK17,New higher,3,2,adult_ICU_ctrl;adult_sepsis,B cell;T cell
+sepsis,COMMD1,New higher,3,2,adult_HC;adult_ICU_ctrl;adult_sepsis,Monocyte;T cell
+sepsis,FKBP5,New higher,3,2,adult_ICU_ctrl;adult_sepsis,NK cell;T cell
+sepsis,FLI1,New higher,3,3,adult_ICU_ctrl,B cell;Monocyte;NK cell
+sepsis,FOSB,New lower,3,3,adult_HC,B cell;Monocyte;T cell
+sepsis,FOXP1,New higher,3,2,adult_ICU_ctrl;adult_sepsis,Monocyte;NK cell
+sepsis,HIST1H1D,New higher,3,2,adult_HC;adult_sepsis,B cell;Monocyte
+sepsis,INTS6,New higher,3,3,adult_ICU_ctrl;adult_sepsis,B cell;Monocyte;NK cell
+sepsis,LTB,New higher,3,1,adult_HC;adult_ICU_ctrl;adult_sepsis,Monocyte
+sepsis,MAP4K4,New higher,3,2,adult_ICU_ctrl;adult_sepsis,B cell;Monocyte
+sepsis,MDFIC,New higher,3,2,adult_HC;adult_sepsis,B cell;Monocyte
+sepsis,NCOA1,New higher,3,2,adult_ICU_ctrl;adult_sepsis,Monocyte;NK cell
+sepsis,NFE2,New lower,3,1,adult_HC;adult_ICU_ctrl;adult_sepsis,Monocyte
+sepsis,PLCL2,New higher,3,2,adult_ICU_ctrl;adult_sepsis,B cell;NK cell
+sepsis,R3HDM2,New higher,3,3,adult_HC;adult_ICU_ctrl,B cell;Monocyte;NK cell
+sepsis,RALA,New higher,3,3,adult_HC;adult_ICU_ctrl;adult_sepsis,B cell;Monocyte;T cell
+sepsis,RPS6KA3,New higher,3,3,adult_HC;adult_ICU_ctrl,B cell;Monocyte;NK cell
+sepsis,RSU1,New higher,3,2,adult_HC;adult_sepsis,B cell;Monocyte
+sepsis,SETD2,New higher,3,2,adult_ICU_ctrl;adult_sepsis,Monocyte;T cell
+sepsis,TBC1D1,New higher,3,3,adult_ICU_ctrl;adult_sepsis,B cell;Monocyte;T cell
+sepsis,TGFBR2,New higher,3,3,adult_ICU_ctrl;adult_sepsis,Monocyte;NK cell;T cell
+sepsis,UBAC2,New higher,3,3,adult_ICU_ctrl;adult_sepsis,Monocyte;NK cell;T cell
+sepsis,VOPP1,New higher,3,2,adult_HC;adult_sepsis,Monocyte;T cell
+sepsis,ADAM28,New lower,2,1,adult_HC;adult_sepsis,B cell
+sepsis,AGTPBP1,New higher,2,2,adult_HC,Monocyte;NK cell
+sepsis,AP3B1,New higher,2,2,adult_ICU_ctrl,NK cell;T cell
+sepsis,ARHGEF18,New lower,2,2,adult_HC,B cell;T cell
+sepsis,ARID1B,New higher,2,2,adult_ICU_ctrl,Monocyte;NK cell
+sepsis,ARIH1,New higher,2,1,adult_ICU_ctrl;adult_sepsis,Monocyte
+sepsis,ATF6,New higher,2,1,adult_HC;adult_ICU_ctrl,Monocyte
+sepsis,BCL11A,New lower,2,1,adult_HC;adult_sepsis,B cell
+sepsis,BCL2,New higher,2,2,adult_ICU_ctrl,B cell;T cell
+sepsis,CBLB,New higher,2,2,adult_sepsis,B cell;T cell
+sepsis,CCL3,New lower,2,2,adult_ICU_ctrl;adult_sepsis,Monocyte;NK cell
+sepsis,CCL5,New higher,2,1,adult_HC;adult_sepsis,Monocyte
+sepsis,CD19,New lower,2,1,adult_HC;adult_sepsis,B cell
+sepsis,CD3E,New lower,2,1,adult_ICU_ctrl;adult_sepsis,NK cell
+sepsis,CD55,New higher,2,1,adult_ICU_ctrl;adult_sepsis,NK cell
+sepsis,CDA,New lower,2,1,adult_ICU_ctrl;adult_sepsis,Monocyte
+sepsis,CLU,New lower,2,1,adult_ICU_ctrl;adult_sepsis,Monocyte
+sepsis,CTSC,New higher,2,1,adult_HC;adult_sepsis,B cell
+sepsis,CTSD,New higher,2,1,adult_HC;adult_sepsis,NK cell
+sepsis,CUX1,New higher,2,2,adult_ICU_ctrl;adult_sepsis,B cell;Monocyte
+sepsis,CYFIP2,New higher,2,1,adult_ICU_ctrl;adult_sepsis,Monocyte
+sepsis,CYP1B1,New lower,2,1,adult_ICU_ctrl;adult_sepsis,Monocyte
+sepsis,DIP2A,New higher,2,2,adult_ICU_ctrl;adult_sepsis,NK cell;T cell
+sepsis,DNAJB1,New higher,2,2,adult_HC;adult_sepsis,B cell;Monocyte
+sepsis,DYM,New higher,2,2,adult_HC;adult_sepsis,Monocyte;NK cell
+sepsis,EIF4G3,New higher,2,2,adult_ICU_ctrl;adult_sepsis,B cell;Monocyte
+sepsis,ESYT2,New higher,2,1,adult_ICU_ctrl;adult_sepsis,Monocyte
+sepsis,FAM26F,New lower,2,1,adult_ICU_ctrl;adult_sepsis,B cell
+sepsis,FBXO11,New higher,2,2,adult_sepsis,Monocyte;NK cell
+sepsis,FCER2,New lower,2,1,adult_HC;adult_ICU_ctrl,B cell
+sepsis,FCRL1,New lower,2,1,adult_HC;adult_sepsis,B cell
+sepsis,FRYL,New higher,2,2,adult_HC;adult_sepsis,B cell;Monocyte
+sepsis,GATAD2B,New higher,2,2,adult_HC,B cell;Monocyte
+sepsis,HIF1A,New higher,2,1,adult_ICU_ctrl;adult_sepsis,T cell
+sepsis,HIPK2,New higher,2,1,adult_HC;adult_ICU_ctrl,Monocyte
+sepsis,IL32,New higher,2,2,adult_HC,B cell;Monocyte
+sepsis,IL32,New lower,2,1,adult_ICU_ctrl;adult_sepsis,NK cell
+sepsis,INPP5D,New higher,2,2,adult_ICU_ctrl,Monocyte;T cell
+sepsis,JARID2,New higher,2,1,adult_ICU_ctrl;adult_sepsis,NK cell
+sepsis,JUNB,New lower,2,2,adult_HC,Monocyte;T cell
+sepsis,MAP2K1,New higher,2,2,adult_ICU_ctrl;adult_sepsis,Monocyte;NK cell
+sepsis,MAPRE2,New higher,2,2,adult_sepsis,Monocyte;T cell
+sepsis,MCEMP1,New lower,2,1,adult_ICU_ctrl;adult_sepsis,Monocyte
+sepsis,MGMT,New higher,2,1,adult_HC;adult_ICU_ctrl,NK cell
+sepsis,MICU2,New higher,2,2,adult_ICU_ctrl;adult_sepsis,B cell;Monocyte
+sepsis,NFAT5,New higher,2,2,adult_sepsis,Monocyte;NK cell
+sepsis,NFATC3,New higher,2,2,adult_HC;adult_ICU_ctrl,Monocyte;T cell
+sepsis,NOSIP,New higher,2,2,adult_HC,B cell;Monocyte
+sepsis,NT5C3A,New higher,2,2,adult_sepsis,Monocyte;T cell
+sepsis,PCGF5,New higher,2,2,adult_ICU_ctrl,B cell;NK cell
+sepsis,PCNX1,New higher,2,1,adult_ICU_ctrl;adult_sepsis,Monocyte
+sepsis,PDE4D,New higher,2,2,adult_ICU_ctrl;adult_sepsis,NK cell;T cell
+sepsis,PELI1,New higher,2,2,adult_sepsis,B cell;Monocyte
+sepsis,PHF14,New higher,2,2,adult_HC;adult_ICU_ctrl,B cell;T cell
+sepsis,PITPNC1,New higher,2,2,adult_ICU_ctrl;adult_sepsis,Monocyte;T cell
+sepsis,PLBD1,New lower,2,1,adult_ICU_ctrl;adult_sepsis,Monocyte
+sepsis,PPP1R15A,New lower,2,2,adult_HC,NK cell;T cell
+sepsis,PPP3R1,New higher,2,2,adult_sepsis,Monocyte;T cell
+sepsis,PRDM1,New lower,2,2,adult_ICU_ctrl;adult_sepsis,NK cell;T cell
+sepsis,PRKACB,New higher,2,1,adult_ICU_ctrl;adult_sepsis,B cell
+sepsis,PRKAG2,New higher,2,1,adult_ICU_ctrl;adult_sepsis,Monocyte
+sepsis,PTGDS,New lower,2,1,adult_ICU_ctrl;adult_sepsis,NK cell
+sepsis,PTGER4,New higher,2,1,adult_ICU_ctrl;adult_sepsis,Monocyte
+sepsis,PTPRJ,New higher,2,1,adult_ICU_ctrl;adult_sepsis,NK cell
+sepsis,RABGAP1L,New higher,2,2,adult_ICU_ctrl,B cell;Monocyte
+sepsis,RBP7,New lower,2,1,adult_ICU_ctrl;adult_sepsis,Monocyte
+sepsis,RERE,New higher,2,1,adult_HC;adult_ICU_ctrl,B cell
+sepsis,RFTN1,New higher,2,2,adult_ICU_ctrl;adult_sepsis,B cell;NK cell
+sepsis,RNASE2,New lower,2,1,adult_ICU_ctrl;adult_sepsis,Monocyte
+sepsis,RUNX3,New higher,2,2,adult_ICU_ctrl;adult_sepsis,B cell;Monocyte
+sepsis,S100A11,New higher,2,1,adult_HC;adult_sepsis,B cell
+sepsis,S100A12,New lower,2,1,adult_ICU_ctrl;adult_sepsis,Monocyte
+sepsis,S100A8,New lower,2,1,adult_ICU_ctrl;adult_sepsis,Monocyte
+sepsis,S100A9,New lower,2,1,adult_ICU_ctrl;adult_sepsis,Monocyte
+sepsis,SPN,New higher,2,1,adult_ICU_ctrl;adult_sepsis,Monocyte
+sepsis,SPTBN1,New higher,2,2,adult_ICU_ctrl,B cell;T cell
+sepsis,SSH2,New higher,2,2,adult_ICU_ctrl;adult_sepsis,NK cell;T cell
+sepsis,ST3GAL1,New higher,2,1,adult_ICU_ctrl;adult_sepsis,Monocyte
+sepsis,STIM1,New higher,2,2,adult_HC;adult_sepsis,B cell;T cell
+sepsis,STX8,New higher,2,2,adult_HC;adult_sepsis,Monocyte;T cell
+sepsis,SUN2,New higher,2,1,adult_ICU_ctrl;adult_sepsis,Monocyte
+sepsis,TBC1D5,New higher,2,1,adult_HC;adult_ICU_ctrl,B cell
+sepsis,TCL1A,New lower,2,1,adult_HC;adult_ICU_ctrl,B cell
+sepsis,TMEM131L,New higher,2,2,adult_ICU_ctrl;adult_sepsis,B cell;T cell
+sepsis,TTC17,New higher,2,2,adult_sepsis,NK cell;T cell
+sepsis,VPREB3,New lower,2,1,adult_HC;adult_sepsis,B cell
+sepsis,YBX3,New lower,2,1,adult_HC;adult_sepsis,B cell
+sepsis,ZDHHC20,New higher,2,1,adult_ICU_ctrl;adult_sepsis,Monocyte
+sepsis,ABR,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,ACYP2,New higher,1,1,adult_sepsis,B cell
+sepsis,ADK,New higher,1,1,adult_sepsis,Monocyte
+sepsis,ADRB2,New lower,1,1,adult_HC,NK cell
+sepsis,AGO3,New higher,1,1,adult_HC,Monocyte
+sepsis,AIM2,New lower,1,1,adult_HC,B cell
+sepsis,AKNA,New higher,1,1,adult_HC,Monocyte
+sepsis,ALDH2,New lower,1,1,adult_ICU_ctrl,Monocyte
+sepsis,ALOX5,New lower,1,1,adult_HC,B cell
+sepsis,ALOX5AP,New higher,1,1,adult_HC,Monocyte
+sepsis,ANKRD17,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,ANKRD44,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,ANPEP,New lower,1,1,adult_ICU_ctrl,Monocyte
+sepsis,APOBEC3A,New lower,1,1,adult_HC,Monocyte
+sepsis,APOBEC3G,New higher,1,1,adult_HC,B cell
+sepsis,ARHGAP25,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,ARHGAP26,New higher,1,1,adult_sepsis,NK cell
+sepsis,ATP13A3,New higher,1,1,adult_sepsis,Monocyte
+sepsis,ATXN10,New higher,1,1,adult_HC,NK cell
+sepsis,B4GALT1,New higher,1,1,adult_sepsis,NK cell
+sepsis,BACH1,New higher,1,1,adult_sepsis,B cell
+sepsis,BAZ1A,New higher,1,1,adult_ICU_ctrl,NK cell
+sepsis,BCL7A,New lower,1,1,adult_HC,B cell
+sepsis,BLNK,New lower,1,1,adult_HC,B cell
+sepsis,BRI3,New higher,1,1,adult_ICU_ctrl,B cell
+sepsis,BTG2,New higher,1,1,adult_sepsis,Monocyte
+sepsis,CAMK1D,New higher,1,1,adult_sepsis,B cell
+sepsis,CCDC88C,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,CCDC91,New higher,1,1,adult_HC,NK cell
+sepsis,CCL4L2,New lower,1,1,adult_sepsis,NK cell
+sepsis,CCR2,New lower,1,1,adult_sepsis,Monocyte
+sepsis,CD3E,New higher,1,1,adult_HC,Monocyte
+sepsis,CD83,New lower,1,1,adult_sepsis,B cell
+sepsis,CDC14A,New higher,1,1,adult_sepsis,T cell
+sepsis,CDKN1C,New lower,1,1,adult_HC,Monocyte
+sepsis,CFP,New lower,1,1,adult_ICU_ctrl,Monocyte
+sepsis,CHST15,New lower,1,1,adult_HC,Monocyte
+sepsis,CIITA,New lower,1,1,adult_HC,B cell
+sepsis,CISH,New lower,1,1,adult_sepsis,T cell
+sepsis,CLIC4,New lower,1,1,adult_HC,B cell
+sepsis,CMIP,New higher,1,1,adult_sepsis,NK cell
+sepsis,CPPED1,New lower,1,1,adult_HC,Monocyte
+sepsis,CRTC3,New higher,1,1,adult_sepsis,T cell
+sepsis,CSRNP1,New lower,1,1,adult_sepsis,B cell
+sepsis,CXCL8,New lower,1,1,adult_ICU_ctrl,Monocyte
+sepsis,CXCR4,New higher,1,1,adult_sepsis,Monocyte
+sepsis,DENND4C,New higher,1,1,adult_sepsis,NK cell
+sepsis,DGKD,New higher,1,1,adult_sepsis,NK cell
+sepsis,DIAPH2,New higher,1,1,adult_HC,Monocyte
+sepsis,DUSP2,New lower,1,1,adult_sepsis,B cell
+sepsis,EAF2,New lower,1,1,adult_HC,B cell
+sepsis,EFCAB2,New lower,1,1,adult_HC,Monocyte
+sepsis,EFHD2,New higher,1,1,adult_HC,B cell
+sepsis,EGR1,New lower,1,1,adult_HC,Monocyte
+sepsis,EOMES,New lower,1,1,adult_HC,NK cell
+sepsis,ERC1,New higher,1,1,adult_sepsis,Monocyte
+sepsis,FAM129C,New lower,1,1,adult_HC,B cell
+sepsis,FAR1,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,FBXW11,New higher,1,1,adult_ICU_ctrl,B cell
+sepsis,FBXW7,New higher,1,1,adult_sepsis,Monocyte
+sepsis,FCGR2A,New lower,1,1,adult_ICU_ctrl,Monocyte
+sepsis,FCRL6,New lower,1,1,adult_sepsis,NK cell
+sepsis,FNIP1,New higher,1,1,adult_sepsis,Monocyte
+sepsis,FOLR3,New lower,1,1,adult_ICU_ctrl,Monocyte
+sepsis,FOXN3,New higher,1,1,adult_sepsis,T cell
+sepsis,FPR1,New lower,1,1,adult_ICU_ctrl,Monocyte
+sepsis,FYN,New higher,1,1,adult_sepsis,Monocyte
+sepsis,GBP5,New higher,1,1,adult_HC,Monocyte
+sepsis,GLCCI1,New higher,1,1,adult_HC,B cell
+sepsis,GNLY,New higher,1,1,adult_HC,Monocyte
+sepsis,GNPTAB,New higher,1,1,adult_HC,T cell
+sepsis,GPCPD1,New higher,1,1,adult_ICU_ctrl,B cell
+sepsis,HCST,New higher,1,1,adult_HC,B cell
+sepsis,HERC1,New higher,1,1,adult_ICU_ctrl,T cell
+sepsis,HIP1R,New lower,1,1,adult_HC,B cell
+sepsis,HLA-DOB,New lower,1,1,adult_ICU_ctrl,B cell
+sepsis,HLA-DQB1,New lower,1,1,adult_HC,Monocyte
+sepsis,HLA-DRB5,New lower,1,1,adult_sepsis,B cell
+sepsis,ID3,New lower,1,1,adult_sepsis,B cell
+sepsis,IER2,New lower,1,1,adult_HC,Monocyte
+sepsis,IER3,New lower,1,1,adult_HC,Monocyte
+sepsis,IGF2R,New higher,1,1,adult_HC,Monocyte
+sepsis,IL1B,New lower,1,1,adult_HC,Monocyte
+sepsis,IL6ST,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,IQGAP2,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,ITGAL,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,ITGAX,New lower,1,1,adult_HC,Monocyte
+sepsis,ITGB1,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,JAZF1,New higher,1,1,adult_sepsis,NK cell
+sepsis,KAT6A,New higher,1,1,adult_HC,Monocyte
+sepsis,KDM6A,New higher,1,1,adult_sepsis,Monocyte
+sepsis,KIR3DL1,New lower,1,1,adult_HC,NK cell
+sepsis,KLF4,New lower,1,1,adult_HC,Monocyte
+sepsis,KLRC3,New lower,1,1,adult_HC,NK cell
+sepsis,LAIR2,New lower,1,1,adult_HC,NK cell
+sepsis,LARP4B,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,LDHB,New higher,1,1,adult_HC,Monocyte
+sepsis,LPP,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,LRMP,New lower,1,1,adult_HC,B cell
+sepsis,LYN,New lower,1,1,adult_HC,B cell
+sepsis,LYST,New higher,1,1,adult_sepsis,NK cell
+sepsis,MAFB,New lower,1,1,adult_HC,Monocyte
+sepsis,MARCKS,New lower,1,1,adult_HC,Monocyte
+sepsis,MEF2A,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,MGEA5,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,MYLIP,New higher,1,1,adult_sepsis,Monocyte
+sepsis,MYO9B,New higher,1,1,adult_ICU_ctrl,B cell
+sepsis,NAIP,New lower,1,1,adult_sepsis,Monocyte
+sepsis,NAMPT,New lower,1,1,adult_HC,Monocyte
+sepsis,NCOA3,New higher,1,1,adult_sepsis,T cell
+sepsis,NEDD9,New higher,1,1,adult_sepsis,Monocyte
+sepsis,NFKBIA,New lower,1,1,adult_HC,Monocyte
+sepsis,NKG7,New higher,1,1,adult_HC,Monocyte
+sepsis,NLRP1,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,NLRP3,New lower,1,1,adult_HC,Monocyte
+sepsis,NRIP1,New higher,1,1,adult_sepsis,Monocyte
+sepsis,NUMB,New higher,1,1,adult_sepsis,B cell
+sepsis,NUP210,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,OAS1,New lower,1,1,adult_sepsis,Monocyte
+sepsis,OXNAD1,New higher,1,1,adult_ICU_ctrl,T cell
+sepsis,PACS1,New higher,1,1,adult_HC,Monocyte
+sepsis,PALM2AKAP2,New lower,1,1,adult_HC,B cell
+sepsis,PAN3,New higher,1,1,adult_HC,Monocyte
+sepsis,PARP14,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,PARP8,New higher,1,1,adult_sepsis,B cell
+sepsis,PDE7A,New higher,1,1,adult_ICU_ctrl,NK cell
+sepsis,PDLIM1,New lower,1,1,adult_ICU_ctrl,B cell
+sepsis,PHACTR2,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,PIAS1,New higher,1,1,adult_ICU_ctrl,B cell
+sepsis,PIK3CD,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,PIM1,New higher,1,1,adult_sepsis,B cell
+sepsis,PLAC8,New lower,1,1,adult_sepsis,Monocyte
+sepsis,PLAUR,New lower,1,1,adult_HC,Monocyte
+sepsis,PLD4,New lower,1,1,adult_HC,B cell
+sepsis,PPM1K,New higher,1,1,adult_ICU_ctrl,NK cell
+sepsis,PRKCB,New higher,1,1,adult_ICU_ctrl,T cell
+sepsis,PSME4,New higher,1,1,adult_HC,Monocyte
+sepsis,PTK2B,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,QRSL1,New lower,1,1,adult_HC,B cell
+sepsis,RAB1A,New higher,1,1,adult_sepsis,NK cell
+sepsis,RAB37,New lower,1,1,adult_HC,NK cell
+sepsis,RABGAP1,New higher,1,1,adult_HC,B cell
+sepsis,RALGAPA1,New higher,1,1,adult_sepsis,T cell
+sepsis,RALGAPA2,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,RASSF3,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,RB1,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,RBMS1,New higher,1,1,adult_ICU_ctrl,T cell
+sepsis,RETN,New lower,1,1,adult_sepsis,Monocyte
+sepsis,RHOB,New lower,1,1,adult_HC,Monocyte
+sepsis,RICTOR,New higher,1,1,adult_HC,Monocyte
+sepsis,RNF13,New higher,1,1,adult_sepsis,B cell
+sepsis,RPS4Y1,New lower,1,1,adult_sepsis,B cell
+sepsis,RUNX1,New higher,1,1,adult_HC,Monocyte
+sepsis,RYK,New higher,1,1,adult_HC,B cell
+sepsis,SAMD9,New higher,1,1,adult_HC,T cell
+sepsis,SELL,New higher,1,1,adult_HC,Monocyte
+sepsis,SERINC5,New higher,1,1,adult_ICU_ctrl,T cell
+sepsis,SIPA1L1,New higher,1,1,adult_sepsis,Monocyte
+sepsis,SLC11A1,New lower,1,1,adult_ICU_ctrl,Monocyte
+sepsis,SLC12A6,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,SLFN5,New higher,1,1,adult_HC,Monocyte
+sepsis,SMG7,New higher,1,1,adult_HC,Monocyte
+sepsis,SNX29,New higher,1,1,adult_HC,Monocyte
+sepsis,SORL1,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,SPI1,New lower,1,1,adult_HC,B cell
+sepsis,SPTLC2,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,SREBF2,New higher,1,1,adult_ICU_ctrl,B cell
+sepsis,SRGN,New higher,1,1,adult_HC,B cell
+sepsis,SSBP3,New higher,1,1,adult_sepsis,T cell
+sepsis,ST6GAL1,New higher,1,1,adult_ICU_ctrl,NK cell
+sepsis,ST8SIA4,New higher,1,1,adult_sepsis,B cell
+sepsis,STAB1,New lower,1,1,adult_sepsis,Monocyte
+sepsis,STAG1,New higher,1,1,adult_sepsis,B cell
+sepsis,SYTL1,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,TANK,New higher,1,1,adult_sepsis,T cell
+sepsis,TBC1D8,New lower,1,1,adult_HC,Monocyte
+sepsis,TCF12,New higher,1,1,adult_sepsis,B cell
+sepsis,TMEM176B,New lower,1,1,adult_sepsis,Monocyte
+sepsis,TNFAIP3,New higher,1,1,adult_sepsis,B cell
+sepsis,TNFSF13B,New lower,1,1,adult_sepsis,Monocyte
+sepsis,TOB1,New higher,1,1,adult_sepsis,Monocyte
+sepsis,TRPS1,New higher,1,1,adult_sepsis,Monocyte
+sepsis,TSPAN13,New lower,1,1,adult_HC,B cell
+sepsis,TSPAN33,New lower,1,1,adult_sepsis,B cell
+sepsis,TSPYL2,New higher,1,1,adult_sepsis,Monocyte
+sepsis,UBE2E1,New higher,1,1,adult_HC,B cell
+sepsis,UBE2H,New higher,1,1,adult_HC,T cell
+sepsis,UTRN,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,VMP1,New higher,1,1,adult_sepsis,B cell
+sepsis,VPS53,New higher,1,1,adult_sepsis,Monocyte
+sepsis,VTI1A,New higher,1,1,adult_sepsis,Monocyte
+sepsis,WDFY2,New higher,1,1,adult_ICU_ctrl,Monocyte
+sepsis,ZBTB44,New higher,1,1,adult_ICU_ctrl,NK cell
+sepsis,ZCCHC7,New higher,1,1,adult_sepsis,T cell
+sepsis,ZFP36,New lower,1,1,adult_HC,Monocyte
+sepsis,ZNF267,New higher,1,1,adult_sepsis,Monocyte
+sepsis,ZNF600,New lower,1,1,adult_HC,NK cell
+sepsis,ZNF609,New higher,1,1,adult_HC,Monocyte
