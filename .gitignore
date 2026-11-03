@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Source data and generated artifacts
+*.h5ad
+*.h5
+*.hdf5
+*.loom
+*.parquet
+*.feather
+*.npy
+*.npz
+*.csv
+*.tsv
+*.gz
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+*.pptx
+*.docx

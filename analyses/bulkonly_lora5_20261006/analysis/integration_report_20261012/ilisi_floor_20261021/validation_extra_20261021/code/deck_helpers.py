@@ -1,0 +1,123 @@
+"""Slide helpers shared with ilisi_floor_20261021/code/build_deck_ko.py (same template, layout and styles)."""
+import numpy as np
+from pptx import Presentation
+from pptx.util import Inches, Pt
+from pptx.dml.color import RGBColor
+from pptx.enum.shapes import MSO_SHAPE
+from pptx.enum.text import PP_ALIGN, MSO_ANCHOR
+from pptx.oxml.ns import qn
+from lxml import etree
+TEMPLATE = "/mnt/user-data/uploads/PBISC/PBISC K1000 vs K4000 Integration Report_latest.pptx"
+BLUE, RED, GREY, INK, BODY, MUTED, CARD = "2B83BA", "D7191C", "7F7F7F", "1F2933", "3E4C59", "7B8794", "F5F7FA"
+KO = "Malgun Gothic"; FOOT = "PBISC floor read-out 추가 검증"; FIG = "/mnt/user-data/outputs/val/figs/deck"
+prs = Presentation(TEMPLATE); sld = prs.slides._sldIdLst
+for s in list(sld): prs.part.drop_rel(s.get(qn("r:id"))); sld.remove(s)
+LAYOUT = [l for l in prs.slide_layouts if l.name == "Title and body"][0]
+
+
+def style_run(r, size, color, bold=False, spc=None):
+    r.font.size = Pt(size); r.font.bold = bold; r.font.color.rgb = RGBColor.from_string(color); r.font.name = "Arial"
+    rPr = r._r.get_or_add_rPr()
+    for tag in ("a:ea", "a:cs"):
+        e = rPr.find(qn(tag))
+        if e is None: e = etree.SubElement(rPr, qn(tag))
+        e.set("typeface", KO if tag == "a:ea" else "Arial")
+    if spc: rPr.set("spc", str(spc))
+
+
+def text(slide, x, y, w, h, paras, size=14, color=BODY, bold=False, align=PP_ALIGN.LEFT, spc=None, anchor=MSO_ANCHOR.TOP, line=None, after=0):
+    tb = slide.shapes.add_textbox(Inches(x), Inches(y), Inches(w), Inches(h)); tf = tb.text_frame; tf.word_wrap = True
+    tf.margin_left = tf.margin_right = tf.margin_top = tf.margin_bottom = 0; tf.vertical_anchor = anchor
+    for i, p in enumerate(paras if isinstance(paras, list) else [paras]):
+        para = tf.paragraphs[0] if i == 0 else tf.add_paragraph(); para.alignment = align
+        if line: para.line_spacing = line
+        if after: para.space_after = Pt(after)
+        for t, o in (p if isinstance(p, list) else [(p, {})]):
+            style_run(para.add_run(), o.get("size", size), o.get("color", color), o.get("bold", bold), spc); para.runs[-1].text = t
+    return tb
+
+
+def box(slide, x, y, w, h, fill, radius=0.035, shape=MSO_SHAPE.ROUNDED_RECTANGLE):
+    s = slide.shapes.add_shape(shape, Inches(x), Inches(y), Inches(w), Inches(h))
+    s.fill.solid(); s.fill.fore_color.rgb = RGBColor.from_string(fill); s.line.fill.background(); s.shadow.inherit = False
+    if shape == MSO_SHAPE.ROUNDED_RECTANGLE: s.adjustments[0] = radius
+    return s
+
+
+def card(slide, x, y, w, h, accent=BLUE):
+    box(slide, x, y, w, h, CARD); box(slide, x, y, w, 0.06, accent, radius=0.5)
+
+
+def header(slide, kicker, title, n, note="", sub=None):
+    text(slide, 0.89, 0.50, 11.9, 0.26, kicker, size=12, color=BLUE, bold=True, spc=100)
+    ph = slide.shapes.title; ph.left, ph.top, ph.width, ph.height = Inches(0.89), Inches(0.86), Inches(11.9), Inches(0.5)
+    tf = ph.text_frame; tf.clear(); tf.word_wrap = True
+    for a in ("margin_left", "margin_right", "margin_top", "margin_bottom"): setattr(tf, a, 0)
+    p = tf.paragraphs[0]; p.alignment = PP_ALIGN.LEFT; style_run(p.add_run(), 28, INK, True); p.runs[0].text = title
+    if sub: text(slide, 0.89, 1.48, 11.9, 0.5, sub, size=14, color=BODY)
+    text(slide, 0.89, 6.88, 11.9, 0.26, f"{FOOT} · {n}" + (f" · {note}" if note else ""), size=12, color=MUTED)
+
+
+def pill(slide, x, y, w, label, fill):
+    s = box(slide, x, y, w, 0.34, fill, radius=0.5); tf = s.text_frame
+    tf.margin_left = tf.margin_right = tf.margin_top = tf.margin_bottom = 0; tf.vertical_anchor = MSO_ANCHOR.MIDDLE
+    p = tf.paragraphs[0]; p.alignment = PP_ALIGN.CENTER; style_run(p.add_run(), 12, "FFFFFF", True); p.runs[0].text = label
+
+
+def new(): return prs.slides.add_slide(LAYOUT)
+
+
+NOTES_SP = ('<p:sp xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">'
+            '<p:nvSpPr><p:cNvPr id="3" name="Notes Placeholder 2"/><p:cNvSpPr><a:spLocks noGrp="1"/></p:cNvSpPr><p:nvPr><p:ph type="body" idx="1"/></p:nvPr></p:nvSpPr>'
+            '<p:spPr><a:xfrm><a:off x="685800" y="4400550"/><a:ext cx="5486400" cy="3600450"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></p:spPr>'
+            '<p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="ko-KR"/></a:p></p:txBody></p:sp>')
+
+
+def notes(s, t):
+    """Speaker notes. The template's notes master has no body placeholder, so one is added when missing (otherwise notes would be dropped)."""
+    ns = s.notes_slide
+    if ns.notes_placeholder is None:
+        ns.shapes._spTree.append(etree.fromstring(NOTES_SP))
+    tf = ns.notes_text_frame; tf.clear()
+    for i, line in enumerate(t.strip().split("\n")):
+        para = tf.paragraphs[0] if i == 0 else tf.add_paragraph(); r = para.add_run(); r.text = line
+        r.font.size = Pt(12); rPr = r._r.get_or_add_rPr()
+        e = rPr.find(qn("a:ea"))
+        if e is None: e = etree.SubElement(rPr, qn("a:ea"))
+        e.set("typeface", KO)
+
+
+def side_cards(s, x0, y0, w, items, h=1.55, gap=0.17, accent=BLUE, body=12.5, head=15):
+    for i, (hh, b) in enumerate(items):
+        y = y0 + i * (h + gap); card(s, x0, y, w, h, accent if not isinstance(accent, list) else accent[i])
+        text(s, x0 + 0.2, y + 0.18, w - 0.4, 0.35, hh, size=head, color=INK, bold=True)
+        text(s, x0 + 0.2, y + 0.55, w - 0.4, h - 0.6, b, size=body, color=BODY, line=1.08)
+
+
+def three_cards(s, y, h, items, numsize=32):
+    for i, (num, hh, b) in enumerate(items):
+        x = 0.89 + i * 3.93; card(s, x, y, 3.7, h)
+        text(s, x + 0.28, y + 0.3, 3.2, 0.5, num, size=numsize, color=BLUE, bold=True)
+        text(s, x + 0.28, y + 0.9, 3.2, 0.45, hh, size=18, color=INK, bold=True)
+        text(s, x + 0.28, y + 1.45, 3.2, h - 1.55, b if isinstance(b, list) else b.split("\n"), size=13.5, color=BODY, line=1.12)
+
+
+def table(s, rows, x, y, widths, h_row=0.36, bold_cols=(), font=13, head_font=12, hl_rows=()):
+    tbl = s.shapes.add_table(len(rows), len(rows[0]), Inches(x), Inches(y), Inches(sum(widths)), Inches(h_row * len(rows))).table
+    for j, w in enumerate(widths): tbl.columns[j].width = Inches(w)
+    for i, row in enumerate(rows):
+        tbl.rows[i].height = Inches(h_row if i else h_row * 1.35)
+        for j, val in enumerate(row):
+            cell = tbl.cell(i, j); cell.fill.solid()
+            cell.fill.fore_color.rgb = RGBColor.from_string("E4ECF3" if i == 0 else ("EAF3FA" if i in hl_rows else ("FFFFFF" if i % 2 else CARD)))
+            cell.margin_left = cell.margin_right = Inches(0.08); cell.margin_top = cell.margin_bottom = Inches(0.02); cell.vertical_anchor = MSO_ANCHOR.MIDDLE
+            tf = cell.text_frame; tf.clear()
+            for k, ln in enumerate(str(val).split("\n")):
+                p = tf.paragraphs[0] if k == 0 else tf.add_paragraph(); p.alignment = PP_ALIGN.LEFT if j == 0 else PP_ALIGN.CENTER
+                b = i == 0 or j in bold_cols or i in hl_rows
+                style_run(p.add_run(), head_font if i == 0 else font, INK if b else BODY, b); p.runs[0].text = ln
+    return tbl
+
+
+def pic(s, name, x, y, w=None, h=None):
+    return s.shapes.add_picture(f"{FIG}/{name}.png", Inches(x), Inches(y), width=Inches(w) if w else None, height=Inches(h) if h else None)

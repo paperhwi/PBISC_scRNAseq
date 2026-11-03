@@ -1,0 +1,13 @@
+from pathlib import Path
+p=Path('paper_claim_analysis/ORIGINAL_BASELINE_VALIDATION.md')
+s=p.read_text(encoding='utf-8-sig')
+s=s.replace('The Ye publisher workbook for Supplementary Table 6 has now been imported. It contains 17,743 marker rows across all 47 author-labeled subsets and 5,808 unique genes.', 'The Ye publisher workbook for Supplementary Table 6 has now been imported. It contains 17,743 marker rows across all 47 author-labeled subsets and 5,808 unique genes; 17,733 marker rows map to genes present in the original expression matrix.')
+s=s.replace('All seven fixed Ye claim populations are mapped to their exact author cluster labels; full marker counts range from 57 to 871 per claim.', 'All seven fixed Ye claim populations are mapped to their exact author cluster labels; full marker counts range from 57 to 871 per claim. All seven claim panels are available in the original data except one NK-CCL4 marker (`CYB561D2.1`), leaving 306/307 measured for that claim.')
+s=s.replace('The local object does not include an explicit glucocorticoid-treatment field in its cell metadata, so the critical within-patient pre/post steroid contrast cannot be tested from this object alone.', 'The local H5AD cell metadata lack a glucocorticoid-treatment field. The downloaded publisher Table S1 does include `Received_Steroid` per sample, but that field has not yet been joined to the marker-score output or used for a within-patient, severity-adjusted steroid contrast.')
+s=s.replace('Before calling the K comparisons a faithful reproduction, complete these gates: (1) the Ye Supplementary Table 6 full marker lists are imported and fixed;', 'Before calling the K comparisons a faithful reproduction, complete these gates: (1) the Ye Supplementary Table 6 full marker lists are imported, mapped, and fixed;')
+p.write_text(s,encoding='utf-8')
+# Keep script-level docs accurate.
+p=Path('paper_claim_analysis/fixed_original_claim_validation.py')
+s=p.read_text(encoding='utf-8-sig').replace('This freezes the claim labels and core marker panels before any K=1,000/4,000\nPBISC comparison.', 'This freezes claim labels and marker panels before any K=1,000/4,000 PBISC\ncomparison; Ye marker panels are populated from Supplementary Table 6 when imported.')
+s=s.replace('# Frozen claim definitions. These are minimal article-named markers/core modules;\n# full exact supplementary marker rows are recorded as a source limitation until\n# the source workbook is included in the workspace.', '# Frozen Ye article claim labels and fallback core markers. If the full Supplementary\n# Table 6 import exists, write_fixed_claims() expands each Ye panel from that table.')
+p.write_text(s,encoding='utf-8')

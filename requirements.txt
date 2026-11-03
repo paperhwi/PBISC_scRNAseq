@@ -1,0 +1,14 @@
+# Common dependencies. Some analyses require additional packages listed in their README.
+numpy
+pandas
+scipy
+anndata
+scanpy
+scikit-learn
+h5py
+matplotlib
+harmonypy
+statsmodels
+python-pptx
+nbformat
+nbclient
