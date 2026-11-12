@@ -15,13 +15,14 @@ PBISC가 생성한 단일세포 데이터의 검증·비교 분석 코드를 모
 | [`paper_claim_analysis`](analyses/paper_claim_analysis/README.md) | 원 논문의 세포 집단 주장과 PBISC 생성본 비교 |
 | [`project_review_20261028`](analyses/project_review_20261028/README.md) | 정정된 DEG·유전자 지표와 결과표 감사 |
 | [`cross_dataset`](analyses/cross_dataset/README.md) | 코호트 간 조성·발현 유사도와 H5AD 구조 확인 |
+| [`manuscript_metrics_20261112`](analyses/manuscript_metrics_20261112/README.md) | gene-mean 곡선, iLISI, composition/within-type 분해, 희귀세포 통계의 재사용 모듈·테스트·데모 노트북 (문서 정의 기반 재구현) |
 
 ## 실행 전 준비
 
 1. 분석하려는 원본·PBISC 생성 `.h5ad`와 관련 메타데이터를 별도로 준비합니다. 원본 데이터는 저장소에 포함하지 않았습니다. New LoRA의 CellDEEP 분석은 결과표와 그림을 해당 폴더에 포함한 예외입니다.
 2. [requirements.txt](requirements.txt)의 공통 패키지를 설치하고, 사용하는 분석의 추가 패키지를 해당 폴더 README에서 확인합니다.
 3. 스크립트에 남아 있는 원래 환경의 절대 경로와 입력 파일 위치를 자신의 환경에 맞게 수정합니다. 일부 스크립트는 원래 작업 디렉터리의 중간 산출물 또는 다른 코드 폴더를 참조합니다. 폴더별 README와 코드의 입력 경로를 먼저 확인하세요.
-4. 단계형 분석은 번호가 붙은 스크립트를 순서대로 실행합니다. 노트북은 원래 저장된 출력과 실행 번호를 제거해 코드와 설명 셀만 보관했습니다.
+4. 단계형 분석은 번호가 붙은 스크립트를 순서대로 실행합니다. 노트북은 원래 저장된 출력과 실행 번호를 제거해 코드와 설명 셀만 보관했습니다(`manuscript_metrics_20261112`의 합성 데이터 데모는 예외로 결과를 포함).
 
 이 저장소는 당시 분석 코드의 **보관본**입니다. 모든 분석을 하나의 새 환경에서 즉시 재실행할 수 있도록 경로와 의존성을 통합한 파이프라인은 아닙니다. 결과 수치와 해석은 원래의 입력 파일, 필터, 모델·라벨 버전 및 실행 환경을 확인한 뒤 사용해야 합니다.
 

@@ -12,3 +12,5 @@ statsmodels
 python-pptx
 nbformat
 nbclient
+scikit-misc  # seurat_v3 HVG (manuscript_metrics_20261112)
+pytest
