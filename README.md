@@ -16,6 +16,7 @@ PBISC가 생성한 단일세포 데이터의 검증·비교 분석 코드를 모
 | [`project_review_20261028`](analyses/project_review_20261028/README.md) | 정정된 DEG·유전자 지표와 결과표 감사 |
 | [`cross_dataset`](analyses/cross_dataset/README.md) | 코호트 간 조성·발현 유사도와 H5AD 구조 확인 |
 | [`manuscript_metrics_20261112`](analyses/manuscript_metrics_20261112/README.md) | gene-mean 곡선, iLISI, composition/within-type 분해, 희귀세포 통계의 재사용 모듈·테스트·데모 노트북 (문서 정의 기반 재구현) |
+| [`fig7_rare_population_extension_20261116`](analyses/fig7_rare_population_extension_20261116/README.md) | Figure 7 ver5: ESKD COVID-19에서 bulk-only 환자 29명을 PBISC로 더했을 때 B ASC dividing·NK CD56bright·HSPC의 중증도·사망 연관과 검정력, 보충 그림 a–e |
 
 ## 실행 전 준비
 

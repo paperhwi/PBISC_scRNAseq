@@ -1,0 +1,1 @@
+Figure 7 (ver5). Panels: a design; b severity rho forest; c death AUC forest; d Real patients needed for 80% power; legend panel; e-g B ASC dividing (severity, death, power); h-j NK CD56bright; k-m HSPC. Full Results and legend: Claude Doc "PBISC — B ASC, NK CD56bright and HSPC after adding bulk-only patients".
