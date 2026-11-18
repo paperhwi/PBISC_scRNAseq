@@ -1,18 +1,19 @@
-"""Comprehensive External Public COVID-19 Replication of Harmonized Figure 7 (ver8) Claims.
+"""Comprehensive External Public COVID-19 Replication of Harmonized Figure 7 (ver8) Claims (v8.1 Corrected).
 
-Evaluates 4 completely independent adult COVID-19 PBMC scRNA-seq / CITE-seq cohorts (zero donor overlap
-with ESKD and zero donor overlap across cohorts; 2.46M cells in the four obs tables, N = 219 WHO-graded acute COVID-19 patients, 23 deaths):
-  1. Stephenson et al. 2021 (Nature Medicine; UK 3-centre non-ESKD CITE-seq; B_malignant CLL donor CV0198 excluded)
-  2. COMBAT Consortium 2022 (Cell; Oxford multi-omics blood atlas CITE-seq)
-  3. van der Wijst et al. 2021 (Sci Transl Med; UCSF longitudinal hospitalized CITE-seq)
-  4. Liu et al. 2021 (Cell; NIAID/Yale/Stanford time-resolved hospitalized CITE-seq)
-
-Follows F:\\PBISC\\AGENTS.md (.scientific-figure-making house style) to export:
-  - data/public_cohort_level_results_v8.csv
-  - data/public_meta_analysis_v8.csv
-  - data/stephenson_b_asc_isotype_glm_v8.csv
-  - data/public_hspc_timewindow_death_v8.csv
-  - PBISC_SuppFig_S3_Public_COVID_Replication_20261118.{png,pdf,svg}
+Incorporates every verification point from README_Public_Replication_ver8_corrected.md:
+  1. Exact sample count N = 219 acute COVID-19 patients (23 deaths) across 4 independent adult cohorts:
+     Stephenson 2021 (n=73, 6 deaths; CLL donor CV0198 excluded), COMBAT 2022 (n=75, 7 deaths),
+     van der Wijst 2021 (n=42, 7 deaths), and Liu 2021 (n=29, 3 deaths).
+  2. Uniform cohort sets: Liu 2021 is consistently included in every meta-analysis for features it resolves
+     (NK CD56bright k=4, B ASC total k=4, CD16 mono % Mono k=4, T CD8 CTL k=4, NK CD56dim k=4), with (k, N)
+     shown on each row and 1-to-1 matching between individual cohort dots and the meta-analysis diamond.
+  3. Exact apples-to-apples ESKD comparators: computes ESKD B ASC total (all 5 B_ASC subsets summed) to pair
+     with Public B ASC total, and ESKD CD16mono|lin (% Mono) to pair with Public CD16 mono (% Mono).
+  4. Transparent B ASC isotype panel (b): side-by-side display in Stephenson 2021 (n=73) of BOTH unadjusted
+     Spearman rho (% PBMC, showing open non-significant markers for IgG P=0.052 & IgA P=0.12 alongside ESKD)
+     AND age/sex/site-adjusted quasi-binomial count-GLM ORs (IgG OR=1.95 P=0.004, IgA OR=1.84 P=0.003).
+  5. Explicit cohort cell-type proxy footnote and inclusion of both NK CD56dim and CD16 mono C1 among
+     the candidates not followed in Fig. 7d.
 """
 import pathlib
 import re
@@ -32,7 +33,6 @@ import matplotlib as mpl
 mpl.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
-from matplotlib.patches import Patch
 from scipy import stats
 import statsmodels.api as sm
 import statsmodels.formula.api as smf
@@ -65,6 +65,11 @@ def age_from_stage(s):
 
 def who_group(x):
     return pd.cut(x, [0.5, 3.5, 5.75, 9.5, 10.5], labels=[1, 2, 3, 4]).astype(float)
+
+
+def rint(x: pd.Series) -> pd.Series:
+    r = x.rank()
+    return pd.Series(stats.norm.ppf((r - 0.5) / x.notna().sum()), index=x.index)
 
 
 def meta_dl(est, se):
@@ -139,7 +144,7 @@ s_masks = {
     "B_ASC_switched": ct.isin(["Plasma_cell_IgG", "Plasma_cell_IgA"]),
     "B_ASC_total": ct.isin(["Plasmablast", "Plasma_cell_IgG", "Plasma_cell_IgA", "Plasma_cell_IgM"]),
     "B_total": (ct.str.startswith("B_") & (ct != "B_malignant")) | ct.isin(["Plasmablast", "Plasma_cell_IgG", "Plasma_cell_IgA", "Plasma_cell_IgM"]),
-    "T_CD8_CM": ct == "CD8.EM",
+    "T_CD8_CM": ct == "CD8.EM",  # CD8 memory proxy (no separate CD8.CM label in Stephenson)
     "T_CD8_CTL": ct == "CD8.TE",
     "CD16_mono": ct == "CD16_mono",
     "CD16_mono_C1": ct == "C1_CD16_mono",
@@ -172,7 +177,6 @@ c_masks = {
     "NK_CD56dim": mi.isin(["NK.CD16hi", "NK.CD16int"]),
     "NK_total": ma == "NK",
     "B_ASC_total": ma == "PB",
-    "B_ASC_switched": ma == "PB",  # COMBAT annotates total PB compartment
     "B_total": ma.isin(["B", "PB"]),
     "T_CD8_CM": mi.isin(["CD8.TCM", "CD8.TCM.CCL5"]),
     "T_CD8_CTL": mi.isin(["CD8.TEMRA", "CD8.TEFF", "CD8.TEM"]),
@@ -213,7 +217,7 @@ v_masks = {
     "B_ASC_switched": c2 == "PB",
     "B_ASC_total": c1 == "PB",
     "B_total": c1.isin(["B", "PB"]),
-    "T_CD8_CTL": c2 == "T8_Mem",
+    "T_CD8_CTL": c2 == "T8_Mem",  # CD8 memory/effector proxy
     "CD16_mono": c2 == "ncM",
     "Mono_total": c1.isin(["cM", "ncM"]),
     "HSPC": c1 == "Progen",
@@ -273,7 +277,7 @@ COHORT_DFS = {
 }
 
 # -------------------------------------------------------------------------
-# 2. Compute Patient-Level Acute Means & Cohort-Specific + Meta-Analytic Stats
+# 2. Compute Patient-Level Acute Means & Cohort-Specific + Uniform Meta-Analytic Stats
 # -------------------------------------------------------------------------
 FEATS_EVAL = [
     "NK_CD56bright", "NK_CD56dim", "B_ASC_dividing", "B_ASC_IgG", "B_ASC_IgA", "B_ASC_IgM",
@@ -307,21 +311,18 @@ for cname, gdf in COHORT_DFS.items():
         ok = P_sev[col].notna()
         n_s = int(ok.sum())
         rho, p_s = stats.spearmanr(P_sev.loc[ok, "who_peak"], P_sev.loc[ok, col])
-        # Bootstrap 95% CI on rho
         rng = np.random.default_rng(42)
         yv = P_sev.loc[ok, col].values
         sv = P_sev.loc[ok, "who_peak"].values
         bs = [stats.spearmanr(sv[ix := rng.integers(0, n_s, n_s)], yv[ix])[0] for _ in range(1500)]
         rho_lo, rho_hi = float(np.nanpercentile(bs, 2.5)), float(np.nanpercentile(bs, 97.5))
 
-        # Rank-adjusted OLS p (age + sex + site)
         covs = [a for a in ("age", "sex", "site") if P_sev[a].nunique() > 1]
         e = P_sev.dropna(subset=[col, "who_peak"] + [a for a in covs if a != "sex"]).copy()
         e["ry"] = e[col].rank()
         e["rs"] = e["who_peak"].rank()
         p_adj = float(smf.ols("ry ~ rs" + "".join(f" + C({a})" if a in ("sex", "site") else f" + {a}" for a in covs), e).fit().pvalues["rs"])
 
-        # Count GLM OR (for PBMC counts)
         if f in raw_cols:
             or_v, or_lo, or_hi, se_or, p_glm = count_glm(P_sev, f, "_den", "who_peak")
         else:
@@ -358,23 +359,24 @@ for cname, gdf in COHORT_DFS.items():
 df_coh = pd.DataFrame(coh_rows)
 df_coh.to_csv(DATA_DIR / "public_cohort_level_results_v8.csv", index=False)
 
-# Save Stephenson B ASC isotype GLM table specifically
 st_b = df_coh[(df_coh["cohort"] == "Stephenson 2021") & (df_coh["feature"].str.startswith("B_ASC"))].copy()
 st_b.to_csv(DATA_DIR / "stephenson_b_asc_isotype_glm_v8.csv", index=False)
 
-# Meta-analysis across the 3 WHO-CPS broad-spectrum cohorts (Stephenson, COMBAT, van der Wijst) + 4-cohort with Liu
+# UNIFORM COHORT INCLUSION: Every cohort resolving a feature is included in its meta-analysis!
+ALL4 = ["Stephenson 2021", "COMBAT 2022", "van der Wijst 2021", "Liu 2021"]
 META_SPECS = [
-    ("NK_CD56bright", "NK CD56bright", "Concordant anchor", ["Stephenson 2021", "COMBAT 2022", "van der Wijst 2021"]),
+    ("NK_CD56bright", "NK CD56bright", "Concordant anchor", ALL4),
     ("B_ASC_dividing", "B ASC dividing", "Concordant anchor", ["Stephenson 2021", "van der Wijst 2021"]),
-    ("T_CD8_CM", "T CD8 CM", "Anchor (sev) / Focus (death)", ["Stephenson 2021", "COMBAT 2022"]),
-    ("CD16_mono_ofMono", "CD16 mono (% Mono)", "Concordant anchor", ["Stephenson 2021", "COMBAT 2022", "van der Wijst 2021", "Liu 2021"]),
+    ("T_CD8_CM", "T CD8 CM (EM proxy)", "Anchor (sev) / Focus (death)", ["Stephenson 2021", "COMBAT 2022"]),
+    ("CD16_mono_ofMono", "CD16 mono (% Mono)", "Concordant anchor", ALL4),
+    ("CD16_mono", "CD16 mono (% PBMC)", "Concordant anchor", ALL4),
     ("B_ASC_IgG", "B ASC IgG (Steph.)", "Focus: severity", ["Stephenson 2021"]),
     ("B_ASC_IgA", "B ASC IgA (Steph.)", "Focus: severity", ["Stephenson 2021"]),
-    ("B_ASC_total", "B ASC total", "Focus: severity", ["Stephenson 2021", "COMBAT 2022", "van der Wijst 2021"]),
-    ("T_CD8_CTL", "T CD8 CTL", "Focus: sev & death", ["Stephenson 2021", "COMBAT 2022", "van der Wijst 2021", "Liu 2021"]),
+    ("B_ASC_total", "B ASC total", "Focus: severity", ALL4),
+    ("T_CD8_CTL", "T CD8 CTL (eff. proxy)", "Focus: sev & death", ALL4),
     ("HSPC", "HSPC", "Focus: sev & death", ["Stephenson 2021", "COMBAT 2022", "van der Wijst 2021"]),
-    ("NK_CD56dim", "NK CD56dim", "Excluded control (H)", ["Stephenson 2021", "COMBAT 2022", "van der Wijst 2021", "Liu 2021"]),
-    ("CD16_mono_C1", "CD16 mono C1 (Steph.)", "Excluded control", ["Stephenson 2021"]),
+    ("NK_CD56dim", "NK CD56dim", "Not followed in Fig. 7d", ALL4),
+    ("CD16_mono_C1", "CD16 mono C1 (Steph.)", "Not followed in Fig. 7d", ["Stephenson 2021"]),
 ]
 
 meta_rows = []
@@ -384,8 +386,8 @@ for fkey, flab, role, clist in META_SPECS:
     sz_arr = np.sqrt(1.06 / (sub["n_sev"].values - 3))
     zm, szm, pm, I2_s, k_s = meta_dl(z_arr, sz_arr)
 
-    am_all, sam_all, pm_all, I2_da, k_da = meta_dl(sub["AUC_death_all"].values - 0.5, sub["SE_death_all"].values)
-    am_w6, sam_w6, pm_w6, I2_dw, k_dw = meta_dl(sub["AUC_death_WHO6"].values - 0.5, sub["SE_death_WHO6"].values)
+    am_all, sam_all, pm_all, _, _ = meta_dl(sub["AUC_death_all"].values - 0.5, sub["SE_death_all"].values)
+    am_w6, sam_w6, pm_w6, _, _ = meta_dl(sub["AUC_death_WHO6"].values - 0.5, sub["SE_death_WHO6"].values)
 
     meta_rows.append({
         "feature": fkey,
@@ -448,45 +450,64 @@ for win_key, win_label in [("first", "First acute sample"), ("late_gt7d", "Sampl
 df_hw = pd.DataFrame(hw_rows)
 df_hw.to_csv(DATA_DIR / "public_hspc_timewindow_death_v8.csv", index=False)
 
-print("=== PUBLIC META-ANALYSIS SUMMARY ===")
+
+# -------------------------------------------------------------------------
+# 3. Compute Exact Matched ESKD Comparators (including B_ASC_total & CD16mono|lin)
+# -------------------------------------------------------------------------
+pt_raw_eskd = pd.read_csv(ESKD_V8_DATA / "patient_raw_pct_noCLL_v8.csv", index_col=0)
+b_asc_cols_eskd = [c for c in ["B_ASC_dividing", "B_ASC_IgG", "B_ASC_IgA", "B_ASC_IgM", "B_ASC_other"] if c in pt_raw_eskd.columns]
+pt_raw_eskd["B_ASC_total"] = pt_raw_eskd[b_asc_cols_eskd].sum(axis=1)
+
+ESKD_MATCH_FEATS = [
+    "NK CD56 bright", "B_ASC_dividing", "T CD8 CM", "CD16mono|lin", "CD16mono",
+    "B_ASC_total", "B_ASC_IgG", "B_ASC_IgA", "B_ASC_IgM", "T CD8 CTL", "HSPC", "NK", "CD16mono_C1"
+]
+rng_e = np.random.default_rng(20261118)
+eskd_matched = {}
+R_e = pt_raw_eskd[pt_raw_eskd["src"] == "Real"]
+N_e = pt_raw_eskd[pt_raw_eskd["src"] == "New"]
+for fk in ESKD_MATCH_FEATS:
+    comb = pd.concat([
+        pd.DataFrame({"y": rint(R_e[fk]), "sev": R_e["sev"], "fatal": R_e["fatal"]}),
+        pd.DataFrame({"y": rint(N_e[fk]), "sev": N_e["sev"], "fatal": N_e["fatal"]}),
+    ]).dropna()
+    r_v, p_v = stats.spearmanr(comb["sev"], comb["y"])
+    yv, sv = comb["y"].values, comb["sev"].values
+    n_c = len(comb)
+    bs_e = [stats.spearmanr(sv[ix := rng_e.integers(0, n_c, n_c)], yv[ix])[0] for _ in range(2000)]
+    eskd_matched[fk] = dict(rho=float(r_v), lo=float(np.percentile(bs_e, 2.5)), hi=float(np.percentile(bs_e, 97.5)), p=float(p_v))
+
+print("=== UNIFORM PUBLIC META-ANALYSIS SUMMARY (N = 219) ===")
 print(df_meta.round(4).to_string(index=False))
-print("\n=== STEPHENSON 2021 B ASC ISOTYPE GLM ===")
-print(st_b[["feature", "n_sev", "rho", "p_sev", "OR_glm", "OR_lo", "OR_hi", "p_glm", "AUC_death_all", "AUC_death_WHO6"]].round(4).to_string(index=False))
-print("\n=== HSPC TIME-WINDOW DEATH SUMMARY ===")
-print(df_hw.round(4).to_string(index=False))
 
 
 # =========================================================================
-# 3. RENDER PUBLICATION-READY EXTERNAL REPLICATION FIGURE (Supp Fig S3)
+# 4. RENDER CORRECTED EXTERNAL REPLICATION FIGURE (Supp Fig S3)
 # =========================================================================
-eskd_ci = pd.read_csv(ESKD_V8_DATA / "cohort_effect_sizes_ci_v8.csv")
-eskd_no = eskd_ci[(eskd_ci["CLL_excluded"] == True) & (eskd_ci["set"] == "Real + PBISC new")].set_index("feature")
-eskd_sc = pd.read_csv(ESKD_V8_DATA / "credibility_scorecard_v8.csv")
-eskd_sel = pd.read_csv(ESKD_V8_DATA / "selection_funnel_43fine.csv").set_index("feature")
-
-fig = plt.figure(figsize=(15.2, 13.6), facecolor="white")
+fig = plt.figure(figsize=(15.4, 14.4), facecolor="white")
 fig.text(
     0.015,
     0.988,
-    "Supplementary Figure 3. External replication of Figure 7 claims across four independent COVID-19 single-cell PBMC cohorts (N = 219 patients)",
-    fontsize=13.5,
+    "Supplementary Figure 3. External single-cell replication of Figure 7 findings across four adult COVID-19 PBMC cohorts (N = 219 patients)",
+    fontsize=13.4,
     fontweight="bold",
     va="top",
     ha="left",
     color=PALETTE["gray_3"],
 )
 
-# ---------------- Panel a: Cross-Cohort Severity Forest + Cohort Matrix ----------------
-ax_a = fig.add_axes([0.145, 0.535, 0.310, 0.365])
+# ---------------- Panel a: Matched ESKD vs. Uniform Public Meta-Analysis (Severity) ----------------
+ax_a = fig.add_axes([0.155, 0.535, 0.285, 0.375])
 ORDER_A = [
     ("NK_CD56bright", "NK CD56bright", "NK CD56 bright", "anchor"),
-    ("B_ASC_dividing", "B ASC dividing", "B_ASC_dividing", "anchor"),
-    ("T_CD8_CM", "T CD8 CM", "T CD8 CM", "anchor"),
-    ("CD16_mono_ofMono", "CD16 mono (% Mono)", "CD16mono", "anchor"),
-    ("B_ASC_total", "B ASC (mature/total)", "B_ASC_IgG", "focus"),
-    ("T_CD8_CTL", "T CD8 CTL", "T CD8 CTL", "focus"),
+    ("B_ASC_dividing", "B ASC dividing*", "B_ASC_dividing", "anchor"),
+    ("T_CD8_CM", "T CD8 CM / EM*", "T CD8 CM", "anchor"),
+    ("CD16_mono_ofMono", "CD16 mono (% Mono)", "CD16mono|lin", "anchor"),
+    ("B_ASC_total", "B ASC total", "B_ASC_total", "focus"),
+    ("T_CD8_CTL", "T CD8 CTL / Mem*", "T CD8 CTL", "focus"),
     ("HSPC", "HSPC", "HSPC", "hspc"),
-    ("NK_CD56dim", "NK CD56dim (excluded)", "NK", "excl"),
+    ("NK_CD56dim", "NK CD56dim", "NK", "excl"),
+    ("CD16_mono_C1", "CD16 mono C1", "CD16mono_C1", "excl"),
 ]
 
 y_pos = []
@@ -494,45 +515,34 @@ yc = 0.0
 for idx, (pub_f, disp, eskd_f, grp) in enumerate(ORDER_A):
     if idx in (4, 7):
         ax_a.axhline(yc + 0.52, color=PALETTE["neutral"], ls="--", lw=1.0, zorder=1)
-        yc -= 0.30
+        yc -= 0.28
     y_pos.append(yc)
 
-    # ESKD Real + PBISC new (66)
-    if eskd_f in eskd_no.index:
-        er = eskd_no.loc[eskd_f]
-        e_rho, e_lo, e_hi, e_p = er["rho"], er["rho_lo"], er["rho_hi"], er["p_sev"]
-    else:
-        es = eskd_sel.loc[eskd_f]
-        e_rho, e_p = es["rho_Ext"], es["p_sev_Ext"]
-        z_e = np.arctanh(e_rho)
-        se_e = 1.0 / np.sqrt(63)
-        e_lo, e_hi = np.tanh(z_e - 1.96 * se_e), np.tanh(z_e + 1.96 * se_e)
+    em = eskd_matched[eskd_f]
+    ax_a.plot([em["lo"], em["hi"]], [yc + 0.18, yc + 0.18], color=PALETTE["blue_main"], lw=1.7, zorder=2)
+    ax_a.scatter(em["rho"], yc + 0.18, s=44, marker="s", c="white" if em["p"] >= 0.05 else PALETTE["blue_main"],
+                 edgecolors=PALETTE["blue_main"], linewidths=1.4, zorder=4)
 
-    ax_a.plot([e_lo, e_hi], [yc + 0.18, yc + 0.18], color=PALETTE["blue_main"], lw=1.8, zorder=2)
-    ax_a.scatter(e_rho, yc + 0.18, s=48, marker="s", c="white" if e_p >= 0.05 else PALETTE["blue_main"],
-                 edgecolors=PALETTE["blue_main"], linewidths=1.5, zorder=4)
-
-    # Individual public cohorts as small background points
+    mr = df_meta[df_meta["feature"] == pub_f].iloc[0]
     sub_c = df_coh[df_coh["feature"] == pub_f]
     for _, cr in sub_c.iterrows():
-        ax_a.scatter(cr["rho"], yc - 0.18, s=22, marker="o", c=PALETTE["neutral"], edgecolors=PALETTE["gray_1"], linewidths=0.8, alpha=0.85, zorder=2)
+        ax_a.scatter(cr["rho"], yc - 0.18, s=20, marker="o", c=PALETTE["neutral"], edgecolors=PALETTE["gray_1"], linewidths=0.8, alpha=0.85, zorder=2)
 
-    # Public Meta-analysis
-    mr = df_meta[df_meta["feature"] == pub_f].iloc[0]
     m_col = PALETTE["red_strong"] if grp == "hspc" else (PALETTE["gray_2"] if grp == "excl" else PALETTE["teal"])
     ax_a.plot([mr["rho_lo"], mr["rho_hi"]], [yc - 0.18, yc - 0.18], color=m_col, lw=2.0, zorder=3)
-    ax_a.scatter(mr["rho_meta"], yc - 0.18, s=54, marker="D", c="white" if mr["p_rho_meta"] >= 0.05 else m_col,
-                 edgecolors=m_col, linewidths=1.6, zorder=5)
+    ax_a.scatter(mr["rho_meta"], yc - 0.18, s=50, marker="D", c="white" if mr["p_rho_meta"] >= 0.05 else m_col,
+                 edgecolors=m_col, linewidths=1.5, zorder=5)
 
     p_m = mr["p_rho_meta"]
     p_txt = f"P={p_m:.1e}".replace("e-0", "e-") if p_m < 0.001 else (f"P={p_m:.3f}" if p_m < 0.1 else f"P={p_m:.2f}")
-    ax_a.text(0.84, yc - 0.18, f"{mr['rho_meta']:+.2f} ({p_txt})", va="center", ha="left", fontsize=8.3,
+    ax_a.text(0.83, yc - 0.10, f"{mr['rho_meta']:+.2f} ({p_txt}) · k={int(mr['k_cohorts'])}, N={int(mr['N_patients'])}",
+              va="center", ha="left", fontsize=7.9,
               color=m_col if p_m < 0.05 else PALETTE["gray_1"], fontweight="bold" if p_m < 0.05 else "normal")
     yc -= 1.05
 
 ax_a.axvline(0.0, color=PALETTE["gray_1"], ls=":", lw=1.3)
 ax_a.set_yticks(y_pos)
-ax_a.set_yticklabels([x[1] for x in ORDER_A], fontsize=9.8)
+ax_a.set_yticklabels([x[1] for x in ORDER_A], fontsize=9.4)
 for idx_t, t in enumerate(ax_a.get_yticklabels()):
     grp = ORDER_A[idx_t][3]
     t.set_fontweight("bold" if grp != "excl" else "normal")
@@ -542,103 +552,132 @@ ax_a.spines["left"].set_visible(False)
 ax_a.set_xlim(-0.82, 0.80)
 ax_a.set_ylim(y_pos[-1] - 0.55, 0.58)
 ax_a.set_xticks([-0.5, 0.0, 0.5])
-ax_a.set_xlabel("Spearman ρ with WHO severity", fontsize=10.5)
-ax_a.text(0.84, 0.52, "Public Meta ρ (P)", fontsize=8.4, fontweight="bold", color=PALETTE["gray_2"], va="bottom")
-ax_a.set_title("Severity replication: ESKD vs. public cohorts", loc="left", fontsize=11.5, fontweight="bold", pad=8)
-fig.text(0.015, 0.925, "a", fontsize=18, fontweight="bold", va="top")
+ax_a.set_xlabel("Spearman ρ with WHO severity", fontsize=10.2)
+ax_a.text(0.83, 0.50, "Public Meta ρ (P) · cohorts", fontsize=8.1, fontweight="bold", color=PALETTE["gray_2"], va="bottom")
+ax_a.set_title("Matched severity comparison", loc="left", fontsize=11.3, fontweight="bold", pad=8)
+fig.text(0.015, 0.930, "a", fontsize=18, fontweight="bold", va="top")
 
-# ---------------- Panel b: Stephenson 2021 Class-Switched B ASC Isotypes (Count GLM OR) ----------------
-ax_b = fig.add_axes([0.695, 0.595, 0.270, 0.305])
+
+# ---------------- Panel b: Stephenson 2021 B ASC Isotypes (Spearman rho AND Count-GLM OR) ----------------
+ax_b1 = fig.add_axes([0.670, 0.575, 0.132, 0.335])
+ax_b2 = fig.add_axes([0.830, 0.575, 0.140, 0.335])
+
 ISO_ORDER = [
-    ("B_ASC_dividing", "Plasmablast (dividing)"),
-    ("B_ASC_IgG", "Plasma cell IgG"),
-    ("B_ASC_IgA", "Plasma cell IgA"),
-    ("B_ASC_IgM", "Plasma cell IgM"),
-    ("B_ASC_switched", "Switched (IgG + IgA)"),
+    ("B_ASC_dividing", "Plasmablast (dividing)", "B_ASC_dividing"),
+    ("B_ASC_IgG", "Plasma cell IgG", "B_ASC_IgG"),
+    ("B_ASC_IgA", "Plasma cell IgA", "B_ASC_IgA"),
+    ("B_ASC_IgM", "Plasma cell IgM", "B_ASC_IgM"),
+    ("B_ASC_total", "B ASC total", "B_ASC_total"),
 ]
 yy_b = np.arange(len(ISO_ORDER))[::-1]
-ax_b.axvline(1.0, color=PALETTE["gray_1"], ls=":", lw=1.3)
-for yi, (fk, flab) in zip(yy_b, ISO_ORDER):
-    r = st_b[st_b["feature"] == fk].iloc[0]
-    col_b = PALETTE["blue_main"] if fk in ("B_ASC_IgG", "B_ASC_IgA", "B_ASC_switched") else PALETTE["gray_3"]
-    ax_b.plot([r["OR_lo"], r["OR_hi"]], [yi, yi], color=col_b, lw=2.2, zorder=2)
-    ax_b.scatter(r["OR_glm"], yi, s=62, marker="D", c=col_b, edgecolors="white", linewidths=0.8, zorder=4)
-    ax_b.text(r["OR_hi"] + 0.08, yi, f"OR={r['OR_glm']:.2f}, P={r['p_glm']:.3f}", va="center", ha="left",
-              fontsize=8.6, color=col_b, fontweight="bold")
+ax_b1.axvline(0.0, color=PALETTE["gray_1"], ls=":", lw=1.3)
+ax_b2.axvline(1.0, color=PALETTE["gray_1"], ls=":", lw=1.3)
 
-ax_b.set_yticks(yy_b)
-ax_b.set_yticklabels([x[1] for x in ISO_ORDER], fontsize=9.8)
-for idx_t, t in enumerate(ax_b.get_yticklabels()):
-    if ISO_ORDER[idx_t][0] in ("B_ASC_IgG", "B_ASC_IgA", "B_ASC_switched"):
+for yi, (fk, flab, efk) in zip(yy_b, ISO_ORDER):
+    r = st_b[st_b["feature"] == fk].iloc[0]
+    em = eskd_matched[efk]
+    col_b = PALETTE["blue_main"] if fk in ("B_ASC_IgG", "B_ASC_IgA") else PALETTE["teal"]
+
+    # Left sub-axis: ESKD (square) vs Stephenson 2021 (diamond) Spearman rho (% PBMC)
+    ax_b1.plot([em["lo"], em["hi"]], [yi + 0.16, yi + 0.16], color=PALETTE["blue_main"], lw=1.6)
+    ax_b1.scatter(em["rho"], yi + 0.16, s=42, marker="s", c=PALETTE["blue_main"], edgecolors=PALETTE["blue_main"], zorder=3)
+
+    ax_b1.plot([r["rho_lo"], r["rho_hi"]], [yi - 0.16, yi - 0.16], color=PALETTE["teal"], lw=1.8)
+    ax_b1.scatter(r["rho"], yi - 0.16, s=48, marker="D",
+                  c="white" if r["p_sev"] >= 0.05 else PALETTE["teal"], edgecolors=PALETTE["teal"], linewidths=1.5, zorder=4)
+    ax_b1.text(0.98, yi - 0.16, f"P={r['p_sev']:.2f}" if r["p_sev"] >= 0.05 else f"P={r['p_sev']:.3f}",
+               va="center", ha="right", fontsize=7.6, color=PALETTE["gray_1"] if r["p_sev"] >= 0.05 else PALETTE["teal"],
+               fontweight="bold" if r["p_sev"] < 0.05 else "normal")
+
+    # Right sub-axis: Stephenson 2021 Age/Sex/Site Count-GLM OR
+    ax_b2.plot([r["OR_lo"], r["OR_hi"]], [yi, yi], color=col_b, lw=2.0)
+    ax_b2.scatter(r["OR_glm"], yi, s=52, marker="D", c=col_b, edgecolors="white", linewidths=0.7, zorder=4)
+    ax_b2.text(r["OR_hi"] + 0.08, yi, f"{r['OR_glm']:.2f} (P={r['p_glm']:.3f})", va="center", ha="left",
+               fontsize=7.8, color=col_b, fontweight="bold")
+
+ax_b1.set_yticks(yy_b)
+ax_b1.set_yticklabels([x[1] for x in ISO_ORDER], fontsize=9.4)
+for idx_t, t in enumerate(ax_b1.get_yticklabels()):
+    if ISO_ORDER[idx_t][0] in ("B_ASC_IgG", "B_ASC_IgA"):
         t.set_fontweight("bold")
         t.set_color(PALETTE["blue_main"])
-ax_b.tick_params(axis="y", length=0)
-ax_b.spines["left"].set_visible(False)
-ax_b.set_xlim(0.80, 3.85)
-ax_b.set_xticks([1.0, 1.5, 2.0, 2.5, 3.0])
-ax_b.set_ylim(-0.55, len(ISO_ORDER) - 0.35)
-ax_b.set_xlabel("Adjusted OR per WHO-CPS step (Stephenson 2021, n = 73)", fontsize=10.2)
-ax_b.set_title("B ASC isotype expansion (age/sex/site GLM)", loc="left", fontsize=11.5, fontweight="bold", pad=8)
-fig.text(0.575, 0.925, "b", fontsize=18, fontweight="bold", va="top")
+ax_b2.set_yticks(yy_b)
+ax_b2.set_yticklabels([])
+
+for axx in (ax_b1, ax_b2):
+    axx.tick_params(axis="y", length=0)
+    axx.spines["left"].set_visible(False)
+    axx.set_ylim(-0.55, len(ISO_ORDER) - 0.35)
+
+ax_b1.set_xlim(-0.20, 1.02)
+ax_b1.set_xticks([0.0, 0.4, 0.8])
+ax_b1.set_xlabel("Spearman ρ (% PBMC)", fontsize=9.8)
+ax_b1.set_title("Stephenson 2021 B ASC isotypes (n = 73): rank ρ vs. count GLM", loc="left", fontsize=11.1, fontweight="bold", pad=8)
+
+ax_b2.set_xlim(0.85, 4.95)
+ax_b2.set_xticks([1.0, 2.0, 3.0, 4.0])
+ax_b2.set_xlabel("Adj. count-GLM OR / step", fontsize=9.8)
+fig.text(0.545, 0.930, "b", fontsize=18, fontweight="bold", va="top")
 
 # Legend bar between Row 1 and Row 2
-ax_leg = fig.add_axes([0.02, 0.455, 0.96, 0.030])
+ax_leg = fig.add_axes([0.02, 0.462, 0.96, 0.026])
 ax_leg.set_axis_off()
 hd = [
     Line2D([0], [0], marker="s", ls="", ms=7.5, mfc=PALETTE["blue_main"], mec=PALETTE["blue_main"], label="ESKD Real + PBISC new (n = 66, 13 deaths)"),
-    Line2D([0], [0], marker="D", ls="", ms=7.5, mfc=PALETTE["teal"], mec=PALETTE["teal"], label="Public COVID-19 Meta-analysis (3–4 cohorts, up to N = 219)"),
-    Line2D([0], [0], marker="o", ls="", ms=6.5, mfc=PALETTE["neutral"], mec=PALETTE["gray_1"], label="Individual public cohort (a)"),
+    Line2D([0], [0], marker="D", ls="", ms=7.5, mfc=PALETTE["teal"], mec=PALETTE["teal"], label="Public COVID-19 Meta-analysis / Stephenson 2021 (N = 219 across 4 cohorts)"),
+    Line2D([0], [0], marker="o", ls="", ms=6.2, mfc=PALETTE["neutral"], mec=PALETTE["gray_1"], label="Individual public cohort (a)"),
     Line2D([0], [0], marker="D", ls="", ms=7.5, mfc="white", mec=PALETTE["gray_2"], mew=1.6, label="open: P ≥ 0.05"),
 ]
-ax_leg.legend(handles=hd, loc="center", ncol=4, fontsize=9.8, frameon=False, columnspacing=1.4)
+ax_leg.legend(handles=hd, loc="center", ncol=4, fontsize=9.5, frameon=False, columnspacing=1.3)
 
-# ---------------- Panel c: Death AUC: All COVID+ vs Within Severe/Critical (WHO>=6 / WHO 2-3) ----------------
-ax_c = fig.add_axes([0.145, 0.080, 0.355, 0.325])
+
+# ---------------- Panel c: Death AUC: All COVID+ vs Within Severe/Critical (WHO>=6) ----------------
+ax_c = fig.add_axes([0.155, 0.095, 0.285, 0.320])
 D_ITEMS = [
-    ("HSPC", "HSPC", "HSPC", PALETTE["red_strong"]),
-    ("T_CD8_CM", "T CD8 CM", "T CD8 CM", PALETTE["blue_main"]),
-    ("T_CD8_CTL", "T CD8 CTL", "T CD8 CTL", PALETTE["blue_main"]),
-    ("B_ASC_total", "B ASC (IgG/IgA/PB)", "B_ASC_IgG", PALETTE["gray_2"]),
-    ("NK_CD56dim", "NK CD56dim (excl.)", "NK", PALETTE["gray_1"]),
+    ("HSPC", "HSPC (k=3)", PALETTE["red_strong"]),
+    ("T_CD8_CM", "T CD8 CM / EM* (k=2)", PALETTE["blue_main"]),
+    ("T_CD8_CTL", "T CD8 CTL / Mem* (k=4)", PALETTE["blue_main"]),
+    ("B_ASC_total", "B ASC total (k=4)", PALETTE["gray_2"]),
+    ("NK_CD56dim", "NK CD56dim (not fol., k=4)", PALETTE["gray_1"]),
+    ("CD16_mono_C1", "CD16 mono C1 (not fol., k=1)", PALETTE["gray_1"]),
 ]
 yy_c = np.arange(len(D_ITEMS))[::-1]
 ax_c.axvline(0.50, color=PALETTE["gray_1"], ls=":", lw=1.3)
 
-for yi, (pub_f, disp, eskd_f, col_c) in zip(yy_c, D_ITEMS):
+for yi, (pub_f, disp, col_c) in zip(yy_c, D_ITEMS):
     mr = df_meta[df_meta["feature"] == pub_f].iloc[0]
-    # All COVID+ public meta
-    ax_c.plot([mr["AUC_all_lo"], mr["AUC_all_hi"]], [yi + 0.17, yi + 0.17], color=col_c, lw=2.0)
-    ax_c.scatter(mr["AUC_death_all_meta"], yi + 0.17, s=54, marker="D",
-                 c="white" if mr["p_death_all_meta"] >= 0.05 else col_c, edgecolors=col_c, linewidths=1.6, zorder=4)
-    # Within WHO>=6 public meta
-    ax_c.plot([mr["AUC_WHO6_lo"], mr["AUC_WHO6_hi"]], [yi - 0.17, yi - 0.17], color=col_c, lw=1.6, ls="--", alpha=0.8)
-    ax_c.scatter(mr["AUC_death_WHO6_meta"], yi - 0.17, s=50, marker="^",
-                 c="white" if mr["p_death_WHO6_meta"] >= 0.05 else col_c, edgecolors=col_c, linewidths=1.5, zorder=4)
+    ax_c.plot([mr["AUC_all_lo"], mr["AUC_all_hi"]], [yi + 0.17, yi + 0.17], color=col_c, lw=1.9)
+    ax_c.scatter(mr["AUC_death_all_meta"], yi + 0.17, s=50, marker="D",
+                 c="white" if mr["p_death_all_meta"] >= 0.05 else col_c, edgecolors=col_c, linewidths=1.5, zorder=4)
+    ax_c.plot([mr["AUC_WHO6_lo"], mr["AUC_WHO6_hi"]], [yi - 0.17, yi - 0.17], color=col_c, lw=1.5, ls="--", alpha=0.8)
+    ax_c.scatter(mr["AUC_death_WHO6_meta"], yi - 0.17, s=46, marker="^",
+                 c="white" if mr["p_death_WHO6_meta"] >= 0.05 else col_c, edgecolors=col_c, linewidths=1.4, zorder=4)
 
     p1_t = f"{mr['p_death_all_meta']:.3f}" if mr["p_death_all_meta"] < 0.1 else f"{mr['p_death_all_meta']:.2f}"
     p2_t = f"{mr['p_death_WHO6_meta']:.2f}"
-    ax_c.text(0.88, yi + 0.17, f"All: {mr['AUC_death_all_meta']:.2f} (P={p1_t})", va="center", fontsize=8.2,
+    ax_c.text(0.88, yi + 0.17, f"All: {mr['AUC_death_all_meta']:.2f} (P={p1_t})", va="center", fontsize=8.0,
               color=col_c if mr["p_death_all_meta"] < 0.05 else PALETTE["gray_2"],
               fontweight="bold" if mr["p_death_all_meta"] < 0.05 else "normal")
-    ax_c.text(0.88, yi - 0.17, f"WHO≥6: {mr['AUC_death_WHO6_meta']:.2f} (P={p2_t})", va="center", fontsize=8.0, color=PALETTE["gray_1"])
+    ax_c.text(0.88, yi - 0.17, f"WHO≥6: {mr['AUC_death_WHO6_meta']:.2f} (P={p2_t})", va="center", fontsize=7.8, color=PALETTE["gray_1"])
 
 ax_c.set_yticks(yy_c)
-ax_c.set_yticklabels([x[1] for x in D_ITEMS], fontsize=9.8)
+ax_c.set_yticklabels([x[1] for x in D_ITEMS], fontsize=9.2)
 for idx_t, t in enumerate(ax_c.get_yticklabels()):
     if idx_t < 3:
         t.set_fontweight("bold")
-        t.set_color(D_ITEMS[idx_t][3])
+        t.set_color(D_ITEMS[idx_t][2])
 ax_c.tick_params(axis="y", length=0)
 ax_c.spines["left"].set_visible(False)
 ax_c.set_xlim(0.12, 0.86)
 ax_c.set_xticks([0.25, 0.50, 0.75])
 ax_c.set_ylim(-0.55, len(D_ITEMS) - 0.35)
-ax_c.set_xlabel("Public Meta Death AUC (diamond: All COVID+  ·  triangle: Within WHO-CPS ≥ 6)", fontsize=9.6)
-ax_c.set_title("Mortality: univariate vs. within-severe (WHO ≥ 6)", loc="left", fontsize=11.5, fontweight="bold", pad=8)
-fig.text(0.015, 0.425, "c", fontsize=18, fontweight="bold", va="top")
+ax_c.set_xlabel("Public Meta Death AUC (diamond: All  ·  triangle: WHO-CPS ≥ 6)", fontsize=9.6)
+ax_c.set_title("Mortality: univariate vs. within-severe", loc="left", fontsize=11.3, fontweight="bold", pad=8)
+fig.text(0.015, 0.435, "c", fontsize=18, fontweight="bold", va="top")
+
 
 # ---------------- Panel d: HSPC Mortality Across Time Windows (First acute vs > day 7) ----------------
-ax_d = fig.add_axes([0.695, 0.080, 0.270, 0.325])
+ax_d = fig.add_axes([0.675, 0.095, 0.215, 0.320])
 COH_D = ["Stephenson 2021", "van der Wijst 2021", "COMBAT 2022", "Public Meta (3 cohorts)"]
 yy_d = np.arange(len(COH_D))[::-1]
 ax_d.axvline(0.50, color=PALETTE["gray_1"], ls=":", lw=1.3)
@@ -651,29 +690,44 @@ for yi, cname in zip(yy_d, COH_D):
     c_l = PALETTE["red_strong"]
 
     ax_d.plot([r_f["AUC_all"], r_l["AUC_all"]], [yi + 0.16, yi - 0.16], color=PALETTE["neutral"], lw=1.3)
-    ax_d.scatter(r_f["AUC_all"], yi + 0.16, s=64 if is_meta else 48, marker="D",
-                 c="white" if r_f["p_all"] >= 0.05 else c_f, edgecolors=c_f, linewidths=1.6, zorder=3)
-    ax_d.scatter(r_l["AUC_all"], yi - 0.16, s=68 if is_meta else 52, marker="s",
-                 c="white" if r_l["p_all"] >= 0.05 else c_l, edgecolors=c_l, linewidths=1.6, zorder=4)
+    ax_d.scatter(r_f["AUC_all"], yi + 0.16, s=62 if is_meta else 46, marker="D",
+                 c="white" if r_f["p_all"] >= 0.05 else c_f, edgecolors=c_f, linewidths=1.5, zorder=3)
+    ax_d.scatter(r_l["AUC_all"], yi - 0.16, s=66 if is_meta else 50, marker="s",
+                 c="white" if r_l["p_all"] >= 0.05 else c_l, edgecolors=c_l, linewidths=1.5, zorder=4)
 
-    ax_d.text(0.96, yi + 0.16, f"1st: {r_f['AUC_all']:.2f} (P={r_f['p_all']:.3f})", va="center", fontsize=8.1,
+    ax_d.text(0.95, yi + 0.16, f"1st: {r_f['AUC_all']:.2f} (P={r_f['p_all']:.3f})", va="center", fontsize=8.0,
               color=c_f if r_f["p_all"] < 0.05 else PALETTE["gray_1"], fontweight="bold" if r_f["p_all"] < 0.05 else "normal")
-    ax_d.text(0.96, yi - 0.16, f">7d: {r_l['AUC_all']:.2f} (P={r_l['p_all']:.3f})", va="center", fontsize=8.1,
+    ax_d.text(0.95, yi - 0.16, f">7d: {r_l['AUC_all']:.2f} (P={r_l['p_all']:.3f})", va="center", fontsize=8.0,
               color=c_l if r_l["p_all"] < 0.05 else PALETTE["gray_1"], fontweight="bold" if r_l["p_all"] < 0.05 else "normal")
 
 ax_d.set_yticks(yy_d)
-ax_d.set_yticklabels(COH_D, fontsize=9.8)
+ax_d.set_yticklabels(COH_D, fontsize=9.5)
 ax_d.get_yticklabels()[-1].set_fontweight("bold")
 ax_d.get_yticklabels()[-1].set_color(PALETTE["red_strong"])
 ax_d.tick_params(axis="y", length=0)
 ax_d.spines["left"].set_visible(False)
-ax_d.set_xlim(0.42, 0.94)
+ax_d.set_xlim(0.42, 0.93)
 ax_d.set_xticks([0.50, 0.70, 0.90])
 ax_d.set_ylim(-0.55, len(COH_D) - 0.35)
-ax_d.set_xlabel("HSPC Death AUC (diamond: 1st sample  ·  square: > day 7)", fontsize=9.6)
-ax_d.set_title("HSPC mortality strengthens > day 7", loc="left", fontsize=11.5, fontweight="bold", pad=8)
-fig.text(0.575, 0.425, "d", fontsize=18, fontweight="bold", va="top")
+ax_d.set_xlabel("HSPC Death AUC (diamond: 1st  ·  square: >7d)", fontsize=9.5)
+ax_d.set_title("HSPC mortality across windows", loc="left", fontsize=11.3, fontweight="bold", pad=8)
+fig.text(0.545, 0.435, "d", fontsize=18, fontweight="bold", va="top")
+
+# Explicit Cohort Proxy Footnote at bottom of figure
+fig.text(
+    0.015,
+    0.018,
+    "*Cohort annotation proxies: B ASC dividing = Plasmablast (Stephenson), PB_Prolif (van der Wijst); T CD8 CM = CD8.EM (Stephenson), CD8.TCM+TCM.CCL5 (COMBAT); "
+    "T CD8 CTL = CD8.TE (Stephenson), CD8.TEMRA+TEFF+TEM (COMBAT), T8_Mem (van der Wijst), CD8 memory T (Liu). All available cohorts per feature are pooled.",
+    fontsize=8.3,
+    color=PALETTE["gray_2"],
+    va="bottom",
+    ha="left",
+)
 
 out_fig = OUT_DIR / "PBISC_SuppFig_S3_Public_COVID_Replication_20261118"
 saved = finalize_figure(fig, out_fig, formats=("png", "pdf", "svg"), dpi=300, close=True)
-print("Saved External Replication Figure:", [str(p) for p in saved])
+for ext in ("png", "pdf", "svg"):
+    shutil.copy2(OUT_DIR / f"PBISC_SuppFig_S3_Public_COVID_Replication_20261118.{ext}",
+                 OUT_DIR / f"PBISC_SuppFig_S3_Public_COVID_Replication_20261117.{ext}")
+print("Saved Corrected External Replication Figure:", [str(p) for p in saved])

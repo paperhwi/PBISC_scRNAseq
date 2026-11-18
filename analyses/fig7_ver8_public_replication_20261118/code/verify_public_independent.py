@@ -1,5 +1,5 @@
 """Independent recompute (no code reused from run_and_plot_public_replication_v8.py) of the core public-cohort
-statistics: per-patient acute % (mean over acute samples), Spearman vs peak WHO, Mann-Whitney death AUC,
+statistics (v8.1: uniform cohort sets, Liu included wherever it resolves a feature): per-patient acute % (mean over acute samples), Spearman vs peak WHO, Mann-Whitney death AUC,
 and DerSimonian-Laird random-effects meta via statsmodels.combine_effects. Compares to data/*.csv."""
 import os, warnings, numpy as np, pandas as pd
 from scipy.stats import spearmanr, mannwhitneyu
@@ -60,6 +60,7 @@ for name, T in COH.items():
     for f in ['NK_CD56bright', 'HSPC', 'T_CD8_CTL', 'T_CD8_CM', 'B_ASC_total']:
         if f in T: T[f + '_pct'] = 100 * T[f] / T._den
     T['CD16_mono_ofMono_pct'] = 100 * T.CD16 / T.Mono.replace(0, np.nan)
+    T['CD16_mono_pct'] = 100 * T.CD16 / T._den
     pcols = [x for x in T.columns if x.endswith('_pct')]
     P = T.groupby('donor')[pcols].mean(); P['who'] = T.groupby('donor').who.first(); P['death'] = T.groupby('donor').death.max()
     for col in pcols:
@@ -77,8 +78,8 @@ print('patients with WHO grade per cohort:', R.groupby('cohort').n_sev.max().to_
 print('deaths per cohort:', R.groupby('cohort').deaths.max().to_dict(), '-> total', int(R.groupby('cohort').deaths.max().sum()))
 # DL meta via statsmodels on Fisher z (SE = sqrt(1.06/(n-3)))
 meta_ref = pd.read_csv(os.path.join(OUT, 'public_meta_analysis_v8.csv')).set_index('feature')
-specs = {'NK_CD56bright': ['Stephenson 2021', 'COMBAT 2022', 'van der Wijst 2021'], 'HSPC': ['Stephenson 2021', 'COMBAT 2022', 'van der Wijst 2021'],
-         'T_CD8_CTL': list(COH), 'CD16_mono_ofMono': list(COH), 'B_ASC_total': ['Stephenson 2021', 'COMBAT 2022', 'van der Wijst 2021'], 'T_CD8_CM': ['Stephenson 2021', 'COMBAT 2022']}
+specs = {'NK_CD56bright': list(COH), 'HSPC': ['Stephenson 2021', 'COMBAT 2022', 'van der Wijst 2021'],
+         'T_CD8_CTL': list(COH), 'CD16_mono_ofMono': list(COH), 'B_ASC_total': list(COH), 'CD16_mono': list(COH), 'T_CD8_CM': ['Stephenson 2021', 'COMBAT 2022']}
 for f, cl in specs.items():
     q = R[(R.feature == f) & R.cohort.isin(cl)]
     res = combine_effects(np.arctanh(q.rho.values), 1.06 / (q.n_sev.values - 3), method_re='dl')

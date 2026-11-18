@@ -1,4 +1,6 @@
-# Figure 7 ver8 — 공개 COVID-19 코호트 재현, 보충 그림 3 (2026-11-18)
+# Figure 7 ver8 — 공개 COVID-19 코호트 재현, 보충 그림 3 (v8.1, 2026-11-18)
+
+> **v8.1 갱신:** 아래 검산 지적을 반영한 판입니다. Liu 2021을 해당 세포형이 있는 모든 메타분석에 넣었고(NK CD56bright·B ASC total·CD16 mono·T CD8 CTL·NK CD56dim 모두 k = 4), 그림 a의 ESKD 비교값을 같은 지표(B ASC total, CD16 mono % Mono)로 맞췄습니다. 그림 b에는 Stephenson isotype의 Spearman ρ와 count GLM OR을 함께 표시했습니다. ver9에서는 이 그림이 보충 그림 4가 됩니다(`../fig7_ver9_main_supp_20261118/`).
 
 Figure 7 ver8의 주장(앵커 4개, focus population 4개, 제외 대조 2개)을 ESKD와 겹치는 환자가 없는 공개 성인 COVID-19 PBMC 단일세포 코호트 4개에서 다시 확인한 코드입니다. 대상은 Stephenson 2021, COMBAT 2022, van der Wijst 2021, Liu 2021이고, WHO 등급이 있는 급성기 환자 219명(사망 23명)입니다. 결과 그림은 `PBISC_SuppFig_S3_Public_COVID_Replication_20261118`, 원고용 요약은 `docs/Public_Replication_ver8.md`입니다.
 
@@ -6,10 +8,10 @@ Figure 7 ver8의 주장(앵커 4개, focus population 4개, 제외 대조 2개)�
 
 | 파일 | 내용 |
 | --- | --- |
-| `code/run_and_plot_public_replication_v8.py` | 코호트별 표본 표 작성 → 환자별 급성기 평균 % → Spearman ρ(peak WHO), 사망 Mann–Whitney AUC(Hanley–McNeil SE, 하한 0.035), 나이·성별·기관 보정 순위 OLS, Stephenson count GLM → DerSimonian–Laird 메타분석 → HSPC 사망 시간창(첫 샘플 vs > 7일) → 보충 그림 3 a–d. `data/*.csv` 4개를 씁니다. 원래 판(`..._20261117`)에서 그림 제목·범례의 N만 222 → 219로 고쳤습니다 |
+| `code/run_and_plot_public_replication_v8.py` | 코호트별 표본 표 작성 → 환자별 급성기 평균 % → Spearman ρ(peak WHO), 사망 Mann–Whitney AUC(Hanley–McNeil SE, 하한 0.035), 나이·성별·기관 보정 순위 OLS, Stephenson count GLM → DerSimonian–Laird 메타분석(코호트 구성 통일) → 같은 지표의 ESKD 비교값 → HSPC 사망 시간창(첫 샘플 vs > 7일) → 보충 그림 3 a–d. `data/*.csv` 4개를 씁니다 |
 | `code/verify_public_independent.py` | 검산용 독립 재구현. obs parquet에서 환자 표, ρ, AUC, 환자·사망 수, 메타분석(`statsmodels.combine_effects`)을 다시 계산해 파이프라인 출력과 비교합니다 |
 | `PBISC_public_replication_ver8_verification_20261118.ipynb` | 검산 노트북. 원본 README의 수치를 CSV와 대조하고(FAIL은 원본 README 오류), Liu 포함 민감도와 독립 재구현을 실행합니다. 저장소 규칙에 따라 출력은 지웠습니다 |
-| `docs/Public_Replication_ver8.md` | 코호트별·주장별 재현 요약. 아래 오류를 고치고 3절에 검산 메모를 덧붙인 판입니다 |
+| `docs/Public_Replication_ver8.md` | 코호트별·주장별 재현 요약(v8.1). 4절에 v8.1 검산 결과가 있습니다 |
 
 ## 실행
 
@@ -17,7 +19,12 @@ Figure 7 ver8의 주장(앵커 4개, focus population 4개, 제외 대조 2개)�
 2. 스크립트의 `ROOT`, `V8_STYLE_DIR`, `OUT_DIR`을 자기 환경에 맞게 바꿉니다. pandas, pyarrow, scipy, statsmodels, matplotlib이 필요합니다.
 3. 검산 노트북은 `PUB_DATA`(16번 폴더 `data/`), `PBISC_ROOT`(위 입력 폴더들의 상위 폴더), `PUB_INDEP`(독립 재구현 스크립트 경로)를 환경 변수로 받습니다.
 
-## 검산 (2026-11-18)
+## 검산 (2026-11-18, v8.1)
+
+- **v8.1 재실행:** CSV 4개가 저장본과 최대 3.4×10⁻¹⁴ 차이로 같았습니다. 독립 재구현은 코호트별 25행과 메타분석 7개(k = 4 행 포함)에서 일치했습니다. 같은 지표의 ESKD 비교값(B ASC total ρ +0.44, CD16 mono % Mono ρ −0.52)도 따로 다시 계산해 맞았습니다.
+- **v8.1 문서 수정 2건:** Stephenson T CD8 CTL P 0.77 → 0.83, % PBMC 메타 행의 보관 파일 이름(`public_meta_analysis_v8.csv`).
+
+### 첫 판 검산 (v8)
 
 - **재실행:** 원본 obs로 다시 실행한 결과 CSV 4개가 저장본과 최대 3.4×10⁻¹⁴ 차이로 같았습니다.
 - **독립 재구현:** 코호트별 ρ·AUC·P·환자 수·사망 수 21행과 메타분석 6개가 모두 일치했습니다.

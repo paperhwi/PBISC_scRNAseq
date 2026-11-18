@@ -18,7 +18,8 @@ PBISC가 생성한 단일세포 데이터의 검증·비교 분석 코드를 모
 | [`manuscript_metrics_20261112`](analyses/manuscript_metrics_20261112/README.md) | gene-mean 곡선, iLISI, composition/within-type 분해, 희귀세포 통계의 재사용 모듈·테스트·데모 노트북 (문서 정의 기반 재구현) |
 | [`fig7_rare_population_extension_20261116`](analyses/fig7_rare_population_extension_20261116/README.md) | Figure 7 ver5: ESKD COVID-19에서 bulk-only 환자 29명을 PBISC로 더했을 때 B ASC dividing·NK CD56bright·HSPC의 중증도·사망 연관과 검정력, 보충 그림 a–e |
 | [`fig7_ver8_main_supp_20261117`](analyses/fig7_ver8_main_supp_20261117/README.md) | Figure 7 ver8과 보충 그림 1·2: CLL 제외 후 43개 세포형 5단계 선별(43 → 16 → 15 → 12 → 8), 신뢰도 스코어카드, HSPC 사망 강건성, 27명 모달리티 스케일 비교, 검산 노트북과 독립 재구현 |
-| [`fig7_ver8_public_replication_20261118`](analyses/fig7_ver8_public_replication_20261118/README.md) | Figure 7 ver8 주장의 공개 COVID-19 코호트 재현(Stephenson, COMBAT, van der Wijst, Liu; 219명): 코호트별·메타분석 ρ와 사망 AUC, Stephenson B ASC isotype GLM, HSPC 사망 시간창, 보충 그림 3, 검산 노트북과 독립 재구현 |
+| [`fig7_ver8_public_replication_20261118`](analyses/fig7_ver8_public_replication_20261118/README.md) | Figure 7 ver8 주장의 공개 COVID-19 코호트 재현 v8.1(Stephenson, COMBAT, van der Wijst, Liu; 219명, 코호트 구성 통일): 코호트별·메타분석 ρ와 사망 AUC, Stephenson B ASC isotype GLM, HSPC 사망 시간창, 보충 그림 3, 검산 노트북과 독립 재구현 |
+| [`fig7_ver9_main_supp_20261118`](analyses/fig7_ver9_main_supp_20261118/README.md) | Figure 7 ver9 재구성(본 그림 a–q, 보충 그림 1–4): 코호트 구성·사망 확장 패널을 본 그림으로 옮기고 22개 세포형 스크린과 n80을 본문으로 이동, 공개 코호트 재현은 보충 그림 4. 그림 스크립트, 검산 노트북 |
 
 ## 실행 전 준비
 
