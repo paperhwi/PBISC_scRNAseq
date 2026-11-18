@@ -1,0 +1,6 @@
+# Scientific release hashes refer to exact bytes, including frozen source CSVs.
+# Keep Git line-ending conversion from changing those bytes on another platform.
+* -text
+* whitespace=trailing-space,space-before-tab,cr-at-eol
+# Matplotlib's generated SVG path syntax includes harmless trailing spaces.
+*.svg -whitespace

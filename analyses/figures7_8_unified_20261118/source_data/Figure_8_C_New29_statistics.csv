@@ -1,0 +1,2 @@
+cohort,n,rho,P_analytic,P_source_permutation_10M,B_source_permutation,peak_severity_mapping,display_jitter
+New,29,0.8028626167269969,1.6015917312846747e-07,1.4e-06,9999999,0=Mild;1=Moderate;2=Severe;3=Critical,deterministic x-only beeswarm; no jitter in statistical tests

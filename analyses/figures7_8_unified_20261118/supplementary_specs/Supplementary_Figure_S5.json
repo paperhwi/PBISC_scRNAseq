@@ -1,0 +1,31 @@
+{
+  "claim": "Historical module/marker FDR is narrower than available-gene discovery.",
+  "visual_form": "two exact q tables with sparse threshold tint",
+  "metric": "BH adjusted P values",
+  "unit": "q",
+  "dimensions_mm": [
+    178,
+    223
+  ],
+  "multiplicity": [
+    "16 unique modules percohort/endpoint",
+    "historical20 markers percohort/endpoint",
+    "all5762 sharedHSPCgenes percohort/endpoint"
+  ],
+  "alias": "Cycling and Cycle4 have exactly identical available gene weights, one representative retained",
+  "cohort_order": [
+    "Real",
+    "New",
+    "Combined"
+  ],
+  "uncertainty": "No new effect uncertainty implied by q; complete effects andexistingCIs retained in package tables",
+  "source_data": [
+    "S5_all_HSPC_module_associations.csv",
+    "S5_historical20_all_cohorts.csv"
+  ],
+  "reference_grammar": [
+    "Astra sparse table",
+    "booktabs",
+    "family-specific exact values"
+  ]
+}

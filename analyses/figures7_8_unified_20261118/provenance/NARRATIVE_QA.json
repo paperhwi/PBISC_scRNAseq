@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "purpose": "Narrative and panel proposal generated from canonical25 CSVs; no association refit or figure rendering",
+  "source_files": [
+    {
+      "path": "PRIMARY_CANDIDATES.csv",
+      "sha256": "a54859f3c73268d8d0950ae84b589b72a74949aa2313c0102eeb0d1827a70fc2"
+    },
+    {
+      "path": "composition/candidate_evidence_all_rescues.csv",
+      "sha256": "59a7a4508ca422321774aca088e0b75697740a7cd254a41f864a5bbbce1249ad"
+    },
+    {
+      "path": "composition/rarity_all43.csv",
+      "sha256": "14d4274b4bd6af644ad2c4221f37b7543cfa7ade681bede246b9d7d8389bfb98"
+    },
+    {
+      "path": "transcriptome/fixed_primary_candidates_with_rarity_and_composition.csv",
+      "sha256": "c88d82b293b9a7e45e3ebd9cb882698dd7853d61be25ff8887eef04d449bb62a"
+    },
+    {
+      "path": "transcriptome_verification/KIAA0391_source_permutation_10M_Bonferroni_sensitivity.csv",
+      "sha256": "373dd0af35a2670bf7dda91ea5b0237fa0cef2824f417fb700f2354b4a429435"
+    },
+    {
+      "path": "verification/Bulk_KIAA0391_context.csv",
+      "sha256": "de490d0bdb218e5296b927418bc88f7016147cac03ec63ae7bc251974ee169e6"
+    },
+    {
+      "path": "modules/HSPC_all_module_associations.csv",
+      "sha256": "a617f2a512786102ccdff118dcbde7f2886ed486c877ef3565f50ec868d8ae49"
+    },
+    {
+      "path": "composition/all43_source_heterogeneity.csv",
+      "sha256": "ccee0340e44c570744bde02438c685b6b98172c8531ae64e0a6faf876c63924e"
+    },
+    {
+      "path": "transcriptome/fixed_primary_candidate_sensitivity_comparison.csv",
+      "sha256": "63609cc55e0dc8b0aa7febd484cedbdbac13057351f25f3ef5c597c30520ae0a"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "Positive_Narrative_KO.md",
+      "sha256": "0ecc358bc2e74493c2bbbef541ad2470d6c65205240081a24b7e5c3baacf6a0a"
+    },
+    {
+      "path": "Results_Draft_EN.md",
+      "sha256": "a67c7bbc1d2be25a45c69534dd7d7665a51e1193f0e0a334db404d029c2ab04a"
+    },
+    {
+      "path": "Claim_Evidence.csv",
+      "sha256": "343e698fe84b0b255c27653af71b3680002764fb86b5e8ec9ac7f5ac7f765142"
+    }
+  ],
+  "guards": [
+    "Strict Real-missed and FDR-only rescues kept distinct, with overlap acknowledged",
+    "Local, endpoint-global, and global-joint BH scopes disclosed",
+    "10M Bonferroni family kept at full HSPC5762 x2, not selected candidates",
+    "Shared KIAA0391 bridge, source effects, sparse Tgamma-delta death count disclosed",
+    "No inference of effect difference from significance difference",
+    "No claim of independent validation in discovery New29 or severity-independent mortality",
+    "Numerical strings populated directly from canonical tables; local links resolve"
+  ]
+}

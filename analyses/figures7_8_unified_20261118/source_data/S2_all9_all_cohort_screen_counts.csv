@@ -1,0 +1,55 @@
+cohort,celltype,endpoint,genes,q_local05,q_global05,q_global_joint05
+Real,B_ASC_IgA,severity,5762,0,0,0
+Real,B_ASC_IgA,death,5762,0,0,0
+New,B_ASC_IgA,severity,5762,7,1,0
+New,B_ASC_IgA,death,5762,0,0,0
+Combined,B_ASC_IgA,severity,5762,0,0,0
+Combined,B_ASC_IgA,death,5762,0,0,0
+Real,B_ASC_IgG,severity,5762,0,0,0
+Real,B_ASC_IgG,death,5762,0,0,0
+New,B_ASC_IgG,severity,5762,0,0,0
+New,B_ASC_IgG,death,5762,0,0,0
+Combined,B_ASC_IgG,severity,5762,0,0,0
+Combined,B_ASC_IgG,death,5762,0,0,0
+Real,B_ASC_dividing,severity,5762,0,0,0
+Real,B_ASC_dividing,death,5762,0,0,0
+New,B_ASC_dividing,severity,5762,0,0,0
+New,B_ASC_dividing,death,5762,0,0,0
+Combined,B_ASC_dividing,severity,5762,0,0,0
+Combined,B_ASC_dividing,death,5762,0,0,0
+Real,CD14mono_IFN,severity,5762,11,0,0
+Real,CD14mono_IFN,death,5762,0,0,0
+New,CD14mono_IFN,severity,5762,1,0,0
+New,CD14mono_IFN,death,5762,0,0,0
+Combined,CD14mono_IFN,severity,5762,18,2,0
+Combined,CD14mono_IFN,death,5762,0,0,0
+Real,HSPC,severity,5762,2,0,0
+Real,HSPC,death,5762,0,0,0
+New,HSPC,severity,5762,1,1,1
+New,HSPC,death,5762,0,0,0
+Combined,HSPC,severity,5762,1,1,0
+Combined,HSPC,death,5762,0,0,0
+Real,MAIT,severity,5762,0,0,0
+Real,MAIT,death,5762,0,0,0
+New,MAIT,severity,5762,1,0,0
+New,MAIT,death,5762,0,0,0
+Combined,MAIT,severity,5762,0,0,0
+Combined,MAIT,death,5762,0,0,0
+Real,NK CD56 bright,severity,5762,0,0,0
+Real,NK CD56 bright,death,5762,0,0,0
+New,NK CD56 bright,severity,5762,0,0,0
+New,NK CD56 bright,death,5762,0,0,0
+Combined,NK CD56 bright,severity,5762,0,0,0
+Combined,NK CD56 bright,death,5762,0,0,0
+Real,T g/d,severity,5762,0,0,0
+Real,T g/d,death,5762,0,0,0
+New,T g/d,severity,5762,0,0,0
+New,T g/d,death,5762,0,0,0
+Combined,T g/d,severity,5762,1,1,0
+Combined,T g/d,death,5762,1,0,0
+Real,pDC,severity,5762,2,0,0
+Real,pDC,death,5762,1,0,0
+New,pDC,severity,5762,0,0,0
+New,pDC,death,5762,0,0,0
+Combined,pDC,severity,5762,0,0,0
+Combined,pDC,death,5762,0,0,0

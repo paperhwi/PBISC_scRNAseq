@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "isolated_run": "figures7_8_20261118_172934",
+  "all_seven_figures_regenerated": true,
+  "bundled_numerical_checks": "PASS",
+  "final_figures": "Adopted from the successful isolated public-environment rebuild",
+  "scope": "Fresh figure/source_data directories, different cwd, bundled data only, explicit UTF-8, no raw-data or generator rerun",
+  "figures": {
+    "Figure_7": {
+      "png_sha256": "1e2091b0e4dc0e8f5b5fa22e84445363ded73581a9a31e51d572c318418a1e43"
+    },
+    "Figure_8": {
+      "png_sha256": "9c2f68bfa1f3d62f6f14eddd58a8c9ee464e28d701eb423ad451dbe2d130c7e9"
+    },
+    "Supplementary_Figure_S1": {
+      "png_sha256": "a3d39dd92906c857beffc698f5490d2402602dfd860fe5223a8c427eb2252f11"
+    },
+    "Supplementary_Figure_S2": {
+      "png_sha256": "21d35b36bfb8e8952fbed92f93f887f4db380886c341b6922932bf141474dc2d"
+    },
+    "Supplementary_Figure_S3": {
+      "png_sha256": "bf677eb5d77f7572ecac4a0dcfa661f50a6a4cfa032a199174aa12e1cd1bf5f4"
+    },
+    "Supplementary_Figure_S4": {
+      "png_sha256": "b6c81ec8b920c295cdeb8bf5d121a7e428a9d7452b43b25bf6f96b9ab0673585"
+    },
+    "Supplementary_Figure_S5": {
+      "png_sha256": "bd54372e8b794d5247ca2ff330c873695a24e5418ffbeb0d11c2cff3503e8769"
+    }
+  }
+}

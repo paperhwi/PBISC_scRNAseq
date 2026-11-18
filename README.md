@@ -2,10 +2,13 @@
 
 PBISC가 생성한 단일세포 데이터의 검증·비교 분석 코드를 모은 저장소입니다. 로컬에 남아 있던 분석 스크립트와 노트북을 분석 시기와 주제별로 `analyses/` 아래에 정리했습니다. 주된 대상 코호트는 Ye 2026 sepsis와 Imperial ESKD/COVID입니다.
 
+현재 통일 재분석에 기반한 **Figure 7·8 및 보충 Figure S1–S5**는 [figures7_8_unified_20261118](analyses/figures7_8_unified_20261118/README.md)에 있습니다. 희귀 HSPC–중증도와 HSPC KIAA0391–중증도 후보, ASC·HSPC의 FDR rescue를 구분하며, PDF/SVG/PNG·원 계산표·환자 가명 plotting 값·재현 코드·독립 검산을 포함합니다. 이전 Figure 7 버전은 당시 방법과 해석을 확인할 수 있는 보관본으로 유지합니다.
+
 ## 분석 폴더
 
 | 폴더 | 내용 |
 | --- | --- |
+| [`figures7_8_unified_20261118`](analyses/figures7_8_unified_20261118/README.md) | 현재 Figure 7·8 + 보충 S1–S5: 고정 BH43, 공유 5,762개 유전자 전수 screen, HSPC KIAA0391 고정 10M 순열, 효과·CI·보정 범위와 fidelity, 전체 결과표 및 portable 그림 재현 |
 | [`bulkonly_lora5_20261006`](analyses/bulkonly_lora5_20261006/README.md) | LoRA-5 K=1,000 생성 데이터, 원본 scRNA-seq 재처리, 통합·조성·희귀 세포·질병 DEG·환자별 검증 및 후속 분석 |
 | [`bulkonly_lora5_k4000_20261006`](analyses/bulkonly_lora5_k4000_20261006/README.md) | K=4,000 Harmony 분석과 K=1,000 비교 |
 | [`bulkonly_lora5_20261007`](analyses/bulkonly_lora5_20261007/README.md) | sepsis K=1,000/K=4,000 클러스터 비교 |
@@ -23,7 +26,7 @@ PBISC가 생성한 단일세포 데이터의 검증·비교 분석 코드를 모
 
 ## 실행 전 준비
 
-1. 분석하려는 원본·PBISC 생성 `.h5ad`와 관련 메타데이터를 별도로 준비합니다. 원본 데이터는 저장소에 포함하지 않았습니다. New LoRA의 CellDEEP 분석은 결과표와 그림을 해당 폴더에 포함한 예외입니다.
+1. 원본 분석을 실행하려면 원본·PBISC 생성 `.h5ad`와 관련 메타데이터를 별도로 준비합니다. 원본 데이터는 저장소에 포함하지 않았습니다. 현재 Figure 7·8 패키지의 그림 재현과 표 검산은 동봉된 자료만 사용하며, 해당 폴더 README의 실행법을 따릅니다.
 2. [requirements.txt](requirements.txt)의 공통 패키지를 설치하고, 사용하는 분석의 추가 패키지를 해당 폴더 README에서 확인합니다.
 3. 스크립트에 남아 있는 원래 환경의 절대 경로와 입력 파일 위치를 자신의 환경에 맞게 수정합니다. 일부 스크립트는 원래 작업 디렉터리의 중간 산출물 또는 다른 코드 폴더를 참조합니다. 폴더별 README와 코드의 입력 경로를 먼저 확인하세요.
 4. 단계형 분석은 번호가 붙은 스크립트를 순서대로 실행합니다. 노트북은 원래 저장된 출력과 실행 번호를 제거해 코드와 설명 셀만 보관했습니다(`manuscript_metrics_20261112`의 합성 데이터 데모는 예외로 결과를 포함).
@@ -32,6 +35,6 @@ PBISC가 생성한 단일세포 데이터의 검증·비교 분석 코드를 모
 
 ## 포함 범위
 
-- Python, R, shell 스크립트와 Jupyter 노트북 356개를 원래 분석 폴더 구조에 가깝게 보존했습니다.
-- 노트북 출력·첨부 이미지, H5AD/NPZ/Parquet, 발표자료, 복사된 Python 런타임은 제외했습니다. 생성 CSV와 그림은 New LoRA CellDEEP 분석 결과에 한해 포함했습니다.
+- Python, R, shell 스크립트와 Jupyter 노트북을 분석 시기와 주제별로 보존하며 후속 분석 패키지를 추가했습니다.
+- 노트북 출력·첨부 이미지, H5AD/NPZ/Parquet, 발표자료, 복사된 Python 런타임은 제외했습니다. New LoRA CellDEEP 결과와 현재 Figure 7·8 통일 재분석 패키지에는 검토한 결과표·그림을 포함합니다.
 

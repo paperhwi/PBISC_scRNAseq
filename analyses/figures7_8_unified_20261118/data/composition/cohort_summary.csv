@@ -1,0 +1,4 @@
+arm,patients,deaths,survivors,draws,WHO0,WHO1,WHO2,WHO3,severity_q43_05,death_q43_05,death_q43_10,severity_q86_05,death_q86_05,nonestimable
+Real,37,7,30,138,13,9,10,5,10,1,1,9,2,0
+New,29,6,23,79,10,5,7,7,6,7,7,6,6,4
+Combined,66,13,53,217,23,14,17,12,12,2,9,10,5,0

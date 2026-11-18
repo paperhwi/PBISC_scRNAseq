@@ -1,0 +1,19 @@
+configuration,celltype,endpoint,genes,Real_n,New_n,Combined_n,eligible,Combined_q_gene05,Combined_q_global05,strict_Real_missed_primary,FDR_rescue_primary,strict_Real_missed_global,FDR_rescue_global,strict_with_New_nominal_support,strict_with_New_geneFDR_support
+primary,B_ASC_IgA,severity,5762,35,29,64,True,0,0,0,0,0,0,0,0
+primary,B_ASC_IgG,severity,5762,32,29,61,True,0,0,0,0,0,0,0,0
+primary,B_ASC_dividing,severity,5762,30,29,59,True,0,0,0,0,0,0,0,0
+primary,CD14mono_IFN,severity,5762,36,28,64,True,18,2,0,13,0,2,0,0
+primary,HSPC,severity,5762,33,29,62,True,1,1,1,1,1,1,1,1
+primary,MAIT,severity,5762,31,29,60,True,0,0,0,0,0,0,0,0
+primary,NK CD56 bright,severity,5762,37,26,63,True,0,0,0,0,0,0,0,0
+primary,T g/d,severity,5762,34,24,58,True,1,1,0,1,0,1,0,0
+primary,pDC,severity,5762,36,29,65,True,0,0,0,0,0,0,0,0
+primary,B_ASC_IgA,death,5762,35,29,64,True,0,0,0,0,0,0,0,0
+primary,B_ASC_IgG,death,5762,32,29,61,True,0,0,0,0,0,0,0,0
+primary,B_ASC_dividing,death,5762,30,29,59,True,0,0,0,0,0,0,0,0
+primary,CD14mono_IFN,death,5762,36,28,64,True,0,0,0,0,0,0,0,0
+primary,HSPC,death,5762,33,29,62,True,0,0,0,0,0,0,0,0
+primary,MAIT,death,5762,31,29,60,True,0,0,0,0,0,0,0,0
+primary,NK CD56 bright,death,5762,37,26,63,True,0,0,0,0,0,0,0,0
+primary,T g/d,death,5762,34,24,58,True,1,0,0,1,0,0,0,0
+primary,pDC,death,5762,36,29,65,True,0,0,0,0,0,0,0,0

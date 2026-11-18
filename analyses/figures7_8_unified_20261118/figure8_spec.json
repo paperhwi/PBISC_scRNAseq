@@ -1,0 +1,98 @@
+{
+  "claim": "PBISC nominates KIAA0391 as a severity-associated transcriptomic candidate in inferred HSPCs; shared-patient fidelity remains unresolved.",
+  "audience": "expert",
+  "visual_form": "small_multiples",
+  "metric": {
+    "name": "patient-level KIAA0391 severity association",
+    "unit": "Spearman rho; patient meanlog1p(CP10K); explicitly scoped correctedP/q",
+    "direction": "neutral",
+    "aggregation": "cell-weighted meanlog1p(CP10K) per patient over shared5762 genes; source-specific rankINT for pooled correlations",
+    "denominator": "Real33, genuineNew29, Combined62; shared24 bridge",
+    "precision_decimals": 3,
+    "scale": "linear"
+  },
+  "data_source": {
+    "path_or_identifier": "data\\transcriptome\\all14_primary_coverage_and_composition_rarity.csv; data\\transcriptome\\shared_unique_gene_universe.csv; data\\transcriptome\\fixed_primary_candidates_with_rarity_and_composition.csv; data\\transcriptome\\fixed_primary_candidate_CIs_50000.csv; data\\transcriptome_verification\\KIAA0391_source_permutation_10M.csv; data\\transcriptome_verification\\KIAA0391_source_permutation_10M_Bonferroni_sensitivity.csv; data\\plotting\\RNA_candidate_patients.csv; data\\plotting\\KIAA0391_shared_bridge.csv",
+    "immutable_fields": [
+      "patient membership",
+      "rho",
+      "P",
+      "q",
+      "CI limits",
+      "B",
+      "gene universe",
+      "correction family"
+    ],
+    "checksum": "c88d82b293b9a7e45e3ebd9cb882698dd7853d61be25ff8887eef04d449bb62a",
+    "notes": "All values are from staged canonical CSVs. Full9type permutation BH was not recomputed. The10M MonteCarlo tail upper bound is not a clinical effect CI."
+  },
+  "focal_series": "Combined",
+  "required_baselines": [
+    "Real",
+    "New"
+  ],
+  "series_order": [
+    "Real",
+    "New",
+    "Combined"
+  ],
+  "category_order": [
+    "A: Complete shared-label/shared-gene universe and actual HSPC coverage",
+    "B: Real/New/Combined KIAA0391 severity correlations; fixed-score50k percentile95% CI",
+    "C: All29 genuine new patients; raw meanlogCP10K; deterministic x-only beeswarm is visual only",
+    "D: Analytic BH and10M full-HSPC Bonferroni are distinct correction scopes",
+    "E: All24 shared patients; negative observed rho does not support strong fidelity"
+  ],
+  "ordering_rationale": "baseline_to_focal",
+  "uncertainty": {
+    "available": true,
+    "type": "bootstrap_interval",
+    "level": 0.95,
+    "sample_or_seed_count": 50000,
+    "note": "B50,000 fixed-score patient bootstrap; rho source-stratified. Source rankINT maps, generator, annotation and selection fixed.10M permutation B9,999,999 with+1P; Clopper-Pearson MC interval applies only to tail probability."
+  },
+  "target": {
+    "medium": "paper",
+    "width": 178,
+    "height": 206,
+    "unit": "mm",
+    "minimum_text_size_pt": 8,
+    "background": "white"
+  },
+  "annotations": [
+    {
+      "purpose": "threshold",
+      "text": "P/q threshold0.05; correction families are printed explicitly",
+      "target": "D"
+    },
+    {
+      "purpose": "counterexample",
+      "text": "Shared-patient fidelity remains unresolved",
+      "target": "E"
+    }
+  ],
+  "selected_reference_ids": [
+    "OAI-VIS-005",
+    "OAI-VIS-008",
+    "OAI-VIS-013",
+    "OAI-VIS-014"
+  ],
+  "output_formats": [
+    "pdf",
+    "svg",
+    "png"
+  ],
+  "caption_requirements": [
+    "sample",
+    "estimator",
+    "uncertainty",
+    "exclusions",
+    "metric_direction"
+  ],
+  "exceptions": [
+    {
+      "rule": "Prefer1-4 panels for a main figure",
+      "reason": "Five panels were explicitly approved to show discovery scope, effect uncertainty, patient distribution, correction family and negative fidelity evidence together."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Publication release: only curated results and figure assets override root ignores.
+!data/**/*.csv
+!data/**/*.csv.gz
+!source_data/**/*.csv
+!provenance/*.csv
+!supplementary_specs/*.csv
+!figures/*.pdf
+!figures/*.svg
+!figures/*.png
+qa_preview/
+qa/

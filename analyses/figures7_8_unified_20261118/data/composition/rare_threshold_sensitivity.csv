@@ -1,0 +1,9 @@
+rare_threshold_pct,endpoint,rare_count,strict_Real_missed,FDR_rescue,retained,lost,rare_features,strict_features,rescue_features
+0.1,severity,7,0,0,0,1,ASDC;B_ASC_other;DC1;ILC;T CD4 Helper IFN stim;T CD4 cycling;T reg IFN stim,,
+0.1,death,7,0,0,0,0,ASDC;B_ASC_other;DC1;ILC;T CD4 Helper IFN stim;T CD4 cycling;T reg IFN stim,,
+0.5,severity,16,1,2,1,3,ASDC;B_ASC_IgG;B_ASC_IgM;B_ASC_other;B_CD11c;DC1;DC3;DC3_IFN;HSPC;ILC;Int.mono;MAIT;T CD4 Helper IFN stim;T CD4 cycling;T CD8 Naive IFN stim;T reg IFN stim,HSPC,B_ASC_IgG;HSPC
+0.5,death,16,0,1,0,0,ASDC;B_ASC_IgG;B_ASC_IgM;B_ASC_other;B_CD11c;DC1;DC3;DC3_IFN;HSPC;ILC;Int.mono;MAIT;T CD4 Helper IFN stim;T CD4 cycling;T CD8 Naive IFN stim;T reg IFN stim,,HSPC
+1.0,severity,23,1,3,3,3,ASDC;B_ASC_IgA;B_ASC_IgG;B_ASC_IgM;B_ASC_dividing;B_ASC_other;B_CD11c;B_non-switched_mem;CD14mono_dex;CD16mono_C1;DC1;DC3;DC3_IFN;HSPC;ILC;Int.mono;MAIT;T CD4 Helper IFN stim;T CD4 cycling;T CD8 Naive IFN stim;T g/d;T reg IFN stim;pDC,HSPC,B_ASC_IgA;B_ASC_IgG;HSPC
+1.0,death,23,0,1,1,0,ASDC;B_ASC_IgA;B_ASC_IgG;B_ASC_IgM;B_ASC_dividing;B_ASC_other;B_CD11c;B_non-switched_mem;CD14mono_dex;CD16mono_C1;DC1;DC3;DC3_IFN;HSPC;ILC;Int.mono;MAIT;T CD4 Helper IFN stim;T CD4 cycling;T CD8 Naive IFN stim;T g/d;T reg IFN stim;pDC,,HSPC
+2.0,severity,29,2,4,5,4,ASDC;B_ASC_IgA;B_ASC_IgG;B_ASC_IgM;B_ASC_dividing;B_ASC_other;B_CD11c;B_non-switched_mem;CD14mono_dex;CD16mono;CD16mono_C1;CD16mono_IFN;DC1;DC2;DC3;DC3_IFN;HSPC;ILC;Int.mono;MAIT;NK CD56 bright;NKT;T CD4 Helper IFN stim;T CD4 cycling;T CD8 Naive IFN stim;T g/d;T reg;T reg IFN stim;pDC,HSPC;NKT,B_ASC_IgA;B_ASC_IgG;HSPC;NKT
+2.0,death,29,0,1,1,0,ASDC;B_ASC_IgA;B_ASC_IgG;B_ASC_IgM;B_ASC_dividing;B_ASC_other;B_CD11c;B_non-switched_mem;CD14mono_dex;CD16mono;CD16mono_C1;CD16mono_IFN;DC1;DC2;DC3;DC3_IFN;HSPC;ILC;Int.mono;MAIT;NK CD56 bright;NKT;T CD4 Helper IFN stim;T CD4 cycling;T CD8 Naive IFN stim;T g/d;T reg;T reg IFN stim;pDC,,HSPC

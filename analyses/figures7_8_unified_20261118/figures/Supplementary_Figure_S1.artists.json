@@ -1,0 +1,315 @@
+{
+  "width_mm": 178.0,
+  "height_mm": 229.99999999999997,
+  "texts": [
+    {
+      "text": "Spearman ρ",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "−1.0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "−0.5",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.5",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1.0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "pDC †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "T reg IFN †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "T reg",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "T γδ †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "CD8 Naive IFN †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "CD8 Naive",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "CD8 CTL IFN",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "CD8 CTL",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "CD8 CM",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "CD4 cycling †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "CD4 Naive IFN",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "CD4 Naive",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "CD4 Helper IFN †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "CD4 Helper",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "CD4 CTL",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "NKT",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "NK IFN",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "NK CD56 bright",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "NK",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "MAIT †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Int. mono †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "ILC †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "HSPC †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "DC3 IFN †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "DC3 †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "DC2",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "DC1 †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "CD16 mono IFN",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "CD16 mono C1 †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "CD16 mono",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "CD14 mono dex †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "CD14 mono IFN",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "CD14 mono",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "B switched mem",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "B non-switched mem †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "B naive",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "B CD11c †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "ASC other †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "ASC dividing †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "ASC IgM †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "ASC IgG †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "ASC IgA †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "ASDC †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "a  Peak WHO severity",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "AUC · higher in deaths →",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.25",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.50",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.75",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "b  Recorded mortality",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "c  Threshold transitions at endpoint-wise BH43 q < .05",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "Severity",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "Real 10 → Combined 12     retained 6     gained 6     lost 4",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "Mortality",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "Real 1 → Combined 2     retained 1     gained 1     lost 0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "Complete composition screen retains gains, losses and null results",
+      "fontsize_pt": 10.0
+    },
+    {
+      "text": "Filled marks: q43 < .05; open: q43 ≥ .05; vertical tick: not estimable.",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "† Rare: Real mean and median <1% of leukocytes. All 43 remain in each correction family.",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Intervals: 50,000 fixed-score patient bootstraps; source-stratified ρ, source × outcome AUC.",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Real",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "New",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Combined",
+      "fontsize_pt": 8.0
+    }
+  ],
+  "metadata": {
+    "claim": "Full composition results include both gains and losses after cohort expansion.",
+    "visual_form": "two aligned all43 dot-and-interval panels plus exact transition counts",
+    "metric": [
+      "Spearman rho",
+      "AUC"
+    ],
+    "unit": "patient-level source rankINT associations",
+    "direction": "AUC high means higher in deaths; never flipped",
+    "cohort_order": [
+      "Real",
+      "New",
+      "Combined"
+    ],
+    "dimensions_mm": [
+      178,
+      230
+    ],
+    "uncertainty": "50000 fixed-score patient percentile bootstrap; rho source-stratified/AUC source-by-outcome",
+    "multiplicity": "BH43 per endpoint per cohort; q<.05",
+    "rarity": "Real patient mean and median below1% of leukocytes, applied after full43 correction",
+    "nonestimable": "vertical tick at reference, no fabricated CI",
+    "source_data": [
+      "S1_all43_associations.csv",
+      "S1_all43_confidence_intervals.csv",
+      "S1_all43_gain_loss_and_rarity.csv"
+    ],
+    "reference_grammar": [
+      "Astra uncertainty comparator",
+      "shared-axis forest plots",
+      "style_contract dot-and-interval"
+    ]
+  }
+}

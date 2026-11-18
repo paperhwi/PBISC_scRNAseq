@@ -1,0 +1,6 @@
+panel,form,source,message
+A,quantitative diagram,Figure_8_A_search_space.csv,Complete shared-label/shared-gene universe and actual HSPC coverage
+B,dot and interval,Figure_8_B_KIAA0391_effects_and_CI.csv,Real/New/Combined KIAA0391 severity correlations; fixed-score50k percentile95% CI
+C,discrete-x patient scatter,Figure_8_C_New29_patient_points.csv,All29 genuine new patients; raw meanlogCP10K; deterministic x-only beeswarm is visual only
+D,grouped exact-value table,Figure_8_D_correction_scopes.csv,Analytic BH and10M full-HSPC Bonferroni are distinct correction scopes
+E,paired-source patient scatter,Figure_8_E_shared_patient_points.csv,All24 shared patients; negative observed rho does not support strong fidelity

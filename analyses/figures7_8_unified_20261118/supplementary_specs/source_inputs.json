@@ -1,0 +1,16 @@
+{
+  "composition/all43_associations.csv": "4c3dd67a6b26b4f9399651e48aecfac3a64022a13d4909158c47465648a7f5d1",
+  "composition/all43_fixed_score_bootstrap_CI.csv": "3bdce58f58e19e00490bddef23b5531f707e7d420c26668c0465cb0e8369a8d7",
+  "composition/all43_gain_loss_and_support.csv": "5dd14b0702e4a1ca9a07090c8cac48d46ea1127472d705fa655fa71c4b35e83b",
+  "composition/rarity_all43.csv": "14d4274b4bd6af644ad2c4221f37b7543cfa7ade681bede246b9d7d8389bfb98",
+  "transcriptome/all14_primary_coverage_and_composition_rarity.csv": "cf4326c075f0d0a4d47936c469d00fcae3ffb8b904ef2c0a53b426b29bcb0202",
+  "transcriptome/screen_counts_all_configurations.csv": "1e408aeee91436e3605ab3802441e96a81714c1d95fa3153fe3fd6d5b6cdcc64",
+  "transcriptome/primary_all_gene_associations.csv.gz": "81a309459d01099a2bc4434f8e643845672ee59c62b71c3726d9242ffceda0d9",
+  "transcriptome/fixed_primary_candidates_with_rarity_and_composition.csv": "c88d82b293b9a7e45e3ebd9cb882698dd7853d61be25ff8887eef04d449bb62a",
+  "transcriptome/fixed_primary_candidate_CIs_50000.csv": "6f2bee4d4bdc1e6190128f1fdbd3b137bb8afb1bab3390c40632f7905ef95fb8",
+  "plotting/bulk_KIAA0391_patients.csv": "0b91fec193dd100e05c201b366e6f09c5e138957d50f7cd8f18243849e043d68",
+  "plotting/KIAA0391_shared_bridge.csv": "8d317dcdd95571f773ae74ba9291346ca59401586c4f8143895a1ba22bda4e35",
+  "verification/Bulk_KIAA0391_context.csv": "de490d0bdb218e5296b927418bc88f7016147cac03ec63ae7bc251974ee169e6",
+  "modules/HSPC_all_module_associations.csv": "a617f2a512786102ccdff118dcbde7f2886ed486c877ef3565f50ec868d8ae49",
+  "transcriptome/historical_HSPC20_both_endpoints.csv": "f4062a271eb347b46f88b4ba9d448423ad2331c7ad6b4d8b169082505b4989d4"
+}

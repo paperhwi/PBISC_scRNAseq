@@ -1,0 +1,319 @@
+{
+  "width_mm": 178.0,
+  "height_mm": 209.99999999999997,
+  "texts": [
+    {
+      "text": "A",
+      "fontsize_pt": 10.0
+    },
+    {
+      "text": "Real",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "37",
+      "fontsize_pt": 20.0
+    },
+    {
+      "text": "patients",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "7 deaths",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "New bulk-only",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "29",
+      "fontsize_pt": 20.0
+    },
+    {
+      "text": "patients",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "6 deaths",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "Combined",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "66",
+      "fontsize_pt": 20.0
+    },
+    {
+      "text": "patients",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "13 deaths",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "+",
+      "fontsize_pt": 16.0
+    },
+    {
+      "text": "=",
+      "fontsize_pt": 16.0
+    },
+    {
+      "text": "0.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.25",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.50",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.75",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Actual bulk-only patients extend the cohort",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "B",
+      "fontsize_pt": 10.0
+    },
+    {
+      "text": "Raw patient means; tests use source INT",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Peak WHO severity",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "Mild",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Moderate",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Severe",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Critical",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "HSPCs (% of leukocytes)",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "2",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "3",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "HSPC abundance across severity",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "Real",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "New",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "C",
+      "fontsize_pt": 10.0
+    },
+    {
+      "text": "Real P=0.574; combined q43=0.0168\nSource-permutation q43=0.0182",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Spearman ρ (95% CI)",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "−0.5",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.5",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1.0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Real",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "New",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Combined",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "HSPC severity signal emerges",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "D",
+      "fontsize_pt": 10.0
+    },
+    {
+      "text": "Combined q43=0.0136",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "AUC for death (95% CI)",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0.0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.5",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1.0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Real",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "New",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Combined",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Consistent HSPC death association",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "E",
+      "fontsize_pt": 10.0
+    },
+    {
+      "text": "IgG ASC · combined q43=0.0071",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "IgA ASC · combined q43=0.0078",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "Spearman ρ (95% CI)",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "−0.5",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.5",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1.0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Real",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "New",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Combined",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Real",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "New",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Combined",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "ASC severity evidence strengthens",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "95% fixed-score bootstrap CIs (50,000 draws); q43: BH across 43 populations per endpoint",
+      "fontsize_pt": 8.0
+    }
+  ],
+  "metadata": {
+    "spec": "figure7_spec.json",
+    "input_sha256": {
+      "plotting/composition_patients.csv": "57be9daf95d35ca11c7fe78a1318202bd6752db98bc5b3c51575a579a0093f45",
+      "plotting/composition_scores.csv": "d5dad3026ffe12bf62874fc821412a93b946c70785e042004d92dce888ea05a7",
+      "composition/all43_associations.csv": "4c3dd67a6b26b4f9399651e48aecfac3a64022a13d4909158c47465648a7f5d1",
+      "composition/all43_fixed_score_bootstrap_CI.csv": "3bdce58f58e19e00490bddef23b5531f707e7d420c26668c0465cb0e8369a8d7",
+      "composition/all43_source_stratified_permutation.csv": "b18c71ba567a6e59a6f406b1287399c1b54d8f89366d198868a5f99c1b685ddb",
+      "composition/cohort_summary.csv": "5c374035785694c5990e5194aa7df54859864e73b14dd2133ca00f18c7eb6bd1"
+    },
+    "no_statistical_refitting": true,
+    "point_n": 66,
+    "CI_B": 50000,
+    "raw_scale": "linear leukocyte percentage; jitter only affects x display",
+    "text_outside_canvas": [],
+    "notes": [
+      "Combined patients overlap the two source arms; these are not independent replicates.",
+      "Strict/FDR threshold transitions are not formal augmentation benefit tests.",
+      "AUC is an univariable association, not severity-independent prognosis."
+    ]
+  }
+}

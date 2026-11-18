@@ -1,0 +1,22 @@
+{
+  "claim": "A weak single-gene bulk correlation and low shared-patient fidelity do not establish cell specificity.",
+  "visual_form": "three patient scatterplots and explicit scope note",
+  "metric": "raw normalized patient gene scores and peak WHO",
+  "unit": "bulk log2(CPM+1); HSPC mean natural-log(CP10K+1)",
+  "dimensions_mm": [
+    178,
+    173
+  ],
+  "uncertainty": "No resampling CI provided for these scatter correlations; raw patient values shown",
+  "cohort": "sameNew29/79draws; shared24 HSPC patient means",
+  "timing": "No timing fields staged; no same-day claims or invented lag distribution",
+  "source_data": [
+    "S4_same29_bulk_HSPC_patient_scores.csv",
+    "S4_shared24_HSPC_patient_scores.csv",
+    "S4_bulk_context_all_normalizations.csv"
+  ],
+  "reference_grammar": [
+    "Astra sparse scatter",
+    "explicit raw point and unit labels"
+  ]
+}

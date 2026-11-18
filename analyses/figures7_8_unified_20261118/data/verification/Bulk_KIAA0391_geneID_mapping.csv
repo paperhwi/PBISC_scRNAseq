@@ -1,0 +1,2 @@
+source,var_position,var_name,gene_symbol,duplicate_rank,occurrences,primary_first_occurrence,in_shared_universe,bulk_ensembl_without_version
+PBISC,4177,ENSG00000100890,KIAA0391,0,1,True,True,ENSG00000100890

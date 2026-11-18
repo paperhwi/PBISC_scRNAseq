@@ -1,0 +1,29 @@
+{
+  "claim": "Tgamma-delta ADK and MXRA7 are FDR rescues, with sparse New mortality support.",
+  "visual_form": "two cohort forests plus exact P/local/global q tables",
+  "metric": [
+    "Spearman rho",
+    "AUC"
+  ],
+  "unit": "patient-level source rankINT gene scores",
+  "dimensions_mm": [
+    178,
+    155
+  ],
+  "cohort_order": [
+    "Real",
+    "New",
+    "Combined"
+  ],
+  "uncertainty": "50000 fixed-score patient bootstrap95% percentile CIs",
+  "multiplicity": "local BH5762; endpoint-global BH51858",
+  "direction": "ADK negative severity rho; MXRA7 AUC below.5 means lower values in deaths, no flip",
+  "source_data": [
+    "S3_Tgamma_delta_FDR_rescue_effects.csv",
+    "S3_Tgamma_delta_confidence_intervals.csv"
+  ],
+  "reference_grammar": [
+    "Astra forest comparator",
+    "sparse exact value table"
+  ]
+}

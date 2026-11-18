@@ -1,0 +1,6 @@
+method,scope,m,value
+Analytic BH q,"HSPC, severity",5762,0.0072492002523557
+Analytic BH q,"9 types, severity",51858,0.044080684319842
+Analytic BH q,"9 types, 2 endpoints",103716,0.088161368639684
+10M source permutation Bonferroni P,"HSPC, 2 endpoints",11524,0.023048
+10M source permutation Bonferroni tail CP95 upper,"HSPC, 2 endpoints",11524,0.0341926768327361

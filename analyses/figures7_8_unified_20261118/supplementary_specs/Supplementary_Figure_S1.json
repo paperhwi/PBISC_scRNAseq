@@ -1,0 +1,33 @@
+{
+  "claim": "Full composition results include both gains and losses after cohort expansion.",
+  "visual_form": "two aligned all43 dot-and-interval panels plus exact transition counts",
+  "metric": [
+    "Spearman rho",
+    "AUC"
+  ],
+  "unit": "patient-level source rankINT associations",
+  "direction": "AUC high means higher in deaths; never flipped",
+  "cohort_order": [
+    "Real",
+    "New",
+    "Combined"
+  ],
+  "dimensions_mm": [
+    178,
+    230
+  ],
+  "uncertainty": "50000 fixed-score patient percentile bootstrap; rho source-stratified/AUC source-by-outcome",
+  "multiplicity": "BH43 per endpoint per cohort; q<.05",
+  "rarity": "Real patient mean and median below1% of leukocytes, applied after full43 correction",
+  "nonestimable": "vertical tick at reference, no fabricated CI",
+  "source_data": [
+    "S1_all43_associations.csv",
+    "S1_all43_confidence_intervals.csv",
+    "S1_all43_gain_loss_and_rarity.csv"
+  ],
+  "reference_grammar": [
+    "Astra uncertainty comparator",
+    "shared-axis forest plots",
+    "style_contract dot-and-interval"
+  ]
+}

@@ -1,0 +1,2 @@
+celltype,gene,n_shared,rho,P,timing,primary_threshold,scope
+HSPC,KIAA0391,24,-0.181472927349869,0.3960751817322043,all-visit patient means; not same-day matching,at least3 HSPC cells per patient in each source,high reconstruction fidelity is not established

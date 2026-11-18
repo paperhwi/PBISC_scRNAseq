@@ -1,0 +1,19 @@
+{
+  "claim": "Including actual bulk-only patients reveals an HSPC severity association and strengthens FDR support for ASC severity and HSPC mortality associations.",
+  "audience": "expert",
+  "visual_form": "small_multiples",
+  "metric": {"name":"Patient-level clinical association","unit":"raw leukocyte percent, Spearman rho, or death AUC as labeled","direction":"neutral","aggregation":"Equal-visit patient means; within-source rank INT for association tests","denominator":"37 Real patients plus 29 genuinely additional patients; BH43 per endpoint","precision_decimals":3,"scale":"linear"},
+  "data_source": {"path_or_identifier":"data/composition/*.csv; data/plotting/composition_patients.csv; data/plotting/composition_scores.csv","immutable_fields":["patient membership","raw percent","rho","AUC","confidence intervals","P","q43","source permutation q43"],"notes":"All plotting inputs are package-relative copies of canonical25; no statistical refitting or new selection."},
+  "focal_series":"Combined",
+  "required_baselines":["Real","New"],
+  "series_order":["Real","New","Combined"],
+  "category_order":["Mild","Moderate","Severe","Critical"],
+  "ordering_rationale":"baseline_to_focal",
+  "uncertainty":{"available":true,"type":"bootstrap_interval","level":0.95,"sample_or_seed_count":50000,"note":"Fixed-score percentile patient bootstrap; rho stratified by source, AUC by source x outcome. No generator, annotation or selection uncertainty. Raw patient points shown in B."},
+  "target":{"medium":"paper","width":178,"height":210,"unit":"mm","minimum_text_size_pt":8,"background":"white"},
+  "annotations":[{"purpose":"operating_point","text":"Real37 + genuine New29 = Combined66; 13 deaths","target":"A"},{"purpose":"threshold","text":"HSPC severity: Real P=.574; Combined q43=.0168; source-permutation q43=.0182","target":"C"},{"purpose":"threshold","text":"HSPC death and IgG/IgA severity FDR rescue","target":"D,E"}],
+  "selected_reference_ids":["OAI-VIS-008","OAI-VIS-013","OAI-VIS-014","OAI-VIS-085","OAI-VIS-019"],
+  "output_formats":["pdf","svg","png"],
+  "caption_requirements":["task","sample","estimator","uncertainty","exclusions","metric_direction"],
+  "exceptions":[{"rule":"Default1–4main panels","reason":"Five approved panels form one patient-expansion and rare-cell association argument; all text remains at least8pt at178mm."}]
+}

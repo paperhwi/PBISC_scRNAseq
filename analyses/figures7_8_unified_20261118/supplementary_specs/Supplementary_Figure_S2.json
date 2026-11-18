@@ -1,0 +1,30 @@
+{
+  "claim": "Coverage and multiplicity scope constrain available RNA discovery.",
+  "visual_form": "two aligned exact count tables",
+  "metric": "patients/deaths and count of q<.05 gene tests",
+  "unit": "patient and gene-label hypotheses",
+  "cohort_order": [
+    "Real",
+    "New",
+    "Combined"
+  ],
+  "dimensions_mm": [
+    178,
+    192
+  ],
+  "multiplicity": [
+    "BH5762 each celltype/endpoint",
+    "BH51858 all9labels/endpoint",
+    "BH103716 joint endpoints sensitivity"
+  ],
+  "nonestimable": "ineligible labels retained in coverage with explicit No; never biological null",
+  "source_data": [
+    "S2_all14_coverage_rarity.csv",
+    "S2_all9_primary_screen_counts.csv",
+    "S2_all9_all_cohort_screen_counts.csv"
+  ],
+  "reference_grammar": [
+    "Astra sparse count table",
+    "booktabs without vertical rules"
+  ]
+}

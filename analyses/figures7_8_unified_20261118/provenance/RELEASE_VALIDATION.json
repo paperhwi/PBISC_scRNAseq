@@ -1,0 +1,15 @@
+{
+  "canonical_table_hashes": 31,
+  "composition": "129 scalar feature records; source INT, BH43, jointBH86, counts and closure pass",
+  "RNA_BH": {
+    "records": 155574,
+    "column_comparisons": 120,
+    "status": "PASS"
+  },
+  "RNA_candidate_plotting_vectors": "nine scalar cohort/gene checks, source INT and shared24 bridge pass",
+  "modules": "16 unique hypotheses per configuration/cohort; endpoint and joint correction pass",
+  "10M_precision": "plus-one formula, full-family factors and two-endpoint HSPC MCupper threshold pass",
+  "rendered_artifact_structure": "seven figures; PDF/SVG/PNG and artists records;178mmwidth;minimum8pt",
+  "scope": "Independent checks of frozen tables/plotting vectors, not a new raw-data or generator validation",
+  "status": "PASS"
+}

@@ -1,0 +1,315 @@
+{
+  "width_mm": 178.0,
+  "height_mm": 205.99999999999997,
+  "texts": [
+    {
+      "text": "A",
+      "fontsize_pt": 10.0
+    },
+    {
+      "text": "Complete shared-gene search",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "14",
+      "fontsize_pt": 14.0
+    },
+    {
+      "text": "shared cell labels",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "9",
+      "fontsize_pt": 14.0
+    },
+    {
+      "text": "eligible labels\n7 meet rarity criterion",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "5,762",
+      "fontsize_pt": 14.0
+    },
+    {
+      "text": "shared genes",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "HSPC",
+      "fontsize_pt": 14.0
+    },
+    {
+      "text": "Real 33 + New 29\nCombined 62 patients",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "×",
+      "fontsize_pt": 12.0
+    },
+    {
+      "text": "Primary RNA coverage: at least 3 cells per patient; all eligible labels and shared genes retained",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "B",
+      "fontsize_pt": 10.0
+    },
+    {
+      "text": "Severity association",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "0.336",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.803",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.571",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Spearman rho (95% bootstrap CI)",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0.0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.5",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1.0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Real (n=33)\nAnalytic P = 0.0559",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "New (n=29)",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Combined (n=62)",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "C",
+      "fontsize_pt": 10.0
+    },
+    {
+      "text": "New patients (n=29)",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "rho = 0.803\n10M source-permutation P = 1.4e-06",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Peak severity",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "Mild",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Moderate",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Severe",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Critical",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Mean log1p(CP10K)",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.05",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.10",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "D",
+      "fontsize_pt": 10.0
+    },
+    {
+      "text": "Correction scope",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "Analytic BH q · Combined",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "HSPC, severity (5,762)",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.007249",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "9 types, severity (51,858)",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.04408",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "9 types, 2 endpoints (103,716)",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.08816",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "10M permutation · HSPC, 2 endpoints",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "Bonferroni P (11,524)",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.02305",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "95% Monte Carlo upper bound",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.03419",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "Threshold 0.05; global permutation BH not computed",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "E",
+      "fontsize_pt": 10.0
+    },
+    {
+      "text": "Shared-patient fidelity",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "n = 24; rho = -0.181; P = 0.396",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Strong fidelity not established",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Real mean log1p(CP10K)",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.15",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.30",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "PBISC mean log1p(CP10K)",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.15",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.30",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "KIAA0391 is a severity-associated candidate in inferred HSPCs",
+      "fontsize_pt": 10.5
+    },
+    {
+      "text": "Retrospective candidate association; generated expression is not external validation",
+      "fontsize_pt": 8.0
+    }
+  ],
+  "metadata": {
+    "panels": [
+      {
+        "panel": "A",
+        "form": "quantitative diagram",
+        "source": "Figure_8_A_search_space.csv",
+        "message": "Complete shared-label/shared-gene universe and actual HSPC coverage"
+      },
+      {
+        "panel": "B",
+        "form": "dot and interval",
+        "source": "Figure_8_B_KIAA0391_effects_and_CI.csv",
+        "message": "Real/New/Combined KIAA0391 severity correlations; fixed-score50k percentile95% CI"
+      },
+      {
+        "panel": "C",
+        "form": "discrete-x patient scatter",
+        "source": "Figure_8_C_New29_patient_points.csv",
+        "message": "All29 genuine new patients; raw meanlogCP10K; deterministic x-only beeswarm is visual only"
+      },
+      {
+        "panel": "D",
+        "form": "grouped exact-value table",
+        "source": "Figure_8_D_correction_scopes.csv",
+        "message": "Analytic BH and10M full-HSPC Bonferroni are distinct correction scopes"
+      },
+      {
+        "panel": "E",
+        "form": "paired-source patient scatter",
+        "source": "Figure_8_E_shared_patient_points.csv",
+        "message": "All24 shared patients; negative observed rho does not support strong fidelity"
+      }
+    ],
+    "source_hashes": {
+      "coverage": "cf4326c075f0d0a4d47936c469d00fcae3ffb8b904ef2c0a53b426b29bcb0202",
+      "genes": "0f15107c3cc5ad1bfb41fbf1904b76bc27c5508652cd1dc595923e270eaddbbe",
+      "candidates": "c88d82b293b9a7e45e3ebd9cb882698dd7853d61be25ff8887eef04d449bb62a",
+      "CI": "6f2bee4d4bdc1e6190128f1fdbd3b137bb8afb1bab3390c40632f7905ef95fb8",
+      "permutation": "4221b16780d602e9f3157a9e4997e98eb2ca72b359c9619641e7ce32798f0afc",
+      "Bonferroni": "373dd0af35a2670bf7dda91ea5b0237fa0cef2824f417fb700f2354b4a429435",
+      "patients": "6703b88057f26fd0071ac4c549b2ad68143cb188a6ff5d15c23b61e1bc134aa3",
+      "bridge": "8d317dcdd95571f773ae74ba9291346ca59401586c4f8143895a1ba22bda4e35"
+    },
+    "code_sha256": "d5855708ce2b73635d48ef6ce33d704a1de3fbdcd2733d3ab6ba0ace5bf98d26",
+    "font_minimum_pt": 8.0,
+    "canvas_clipped_text": [],
+    "rendered_utc": "2026-11-18T08:29:43.968691+00:00",
+    "scientific_checks": "All displayed correlations/n/cohort values and patient points asserted against staged canonical tables; full9type permutation BH not recomputed."
+  }
+}

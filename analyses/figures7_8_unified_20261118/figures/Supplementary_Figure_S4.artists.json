@@ -1,0 +1,292 @@
+{
+  "width_mm": 178.0,
+  "height_mm": 173.0,
+  "texts": [
+    {
+      "text": "N=29; ρ=0.167\nP=0.387",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Peak severity (recoded 0–3)",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "2",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "3",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Bulk log2(CPM + 1)\npatient mean",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "−0.05",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.05",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.10",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.15",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.20",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.25",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.30",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.35",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "a  Bulk gene score versus severity",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "N=29; ρ=0.122\nP=0.528",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Bulk log2(CPM + 1)\npatient mean",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "−0.1",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.1",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.2",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.3",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.4",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Inferred HSPC\nmean ln(CP10K + 1)",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "−0.02",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.02",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.04",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.06",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.08",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.10",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.12",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.14",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "b  Bulk versus inferred HSPC score",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "N=24; ρ=-0.181\nP=0.396",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Observed Real HSPC\nmean ln(CP10K + 1)",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "−0.05",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.05",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.10",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.15",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.20",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.25",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.30",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Inferred PBISC HSPC\nmean ln(CP10K + 1)",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "−0.05",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.05",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.10",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.15",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.20",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.25",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.30",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "c  Shared-patient HSPC expression",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "Same New29 / 79 draws for bulk.\nBulk: all60,605 Ensembl rows;\nequal draw weights per patient.\n\nShared scores summarize all visits.\nThese are not matched-day pairs;\nindividual timing is unavailable here.\n\nNon-significant bulk correlation is\nnot proof of absence or specificity.\nNo formal correlation-difference test.",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.2",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.4",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.6",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.8",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1.0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "d  Interpretation boundaries",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "Bulk context and shared-patient agreement address distinct questions",
+      "fontsize_pt": 10.0
+    },
+    {
+      "text": "All plotted points are patients. No fitted line, same-day pairing or unreported uncertainty is imputed.",
+      "fontsize_pt": 8.0
+    }
+  ],
+  "metadata": {
+    "claim": "A weak single-gene bulk correlation and low shared-patient fidelity do not establish cell specificity.",
+    "visual_form": "three patient scatterplots and explicit scope note",
+    "metric": "raw normalized patient gene scores and peak WHO",
+    "unit": "bulk log2(CPM+1); HSPC mean natural-log(CP10K+1)",
+    "dimensions_mm": [
+      178,
+      173
+    ],
+    "uncertainty": "No resampling CI provided for these scatter correlations; raw patient values shown",
+    "cohort": "sameNew29/79draws; shared24 HSPC patient means",
+    "timing": "No timing fields staged; no same-day claims or invented lag distribution",
+    "source_data": [
+      "S4_same29_bulk_HSPC_patient_scores.csv",
+      "S4_shared24_HSPC_patient_scores.csv",
+      "S4_bulk_context_all_normalizations.csv"
+    ],
+    "reference_grammar": [
+      "Astra sparse scatter",
+      "explicit raw point and unit labels"
+    ]
+  }
+}

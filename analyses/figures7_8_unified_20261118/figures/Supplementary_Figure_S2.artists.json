@@ -1,0 +1,596 @@
+{
+  "width_mm": 178.0,
+  "height_mm": 192.0,
+  "texts": [
+    {
+      "text": "Cell label",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "Real",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "New",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "Eligible",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "Rare†",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "ASDC",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "30 / 6",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "5 / 1",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "No",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Yes",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "ASC IgA",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "35 / 7",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "29 / 6",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Yes",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Yes",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "ASC IgG",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "32 / 6",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "29 / 6",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Yes",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Yes",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "ASC IgM",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "26 / 5",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "10 / 2",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "No",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Yes",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "ASC dividing",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "30 / 6",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "29 / 6",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Yes",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Yes",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "CD14 mono IFN",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "36 / 7",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "28 / 6",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Yes",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "No",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "CD14 mono dex",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "21 / 7",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "3 / 1",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "No",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Yes",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "DC1",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "25 / 5",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "11 / 2",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "No",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Yes",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "HSPC",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "33 / 7",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "29 / 6",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Yes",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Yes",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "MAIT",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "31 / 4",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "29 / 6",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Yes",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Yes",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "NK CD56 bright",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "37 / 7",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "26 / 4",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Yes",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "No",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "CD4 cycling",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "11 / 1",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "24 / 6",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "No",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Yes",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "T γδ",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "34 / 7",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "24 / 3",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Yes",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Yes",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "pDC",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "36 / 7",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "29 / 6",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Yes",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Yes",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "−0.06",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "−0.04",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "−0.02",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.02",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.04",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.06",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "a  Coverage of all 14 common labels · patient N / deaths",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "Cell label",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Severity\nlocal",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Severity\nglobal",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Death\nlocal",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Death\nglobal",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "ASC IgA †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "ASC IgG †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "ASC dividing †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "CD14 mono IFN",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "18",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "2",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "HSPC †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "1",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "MAIT †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "NK CD56 bright",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "T γδ †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "1",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "1",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "pDC †",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "RNA coverage and complete shared-gene testing define the discovery scope",
+      "fontsize_pt": 10.0
+    },
+    {
+      "text": "b  Combined discoveries among all 9 eligible labels",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "Eligible: each arm ≥10 patients, ≥3 deaths and ≥3 survivors; each patient has ≥3 cells.",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Coverage failure is not a biological null. † Real mean and median abundance <1%.",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Local: BH5,762 within label/endpoint. Global: BH51,858 across 9 labels/endpoint.",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Global joint: BH103,716 across both endpoints; Combined discoveries = 0.",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "The 9 eligible labels include 7 rare labels; all common genes and eligible labels remain in scope.",
+      "fontsize_pt": 8.0
+    }
+  ],
+  "metadata": {
+    "claim": "Coverage and multiplicity scope constrain available RNA discovery.",
+    "visual_form": "two aligned exact count tables",
+    "metric": "patients/deaths and count of q<.05 gene tests",
+    "unit": "patient and gene-label hypotheses",
+    "cohort_order": [
+      "Real",
+      "New",
+      "Combined"
+    ],
+    "dimensions_mm": [
+      178,
+      192
+    ],
+    "multiplicity": [
+      "BH5762 each celltype/endpoint",
+      "BH51858 all9labels/endpoint",
+      "BH103716 joint endpoints sensitivity"
+    ],
+    "nonestimable": "ineligible labels retained in coverage with explicit No; never biological null",
+    "source_data": [
+      "S2_all14_coverage_rarity.csv",
+      "S2_all9_primary_screen_counts.csv",
+      "S2_all9_all_cohort_screen_counts.csv"
+    ],
+    "reference_grammar": [
+      "Astra sparse count table",
+      "booktabs without vertical rules"
+    ]
+  }
+}

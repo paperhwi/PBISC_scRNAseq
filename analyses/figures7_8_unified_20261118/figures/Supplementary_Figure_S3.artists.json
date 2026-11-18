@@ -1,0 +1,247 @@
+{
+  "width_mm": 178.0,
+  "height_mm": 155.0,
+  "texts": [
+    {
+      "text": "Spearman ρ",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "−1.0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "−0.5",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Real\nN=34",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "New\nN=24",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Combined\nN=58",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "a  ADK · severity",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "Cohort",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "P",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "q local",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "q global",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Real",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.002",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.62",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.33",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "New",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "3.2e-04",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.25",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.30",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Combined",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "3.4e-06",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.020",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.044",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "AUC · higher in deaths →",
+      "fontsize_pt": 8.5
+    },
+    {
+      "text": "0.0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.5",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1.0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Real\nN=34",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "New\nN=24",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Combined\nN=58",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "b  MXRA7 · mortality",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "Cohort",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "P",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "q local",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "q global",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Real",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1.2e-04",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.57",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.37",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "New",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.037",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Combined",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "5.7e-06",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.033",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.27",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Tγδ RNA signals support FDR rescue of existing nominal associations",
+      "fontsize_pt": 10.0
+    },
+    {
+      "text": "Local: BH5,762 per label/endpoint. Global: BH51,858 across all 9 eligible labels.",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Real P < .05 for both targets: these are FDR rescues, not strict Real-missed results.",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "MXRA7: lower values in deaths; New has only 3 deaths (N=24); global q ≥ .05.",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "95% CI: 50,000 fixed-score patient bootstraps; ρ by source, AUC by source × outcome.",
+      "fontsize_pt": 8.0
+    }
+  ],
+  "metadata": {
+    "claim": "Tgamma-delta ADK and MXRA7 are FDR rescues, with sparse New mortality support.",
+    "visual_form": "two cohort forests plus exact P/local/global q tables",
+    "metric": [
+      "Spearman rho",
+      "AUC"
+    ],
+    "unit": "patient-level source rankINT gene scores",
+    "dimensions_mm": [
+      178,
+      155
+    ],
+    "cohort_order": [
+      "Real",
+      "New",
+      "Combined"
+    ],
+    "uncertainty": "50000 fixed-score patient bootstrap95% percentile CIs",
+    "multiplicity": "local BH5762; endpoint-global BH51858",
+    "direction": "ADK negative severity rho; MXRA7 AUC below.5 means lower values in deaths, no flip",
+    "source_data": [
+      "S3_Tgamma_delta_FDR_rescue_effects.csv",
+      "S3_Tgamma_delta_confidence_intervals.csv"
+    ],
+    "reference_grammar": [
+      "Astra forest comparator",
+      "sparse exact value table"
+    ]
+  }
+}

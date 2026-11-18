@@ -1,0 +1,290 @@
+{
+  "canonical_release": "25_Unified_Real_PBISC_Reanalysis_20261118",
+  "inputs": [
+    {
+      "canonical_relative_path": "PRIMARY_CANDIDATES.csv",
+      "bytes": 2074,
+      "sha256": "a54859f3c73268d8d0950ae84b589b72a74949aa2313c0102eeb0d1827a70fc2"
+    },
+    {
+      "canonical_relative_path": "composition/all43_associations.csv",
+      "bytes": 44812,
+      "sha256": "4c3dd67a6b26b4f9399651e48aecfac3a64022a13d4909158c47465648a7f5d1"
+    },
+    {
+      "canonical_relative_path": "composition/all43_fixed_score_bootstrap_CI.csv",
+      "bytes": 27450,
+      "sha256": "3bdce58f58e19e00490bddef23b5531f707e7d420c26668c0465cb0e8369a8d7"
+    },
+    {
+      "canonical_relative_path": "composition/all43_gain_loss_and_support.csv",
+      "bytes": 40085,
+      "sha256": "5dd14b0702e4a1ca9a07090c8cac48d46ea1127472d705fa655fa71c4b35e83b"
+    },
+    {
+      "canonical_relative_path": "composition/all43_source_heterogeneity.csv",
+      "bytes": 8978,
+      "sha256": "ccee0340e44c570744bde02438c685b6b98172c8531ae64e0a6faf876c63924e"
+    },
+    {
+      "canonical_relative_path": "composition/all43_source_stratified_permutation.csv",
+      "bytes": 20826,
+      "sha256": "b18c71ba567a6e59a6f406b1287399c1b54d8f89366d198868a5f99c1b685ddb"
+    },
+    {
+      "canonical_relative_path": "composition/candidate_evidence_all_rescues.csv",
+      "bytes": 4205,
+      "sha256": "59a7a4508ca422321774aca088e0b75697740a7cd254a41f864a5bbbce1249ad"
+    },
+    {
+      "canonical_relative_path": "composition/cohort_summary.csv",
+      "bytes": 268,
+      "sha256": "5c374035785694c5990e5194aa7df54859864e73b14dd2133ca00f18c7eb6bd1"
+    },
+    {
+      "canonical_relative_path": "composition/rarity_all43.csv",
+      "bytes": 3946,
+      "sha256": "14d4274b4bd6af644ad2c4221f37b7543cfa7ade681bede246b9d7d8389bfb98"
+    },
+    {
+      "canonical_relative_path": "composition/rare_threshold_sensitivity.csv",
+      "bytes": 1932,
+      "sha256": "2fd4bdf82b90d8fc0982a97f13218abf48f297d2f7e799f3bcdde73bc3c68400"
+    },
+    {
+      "canonical_relative_path": "transcriptome/all14_primary_coverage_and_composition_rarity.csv",
+      "bytes": 1937,
+      "sha256": "cf4326c075f0d0a4d47936c469d00fcae3ffb8b904ef2c0a53b426b29bcb0202"
+    },
+    {
+      "canonical_relative_path": "transcriptome/coverage_all14_labels.csv",
+      "bytes": 2010,
+      "sha256": "f6380de1e7b147dbc746ab3017ab552f8f49b0f9cb49cb50be07c03dc99c48c0"
+    },
+    {
+      "canonical_relative_path": "transcriptome/fixed_primary_candidates_with_rarity_and_composition.csv",
+      "bytes": 22210,
+      "sha256": "c88d82b293b9a7e45e3ebd9cb882698dd7853d61be25ff8887eef04d449bb62a"
+    },
+    {
+      "canonical_relative_path": "transcriptome/fixed_primary_candidate_CIs_50000.csv",
+      "bytes": 28051,
+      "sha256": "6f2bee4d4bdc1e6190128f1fdbd3b137bb8afb1bab3390c40632f7905ef95fb8"
+    },
+    {
+      "canonical_relative_path": "transcriptome/fixed_primary_candidate_sensitivity_comparison.csv",
+      "bytes": 68637,
+      "sha256": "63609cc55e0dc8b0aa7febd484cedbdbac13057351f25f3ef5c597c30520ae0a"
+    },
+    {
+      "canonical_relative_path": "transcriptome/screen_counts_all_configurations.csv",
+      "bytes": 4952,
+      "sha256": "1e408aeee91436e3605ab3802441e96a81714c1d95fa3153fe3fd6d5b6cdcc64"
+    },
+    {
+      "canonical_relative_path": "transcriptome/screen_counts_overall.csv",
+      "bytes": 422,
+      "sha256": "f853da3b999d4ab582dca8f917e578db4cbb87bdb8ebcab93fd3e1db370b29cd"
+    },
+    {
+      "canonical_relative_path": "transcriptome/primary_all_gene_associations.csv.gz",
+      "bytes": 6569307,
+      "sha256": "81a309459d01099a2bc4434f8e643845672ee59c62b71c3726d9242ffceda0d9"
+    },
+    {
+      "canonical_relative_path": "transcriptome/all_gene_shared_patient_fidelity.csv.gz",
+      "bytes": 1108948,
+      "sha256": "0a0989e8d9254ff94cb65d40c044d2cd474a20f5d7f8f068461c47828b8874a6"
+    },
+    {
+      "canonical_relative_path": "transcriptome/shared_unique_gene_universe.csv",
+      "bytes": 70453,
+      "sha256": "0f15107c3cc5ad1bfb41fbf1904b76bc27c5508652cd1dc595923e270eaddbbe"
+    },
+    {
+      "canonical_relative_path": "transcriptome/raw_expression_QC.csv",
+      "bytes": 1161,
+      "sha256": "3c15fdefa5d23e0e085ca7a0cc6c2e9f127ab3021e92a22746e465e18f15b070"
+    },
+    {
+      "canonical_relative_path": "transcriptome/duplicated_gene_symbols.csv",
+      "bytes": 664,
+      "sha256": "69b673117eddce471484fb4a869cd2152adb43e8b353360b755927ff21a5c03c"
+    },
+    {
+      "canonical_relative_path": "modules/HSPC_all_module_associations.csv",
+      "bytes": 56774,
+      "sha256": "a617f2a512786102ccdff118dcbde7f2886ed486c877ef3565f50ec868d8ae49"
+    },
+    {
+      "canonical_relative_path": "modules/HSPC_all_modules_rescue_flags.csv",
+      "bytes": 31769,
+      "sha256": "1c292134a079d75002d558592562371bf06eb797e6372c16ef3dc931e54cebec"
+    },
+    {
+      "canonical_relative_path": "transcriptome_verification/HSPC_historical20_all_tests.csv",
+      "bytes": 53510,
+      "sha256": "6a4fb12c179fa1472a1fef1f0d794d6b2b033b2adc6e813a53593cc3d68a1831"
+    },
+    {
+      "canonical_relative_path": "transcriptome_verification/KIAA0391_source_permutation_10M.csv",
+      "bytes": 1372,
+      "sha256": "4221b16780d602e9f3157a9e4997e98eb2ca72b359c9619641e7ce32798f0afc"
+    },
+    {
+      "canonical_relative_path": "transcriptome_verification/KIAA0391_source_permutation_10M_Bonferroni_sensitivity.csv",
+      "bytes": 2804,
+      "sha256": "373dd0af35a2670bf7dda91ea5b0237fa0cef2824f417fb700f2354b4a429435"
+    },
+    {
+      "canonical_relative_path": "transcriptome_verification/selected_candidates_source_permutation_1M.csv",
+      "bytes": 48783,
+      "sha256": "fd7fe80918a5a3f46f6ac88cbdef0201ed2c141c087e93591a506fcba062e96d"
+    },
+    {
+      "canonical_relative_path": "verification/Bulk_KIAA0391_context.csv",
+      "bytes": 1944,
+      "sha256": "de490d0bdb218e5296b927418bc88f7016147cac03ec63ae7bc251974ee169e6"
+    },
+    {
+      "canonical_relative_path": "verification/Bulk_KIAA0391_geneID_mapping.csv",
+      "bytes": 209,
+      "sha256": "0e0ae8e1ecb3ec757f1ec889b3f00adeedb7f1970824f36079bf6c6a8f19a4e3"
+    },
+    {
+      "canonical_relative_path": "transcriptome/clinical_patient_table.csv",
+      "bytes": 1690,
+      "sha256": "7256052882029daddbd1f11865eaf69cd3ced54a78f56036adee43db0b592ee4"
+    },
+    {
+      "canonical_relative_path": "composition/patient_raw_percent.csv",
+      "bytes": 51620,
+      "sha256": "6497f8997ed36ff69edcbe7c20153c3c8ad88ff34ff8dcf59706c4fb63779bbd"
+    },
+    {
+      "canonical_relative_path": "composition/patient_fixed_INT_scores.csv",
+      "bytes": 54510,
+      "sha256": "b0df148b84ebefb4ffa90e74d521afd2393722d552e32304e4f42282db6117c4"
+    },
+    {
+      "canonical_relative_path": "transcriptome/patient_matrices/Real__HSPC.npz",
+      "bytes": 2198874,
+      "sha256": "0e009b123b745f3b0e09d771e346c867371aeb1873443084611607fcc92adec2"
+    },
+    {
+      "canonical_relative_path": "transcriptome/patient_matrices/PBISC__HSPC.npz",
+      "bytes": 4629392,
+      "sha256": "753006cb8537d499711da6eabe0bc5426f13fc523e7bd803210640f4c30181fb"
+    },
+    {
+      "canonical_relative_path": "transcriptome/patient_matrices/Real__T_g_d.npz",
+      "bytes": 2283019,
+      "sha256": "f5a9580599073769f06a7dd16f6133f5bd1badf4e40344e959ccf6190aa1294c"
+    },
+    {
+      "canonical_relative_path": "transcriptome/patient_matrices/PBISC__T_g_d.npz",
+      "bytes": 1632842,
+      "sha256": "265b69bfd02ab93eb0a3bc3ed55719ea2e49e0ea6910fa748025aa43af154c0c"
+    },
+    {
+      "canonical_relative_path": "verification/Bulk_KIAA0391_same29patient_values.csv",
+      "bytes": 5113,
+      "sha256": "0537e0039fe7d4aa187a1f98ab807fa2fc767ca5b45e45bd97f3a28a50d3b4c8"
+    },
+    {
+      "canonical_relative_path": "narrative_draft/Positive_Narrative_KO.md",
+      "bytes": 20976,
+      "sha256": "0ecc358bc2e74493c2bbbef541ad2470d6c65205240081a24b7e5c3baacf6a0a"
+    },
+    {
+      "canonical_relative_path": "narrative_draft/Results_Draft_EN.md",
+      "bytes": 6035,
+      "sha256": "a67c7bbc1d2be25a45c69534dd7d7665a51e1193f0e0a334db404d029c2ab04a"
+    },
+    {
+      "canonical_relative_path": "RESULTS_KO.md",
+      "bytes": 15011,
+      "sha256": "db8e80e93a35d26f93fc9e5da71006094ebdcb5773e6eeca86f9068a17f88264"
+    },
+    {
+      "canonical_relative_path": "transcriptome_verification/KIAA0391_10M_INTERPRETATION_KO.md",
+      "bytes": 5753,
+      "sha256": "0381880153513678aff403bd1bdb1983b0c41e39798ba83f66bfd74017c3d8b5"
+    },
+    {
+      "canonical_relative_path": "verification/Bulk_KIAA0391_context.md",
+      "bytes": 5345,
+      "sha256": "087319d9b41f9040b1a4bb0cbf7a86d0c341350ebff2d3ae4a89dbc5b22ff487"
+    },
+    {
+      "canonical_relative_path": "ANALYSIS_CONTRACT.json",
+      "bytes": 3914,
+      "sha256": "ef3a06b40cda9cd9a6732b6901ad07feb2f33d412367a16d0b0a6a620d366cd4"
+    },
+    {
+      "canonical_relative_path": "VALIDATION.json",
+      "bytes": 1474,
+      "sha256": "b96b7150d53b4de539ffd718de5fcae6f8b5c829929ff140785166211211c0f9"
+    },
+    {
+      "canonical_relative_path": "SOFTWARE_VERSIONS.json",
+      "bytes": 235,
+      "sha256": "eb580327b56c85e7e2d1bf649128f35dd1c69dc8423feec85fb060fc108f5f53"
+    },
+    {
+      "canonical_relative_path": "narrative_draft/NARRATIVE_QA.json",
+      "bytes": 2708,
+      "sha256": "4ec739e247cbb3ebd50964de31e8c96a7eb29b14b47f7e86626747eff1eb51ee"
+    },
+    {
+      "canonical_relative_path": "transcriptome_verification/KIAA0391_10M_validation.json",
+      "bytes": 301,
+      "sha256": "a93eb0df035c5bf63b902e0132d27a146bc6730105d5b2e2b0f43d3373bb5cd4"
+    },
+    {
+      "canonical_relative_path": "transcriptome_verification/KIAA0391_10M_RUN_MANIFEST.json",
+      "bytes": 834,
+      "sha256": "c6dca8e33cc10ed50d006c19cc3b86b63520d2e565baa421251f5967cc19f0cc"
+    },
+    {
+      "canonical_relative_path": "transcriptome/historical_HSPC20_both_endpoints.csv",
+      "bytes": 23996,
+      "sha256": "f4062a271eb347b46f88b4ba9d448423ad2331c7ad6b4d8b169082505b4989d4"
+    }
+  ],
+  "patient_data": "Release-local pseudonyms; original patient IDs, age, sex, and mapping not published",
+  "scope": "Frozen results and plotting vectors; original counts/generator not bundled",
+  "bundled_canonical_tables": [
+    "PRIMARY_CANDIDATES.csv",
+    "composition/all43_associations.csv",
+    "composition/all43_fixed_score_bootstrap_CI.csv",
+    "composition/all43_gain_loss_and_support.csv",
+    "composition/all43_source_heterogeneity.csv",
+    "composition/all43_source_stratified_permutation.csv",
+    "composition/candidate_evidence_all_rescues.csv",
+    "composition/cohort_summary.csv",
+    "composition/rarity_all43.csv",
+    "composition/rare_threshold_sensitivity.csv",
+    "transcriptome/all14_primary_coverage_and_composition_rarity.csv",
+    "transcriptome/coverage_all14_labels.csv",
+    "transcriptome/fixed_primary_candidates_with_rarity_and_composition.csv",
+    "transcriptome/fixed_primary_candidate_CIs_50000.csv",
+    "transcriptome/fixed_primary_candidate_sensitivity_comparison.csv",
+    "transcriptome/screen_counts_all_configurations.csv",
+    "transcriptome/screen_counts_overall.csv",
+    "transcriptome/primary_all_gene_associations.csv.gz",
+    "transcriptome/all_gene_shared_patient_fidelity.csv.gz",
+    "transcriptome/shared_unique_gene_universe.csv",
+    "transcriptome/raw_expression_QC.csv",
+    "transcriptome/duplicated_gene_symbols.csv",
+    "modules/HSPC_all_module_associations.csv",
+    "modules/HSPC_all_modules_rescue_flags.csv",
+    "transcriptome_verification/HSPC_historical20_all_tests.csv",
+    "transcriptome_verification/KIAA0391_source_permutation_10M.csv",
+    "transcriptome_verification/KIAA0391_source_permutation_10M_Bonferroni_sensitivity.csv",
+    "transcriptome_verification/selected_candidates_source_permutation_1M.csv",
+    "verification/Bulk_KIAA0391_context.csv",
+    "verification/Bulk_KIAA0391_geneID_mapping.csv",
+    "transcriptome/historical_HSPC20_both_endpoints.csv"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "started_UTC": "2026-11-18T07:16:04.178732+00:00",
+  "plan_sha256": "906801f582fdab9ee5d7661492f08c714735af8ec604974568349063051ab244",
+  "script_sha256": "488bc1d9700e4eb75d419195e56a90acd529fef883fb7de582b69d25625204dc",
+  "inputs": {
+    "transcriptome\\patient_matrices\\Real__HSPC.npz": "0e009b123b745f3b0e09d771e346c867371aeb1873443084611607fcc92adec2",
+    "transcriptome\\patient_matrices\\PBISC__HSPC.npz": "753006cb8537d499711da6eabe0bc5426f13fc523e7bd803210640f4c30181fb"
+  },
+  "core_sha256": "832b9bdec3816f632bb36439203365eb49a5b004bf396eb0ff28bcd3b00e7455",
+  "B_each_cohort": 9999999,
+  "seeds": {
+    "Real": 2511181033,
+    "New": 2511181029,
+    "Combined": 2511181062
+  },
+  "finished_UTC": "2026-11-18T07:17:49.235943+00:00",
+  "elapsed_seconds": 106.13912534713745
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "observed_rho_P_match_original_1M": true,
+  "full_B_each_cohort": 9999999,
+  "float32_int64_max_error": 0.0,
+  "New_analytic_below_CP95_lower": true,
+  "note": "Monte Carlo CI describes the conditional permutation-tail probability, not the clinical effect uncertainty"
+}

@@ -1,0 +1,17 @@
+{
+  "core_version": "25-unified-v1.0",
+  "core_sha256": "832b9bdec3816f632bb36439203365eb49a5b004bf396eb0ff28bcd3b00e7455",
+  "contract_sha256": "ef3a06b40cda9cd9a6732b6901ad07feb2f33d412367a16d0b0a6a620d366cd4",
+  "frozen_and_raw_inputs": "all initial hashes and33 independent RNA verification inputs match",
+  "cohort": "Real37/7 +New29/6 =66/13;217draws",
+  "independent_core": "322 scalar cases;16columns x513 bootstrap;CochranQ equivalence confirmed",
+  "independent_RNA": "155574feature records x4 statistics;90 uniqueBH families;all passed",
+  "independent_modules": "204rows/408endpoint tests;Cycling/Cycle4 exact gene-weight alias",
+  "independent_composition": "all43 x3arms,manualBH,scalarbootstrap passed",
+  "raw_expression_QC": "zero negative/nonfinite/fractional stored counts and zero shared-library cells;PBISC remains inferred expression",
+  "KIAA0391_precision": "fixed10M per cohort;New/Combined full-HSPC5762/11524 Bonferroni pass including MCupper;Real remains nominal nonsignificant",
+  "headline_tables": "auto-generated8 candidate rows with explicit, differing FDR scope;no selected favorable sensitivity replaces primary",
+  "python_syntax": "all analysis and verification scripts passed",
+  "report_links_and_completion": "passed;primary numbers generated from tables",
+  "single_entry_point": "run_all.py has15 existing explicit steps;individual components executed and independently verified;wrapper dry-run checked separately"
+}

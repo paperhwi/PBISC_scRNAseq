@@ -1,0 +1,1057 @@
+{
+  "width_mm": 178.0,
+  "height_mm": 223.0,
+  "texts": [
+    {
+      "text": "Real",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "New",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Comb.",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Real",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "New",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Comb.",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Stem HSC",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.68",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.95",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.95",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.32",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.73",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.67",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "GMP Myeloid",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.85",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.95",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.95",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.39",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.71",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.24",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Granule GMP core",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.70",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.95",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.95",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.54",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.73",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.93",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Alarmin/inflam.",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.85",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.67",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.50",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.32",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.36",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.096",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "MEP EryMk",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.62",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.67",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.25",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.32",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.38",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.096",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "MkP Platelet bias",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.62",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.95",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.78",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.54",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.85",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.53",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Cycling",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.55",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.67",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.14",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.32",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.36",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.096",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "ISG",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.62",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.67",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.39",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.98",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.63",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.58",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Ery5",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.088",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.67",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.044",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.22",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.36",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.062",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "MEP5",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.55",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.67",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.24",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.32",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.36",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.096",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "HSC5",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.62",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.95",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.78",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.32",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.91",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.33",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Myeloid4",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.68",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.95",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.78",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.54",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.98",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.67",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "GMP minus Stem",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.94",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.95",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.95",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.32",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.91",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.33",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Alarmin minus Stem",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.85",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.95",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.83",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.32",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.73",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.16",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "MEP minus Stem",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.62",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.95",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.50",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.32",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.73",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.19",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "is cycling",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.62",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.67",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.24",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.54",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.36",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.16",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "−2",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "2",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "4",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "6",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "8",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "10",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "12",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "14",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "16",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "18",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "a  All 16 unique HSPC modules · endpoint-specific q16",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "q20",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "q5,762",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "q20",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "q5,762",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "GATA1",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.054",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.37",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.031",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.52",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "KLF1",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.017",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.19",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.044",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.53",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "TFRC",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.054",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.35",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.031",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.52",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "BLVRB",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.14",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.57",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.038",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.53",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "APOC1",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.017",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.23",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.058",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.58",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "GATA2",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.18",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.63",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.33",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.96",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "ITGA2B",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.017",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.22",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.031",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.52",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "MKI67",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.18",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.64",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.24",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.86",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "TOP2A",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.64",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.97",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.59",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "STMN1",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.14",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.56",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.15",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.73",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "TYMS",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.017",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.19",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.038",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.52",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "CD34",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.93",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.30",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.91",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "AVP",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.97",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.66",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "HLF",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.38",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.83",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.24",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.87",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "HOPX",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.93",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.39",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "CRHBP",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.93",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.69",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "MPO",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.93",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.63",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "ELANE",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.36",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.80",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.69",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "CSF3R",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.64",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.97",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.43",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "1.00",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "CEBPD",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.13",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.53",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.30",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.92",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "−2.5",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "0.0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "2.5",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "5.0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "7.5",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "10.0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "12.5",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "15.0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "17.5",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "20.0",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "22.5",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "b  Historical 20-marker panel · Combined q20 versus all-gene q5,762",
+      "fontsize_pt": 9.0
+    },
+    {
+      "text": "Module and historical-marker results depend on their declared families",
+      "fontsize_pt": 10.0
+    },
+    {
+      "text": "Severity",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Mortality",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Severity",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Mortality",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Ery5 severity q16=0.044; joint32 q=0.062. Joint results are supplied in full CSV.",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Tint/bold: q < .05 within the labeled family. No historical marker passes HSPC-wide q5,762.",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Cycling and Cycle4 share identical available gene weights; the duplicate is counted only once.",
+      "fontsize_pt": 8.0
+    },
+    {
+      "text": "Modules and markers were selected retrospectively. Their q values are not interchangeable with global-gene q.",
+      "fontsize_pt": 8.0
+    }
+  ],
+  "metadata": {
+    "claim": "Historical module/marker FDR is narrower than available-gene discovery.",
+    "visual_form": "two exact q tables with sparse threshold tint",
+    "metric": "BH adjusted P values",
+    "unit": "q",
+    "dimensions_mm": [
+      178,
+      223
+    ],
+    "multiplicity": [
+      "16 unique modules percohort/endpoint",
+      "historical20 markers percohort/endpoint",
+      "all5762 sharedHSPCgenes percohort/endpoint"
+    ],
+    "alias": "Cycling and Cycle4 have exactly identical available gene weights, one representative retained",
+    "cohort_order": [
+      "Real",
+      "New",
+      "Combined"
+    ],
+    "uncertainty": "No new effect uncertainty implied by q; complete effects andexistingCIs retained in package tables",
+    "source_data": [
+      "S5_all_HSPC_module_associations.csv",
+      "S5_historical20_all_cohorts.csv"
+    ],
+    "reference_grammar": [
+      "Astra sparse table",
+      "booktabs",
+      "family-specific exact values"
+    ]
+  }
+}
