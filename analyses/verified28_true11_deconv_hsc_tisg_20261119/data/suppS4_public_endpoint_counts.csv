@@ -1,0 +1,5 @@
+cohort,acute_samples,acute_donors,severity_known_N,outcome_known_N,outcome_unknown_N,deaths,WHO6_known_outcome_N,WHO6_deaths
+Stephenson 2021,89,85,74,73,12,7,14,6
+COMBAT 2022,89,75,75,75,0,7,37,7
+van der Wijst 2021,75,42,42,42,0,7,23,7
+Liu 2021,47,29,29,29,0,3,20,3

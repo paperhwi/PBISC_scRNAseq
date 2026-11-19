@@ -1,0 +1,15 @@
+# Publish only the supplied nonfigure release, including frozen data tables.
+!/*.csv
+!data/*.csv
+# Generated figures and caches stay excluded even if regenerated locally.
+*.png
+*.pdf
+*.svg
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.gif
+*.webp
+__pycache__/
+*.py[cod]

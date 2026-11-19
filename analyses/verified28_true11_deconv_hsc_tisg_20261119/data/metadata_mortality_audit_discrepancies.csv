@@ -1,0 +1,15 @@
+patient_id,cohort,WHO_severity,stephenson2025_TableS1_fatal,gisby2022_w1_meta_fatal,gisby2022_w2_meta_fatal,has_2month_recovery_sample,TRUE_PUBLISHED_11_PRIMARY,direct_COVID_9,legacy_13_hybrid,zenodo_raw_14,forensic_verdict
+C21,Shared (Real ∩ PBISC),critical,yes,True,-,False,1,1,1,1,VERIFIED COVID-19 DEATH (Direct)
+C32,PBISC new,critical,Not in CITE-seq,True,-,False,1,1,1,1,VERIFIED COVID-19 DEATH (Direct)
+C33,Shared (Real ∩ PBISC),critical,yes,-,True,False,1,1,1,1,VERIFIED COVID-19 DEATH (Direct)
+C37,PBISC new,critical,Not in CITE-seq,True,-,False,1,1,1,1,VERIFIED COVID-19 DEATH (Direct)
+C48,PBISC new,critical,Not in CITE-seq,True,-,False,1,1,1,1,VERIFIED COVID-19 DEATH (Direct)
+C66,PBISC new,critical,Not in CITE-seq,True,-,False,1,1,1,1,VERIFIED COVID-19 DEATH (Direct)
+C77,PBISC new,critical,Not in CITE-seq,True,-,False,1,1,1,1,VERIFIED COVID-19 DEATH (Direct)
+C84,PBISC new,critical,Not in CITE-seq,True,-,False,1,1,1,1,VERIFIED COVID-19 DEATH (Direct)
+C101,Shared (Real ∩ PBISC),severe,no,-,True,True,0,0,1,1,SURVIVOR MISCODED IN w2_metadata.csv (Table S1=no; Gisby Fig.1=13 survivors; donated 2m recovery sample)
+C108,Shared (Real ∩ PBISC),severe,indirect,-,True,False,1,0,1,1,"VERIFIED COVID-19 DEATH (Indirect acute, Table S1 & Gisby Fig.1)"
+C141,Real-only,severe,yes,-,True,False,1,1,1,1,VERIFIED COVID-19 DEATH (Direct)
+C145,Shared (Real ∩ PBISC),severe,indirect,-,True,False,1,0,1,1,"VERIFIED COVID-19 DEATH (Indirect acute, Table S1 & Gisby Fig.1)"
+C146,Real-only,severe,no,-,True,True,0,0,0,1,SURVIVOR MISCODED IN w2_metadata.csv (Table S1=no; Gisby Fig.1=13 survivors; donated 2m recovery sample)
+C147,Shared (Real ∩ PBISC),critical,no,-,True,False,0,0,1,1,SURVIVOR MISCODED IN w2_metadata.csv (Table S1=no; Gisby Fig.1=13th survivor missing recovery due to logistics)

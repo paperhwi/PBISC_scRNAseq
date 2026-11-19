@@ -1,0 +1,121 @@
+{
+  "mode": "standalone_render_only",
+  "mortality_ground_truth": "TRUE_PUB_11 (Real=5 [C21,C33,C141,C108,C145] + PBISC_new=6 [C32,C37,C48,C66,C77,C84]; fixed w2 survivors C101,C146,C147)",
+  "data_dir": "F:\\PBISC\\HSPC_CD56brightNK_COVID_analysis_summary_20261116\\28_Verified_True11_Deconv_HSC_TISG_20261119\\data",
+  "output_dir": "F:\\PBISC\\HSPC_CD56brightNK_COVID_analysis_summary_20261116\\28_Verified_True11_Deconv_HSC_TISG_20261119",
+  "renderer_sha256": "0fc886dc2443b24d851d1c600d72839023f354bc4f6ae8df4f36d42bf7bc66e8",
+  "style_sha256": "e1f2438bfe92a2296df48814072e73ddf7eea9afc4f0b416c243d6717753cea0",
+  "data_csv_count": 43,
+  "outputs": [
+    {
+      "file": "PBISC_Figure7_Main_Verified28_20261119.png",
+      "bytes": 2308516,
+      "sha256": "6f0b7a5daabf49791313369add7fc9d1246b0c1a2ab00b692351892ccff0a3fd"
+    },
+    {
+      "file": "PBISC_Figure7_Main_Verified28_20261119.pdf",
+      "bytes": 161595,
+      "sha256": "a3785b45adf2c3ced7e52ec8f69b621d638d7eaedb5de85ee14911104a64d344"
+    },
+    {
+      "file": "PBISC_Figure7_Main_Verified28_20261119.svg",
+      "bytes": 436522,
+      "sha256": "cd96821829883f9f296e112b9bfc409ce95a1677120c7edf6333b67b52db6f57"
+    },
+    {
+      "file": "PBISC_Figure8_Main_Verified28_20261119.png",
+      "bytes": 1973588,
+      "sha256": "eb82c96b306f38f9e89de9ed53ca222f648d7436c578f895d8feb435dfd1d465"
+    },
+    {
+      "file": "PBISC_Figure8_Main_Verified28_20261119.pdf",
+      "bytes": 141217,
+      "sha256": "c6bd6e05309cf1e91dd0b446c0dd634c162d8a45136e4ae0a0f280a1744749cc"
+    },
+    {
+      "file": "PBISC_Figure8_Main_Verified28_20261119.svg",
+      "bytes": 428724,
+      "sha256": "5fc463edd8e0101ebc504e5bb05bffd7d7f471f2c16a64a29d37742bdd6c77ff"
+    },
+    {
+      "file": "PBISC_SuppFig_S1_Cohort_Mortality_Audit_Verified28_20261119.png",
+      "bytes": 914855,
+      "sha256": "a80dd6f193789ede31d39a61473c335a2704b34394b6d3c77acfb81a4f1aca4c"
+    },
+    {
+      "file": "PBISC_SuppFig_S1_Cohort_Mortality_Audit_Verified28_20261119.pdf",
+      "bytes": 86200,
+      "sha256": "dad15ac2ecbcab3ed8e21bda6463d817f934de4f6e6cbb193199baad07974fd5"
+    },
+    {
+      "file": "PBISC_SuppFig_S1_Cohort_Mortality_Audit_Verified28_20261119.svg",
+      "bytes": 128483,
+      "sha256": "e81efdb22bb429635355a2b08f3189453ac3a694ed598960a5008007ffeab50a"
+    },
+    {
+      "file": "PBISC_SuppFig_S2_CLL_Anchors_Modality_Verified28_20261119.png",
+      "bytes": 1454403,
+      "sha256": "4e29cb46897a67ac75a72883ae85958606710cdeaa819c2cfe1062c37cb3b8ee"
+    },
+    {
+      "file": "PBISC_SuppFig_S2_CLL_Anchors_Modality_Verified28_20261119.pdf",
+      "bytes": 127144,
+      "sha256": "c4c7e8952066de61be691cb32d04c588a32c173d37d052e56df2ecdcb622ea65"
+    },
+    {
+      "file": "PBISC_SuppFig_S2_CLL_Anchors_Modality_Verified28_20261119.svg",
+      "bytes": 334523,
+      "sha256": "6eb4457d08c2cba889353585e98086b628c751c55d6f323fc9b0f0f2de9f71ca"
+    },
+    {
+      "file": "PBISC_SuppFig_S3_Power_IFN_Sensitivity_Verified28_20261119.png",
+      "bytes": 1294600,
+      "sha256": "8a2478fe72d96894df7539f0ae2e43a8eb18a082dad2c4b548f011dd7f03f4bf"
+    },
+    {
+      "file": "PBISC_SuppFig_S3_Power_IFN_Sensitivity_Verified28_20261119.pdf",
+      "bytes": 130985,
+      "sha256": "401d853e635272b7bea7361bfe2fdfe793df1f3b24206752df3235477e3ca65d"
+    },
+    {
+      "file": "PBISC_SuppFig_S3_Power_IFN_Sensitivity_Verified28_20261119.svg",
+      "bytes": 176394,
+      "sha256": "57f256d8c724d1957d36b7fb64a1eecfa2055c57693c1dbcc2909c59ab022aac"
+    },
+    {
+      "file": "PBISC_SuppFig_S4_Public_COVID_Replication_Verified28_20261119.png",
+      "bytes": 872559,
+      "sha256": "46283a8c47834986ceead3437a6961f5d18c3aa0d545d3cfcdc803a6b281677e"
+    },
+    {
+      "file": "PBISC_SuppFig_S4_Public_COVID_Replication_Verified28_20261119.pdf",
+      "bytes": 82781,
+      "sha256": "770626407109d4cd933cb805d2b3becf1654469b30ec62a8d714f821538b8c92"
+    },
+    {
+      "file": "PBISC_SuppFig_S4_Public_COVID_Replication_Verified28_20261119.svg",
+      "bytes": 77928,
+      "sha256": "5cdd98e6c46a2886ba3ee1c5fad6ca045045995e6fb719b0b602d763e6a1e393"
+    },
+    {
+      "file": "PBISC_SuppFig_S5_Deconv_HSC_TISG_Clinical_Verified28_20261119.png",
+      "bytes": 1236988,
+      "sha256": "6bbed12bf0a37ddb461ad8cba630105f7fe52cb0e2ce16fabc55d5ab88faa293"
+    },
+    {
+      "file": "PBISC_SuppFig_S5_Deconv_HSC_TISG_Clinical_Verified28_20261119.pdf",
+      "bytes": 134973,
+      "sha256": "1ce2ea764dc8665bd53db2a492bb5ecf3402684defcb6ac0d29b98fd7712f0d2"
+    },
+    {
+      "file": "PBISC_SuppFig_S5_Deconv_HSC_TISG_Clinical_Verified28_20261119.svg",
+      "bytes": 234017,
+      "sha256": "f84e7720abdbe9cea8a6c663fc533543a382cf0c2d62a94e7fd8cc4302235b49"
+    },
+    {
+      "file": "PBISC_Verified28_True11_Figures_7_8_S1-S5_20261119.pdf",
+      "bytes": 861779,
+      "sha256": "82cb874653b906464c3bf536e7c37f8035914c72a882834b63fc3292c4e0ccba"
+    }
+  ]
+}
