@@ -1,0 +1,19 @@
+{
+  "n_primary_patients": 66,
+  "n_primary_draws": 217,
+  "first_draw_total_n": 66,
+  "first_draw_total_deaths": 11,
+  "first_draw_le7d_n": 53,
+  "first_draw_le7d_deaths": 10,
+  "n_43_sig_counts": {
+    "prev_pm_peakWHO_q43_lt05": 12,
+    "new_samedayWHO_GEE_unadj_q43_lt05": 17,
+    "new_samedayWHO_GEE_wk_q43_lt05": 18,
+    "new_samedayWHO_GEE_wk_BR_q43_lt05": 17,
+    "new_samedayWHO_clboot_rho_q43_lt05": 16,
+    "prev_pm_death_q43_lt10": 4,
+    "new_firstdraw_death_q43_lt10": 2,
+    "new_firstdraw_death_p_lt05": 5,
+    "new_firstdraw_le7d_death_p_lt05": 4
+  }
+}

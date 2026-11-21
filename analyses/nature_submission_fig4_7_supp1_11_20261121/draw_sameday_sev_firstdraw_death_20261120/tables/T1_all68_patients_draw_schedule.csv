@@ -1,0 +1,69 @@
+﻿patient_id,cohort_group,primary_source,centre_or_wave,age,sex,n_primary_draws,n_real_scRNA_pos,n_pbisc_pos,first_draw_day,last_draw_day,draw_days_swab,draw_days_symptoms,first_draw_WHO,first_draw_WHO_ord,same_day_WHO_each_draw,n_unique_sameday_WHO,peak_WHO,peak_WHO_ord,death_TRUE_PUB11,death_DIRECT9,death_ZENODO14,recorded_steroid
+C23,Real-only (10),Real,NCL,78.0,F,3,3,0,7.0,19.0,"d7, d12, d19","d8, d13, d20",moderate,1.0,"moderate, moderate, moderate",1,moderate,1.0,0,0,0,N
+C31,Real-only (10),Real,NCL,39.0,F,3,3,3,0.0,14.0,"d0, d7, d14","d4, d11, d18",mild,0.0,"mild, mild, mild",1,mild,0.0,0,0,0,N
+C36,Real-only (10),Real,NCL,66.0,M,3,3,0,2.0,8.0,"d2, d4, d8","d10, d12, d16",mild,0.0,"mild, mild, mild",1,moderate,1.0,0,0,0,N
+C124,Real-only (10),Real,NCL,81.0,M,3,3,0,4.0,11.0,"d4, d7, d11","d9, d12, d16",moderate,1.0,"moderate, mild, mild",2,moderate,1.0,0,0,0,N
+C138,Real-only (10),Real,Cambridge,77.0,F,6,6,0,7.0,19.0,"d7, d10, d12, d14, d17, d19","d2, d5, d7, d9, d12, d14",moderate,1.0,"moderate, moderate, moderate, moderate, mild, mild",2,moderate,1.0,0,0,0,Y
+C140,Real-only (10),Real,Cambridge,23.0,F,6,6,0,2.0,14.0,"d2, d4, d7, d9, d11, d14","d5, d7, d10, d12, d14, d17",mild,0.0,"mild, mild, mild, mild, mild, mild",1,mild,0.0,0,0,0,N
+C141,Real-only (10),Real,Cambridge,85.0,M,5,5,0,4.0,17.0,"d4, d6, d10, d14, d17","d7, d9, d13, d17, d20",moderate,1.0,"moderate, severe, moderate, moderate, moderate",2,severe,2.0,1,1,1,Y
+C146,Real-only (10),Real,Cambridge,66.0,M,6,6,0,3.0,18.0,"d3, d5, d7, d10, d14, d18","d-9, d-7, d-5, d-2, d2, d6",mild,0.0,"mild, mild, moderate, moderate, severe, moderate",3,severe,2.0,0,0,1,Y
+C170,Real-only (10),Real,Cambridge,82.0,M,6,6,0,4.0,16.0,"d4, d7, d9, d11, d14, d16","NA, NA, NA, NA, NA, NA",mild,0.0,"mild, mild, mild, mild, mild, mild",1,mild,0.0,0,0,0,N
+C190,Real-only (10),Real,Cambridge,54.0,M,6,6,0,2.0,14.0,"d2, d5, d7, d9, d12, d14","NA, NA, NA, NA, NA, NA",mild,0.0,"mild, mild, mild, mild, mild, mild",1,mild,0.0,0,0,0,N
+C20,Shared-27 (Real used),Real,NCL,62.0,M,3,3,1,7.0,13.0,"d7, d11, d13","d8, d12, d14",moderate,1.0,"moderate, moderate, mild",2,severe,2.0,0,0,0,N
+C21,Shared-27 (Real used),Real,NCL,80.0,M,3,3,3,4.0,19.0,"d4, d11, d19","d5, d12, d20",moderate,1.0,"moderate, severe, critical",3,critical,3.0,1,1,1,N
+C33,Shared-27 (Real used),Real,Cambridge,75.0,M,4,4,2,2.0,14.0,"d2, d4, d7, d14","d0, d2, d5, d12",mild,0.0,"mild, mild, severe, critical",3,critical,3.0,1,1,1,Y
+C34,Shared-27 (Real used),Real,NCL,74.0,F,3,3,1,0.0,11.0,"d0, d7, d11","d0, d7, d11",mild,0.0,"mild, mild, mild",1,mild,0.0,0,0,0,N
+C40,Shared-27 (Real used),Real,NCL,57.0,M,3,3,4,2.0,18.0,"d2, d9, d18","d2, d9, d18",mild,0.0,"mild, moderate, critical",3,critical,3.0,0,0,0,N
+C42,Shared-27 (Real used),Real,NCL,40.0,M,3,3,2,0.0,12.0,"d0, d7, d12","d2, d9, d14",moderate,1.0,"moderate, mild, mild",2,moderate,1.0,0,0,0,N
+C58,Shared-27 (Real used),Real,Cambridge,72.0,F,5,5,1,5.0,15.0,"d5, d7, d9, d12, d15","NA, NA, NA, NA, NA",mild,0.0,"mild, mild, mild, mild, mild",1,mild,0.0,0,0,0,N
+C60,Shared-27 (Real used),Real,NCL,80.0,M,3,3,4,2.0,11.0,"d2, d7, d11","d4, d9, d13",moderate,1.0,"moderate, moderate, moderate",1,severe,2.0,0,0,0,N
+C63,Shared-27 (Real used),Real,NCL,45.0,M,3,3,2,2.0,14.0,"d2, d9, d14","d5, d12, d17",moderate,1.0,"moderate, mild, mild",2,moderate,1.0,0,0,0,N
+C65,Shared-27 (Real used),Real,NCL,73.0,M,3,3,5,4.0,12.0,"d4, d8, d12","d9, d13, d17",moderate,1.0,"moderate, severe, critical",3,critical,3.0,0,0,0,N
+C73,Shared-27 (Real used),Real,NCL,88.0,M,1,2,2,3.0,3.0,d3,d7,moderate,1.0,moderate,1,severe,2.0,0,0,0,N
+C82,Shared-27 (Real used),Real,NCL,60.0,F,2,2,1,6.0,11.0,"d6, d11","d6, d11",mild,0.0,"mild, mild",1,mild,0.0,0,0,0,N
+C93,Shared-27 (Real used),Real,NCL,87.0,M,3,3,2,7.0,20.0,"d7, d13, d20","d7, d13, d20",mild,0.0,"mild, moderate, mild",2,moderate,1.0,0,0,0,N
+C101,Shared-27 (Real used),Real,Cambridge,61.0,M,5,5,2,4.0,18.0,"d4, d9, d11, d16, d18","d0, d5, d7, d12, d14",severe,2.0,"severe, severe, moderate, moderate, severe",2,severe,2.0,0,0,1,Y
+C108,Shared-27 (Real used),Real,Cambridge,79.0,F,3,3,3,2.0,9.0,"d2, d5, d9","d0, d3, d7",moderate,1.0,"moderate, moderate, moderate",1,severe,2.0,1,0,1,N
+C113,Shared-27 (Real used),Real,NCL,61.0,F,3,3,1,4.0,17.0,"d4, d10, d17","d6, d12, d19",severe,2.0,"severe, severe, moderate",2,severe,2.0,0,0,0,N
+C123,Shared-27 (Real used),Real,NCL,66.0,M,3,3,3,4.0,15.0,"d4, d9, d15","d7, d12, d18",severe,2.0,"severe, severe, moderate",2,severe,2.0,0,0,0,N
+C126,Shared-27 (Real used),Real,NCL,64.0,M,3,3,3,2.0,13.0,"d2, d7, d13","d2, d7, d13",mild,0.0,"mild, mild, mild",1,mild,0.0,0,0,0,N
+C127,Shared-27 (Real used),Real,NCL,69.0,F,3,3,3,2.0,18.0,"d2, d11, d18","d5, d14, d21",moderate,1.0,"moderate, moderate, mild",2,moderate,1.0,0,0,0,N
+C128,Shared-27 (Real used),Real,NCL,72.0,M,3,3,2,2.0,18.0,"d2, d11, d18","d5, d14, d21",mild,0.0,"mild, mild, mild",1,mild,0.0,0,0,0,N
+C132,Shared-27 (Real used),Real,NCL,77.0,F,3,3,3,5.0,18.0,"d5, d9, d18","d6, d10, d19",moderate,1.0,"moderate, mild, mild",2,moderate,1.0,0,0,0,N
+C137,Shared-27 (Real used),Real,Cambridge,60.0,F,2,2,4,5.0,14.0,"d5, d14","d-2, d7",mild,0.0,"mild, mild",1,mild,0.0,0,0,0,N
+C145,Shared-27 (Real used),Real,Cambridge,65.0,F,5,5,1,2.0,18.0,"d2, d7, d9, d14, d18","d2, d7, d9, d14, d18",mild,0.0,"mild, severe, severe, moderate, moderate",3,severe,2.0,1,0,1,Y
+C147,Shared-27 (Real used),Real,Cambridge,53.0,M,5,5,1,2.0,16.0,"d2, d7, d11, d14, d16","d0, d5, d9, d12, d14",mild,0.0,"mild, severe, critical, critical, critical",3,critical,3.0,0,0,1,Y
+C168,Shared-27 (Real used),Real,Cambridge,75.0,M,4,5,1,4.0,17.0,"d4, d7, d14, d17","NA, NA, NA, NA",mild,0.0,"mild, mild, mild, mild",1,mild,0.0,0,0,0,N
+C169,Shared-27 (Real used),Real,Cambridge,73.0,F,5,5,1,4.0,17.0,"d4, d7, d10, d14, d17","NA, NA, NA, NA, NA",mild,0.0,"mild, mild, mild, mild, mild",1,mild,0.0,0,0,0,N
+C187,Shared-27 (Real used),Real,Cambridge,70.0,M,5,5,1,5.0,19.0,"d5, d7, d12, d16, d19","d1, d3, d8, d12, d15",mild,0.0,"mild, mild, mild, mild, mild",1,mild,0.0,0,0,0,N
+C7,PBISC new (29),PBISC new,w1,83.0,M,2,0,2,9.0,11.0,"d9, d11","d9, d11",mild,0.0,"mild, mild",1,mild,0.0,0,0,0,UNRECORDED_W1
+C9,PBISC new (29),PBISC new,w1,55.0,M,2,0,2,7.0,12.0,"d7, d12","d12, d17",mild,0.0,"mild, mild",1,moderate,1.0,0,0,0,UNRECORDED_W1
+C10,PBISC new (29),PBISC new,w1,84.0,F,3,0,3,18.0,30.0,"d18, d21, d30","d18, d21, d30",moderate,1.0,"moderate, moderate, mild",2,severe,2.0,0,0,0,UNRECORDED_W1
+C11,PBISC new (29),PBISC new,w1,62.0,M,4,0,4,13.0,21.0,"d13, d17, d19, d21","NA, NA, NA, NA",moderate,1.0,"moderate, moderate, moderate, mild",2,severe,2.0,0,0,0,UNRECORDED_W1
+C12,PBISC new (29),PBISC new,w1,58.0,M,5,0,5,8.0,21.0,"d8, d14, d16, d19, d21","d11, d17, d19, d22, d24",severe,2.0,"severe, moderate, mild, mild, mild",3,severe,2.0,0,0,0,UNRECORDED_W1
+C18,PBISC new (29),PBISC new,w1,64.0,M,4,0,4,14.0,19.0,"d14, d15, d17, d19","d9, d10, d12, d14",moderate,1.0,"moderate, moderate, mild, mild",2,severe,2.0,0,0,0,UNRECORDED_W1
+C22,PBISC new (29),PBISC new,w1,65.0,M,3,0,3,8.0,13.0,"d8, d11, d13","d8, d11, d13",mild,0.0,"mild, mild, mild",1,mild,0.0,0,0,0,UNRECORDED_W1
+C24,PBISC new (29),PBISC new,w1,75.0,F,3,0,3,8.0,13.0,"d8, d11, d13","NA, NA, NA",mild,0.0,"mild, mild, mild",1,mild,0.0,0,0,0,UNRECORDED_W1
+C25,PBISC new (29),PBISC new,w1,38.0,M,3,0,3,14.0,18.0,"d14, d16, d18","d14, d16, d18",mild,0.0,"mild, mild, mild",1,moderate,1.0,0,0,0,UNRECORDED_W1
+C27,PBISC new (29),PBISC new,w1,85.0,M,2,0,2,5.0,7.0,"d5, d7","d6, d8",mild,0.0,"mild, mild",1,mild,0.0,0,0,0,UNRECORDED_W1
+C32,PBISC new (29),PBISC new,w1,76.0,M,1,0,1,16.0,16.0,d16,NA,critical,3.0,critical,1,critical,3.0,1,1,1,UNRECORDED_W1
+C37,PBISC new (29),PBISC new,w1,82.0,F,2,0,2,2.0,5.0,"d2, d5","d9, d12",critical,3.0,"critical, critical",1,critical,3.0,1,1,1,UNRECORDED_W1
+C47,PBISC new (29),PBISC new,w1,72.0,M,3,0,3,7.0,16.0,"d7, d11, d16","d9, d13, d18",mild,0.0,"mild, mild, mild",1,mild,0.0,0,0,0,UNRECORDED_W1
+C48,PBISC new (29),PBISC new,w1,72.0,M,2,0,2,0.0,2.0,"d0, d2","d2, d4",moderate,1.0,"moderate, critical",2,critical,3.0,1,1,1,UNRECORDED_W1
+C50,PBISC new (29),PBISC new,w1,66.0,M,4,0,4,13.0,22.0,"d13, d15, d18, d22","d14, d16, d19, d23",severe,2.0,"severe, moderate, severe, moderate",2,severe,2.0,0,0,0,UNRECORDED_W1
+C59,PBISC new (29),PBISC new,w1,47.0,M,2,0,2,11.0,15.0,"d11, d15","d12, d16",mild,0.0,"mild, mild",1,severe,2.0,0,0,0,UNRECORDED_W1
+C66,PBISC new (29),PBISC new,w1,60.0,F,1,0,1,0.0,0.0,d0,d5,severe,2.0,severe,1,critical,3.0,1,1,1,UNRECORDED_W1
+C67,PBISC new (29),PBISC new,w1,75.0,F,1,0,1,2.0,2.0,d2,d3,moderate,1.0,moderate,1,moderate,1.0,0,0,0,UNRECORDED_W1
+C68,PBISC new (29),PBISC new,w1,75.0,M,1,0,1,5.0,5.0,d5,d5,mild,0.0,mild,1,mild,0.0,0,0,0,UNRECORDED_W1
+C77,PBISC new (29),PBISC new,w1,64.0,F,1,0,1,7.0,7.0,d7,d11,moderate,1.0,moderate,1,critical,3.0,1,1,1,UNRECORDED_W1
+C80,PBISC new (29),PBISC new,w1,69.0,F,1,0,1,14.0,14.0,d14,d16,mild,0.0,mild,1,moderate,1.0,0,0,0,UNRECORDED_W1
+C84,PBISC new (29),PBISC new,w1,75.0,M,1,0,1,3.0,3.0,d3,d3,moderate,1.0,moderate,1,critical,3.0,1,1,1,UNRECORDED_W1
+C87,PBISC new (29),PBISC new,w1,71.0,M,3,0,3,9.0,13.0,"d9, d11, d13","d9, d11, d13",mild,0.0,"mild, mild, mild",1,mild,0.0,0,0,0,UNRECORDED_W1
+C99,PBISC new (29),PBISC new,w1,60.0,M,2,0,2,3.0,6.0,"d3, d6","d13, d16",critical,3.0,"critical, severe",2,critical,3.0,0,0,0,UNRECORDED_W1
+C105,PBISC new (29),PBISC new,w1,75.0,F,6,0,6,0.0,14.0,"d0, d2, d5, d7, d12, d14","d3, d5, d8, d10, d15, d17",mild,0.0,"mild, mild, mild, mild, mild, mild",1,mild,0.0,0,0,0,UNRECORDED_W1
+C110,PBISC new (29),PBISC new,w1,74.0,M,4,0,4,2.0,14.0,"d2, d4, d11, d14","d2, d4, d11, d14",moderate,1.0,"moderate, moderate, mild, mild",2,moderate,1.0,0,0,0,UNRECORDED_W1
+C114,PBISC new (29),PBISC new,w1,68.0,M,7,0,7,4.0,30.0,"d4, d8, d12, d15, d23, d26, d30","d5, d9, d13, d16, d24, d27, d31",moderate,1.0,"moderate, severe, moderate, moderate, mild, mild, mild",3,severe,2.0,0,0,0,UNRECORDED_W1
+C129,PBISC new (29),PBISC new,w1,77.0,M,4,0,4,2.0,12.0,"d2, d5, d7, d12","d3, d6, d8, d13",mild,0.0,"mild, mild, mild, mild",1,mild,0.0,0,0,0,UNRECORDED_W1
+C149,PBISC new (29),PBISC new,w1,76.0,M,2,0,2,3.0,14.0,"d3, d14","d3, d14",mild,0.0,"mild, mild",1,mild,0.0,0,0,0,UNRECORDED_W1
+C116,Excluded CLL (2),Excluded_CLL,NCL,87.0,M,0,3,2,,,,,NA,,,0,critical,3.0,0,0,0,nan
+C139,Excluded CLL (2),Excluded_CLL,Cambridge,85.0,M,0,6,0,,,,,NA,,,0,severe,2.0,0,0,0,nan

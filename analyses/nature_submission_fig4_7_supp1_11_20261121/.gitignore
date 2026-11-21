@@ -1,0 +1,21 @@
+# Nature Portfolio Figs. 4-7 & SuppFigs 1-11 release: whitelist curated outputs & figures.
+!/*.docx
+!/*.xlsx
+!/*.json
+!/*.md
+!figures/*.png
+!figures/*.pdf
+!figures/*.svg
+!data/*.csv
+!audit_focus3_20261121/*.csv
+!audit_focus3_20261121/*.json
+!draw_sameday_sev_firstdraw_death_20261120/*.xlsx
+!draw_sameday_sev_firstdraw_death_20261120/*.json
+!draw_sameday_sev_firstdraw_death_20261120/*.md
+!draw_sameday_sev_firstdraw_death_20261120/tables/*.csv
+
+# Exclude caches and superseded drafts
+*.pkl
+__pycache__/
+*.py[cod]
+previous_version_*/

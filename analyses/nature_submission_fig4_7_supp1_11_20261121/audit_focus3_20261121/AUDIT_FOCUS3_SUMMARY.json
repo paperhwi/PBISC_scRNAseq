@@ -1,0 +1,127 @@
+{
+  "metadata_audit": {
+    "sepsis": {
+      "real_total": 133,
+      "real_adult": 108,
+      "real_ped": 25,
+      "pbisc_total": 122,
+      "pbisc_adult": 121,
+      "pbisc_ped": 1,
+      "pbisc_ped_ids": [
+        "PIC06"
+      ],
+      "real_pbisc_overlap": 0,
+      "real_adult_age_med": 67.0,
+      "real_adult_age_iqr": "54-74",
+      "real_adult_male_n": 76,
+      "pbisc_adult_age_med": 65.0,
+      "pbisc_adult_age_iqr": "54-74",
+      "pbisc_adult_male_n": 78,
+      "pbisc_sex_flag_counts": {
+        "False": 119,
+        "True": 3
+      }
+    },
+    "covid": {
+      "total_donors": 107,
+      "total_mapping_rows": 362,
+      "shared_donors_meta": 32,
+      "shared_metadata_mismatches": 0,
+      "pbisc_sex_flag_counts": {
+        "False": 163,
+        "True": 1
+      },
+      "real_ncells_med": 2203.5,
+      "real_ncells_iqr": "1092-4116",
+      "real_ncells_min": 226,
+      "real_ncells_max": 9254,
+      "real_ncells_vs_sdWHO_rho": -0.12907514792025224,
+      "real_ncells_vs_sdWHO_p": 0.13134566730937428,
+      "real_ncells_1st_vs_death_AUC": 0.575,
+      "real_ncells_1st_vs_death_p": 0.6197335609100315
+    }
+  },
+  "tisg_cv_benchmark": [
+    {
+      "model": "All 1st-dr (66) + T CD8 CTL",
+      "n": 66,
+      "deaths": 11,
+      "AUC_base": 0.6877520661157024,
+      "AUC_ext": 0.8340495867768594,
+      "Delta_AUC": 0.14629752066115698
+    },
+    {
+      "model": "All 1st-dr (66) + T CD8 CTL ISG",
+      "n": 66,
+      "deaths": 11,
+      "AUC_base": 0.6877520661157024,
+      "AUC_ext": 0.7640330578512398,
+      "Delta_AUC": 0.07628099173553737
+    },
+    {
+      "model": "All 1st-dr (66) + CTL + ISG",
+      "n": 66,
+      "deaths": 11,
+      "AUC_base": 0.6877520661157024,
+      "AUC_ext": 0.8258181818181819,
+      "Delta_AUC": 0.1380661157024795
+    },
+    {
+      "model": "All 1st-dr (66) + CTL + NK",
+      "n": 66,
+      "deaths": 11,
+      "AUC_base": 0.6877520661157024,
+      "AUC_ext": 0.8370247933884296,
+      "Delta_AUC": 0.14927272727272722
+    },
+    {
+      "model": "All 1st-dr (66) + CTL + NK + ISG",
+      "n": 66,
+      "deaths": 11,
+      "AUC_base": 0.6877520661157024,
+      "AUC_ext": 0.8249256198347108,
+      "Delta_AUC": 0.1371735537190084
+    },
+    {
+      "model": "Early <=7d (53) + T CD8 CTL",
+      "n": 52,
+      "deaths": 10,
+      "AUC_base": 0.6704761904761906,
+      "AUC_ext": 0.8331428571428571,
+      "Delta_AUC": 0.16266666666666652
+    },
+    {
+      "model": "Early <=7d (53) + T CD8 CTL ISG",
+      "n": 52,
+      "deaths": 10,
+      "AUC_base": 0.6704761904761906,
+      "AUC_ext": 0.7056190476190476,
+      "Delta_AUC": 0.03514285714285703
+    },
+    {
+      "model": "Early <=7d (53) + CTL + ISG",
+      "n": 52,
+      "deaths": 10,
+      "AUC_base": 0.6704761904761906,
+      "AUC_ext": 0.8143809523809524,
+      "Delta_AUC": 0.14390476190476187
+    }
+  ],
+  "tisg_summary": {
+    "ctl_vs_isg_213draws_rho": -0.2613801890273858,
+    "ctl_vs_isg_213draws_p": 0.00011358092216883582,
+    "ctl_vs_isg_66firstdraw_rho": -0.39589595858383436,
+    "ctl_vs_isg_66firstdraw_p": 0.0010005537419218089,
+    "firstdraw_AUC_negCTL": 0.8016528925619835,
+    "firstdraw_p_negCTL": 0.001739198893278927,
+    "firstdraw_AUC_posISG": 0.6760330578512397,
+    "firstdraw_p_posISG": 0.0681767751478553,
+    "firstdraw_AUC_negCTL_posISG": 0.7851239669421488,
+    "firstdraw_p_negCTL_posISG": 0.003082056991721656,
+    "firstdraw_AUC_negCTLNK_posISG": 0.828099173553719,
+    "firstdraw_p_negCTLNK_posISG": 0.0006574044399729819,
+    "sepsis_pbisc_tisg_rho": -0.38788396142310927,
+    "sepsis_pbisc_tisg_p": 1.1036435043691151e-05,
+    "sepsis_pbisc_tisg_sepsis_vs_HC_p": 1.432371267001131e-06
+  }
+}

@@ -1,0 +1,256 @@
+sample_id,gsm,group,age_group,age,sex,infection_source,n_cells,shared_with_real,donor_id,dataset,in_primary_scope,condition,bulk_sex_call,sex_flag,collection_site,support_donor_overlap
+Abd-PS04,GSM8571082,sepsis,paediatric,7.0,Male,abdominal,4426,True,Abd-PS04,Real_scRNA,False,,,,,
+Abd-PS05,GSM8571083,sepsis,paediatric,3.0,Male,abdominal,5822,True,Abd-PS05,Real_scRNA,False,,,,,
+Abd-PS07,GSM8571084,sepsis,paediatric,9.0,Male,abdominal,2950,True,Abd-PS07,Real_scRNA,False,,,,,
+Abd-PS13,GSM8571085,sepsis,paediatric,14.0,Female,abdominal,5460,True,Abd-PS13,Real_scRNA,False,,,,,
+Abd-PS18,GSM8571086,sepsis,paediatric,0.4,Female,abdominal,6452,True,Abd-PS18,Real_scRNA,False,,,,,
+Abd-PS19,GSM8571087,sepsis,paediatric,6.0,Male,abdominal,6780,True,Abd-PS19,Real_scRNA,False,,,,,
+Abd-PS20,GSM8571088,sepsis,paediatric,0.8,Male,abdominal,6239,True,Abd-PS20,Real_scRNA,False,,,,,
+Abd-PS23,GSM8571089,sepsis,paediatric,2.0,Male,abdominal,3594,True,Abd-PS23,Real_scRNA,False,,,,,
+Abd-PS27,GSM8571090,sepsis,paediatric,0.1,Male,abdominal,6513,True,Abd-PS27,Real_scRNA,False,,,,,
+Abd-S101,GSM8571091,sepsis,adult,73.0,Male,abdominal,5934,True,Abd-S101,Real_scRNA,True,,,,,
+Abd-S102,GSM8571092,sepsis,adult,43.0,Male,abdominal,8222,True,Abd-S102,Real_scRNA,True,,,,,
+Abd-S103,GSM8571093,sepsis,adult,61.0,Male,abdominal,5319,True,Abd-S103,Real_scRNA,True,,,,,
+Abd-S11,GSM8571094,sepsis,adult,72.0,Male,abdominal,5750,True,Abd-S11,Real_scRNA,True,,,,,
+Abd-S111,GSM8571095,sepsis,adult,73.0,Male,abdominal,6958,True,Abd-S111,Real_scRNA,True,,,,,
+Abd-S12,GSM8571096,sepsis,adult,51.0,Female,abdominal,5089,True,Abd-S12,Real_scRNA,True,,,,,
+Abd-S120,GSM8571097,sepsis,adult,81.0,Male,abdominal,4991,True,Abd-S120,Real_scRNA,True,,,,,
+Abd-S123,GSM8571098,sepsis,adult,77.0,Female,abdominal,4961,True,Abd-S123,Real_scRNA,True,,,,,
+Abd-S13,GSM8571099,sepsis,adult,26.0,Female,abdominal,3865,True,Abd-S13,Real_scRNA,True,,,,,
+Abd-S156,GSM8571100,sepsis,adult,72.0,Male,abdominal,5385,True,Abd-S156,Real_scRNA,True,,,,,
+Abd-S23,GSM8571101,sepsis,adult,57.0,Male,abdominal,4533,True,Abd-S23,Real_scRNA,True,,,,,
+Abd-S39,GSM8571102,sepsis,adult,40.0,Male,abdominal,2457,True,Abd-S39,Real_scRNA,True,,,,,
+Abd-S42,GSM8571103,sepsis,adult,49.0,Male,abdominal,5535,True,Abd-S42,Real_scRNA,True,,,,,
+Abd-S45,GSM8571104,sepsis,adult,68.0,Male,abdominal,6772,True,Abd-S45,Real_scRNA,True,,,,,
+Abd-S47,GSM8571105,sepsis,adult,65.0,Female,abdominal,6879,True,Abd-S47,Real_scRNA,True,,,,,
+Abd-S49,GSM8571106,sepsis,adult,73.0,Female,abdominal,6794,True,Abd-S49,Real_scRNA,True,,,,,
+Abd-S51,GSM8571107,sepsis,adult,56.0,Male,abdominal,5664,True,Abd-S51,Real_scRNA,True,,,,,
+Abd-S53,GSM8571108,sepsis,adult,76.0,Male,abdominal,4385,True,Abd-S53,Real_scRNA,True,,,,,
+Abd-S54,GSM8571109,sepsis,adult,70.0,Male,abdominal,6894,True,Abd-S54,Real_scRNA,True,,,,,
+Abd-S55,GSM8571110,sepsis,adult,41.0,Male,abdominal,4444,True,Abd-S55,Real_scRNA,True,,,,,
+Abd-S57,GSM8571111,sepsis,adult,57.0,Male,abdominal,12058,True,Abd-S57,Real_scRNA,True,,,,,
+Abd-S58,GSM8571112,sepsis,adult,56.0,Male,abdominal,6721,True,Abd-S58,Real_scRNA,True,,,,,
+Abd-S59,GSM8571113,sepsis,adult,65.0,Male,abdominal,5621,True,Abd-S59,Real_scRNA,True,,,,,
+Abd-S66,GSM8571114,sepsis,adult,56.0,Male,abdominal,6883,True,Abd-S66,Real_scRNA,True,,,,,
+Abd-S67,GSM8571115,sepsis,adult,85.0,Male,abdominal,6294,True,Abd-S67,Real_scRNA,True,,,,,
+Abd-S72,GSM8571116,sepsis,adult,82.0,Female,abdominal,6292,True,Abd-S72,Real_scRNA,True,,,,,
+Abd-S73,GSM8571117,sepsis,adult,42.0,Male,abdominal,4315,True,Abd-S73,Real_scRNA,True,,,,,
+Abd-S75,GSM8571118,sepsis,adult,91.0,Male,abdominal,6621,True,Abd-S75,Real_scRNA,True,,,,,
+Abd-S79,GSM8571119,sepsis,adult,19.0,Male,abdominal,7028,True,Abd-S79,Real_scRNA,True,,,,,
+Abd-S8,GSM8571121,sepsis,adult,67.0,Male,abdominal,4335,True,Abd-S8,Real_scRNA,True,,,,,
+Abd-S80,GSM8571120,sepsis,adult,67.0,Male,abdominal,7150,True,Abd-S80,Real_scRNA,True,,,,,
+Abd-S81,GSM8571122,sepsis,adult,71.0,Male,abdominal,6521,True,Abd-S81,Real_scRNA,True,,,,,
+Abd-S83,GSM8571123,sepsis,adult,74.0,Male,abdominal,5369,True,Abd-S83,Real_scRNA,True,,,,,
+Abd-S9,GSM8571125,sepsis,adult,75.0,Male,abdominal,5664,True,Abd-S9,Real_scRNA,True,,,,,
+Abd-S91,GSM8571126,sepsis,adult,80.0,Male,abdominal,7602,True,Abd-S91,Real_scRNA,True,,,,,
+Abd-S98,GSM8571127,sepsis,adult,70.0,Male,abdominal,4297,True,Abd-S98,Real_scRNA,True,,,,,
+CNS-S189,GSM8571128,sepsis,adult,56.0,Female,CNS,5011,True,CNS-S189,Real_scRNA,True,,,,,
+CNS-S50,GSM8571129,sepsis,adult,41.0,Male,CNS,5842,True,CNS-S50,Real_scRNA,True,,,,,
+CNS-S61,GSM8571130,sepsis,adult,36.0,Male,CNS,4736,True,CNS-S61,Real_scRNA,True,,,,,
+HC01,GSM8571131,healthy control,adult,57.0,Male,,8735,True,HC01,Real_scRNA,True,,,,,
+HC05,GSM8571132,healthy control,adult,69.0,Male,,9625,True,HC05,Real_scRNA,True,,,,,
+HC07,GSM8571133,healthy control,adult,66.0,Male,,8519,True,HC07,Real_scRNA,True,,,,,
+HC09,GSM8571134,healthy control,adult,64.0,Male,,4229,True,HC09,Real_scRNA,True,,,,,
+HC12,GSM8571135,healthy control,adult,41.0,Male,,3294,True,HC12,Real_scRNA,True,,,,,
+HC13,GSM8571136,healthy control,adult,55.0,Female,,8750,True,HC13,Real_scRNA,True,,,,,
+HC16,GSM8571137,healthy control,adult,72.0,Female,,8540,True,HC16,Real_scRNA,True,,,,,
+IC08,GSM8571138,ICU control,adult,68.0,Male,,5052,True,IC08,Real_scRNA,True,,,,,
+IC09,GSM8571139,ICU control,adult,72.0,Male,,5069,True,IC09,Real_scRNA,True,,,,,
+IC10,GSM8571140,ICU control,adult,40.0,Male,,6285,True,IC10,Real_scRNA,True,,,,,
+IC15,GSM8571141,ICU control,adult,48.0,Male,,12875,True,IC15,Real_scRNA,True,,,,,
+IC16,GSM8571142,ICU control,adult,71.0,Female,,5080,True,IC16,Real_scRNA,True,,,,,
+IC19,GSM8571143,ICU control,adult,51.0,Male,,5749,True,IC19,Real_scRNA,True,,,,,
+IC22,GSM8571144,ICU control,adult,68.0,Male,,1832,True,IC22,Real_scRNA,True,,,,,
+IC23,GSM8571145,ICU control,adult,54.0,Female,,11442,True,IC23,Real_scRNA,True,,,,,
+PHC01,GSM8571146,healthy control,paediatric,9.0,Female,,5551,True,PHC01,Real_scRNA,False,,,,,
+PHC02,GSM8571147,healthy control,paediatric,6.0,Male,,5529,True,PHC02,Real_scRNA,False,,,,,
+PHC03,GSM8571148,healthy control,paediatric,2.0,Male,,8340,True,PHC03,Real_scRNA,False,,,,,
+PHC05,GSM8571149,healthy control,paediatric,5.0,Male,,9070,True,PHC05,Real_scRNA,False,,,,,
+PIC01,GSM8571150,ICU control,paediatric,0.1,Male,,7152,True,PIC01,Real_scRNA,False,,,,,
+PIC02,GSM8571151,ICU control,paediatric,9.0,Female,,4556,True,PIC02,Real_scRNA,False,,,,,
+PIC04,GSM8571152,ICU control,paediatric,7.0,Male,,7367,True,PIC04,Real_scRNA,False,,,,,
+PIC05,GSM8571153,ICU control,paediatric,5.0,Male,,6275,True,PIC05,Real_scRNA,False,,,,,
+Res-PS02,GSM8571157,sepsis,paediatric,15.0,Male,respiratory,5640,True,Res-PS02,Real_scRNA,False,,,,,
+Res-PS03,GSM8571158,sepsis,paediatric,1.0,Female,respiratory,5194,True,Res-PS03,Real_scRNA,False,,,,,
+Res-PS12,GSM8571159,sepsis,paediatric,1.0,Female,respiratory,6268,True,Res-PS12,Real_scRNA,False,,,,,
+Res-PS16,GSM8571160,sepsis,paediatric,3.0,Male,respiratory,6249,True,Res-PS16,Real_scRNA,False,,,,,
+Res-PS21,GSM8571161,sepsis,paediatric,13.0,Male,respiratory,5116,True,Res-PS21,Real_scRNA,False,,,,,
+Res-PS22,GSM8571162,sepsis,paediatric,6.0,Male,respiratory,6498,True,Res-PS22,Real_scRNA,False,,,,,
+Res-PS25,GSM8571163,sepsis,paediatric,0.3,Male,respiratory,5253,True,Res-PS25,Real_scRNA,False,,,,,
+Res-PS26,GSM8571164,sepsis,paediatric,5.0,Female,respiratory,5167,True,Res-PS26,Real_scRNA,False,,,,,
+Res-S10,GSM8571165,sepsis,adult,65.0,Male,respiratory,7173,True,Res-S10,Real_scRNA,True,,,,,
+Res-S100,GSM8571166,sepsis,adult,64.0,Male,respiratory,4746,True,Res-S100,Real_scRNA,True,,,,,
+Res-S110,GSM8571167,sepsis,adult,54.0,Male,respiratory,7216,True,Res-S110,Real_scRNA,True,,,,,
+Res-S118,GSM8571168,sepsis,adult,54.0,Female,respiratory,5571,True,Res-S118,Real_scRNA,True,,,,,
+Res-S125,GSM8571169,sepsis,adult,59.0,Female,respiratory,3374,True,Res-S125,Real_scRNA,True,,,,,
+Res-S127,GSM8571170,sepsis,adult,77.0,Female,respiratory,2363,True,Res-S127,Real_scRNA,True,,,,,
+Res-S136,GSM8571171,sepsis,adult,46.0,Male,respiratory,2438,True,Res-S136,Real_scRNA,True,,,,,
+Res-S139,GSM8571172,sepsis,adult,73.0,Male,respiratory,2324,True,Res-S139,Real_scRNA,True,,,,,
+Res-S144,GSM8571173,sepsis,adult,77.0,Male,respiratory,3824,True,Res-S144,Real_scRNA,True,,,,,
+Res-S145,GSM8571174,sepsis,adult,81.0,Male,respiratory,4761,True,Res-S145,Real_scRNA,True,,,,,
+Res-S146,GSM8571175,sepsis,adult,75.0,Male,respiratory,6153,True,Res-S146,Real_scRNA,True,,,,,
+Res-S149,GSM8571176,sepsis,adult,81.0,Male,respiratory,6140,True,Res-S149,Real_scRNA,True,,,,,
+Res-S15,GSM8571177,sepsis,adult,81.0,Female,respiratory,7204,True,Res-S15,Real_scRNA,True,,,,,
+Res-S150,GSM8571178,sepsis,adult,83.0,Male,respiratory,2731,True,Res-S150,Real_scRNA,True,,,,,
+Res-S164,GSM8571179,sepsis,adult,79.0,Male,respiratory,5369,True,Res-S164,Real_scRNA,True,,,,,
+Res-S166,GSM8571180,sepsis,adult,56.0,Female,respiratory,5192,True,Res-S166,Real_scRNA,True,,,,,
+Res-S167,GSM8571181,sepsis,adult,85.0,Male,respiratory,6362,True,Res-S167,Real_scRNA,True,,,,,
+Res-S168,GSM8571182,sepsis,adult,19.0,Female,respiratory,5998,True,Res-S168,Real_scRNA,True,,,,,
+Res-S170,GSM8571183,sepsis,adult,69.0,Male,respiratory,7734,True,Res-S170,Real_scRNA,True,,,,,
+Res-S174,GSM8571184,sepsis,adult,40.0,Female,respiratory,4511,True,Res-S174,Real_scRNA,True,,,,,
+Res-S176,GSM8571185,sepsis,adult,78.0,Female,respiratory,4851,True,Res-S176,Real_scRNA,True,,,,,
+Res-S177,GSM8571186,sepsis,adult,40.0,Male,respiratory,4659,True,Res-S177,Real_scRNA,True,,,,,
+Res-S18,GSM8571187,sepsis,adult,93.0,Male,respiratory,5111,True,Res-S18,Real_scRNA,True,,,,,
+Res-S183,GSM8571188,sepsis,adult,68.0,Male,respiratory,8847,True,Res-S183,Real_scRNA,True,,,,,
+Res-S184,GSM8571189,sepsis,adult,82.0,Female,respiratory,7167,True,Res-S184,Real_scRNA,True,,,,,
+Res-S19,GSM8571154,sepsis,adult,44.0,Female,respiratory,7112,True,Res-S19,Real_scRNA,True,,,,,
+Res-S21,GSM8571190,sepsis,adult,93.0,Male,respiratory,4807,True,Res-S21,Real_scRNA,True,,,,,
+Res-S22,GSM8571191,sepsis,adult,90.0,Male,respiratory,6369,True,Res-S22,Real_scRNA,True,,,,,
+Res-S26,GSM8571155,sepsis,adult,58.0,Male,respiratory,5351,True,Res-S26,Real_scRNA,True,,,,,
+Res-S3,GSM8571192,sepsis,adult,41.0,Male,respiratory,4658,True,Res-S3,Real_scRNA,True,,,,,
+Res-S32,GSM8571193,sepsis,adult,47.0,Female,respiratory,4673,True,Res-S32,Real_scRNA,True,,,,,
+Res-S40,GSM8571194,sepsis,adult,81.0,Male,respiratory,6175,True,Res-S40,Real_scRNA,True,,,,,
+Res-S41,GSM8571195,sepsis,adult,81.0,Male,respiratory,6585,True,Res-S41,Real_scRNA,True,,,,,
+Res-S56,GSM8571196,sepsis,adult,66.0,Male,respiratory,8590,True,Res-S56,Real_scRNA,True,,,,,
+Res-S70,GSM8571156,sepsis,adult,69.0,Male,respiratory,5753,True,Res-S70,Real_scRNA,True,,,,,
+Res-S77,GSM8571197,sepsis,adult,35.0,Male,respiratory,6835,True,Res-S77,Real_scRNA,True,,,,,
+Res-S87,GSM8571124,sepsis,adult,70.0,Male,respiratory,3184,True,Res-S87,Real_scRNA,True,,,,,
+Skin-152,GSM8571198,sepsis,adult,69.0,Male,skin/soft tissue,5456,True,Skin-152,Real_scRNA,True,,,,,
+Skin-S140,GSM8571199,sepsis,adult,42.0,Male,skin/soft tissue,5780,True,Skin-S140,Real_scRNA,True,,,,,
+Skin-S142,GSM8571200,sepsis,adult,71.0,Male,skin/soft tissue,5131,True,Skin-S142,Real_scRNA,True,,,,,
+Skin-S38,GSM8571201,sepsis,adult,39.0,Male,skin/soft tissue,8764,True,Skin-S38,Real_scRNA,True,,,,,
+Skin-S43,GSM8571202,sepsis,adult,46.0,Female,skin/soft tissue,6176,True,Skin-S43,Real_scRNA,True,,,,,
+Skin-S46,GSM8571203,sepsis,adult,73.0,Female,skin/soft tissue,5571,True,Skin-S46,Real_scRNA,True,,,,,
+Skin-S52,GSM8571204,sepsis,adult,54.0,Female,skin/soft tissue,7444,True,Skin-S52,Real_scRNA,True,,,,,
+Skin-S74,GSM8571205,sepsis,adult,60.0,Male,skin/soft tissue,3717,True,Skin-S74,Real_scRNA,True,,,,,
+Uri-S112,GSM8571206,sepsis,adult,64.0,Male,urinary,4701,True,Uri-S112,Real_scRNA,True,,,,,
+Uri-S116,GSM8571207,sepsis,adult,54.0,Female,urinary,6274,True,Uri-S116,Real_scRNA,True,,,,,
+Uri-S134,GSM8571208,sepsis,adult,67.0,Male,urinary,7202,True,Uri-S134,Real_scRNA,True,,,,,
+Uri-S147,GSM8571209,sepsis,adult,68.0,Female,urinary,6329,True,Uri-S147,Real_scRNA,True,,,,,
+Uri-S157,GSM8571210,sepsis,adult,74.0,Female,urinary,5459,True,Uri-S157,Real_scRNA,True,,,,,
+Uri-S20,GSM8571211,sepsis,adult,58.0,Female,urinary,3682,True,Uri-S20,Real_scRNA,True,,,,,
+Uri-S85,GSM8571212,sepsis,adult,76.0,Female,urinary,4048,True,Uri-S85,Real_scRNA,True,,,,,
+Uri-S88,GSM8571213,sepsis,adult,81.0,Female,urinary,4381,True,Uri-S88,Real_scRNA,True,,,,,
+Uri-S93,GSM8571214,sepsis,adult,53.0,Female,urinary,6779,True,Uri-S93,Real_scRNA,True,,,,,
+Abd-S114,GSM8570835,adult_sepsis,adult,84.0,Female,Abdominal,4000,,Abd-S114,PBISC_bulk_only,True,adult_sepsis,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Abd-S115,GSM8570836,adult_sepsis,adult,83.0,Male,Abdominal,4000,,Abd-S115,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Abd-S126,GSM8570839,adult_sepsis,adult,82.0,Male,Abdominal,4000,,Abd-S126,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Abd-S128,GSM8570840,adult_sepsis,adult,55.0,Female,Abdominal,4000,,Abd-S128,PBISC_bulk_only,True,adult_sepsis,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Abd-S132,GSM8570841,adult_sepsis,adult,91.0,Female,Abdominal,4000,,Abd-S132,PBISC_bulk_only,True,adult_sepsis,female,False,"Chongqing Emergency Medical Center, Chongqing, China.",False
+Abd-S133,GSM8570842,adult_sepsis,adult,45.0,Male,Abdominal,4000,,Abd-S133,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Abd-S137,GSM8570843,adult_sepsis,adult,30.0,Female,Abdominal,4000,,Abd-S137,PBISC_bulk_only,True,adult_sepsis,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Abd-S141,GSM8570844,adult_sepsis,adult,82.0,Male,Abdominal,4000,,Abd-S141,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Abd-S148,GSM8570845,adult_sepsis,adult,82.0,Male,Abdominal,4000,,Abd-S148,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Abd-S159,GSM8570847,adult_sepsis,adult,76.0,Male,Abdominal,4000,,Abd-S159,PBISC_bulk_only,True,adult_sepsis,male,False,"Chongqing Emergency Medical Center, Chongqing, China.",False
+Abd-S165,GSM8570848,adult_sepsis,adult,59.0,Male,Abdominal,4000,,Abd-S165,PBISC_bulk_only,True,adult_sepsis,male,False,"Chongqing Emergency Medical Center, Chongqing, China.",False
+Abd-S185,GSM8570849,adult_sepsis,adult,81.0,Male,Abdominal,4000,,Abd-S185,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Abd-S190,GSM8570850,adult_sepsis,adult,74.0,Female,Abdominal,4000,,Abd-S190,PBISC_bulk_only,True,adult_sepsis,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Abd-S197,GSM8570851,adult_sepsis,adult,71.0,Female,Abdominal,4000,,Abd-S197,PBISC_bulk_only,True,adult_sepsis,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Abd-S198,GSM8570852,adult_sepsis,adult,78.0,Female,Abdominal,4000,,Abd-S198,PBISC_bulk_only,True,adult_sepsis,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Abd-S24,GSM8570853,adult_sepsis,adult,38.0,Male,Abdominal,4000,,Abd-S24,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Abd-S25,GSM8570854,adult_sepsis,adult,44.0,Male,Abdominal,4000,,Abd-S25,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Abd-S35,GSM8570855,adult_sepsis,adult,48.0,Male,Abdominal,4000,,Abd-S35,PBISC_bulk_only,True,adult_sepsis,male,False,"Chongqing Emergency Medical Center, Chongqing, China.",False
+Abd-S37,GSM8570856,adult_sepsis,adult,46.0,Male,Abdominal,4000,,Abd-S37,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Abd-S92,GSM8570867,adult_sepsis,adult,82.0,Male,Abdominal,4000,,Abd-S92,PBISC_bulk_only,True,adult_sepsis,male,False,"Chongqing Emergency Medical Center, Chongqing, China.",False
+Abd-S96,GSM8570868,adult_sepsis,adult,76.0,Male,Abdominal,4000,,Abd-S96,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Abd-S97,GSM8570869,adult_sepsis,adult,47.0,Female,Abdominal,4000,,Abd-S97,PBISC_bulk_only,True,adult_sepsis,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC03,GSM8570872,adult_HC,adult,56.0,Male,none,4000,,HC03,PBISC_bulk_only,True,adult_HC,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC04,GSM8570873,adult_HC,adult,59.0,Male,none,4000,,HC04,PBISC_bulk_only,True,adult_HC,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC06,GSM8570875,adult_HC,adult,66.0,Female,none,4000,,HC06,PBISC_bulk_only,True,adult_HC,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC08,GSM8570877,adult_HC,adult,66.0,Male,none,4000,,HC08,PBISC_bulk_only,True,adult_HC,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC10,GSM8570879,adult_HC,adult,59.0,Male,none,4000,,HC10,PBISC_bulk_only,True,adult_HC,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC11,GSM8570880,adult_HC,adult,48.0,Female,none,4000,,HC11,PBISC_bulk_only,True,adult_HC,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC14,GSM8570883,adult_HC,adult,64.0,Female,none,4000,,HC14,PBISC_bulk_only,True,adult_HC,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC15,GSM8570884,adult_HC,adult,62.0,Female,none,4000,,HC15,PBISC_bulk_only,True,adult_HC,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC17,GSM8570886,adult_HC,adult,55.0,Female,none,4000,,HC17,PBISC_bulk_only,True,adult_HC,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC18,GSM8570887,adult_HC,adult,50.0,Female,none,4000,,HC18,PBISC_bulk_only,True,adult_HC,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC19,GSM8570888,adult_HC,adult,53.0,Female,none,4000,,HC19,PBISC_bulk_only,True,adult_HC,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC20,GSM8570889,adult_HC,adult,62.0,Male,none,4000,,HC20,PBISC_bulk_only,True,adult_HC,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC21,GSM8570890,adult_HC,adult,59.0,Female,none,4000,,HC21,PBISC_bulk_only,True,adult_HC,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC22,GSM8570891,adult_HC,adult,69.0,Male,none,4000,,HC22,PBISC_bulk_only,True,adult_HC,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC23,GSM8570892,adult_HC,adult,67.0,Male,none,4000,,HC23,PBISC_bulk_only,True,adult_HC,ambiguous,True,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC24,GSM8570893,adult_HC,adult,60.0,Female,none,4000,,HC24,PBISC_bulk_only,True,adult_HC,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC25,GSM8570894,adult_HC,adult,56.0,Male,none,4000,,HC25,PBISC_bulk_only,True,adult_HC,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC26,GSM8570895,adult_HC,adult,56.0,Male,none,4000,,HC26,PBISC_bulk_only,True,adult_HC,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC27,GSM8570896,adult_HC,adult,54.0,Male,none,4000,,HC27,PBISC_bulk_only,True,adult_HC,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC28,GSM8570897,adult_HC,adult,74.0,Male,none,4000,,HC28,PBISC_bulk_only,True,adult_HC,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC29,GSM8570898,adult_HC,adult,57.0,Female,none,4000,,HC29,PBISC_bulk_only,True,adult_HC,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC30,GSM8570899,adult_HC,adult,85.0,Male,none,4000,,HC30,PBISC_bulk_only,True,adult_HC,ambiguous,True,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC31,GSM8570900,adult_HC,adult,67.0,Male,none,4000,,HC31,PBISC_bulk_only,True,adult_HC,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC32,GSM8570901,adult_HC,adult,68.0,Male,none,4000,,HC32,PBISC_bulk_only,True,adult_HC,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC33,GSM8570902,adult_HC,adult,73.0,Male,none,4000,,HC33,PBISC_bulk_only,True,adult_HC,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC34,GSM8570903,adult_HC,adult,59.0,Female,none,4000,,HC34,PBISC_bulk_only,True,adult_HC,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC35,GSM8570904,adult_HC,adult,78.0,Male,none,4000,,HC35,PBISC_bulk_only,True,adult_HC,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC36,GSM8570905,adult_HC,adult,84.0,Female,none,4000,,HC36,PBISC_bulk_only,True,adult_HC,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC37,GSM8570906,adult_HC,adult,67.0,Male,none,4000,,HC37,PBISC_bulk_only,True,adult_HC,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC38,GSM8570907,adult_HC,adult,74.0,Male,none,4000,,HC38,PBISC_bulk_only,True,adult_HC,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC39,GSM8570908,adult_HC,adult,75.0,Male,none,4000,,HC39,PBISC_bulk_only,True,adult_HC,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC40,GSM8570909,adult_HC,adult,72.0,Female,none,4000,,HC40,PBISC_bulk_only,True,adult_HC,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC41,GSM8570910,adult_HC,adult,66.0,Male,none,4000,,HC41,PBISC_bulk_only,True,adult_HC,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC42,GSM8570911,adult_HC,adult,78.0,Male,none,4000,,HC42,PBISC_bulk_only,True,adult_HC,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC43,GSM8570912,adult_HC,adult,65.0,Male,none,4000,,HC43,PBISC_bulk_only,True,adult_HC,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+HC44,GSM8570913,adult_HC,adult,32.0,Female,none,4000,,HC44,PBISC_bulk_only,True,adult_HC,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+IC02,GSM8570914,adult_ICU_ctrl,adult,22.0,Female,none,4000,,IC02,PBISC_bulk_only,True,adult_ICU_ctrl,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+IC03,GSM8570915,adult_ICU_ctrl,adult,37.0,Male,none,4000,,IC03,PBISC_bulk_only,True,adult_ICU_ctrl,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+IC05,GSM8570916,adult_ICU_ctrl,adult,52.0,Male,none,4000,,IC05,PBISC_bulk_only,True,adult_ICU_ctrl,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+IC06,GSM8570917,adult_ICU_ctrl,adult,44.0,Female,none,4000,,IC06,PBISC_bulk_only,True,adult_ICU_ctrl,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+IC07,GSM8570918,adult_ICU_ctrl,adult,80.0,Male,none,4000,,IC07,PBISC_bulk_only,True,adult_ICU_ctrl,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+IC11,GSM8570920,adult_ICU_ctrl,adult,22.0,Female,none,4000,,IC11,PBISC_bulk_only,True,adult_ICU_ctrl,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+IC12,GSM8570921,adult_ICU_ctrl,adult,69.0,Male,none,4000,,IC12,PBISC_bulk_only,True,adult_ICU_ctrl,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+IC13,GSM8570922,adult_ICU_ctrl,adult,34.0,Male,none,4000,,IC13,PBISC_bulk_only,True,adult_ICU_ctrl,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+IC17,GSM8570925,adult_ICU_ctrl,adult,32.0,Male,none,4000,,IC17,PBISC_bulk_only,True,adult_ICU_ctrl,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+IC18,GSM8570926,adult_ICU_ctrl,adult,38.0,Male,none,4000,,IC18,PBISC_bulk_only,True,adult_ICU_ctrl,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+IC20,GSM8570928,adult_ICU_ctrl,adult,76.0,Female,none,4000,,IC20,PBISC_bulk_only,True,adult_ICU_ctrl,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+IC21,GSM8570929,adult_ICU_ctrl,adult,60.0,Male,none,4000,,IC21,PBISC_bulk_only,True,adult_ICU_ctrl,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+IC26,GSM8570932,adult_ICU_ctrl,adult,64.0,Male,none,4000,,IC26,PBISC_bulk_only,True,adult_ICU_ctrl,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+IC27,GSM8570933,adult_ICU_ctrl,adult,22.0,Male,none,4000,,IC27,PBISC_bulk_only,True,adult_ICU_ctrl,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+IC28,GSM8570934,adult_ICU_ctrl,adult,57.0,Female,none,4000,,IC28,PBISC_bulk_only,True,adult_ICU_ctrl,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+IC30,GSM8570935,adult_ICU_ctrl,adult,52.0,Male,none,4000,,IC30,PBISC_bulk_only,True,adult_ICU_ctrl,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+IC31,GSM8570936,adult_ICU_ctrl,adult,70.0,Female,none,4000,,IC31,PBISC_bulk_only,True,adult_ICU_ctrl,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+PIC06,GSM8570945,ped_ICU_ctrl,paediatric,14.0,Female,none,4000,,PIC06,PBISC_bulk_only,False,ped_ICU_ctrl,female,False,"Children's Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S105,GSM8570955,adult_sepsis,adult,86.0,Male,Respiratory,4000,,Res-S105,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S108,GSM8570956,adult_sepsis,adult,72.0,Male,Respiratory,4000,,Res-S108,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S130,GSM8570959,adult_sepsis,adult,56.0,Male,Respiratory,4000,,Res-S130,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S173,GSM8570967,adult_sepsis,adult,69.0,Female,Respiratory,4000,,Res-S173,PBISC_bulk_only,True,adult_sepsis,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S181,GSM8570970,adult_sepsis,adult,62.0,Male,Respiratory,4000,,Res-S181,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S182,GSM8570971,adult_sepsis,adult,70.0,Male,Respiratory,4000,,Res-S182,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S186,GSM8570973,adult_sepsis,adult,48.0,Female,Respiratory,4000,,Res-S186,PBISC_bulk_only,True,adult_sepsis,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S187,GSM8570974,adult_sepsis,adult,72.0,Male,Respiratory,4000,,Res-S187,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S194,GSM8570976,adult_sepsis,adult,69.0,Male,Respiratory,4000,,Res-S194,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S195,GSM8570977,adult_sepsis,adult,71.0,Male,Respiratory,4000,,Res-S195,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S196,GSM8570978,adult_sepsis,adult,65.0,Male,Respiratory,4000,,Res-S196,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S199,GSM8570979,adult_sepsis,adult,52.0,Male,Respiratory,4000,,Res-S199,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S202,GSM8570980,adult_sepsis,adult,46.0,Male,Respiratory,4000,,Res-S202,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S203,GSM8570981,adult_sepsis,adult,67.0,Male,Respiratory,4000,,Res-S203,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S204,GSM8570982,adult_sepsis,adult,60.0,Female,Respiratory,4000,,Res-S204,PBISC_bulk_only,True,adult_sepsis,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S205,GSM8570983,adult_sepsis,adult,69.0,Male,Respiratory,4000,,Res-S205,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S206,GSM8570984,adult_sepsis,adult,81.0,Male,Respiratory,4000,,Res-S206,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S207,GSM8570985,adult_sepsis,adult,60.0,Male,Respiratory,4000,,Res-S207,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S209,GSM8570986,adult_sepsis,adult,79.0,Male,Respiratory,4000,,Res-S209,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S212,GSM8570987,adult_sepsis,adult,56.0,Male,Respiratory,4000,,Res-S212,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S214,GSM8570988,adult_sepsis,adult,60.0,Female,Respiratory,4000,,Res-S214,PBISC_bulk_only,True,adult_sepsis,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S218,GSM8570989,adult_sepsis,adult,63.0,Male,Respiratory,4000,,Res-S218,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S219,GSM8570990,adult_sepsis,adult,81.0,Male,Respiratory,4000,,Res-S219,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S34,GSM8570992,adult_sepsis,adult,71.0,Male,Respiratory,4000,,Res-S34,PBISC_bulk_only,True,adult_sepsis,female,True,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S64,GSM8570994,adult_sepsis,adult,67.0,Male,Respiratory,4000,,Res-S64,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S78,GSM8570996,adult_sepsis,adult,81.0,Male,Respiratory,4000,,Res-S78,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Res-S89,GSM8570998,adult_sepsis,adult,74.0,Male,Respiratory,4000,,Res-S89,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Skin-S117,GSM8570999,adult_sepsis,adult,34.0,Female,Skin,4000,,Skin-S117,PBISC_bulk_only,True,adult_sepsis,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Skin-S191,GSM8571003,adult_sepsis,adult,44.0,Female,Skin,4000,,Skin-S191,PBISC_bulk_only,True,adult_sepsis,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Skin-S192,GSM8571004,adult_sepsis,adult,40.0,Female,Skin,4000,,Skin-S192,PBISC_bulk_only,True,adult_sepsis,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Skin-S30,GSM8571005,adult_sepsis,adult,59.0,Male,Skin,4000,,Skin-S30,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Skin-S99,GSM8571011,adult_sepsis,adult,79.0,Male,Skin,4000,,Skin-S99,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Uri-S104,GSM8571012,adult_sepsis,adult,63.0,Female,Urinary,4000,,Uri-S104,PBISC_bulk_only,True,adult_sepsis,female,False,"Chongqing Emergency Medical Center, Chongqing, China.",False
+Uri-S124,GSM8571014,adult_sepsis,adult,88.0,Male,Urinary,4000,,Uri-S124,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Uri-S143,GSM8571016,adult_sepsis,adult,54.0,Female,Urinary,4000,,Uri-S143,PBISC_bulk_only,True,adult_sepsis,female,False,"Chongqing Emergency Medical Center, Chongqing, China.",False
+Uri-S155,GSM8571018,adult_sepsis,adult,73.0,Male,Urinary,4000,,Uri-S155,PBISC_bulk_only,True,adult_sepsis,male,False,"Chongqing Emergency Medical Center, Chongqing, China.",False
+Uri-S162,GSM8571020,adult_sepsis,adult,58.0,Female,Urinary,4000,,Uri-S162,PBISC_bulk_only,True,adult_sepsis,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Uri-S180,GSM8571021,adult_sepsis,adult,64.0,Male,Urinary,4000,,Uri-S180,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Uri-S200,GSM8571023,adult_sepsis,adult,76.0,Female,Urinary,4000,,Uri-S200,PBISC_bulk_only,True,adult_sepsis,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Uri-S201,GSM8571024,adult_sepsis,adult,29.0,Male,Urinary,4000,,Uri-S201,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Uri-S208,GSM8571025,adult_sepsis,adult,70.0,Female,Urinary,4000,,Uri-S208,PBISC_bulk_only,True,adult_sepsis,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Uri-S213,GSM8571026,adult_sepsis,adult,74.0,Female,Urinary,4000,,Uri-S213,PBISC_bulk_only,True,adult_sepsis,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Uri-S217,GSM8571027,adult_sepsis,adult,73.0,Female,Urinary,4000,,Uri-S217,PBISC_bulk_only,True,adult_sepsis,female,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Uri-S48,GSM8571028,adult_sepsis,adult,53.0,Male,Urinary,4000,,Uri-S48,PBISC_bulk_only,True,adult_sepsis,male,False,"the First Affiliated Hospital of Chongqing Medical University, Chongqing, China",False
+Uri-S94,GSM8571030,adult_sepsis,adult,68.0,Male,Urinary,4000,,Uri-S94,PBISC_bulk_only,True,adult_sepsis,male,False,"Chongqing Emergency Medical Center, Chongqing, China.",False
+Uri-S95,GSM8571031,adult_sepsis,adult,72.0,Female,Urinary,4000,,Uri-S95,PBISC_bulk_only,True,adult_sepsis,female,False,"Chongqing Emergency Medical Center, Chongqing, China.",False

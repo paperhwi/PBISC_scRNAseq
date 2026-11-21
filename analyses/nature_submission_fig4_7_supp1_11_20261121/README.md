@@ -1,0 +1,41 @@
+# PBISC Nature Portfolio Submission Package — Figures 4–7 & Supplementary Figures 1–11
+
+- **Package root**: `F:\PBISC\deliverables\nature_submission_fig4_6_20261120\`
+- **Target format**: *Nature* / *Nature Biotechnology* / *Nature Medicine* (180.0 mm double-column width, height ≤ 240.0 mm, 600 DPI PNG + 450 DPI vector PDF + editable Arial SVG, zero out-of-bounds text, min font ≥ 5.0 pt).
+- **Manuscript files**:
+  - Markdown: `PBISC_Nature_Manuscript_Fig4_7_and_SuppFig1_11_20261121.md`
+  - Microsoft Word: `PBISC_Nature_Manuscript_Fig4_7_and_SuppFig1_11_20261121.docx` (`0` LaTeX leaks verified in OOXML)
+- **Master 11-sheet Excel Audit Workbook**:
+  - `PBISC_Metadata_CountVsPct_TISG_Audit_20261121.xlsx` (exact 1:1 matched metadata for all `255` Sepsis & `362` ESKD COVID-19 samples, molecular sex-QC flags, 43-subset COVID & 44-subset Sepsis Count vs `% PBMC` vs `% Parent` vs `Real Clinical CBC` tables, 13-subset T-cell ISG audit, Sepsis PBISC T-ISG suppression, cross-disease 19-ISG DEG `log2FC`, 66-patient first-draw CTL–ISG coupling, and leak-free `50×5` CV benchmark)
+
+## Main Figures (`figures/`, 4 Zero-Duplication Main Figures × PNG/PDF/SVG)
+
+1. **`Figure4_BulkOnly_Molecular_Fidelity`** (180.0 × 231.65 mm, 0 OOB): Cohort design, 4-decade gene-mean UMI dynamic range (`r = 0.98 / 0.97`), Harmony UMAP & `iLISI` (`1.57 / 1.60` vs ceiling `1.68 / 1.65`), 6-lineage stoichiometry, Kitagawa shift decomposition, and case–control lineage shifts across Bacterial Sepsis and ESKD COVID-19.
+2. **`Figure5_Lineage_Disease_DEG_Fidelity`** (180.0 × 232.41 mm, 0 OOB): Purely lineage-resolved disease DEG fidelity across Bacterial Sepsis & ESKD COVID-19 — whole-PBMC vs bulk (`GSE279448` / `Zenodo 6497251`), per-lineage `AUROC` (0.78–0.99) vs `Real` split-half ceiling & corrected slope, per-lineage calibration (`T`, `B`, `NK`, `Monocyte`), Sepsis Monocyte volcanoes (`IL1R2`/`ACSL1`/`TNFAIP6` up; `HLA-DMB`/`CIITA` down), and COVID-19 T-cell volcanoes (`MX1`/`IFIT1`/`IFIT3`/`IFI44L` up).
+3. **`Figure6_Rare_Population_Sepsis_COVID_Reproduction`** (180.0 × 239.27 mm, 0 OOB): **Disease-specific rare immune populations & cell-intrinsic single-cell states across BOTH Bacterial Sepsis and ESKD COVID-19 (with Rare-Cell UMAPs)** — 14 Sepsis & 13 COVID rare shares vs `scSemiProfiler` zero-collapse (`7/14`, `8/13`), observed 82-donor Sepsis proliferating-monocyte audit (`CD14`/`MKI67`/`STMN1`/`MPO`/`ELANE`), **Sepsis & COVID-19 rare-cell Harmony UMAPs**, 2,000-HVG specificity matrices & sample-pair ceilings, Sepsis `Mono_c06-CD14-MKI67` abundance & canonical markers, COVID-19 `Shared-27` bridge calibration (`0.3×–9.4×`), **Official R 4.3.2 11-method bulk deconvolution benchmark**, **`37–43×` `BayesPrism` HSPC sink inflation**, and **`3,124` single-cell `HSPC` 20-gene `GATA2↓→GATA1/KLF1/TYMS↑` erythroid lineage switch**.
+4. **`Figure7_COVID_Clinical_Metadata_CountPct_TISG`** (180.0 × 239.27 mm, 0 OOB): **Clinical discovery in expanded ESKD COVID-19 (`37 → 66` pts, `217` acute draws, `11` verified deaths) organized around 3 core pillars**:
+   - **Pillar 1 — Exact 1:1 Patient & Dataset Metadata Matching** (`a–b`): `107` ESKD donors / `362` matched samples (`172` 0-day `Real bulk+sc` + `164` `bulk→PBISC` + `26` `scRNA-only`), `163/164` molecular sex OK, `0` shared mismatches, `−2 CLL`, `TRUE_PUB_11`, event gains (`+120%` deaths, `+200%` direct deaths) & 43-subset FDR rescue.
+   - **Pillar 2 — Population Number (Raw Count & Clinical CBC) vs Percentage (`% PBMC` & `% Parent`) Audit** (`c–f`): 43-subset `% PBMC INT` vs `Raw Count INT` Same-day WHO (`r = 0.987`, `18 vs 18` FDR) & First-draw Death (`r = 0.985`), multi-metric concordance including `Real` clinical `CBC cells/µL`, stratified primary effects + Mundlak `ΔWHO` + 300-sim power rescue, 217-draw same-day WHO & 66-pt first-draw death strips, external 4-cohort meta-analysis (`N = 220`), and same-day hospital labs GEE (`BH36`).
+   - **Pillar 3 — Deep 19-Gene T-Cell ISG Scoring Analysis** (`g–j`): time-bias dissection (`PM Peak ρ = +0.29–0.33` & `≤7 d GEE P = 0.014–0.024` vs `SD+wk β ≈ 0`), viral specificity contrast in Sepsis PBISC (`ρ = −0.39, P = 1.1e-5`), baseline `T CD8 CTL` loss ↔ `ISG` anti-correlation (`N = 66: ρ = −0.396, P = 0.0010`; tri-axis `−(CTL+NK)+ISG AUC = 0.828`), longitudinal 213-draw `T CD8 CTL ISG` & 5-compartment `Time × Fatal` collapse (`β = −0.55 to −0.69/wk, P = 3.7e-6 to 9.5e-11`), and leak-free `50×5` first-draw CV (`+CTL ISG Δ+0.08`, `+T CD8 CTL Δ+0.15`, `+CTL+NK Δ+0.15`, `≤7 d +CTL Δ+0.16`).
+
+## Supplementary Figures (`figures/`, 11 Non-Redundant Figures × PNG/PDF/SVG)
+
+- **`SuppFig1_Coverage_Cells_Sequencing_Depth`**: Panel coverage, cell/sample totals, per-cell UMI density & ECDF.
+- **`SuppFig2_Rare_Populations_Across_Patients`**: Patient-level abundance of 8 rare states across sepsis & COVID-19 (`49,999`-resample bootstrap).
+- **`SuppFig3_Rare_Population_Marker_Heatmaps`**: Per-sample canonical marker expression heatmaps across 8 rare states.
+- **`SuppFig4_Sepsis_Disease_DEG_Pseudobulk`**: Whole-PBMC bulk benchmark & all 4 lineage DEG volcanoes in sepsis.
+- **`SuppFig5_COVID_Disease_DEG_Pseudobulk`**: Whole-PBMC bulk benchmark & all 4 lineage DEG volcanoes in COVID-19.
+- **`SuppFig6_Cohort_Metadata_Tables`**: Exact audited patient & dataset metadata matching tables across Bacterial Sepsis (`255` samples: `Real 108` adult [`93/8/7`] + `25` paed + `PBISC 121` primary adults [`68/17/36`] + `1` paed, `0` overlap, `119/122` sex OK) and ESKD COVID-19 (`107` donors / `362` matched rows, exact `n_cells`, `163/164` sex OK), plus individual audit rows for all `11` fatal cases, `3` resolved survivors, `2` excluded CLL donors, and molecular sex-QC flags (`C137_pos_2`, `Res-S34`).
+- **`SuppFig7_Patient_Swimmer_Draw_Schedule_66`**: Complete 66-patient longitudinal swimmer plot (`217` draws), same-day vs peak WHO confusion matrix (`91/217 = 41.9%`), fatal draw-count asymmetry (`4.0 vs 1.3` draws/pt), and first-draw timing (`53/66` and `10/11` fatal `≤7 d`).
+- **`SuppFig8_Audit_CLL_Funnel_Directional_Matrix`**: 217-draw timeline, forensic mortality audit (`TRUE_PUB_11`), bulk `ROR1`/`FMOD` CLL screen, primary 5-step BH43 selection funnel (`43→20→18→17→12`), and grayscale-safe directional matrix.
+- **`SuppFig9_Count_vs_Pct_CBC_and_14VarMatrix`**: COVID-43 first-draw death `% PBMC INT` vs `Count INT (r = 0.985)` vs naive pooled count, `Real` `40×` cell-depth variance (`226–9,254`) confounder check, Sepsis 44-subset `Count vs %` concordance (`Real r = 0.993, PBISC r = 1.000`), first-draw & `Real CBC` sensitivity, COVID NK-pool decomposition, and 14-variant patient-mean sensitivity matrix.
+- **`SuppFig10_Deep_TISG_HSPC_Stephenson_Power`**: Complete 13-subset T-cell ISG audit heatmap, `PBISC` vs official `BayesPrism Z` & cross-disease COVID induction vs Sepsis suppression 19-ISG DEG `log2FC`, `HSPC Ery5` & `Alarmin_Inflam` strips, `PBISC HSPC` vs raw bulk on `New-29` & paired `n = 43` shift, patient-mean sensitivity power curves, and Stephenson 2021 `B ASC` isotype replication.
+- **`SuppFig11_Primary_SameDay_FirstDraw_vs_PatientMean`**: Head-to-head reconciliation of Primary Same-Day WHO / First-Draw Mortality vs Patient-Mean sensitivity analyses across all 43 subsets, Mundlak decomposition, arm replication, single-cell modules, and power rescue.
+
+## Verification & Reproducible Code (`code/`)
+- `code/01_verify_all_numbers.py` → `VERIFICATION_REPORT_20261120.json`
+- `code/02_build_fig4_fig5_supp1_5.py` → `Figure4`, `Figure5_Lineage_Disease_DEG_Fidelity`, `SuppFigs 1–5` (`AUDIT_FIG4_5_SFIG1_5.json`)
+- `code/05_reanalyze_sameday_sev_firstdraw_death.py` → `draw_sameday_sev_firstdraw_death_20261120/` (`SuppFig7`, `SuppFig11`, complete 68-pt/217-dr tables)
+- `code/06_audit_metadata_count_pct_tisg.py` → `audit_focus3_20261121/` (3-priority forensic audit tables & `AUDIT_FOCUS3_SUMMARY.json`)
+- `code/07_build_fig6_fig7_supp6_10_revised.py` → `Figure6`, `Figure7`, `SuppFig6`, `SuppFig9`, `SuppFig10` (`AUDIT_FIG6_7_SFIG6_11.json`) & `PBISC_Metadata_CountVsPct_TISG_Audit_20261121.xlsx`
+- `code/04_build_docx_and_bundle.py` → DOCX conversion (`0` LaTeX leaks) + 45-file / 15-figure / 0-OOB / Excel verification
