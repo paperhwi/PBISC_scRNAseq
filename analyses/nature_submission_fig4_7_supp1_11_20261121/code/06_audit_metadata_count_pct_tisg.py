@@ -534,33 +534,42 @@ def audit_3_tcell_isg(p217_meta):
               f"SD-unadj β={r.sd_gee_unadj_beta:+.2f}(P={r.sd_gee_unadj_p:.3f}) | SD+wk β={r.sd_gee_wk_beta:+.2f}(P={r.sd_gee_wk_p:.2f}) | "
               f"1st AUC={r.fd_AUC:.3f}(P={r.fd_p:.3f},aP={r.fd_adjWHO_p:.3f},≤7d={r.fd_le7_AUC:.3f}) | Time×Fatal={f_wk}")
 
-    # Check independence between T CD8 CTL abundance (%) and T CD8 CTL ISG at first draw & across 217 draws
+    # Check independence between T CD8 CTL abundance (%) and T CD8 CTL ISG across 213 draws & canonical exact first draws
     cd8_m = cd8_isg_217.copy()
     cd8_m["arm"] = np.where(cd8_m["source"] == "Real", "Real", "PBISC new")
     m217 = p217_z.merge(cd8_m[["arm", "sample_id", "isg", "isg_z"]], on=["arm", "sample_id"], how="inner")
     r_abund_isg_217, p_abund_isg_217 = stats.spearmanr(m217["T CD8 CTL__z217"], m217["isg_z"])
-    m66 = m217.sort_values(["patient_id", "days"]).groupby("patient_id", as_index=False).first()
-    m66["ctl_zfd"] = m66.groupby("arm")["T CD8 CTL"].transform(rank_int)
-    m66["nk_zfd"] = m66.groupby("arm")["NK"].transform(rank_int)
-    m66["isg_zfd"] = m66.groupby("arm")["isg"].transform(rank_int)
-    r_abund_isg_fd, p_abund_isg_fd = stats.spearmanr(m66["ctl_zfd"], m66["isg_zfd"])
+
+    # STRICT CANONICAL FIRST BLOOD DRAW (N=66, <=7d n=53, ZERO draw-2 substitution!)
+    c66 = p66_fd.merge(cd8_m[["arm", "sample_id", "isg"]], on=["arm", "sample_id"], how="left").copy()
+    meta_age = p217_meta.drop_duplicates("patient_id").set_index("patient_id")[["age", "sex"]]
+    c66["age"] = c66["patient_id"].map(meta_age["age"])
+    c66["sex_num"] = (c66["patient_id"].map(meta_age["sex"]).astype(str).str.upper().str.startswith("M")).astype(float)
+    # Exact canonical first draws with >=5 T CD8 CTL cells (n=63, 11 deaths; excludes 3 draw-1 <5 CTL survivors C113, C129, C140)
+    c63 = c66.dropna(subset=["isg"]).copy()
+    c63["ctl_zfd"] = c63.groupby("arm")["T CD8 CTL"].transform(rank_int)
+    c63["nk_zfd"] = c63.groupby("arm")["NK"].transform(rank_int)
+    c63["isg_zfd"] = c63.groupby("arm")["isg"].transform(rank_int)
+    r_abund_isg_63, p_abund_isg_63 = stats.spearmanr(c63["ctl_zfd"], c63["isg_zfd"])
+    a63_ctl, p63_ctl = auc_mw(-c63["ctl_zfd"], c63["fatal_pub11"])
+    a63_isg, p63_isg = auc_mw(c63["isg_zfd"], c63["fatal_pub11"])
+    a63_ctl_isg, p63_ctl_isg = auc_mw(-c63["ctl_zfd"] + c63["isg_zfd"], c63["fatal_pub11"])
+    a63_tri, p63_tri = auc_mw(-c63["ctl_zfd"] - c63["nk_zfd"] + c63["isg_zfd"], c63["fatal_pub11"])
+
+    # Also compute sensitivity on first ISG-evaluable draw (N=66; 63 exact draw 1 + 3 draw 2)
+    m66_sens = m217.sort_values(["patient_id", "days"]).groupby("patient_id", as_index=False).first()
+    m66_sens["ctl_zfd"] = m66_sens.groupby("arm")["T CD8 CTL"].transform(rank_int)
+    m66_sens["nk_zfd"] = m66_sens.groupby("arm")["NK"].transform(rank_int)
+    m66_sens["isg_zfd"] = m66_sens.groupby("arm")["isg"].transform(rank_int)
+    r_sens66, p_sens66 = stats.spearmanr(m66_sens["ctl_zfd"], m66_sens["isg_zfd"])
+    a_sens66_tri, p_sens66_tri = auc_mw(-m66_sens["ctl_zfd"] - m66_sens["nk_zfd"] + m66_sens["isg_zfd"], m66_sens["fatal_pub11"])
+
     print(f"\n[COVID-19 Independence Check] T CD8 CTL abundance vs T CD8 CTL ISG:")
     print(f"  All 213 draws: Spearman rho = {r_abund_isg_217:+.3f}, P = {p_abund_isg_217:.4g}")
-    print(f"  First draw (N={len(m66)}): Spearman rho = {r_abund_isg_fd:+.3f}, P = {p_abund_isg_fd:.4g}")
-    # Composite first-draw score: -T CD8 CTL + T CD8 CTL ISG, and -(CTL+NK) + ISG
-    a_ctl, p_ctl = auc_mw(-m66["ctl_zfd"], m66["fatal_pub11"])
-    a_isg, p_isg = auc_mw(m66["isg_zfd"], m66["fatal_pub11"])
-    a_ctl_isg, p_ctl_isg = auc_mw(-m66["ctl_zfd"] + m66["isg_zfd"], m66["fatal_pub11"])
-    a_tri, p_tri = auc_mw(-m66["ctl_zfd"] - m66["nk_zfd"] + m66["isg_zfd"], m66["fatal_pub11"])
-    print(f"  1st-draw Mann-Whitney AUC: -CTL={a_ctl:.3f}(P={p_ctl:.4g}), +ISG={a_isg:.3f}(P={p_isg:.4g}), "
-          f"-CTL+ISG={a_ctl_isg:.3f}(P={p_ctl_isg:.4g}), -(CTL+NK)+ISG={a_tri:.3f}(P={p_tri:.4g})")
-
-    # Leak-free in-fold rank-INT 50x5 CV comparing Base vs +CTL vs +ISG vs +CTL+ISG vs +CTL+NK+ISG
-    cv_df = m66.copy()
-    cv_df["sex_num"] = (cv_df["sex"].astype(str).str.upper().str.startswith("M")).astype(float)
-    meta_age = p217_meta.drop_duplicates("patient_id").set_index("patient_id")[["age", "sex"]]
-    cv_df["age"] = cv_df["patient_id"].map(meta_age["age"])
-    cv_df["sex_num"] = (cv_df["patient_id"].map(meta_age["sex"]).astype(str).str.upper().str.startswith("M")).astype(float)
+    print(f"  Canonical exact 1st draw (n={len(c63)}, 11d, 0 draw-2 subst.): Spearman rho = {r_abund_isg_63:+.3f}, P = {p_abund_isg_63:.4g}")
+    print(f"  Exact 1st-draw (n=63) MW AUC: -CTL={a63_ctl:.3f}(P={p63_ctl:.4g}), +ISG={a63_isg:.3f}(P={p63_isg:.4g}), "
+          f"-CTL+ISG={a63_ctl_isg:.3f}(P={p63_ctl_isg:.4g}), -(CTL+NK)+ISG={a63_tri:.3f}(P={p63_tri:.4g})")
+    print(f"  Sensitivity (1st ISG-evaluable draw N=66): rho={r_sens66:+.3f}(P={p_sens66:.4g}), -(CTL+NK)+ISG={a_sens66_tri:.3f}(P={p_sens66_tri:.4g})")
 
     def run_infold_cv(sub_df, base_cols, add_raw_cols, n_rep=50):
         y = sub_df["fatal_pub11"].values.astype(int)
@@ -590,7 +599,6 @@ def audit_3_tcell_isg(p217_meta):
                         sv = np.sort(v_tr[mtr])
                         r_tr = stats.rankdata(v_tr[mtr])
                         z_tr[mtr] = stats.norm.ppf((r_tr - 0.5) / len(sv))
-                        # Monotone interpolation onto test fold
                         r_te = np.searchsorted(sv, v_te[mte], side="left") + 0.5
                         r_te = np.clip(r_te, 0.5, len(sv) - 0.5)
                         z_te[mte] = stats.norm.ppf(r_te / len(sv))
@@ -609,19 +617,19 @@ def audit_3_tcell_isg(p217_meta):
 
     cv_rows = []
     for label, sub_cv, add_cols in [
-        ("All 1st-dr (66) + T CD8 CTL", cv_df, ["T CD8 CTL"]),
-        ("All 1st-dr (66) + T CD8 CTL ISG", cv_df, ["isg"]),
-        ("All 1st-dr (66) + CTL + ISG", cv_df, ["T CD8 CTL", "isg"]),
-        ("All 1st-dr (66) + CTL + NK", cv_df, ["T CD8 CTL", "NK"]),
-        ("All 1st-dr (66) + CTL + NK + ISG", cv_df, ["T CD8 CTL", "NK", "isg"]),
-        ("Early <=7d (53) + T CD8 CTL", cv_df[cv_df["days"] <= 7], ["T CD8 CTL"]),
-        ("Early <=7d (53) + T CD8 CTL ISG", cv_df[cv_df["days"] <= 7], ["isg"]),
-        ("Early <=7d (53) + CTL + ISG", cv_df[cv_df["days"] <= 7], ["T CD8 CTL", "isg"]),
+        ("All 1st-dr (66) + T CD8 CTL", c66, ["T CD8 CTL"]),
+        ("All 1st-dr (66) + CTL + NK", c66, ["T CD8 CTL", "NK"]),
+        ("Early <=7d (53) + T CD8 CTL", c66[c66["days"] <= 7], ["T CD8 CTL"]),
+        ("Exact 1st-dr (63) + T CD8 CTL ISG", c63, ["isg"]),
+        ("Exact 1st-dr (63) + CTL + ISG", c63, ["T CD8 CTL", "isg"]),
+        ("Exact 1st-dr (63) + CTL + NK + ISG", c63, ["T CD8 CTL", "NK", "isg"]),
+        ("Early <=7d (50) + T CD8 CTL ISG", c63[c63["days"] <= 7], ["isg"]),
+        ("Early <=7d (50) + CTL + ISG", c63[c63["days"] <= 7], ["T CD8 CTL", "isg"]),
     ]:
         ab, ae, da = run_infold_cv(sub_cv, ["age", "sex_num", "temp_severity_ord"], add_cols)
         cv_rows.append({"model": label, "n": len(sub_cv), "deaths": int(sub_cv["fatal_pub11"].sum()),
                         "AUC_base": ab, "AUC_ext": ae, "Delta_AUC": da})
-        print(f"  [50x5 CV] {label:34s}: Base={ab:.3f} -> Ext={ae:.3f} (Delta={da:+.3f})")
+        print(f"  [50x5 CV] {label:36s} (n={len(sub_cv)}, d={int(sub_cv['fatal_pub11'].sum())}): Base={ab:.3f} -> Ext={ae:.3f} (Delta={da:+.3f})")
     pd.DataFrame(cv_rows).to_csv(AUDIT_OUT / "A3_covid_tisg_cv_benchmark.csv", index=False)
 
     # 3B. Bacterial Sepsis T-cell ISG scoring in PBISC (122 samples)
@@ -680,18 +688,21 @@ def audit_3_tcell_isg(p217_meta):
             isg_deg_rows.append(sub_d[["cohort", "source", "gene", "logFC", "p", "q"]])
     pd.concat(isg_deg_rows, ignore_index=True).to_csv(AUDIT_OUT / "A3c_cross_disease_Tcell_19ISG_deg.csv", index=False)
 
-    # Save first-draw T CD8 CTL abundance vs ISG table for plotting
-    m66[["patient_id", "arm", "days", "temp_severity_ord", "fatal_pub11", "T CD8 CTL", "NK", "isg", "ctl_zfd", "nk_zfd", "isg_zfd"]].to_csv(
+    # Save strict canonical first-draw T CD8 CTL abundance vs ISG table (n=63 exact draw 1 with >=5 CTL cells, 0 draw-2 substitutions)
+    c63[["patient_id", "arm", "days", "temp_severity_ord", "fatal_pub11", "T CD8 CTL", "NK", "isg", "ctl_zfd", "nk_zfd", "isg_zfd"]].to_csv(
         AUDIT_OUT / "A3d_covid_66firstdraw_CTL_NK_ISG.csv", index=False
     )
 
     tisg_meta = {
         "ctl_vs_isg_213draws_rho": float(r_abund_isg_217), "ctl_vs_isg_213draws_p": float(p_abund_isg_217),
-        "ctl_vs_isg_66firstdraw_rho": float(r_abund_isg_fd), "ctl_vs_isg_66firstdraw_p": float(p_abund_isg_fd),
-        "firstdraw_AUC_negCTL": float(a_ctl), "firstdraw_p_negCTL": float(p_ctl),
-        "firstdraw_AUC_posISG": float(a_isg), "firstdraw_p_posISG": float(p_isg),
-        "firstdraw_AUC_negCTL_posISG": float(a_ctl_isg), "firstdraw_p_negCTL_posISG": float(p_ctl_isg),
-        "firstdraw_AUC_negCTLNK_posISG": float(a_tri), "firstdraw_p_negCTLNK_posISG": float(p_tri),
+        "ctl_vs_isg_63exact_firstdraw_n": int(len(c63)),
+        "ctl_vs_isg_63exact_firstdraw_rho": float(r_abund_isg_63), "ctl_vs_isg_63exact_firstdraw_p": float(p_abund_isg_63),
+        "firstdraw63_AUC_negCTL": float(a63_ctl), "firstdraw63_p_negCTL": float(p63_ctl),
+        "firstdraw63_AUC_posISG": float(a63_isg), "firstdraw63_p_posISG": float(p63_isg),
+        "firstdraw63_AUC_negCTL_posISG": float(a63_ctl_isg), "firstdraw63_p_negCTL_posISG": float(p63_ctl_isg),
+        "firstdraw63_AUC_negCTLNK_posISG": float(a63_tri), "firstdraw63_p_negCTLNK_posISG": float(p63_tri),
+        "sensitivity_66first_ISGeval_rho": float(r_sens66), "sensitivity_66first_ISGeval_p": float(p_sens66),
+        "sensitivity_66first_ISGeval_AUC_tri": float(a_sens66_tri), "sensitivity_66first_ISGeval_p_tri": float(p_sens66_tri),
         "sepsis_pbisc_tisg_rho": float(rho_s), "sepsis_pbisc_tisg_p": float(p_s), "sepsis_pbisc_tisg_sepsis_vs_HC_p": float(p_sc),
     }
     return cv_rows, tisg_meta
@@ -706,22 +717,8 @@ def main():
         "tisg_cv_benchmark": cv_rows,
         "tisg_summary": tisg_meta,
     }, indent=2), encoding="utf-8")
-
-    # Export clean unified Excel workbook for the 3-priority audit
-    xlsx_path = AUDIT_OUT / "PBISC_Metadata_CountVsPct_TISG_Audit_20261121.xlsx"
-    with pd.ExcelWriter(xlsx_path, engine="openpyxl") as xw:
-        pd.read_csv(D28 / "table_s3_all_107_donors_overview.csv").to_excel(xw, sheet_name="1a_COVID_107Donors_Match", index=False)
-        pd.read_csv(D28 / "table_s2_sample_1to1_mapping_362.csv").to_excel(xw, sheet_name="1b_COVID_362Samples_1to1", index=False)
-        pd.read_csv(AUDIT_OUT / "A1_sepsis_255_samples_matched_metadata.csv").to_excel(xw, sheet_name="1c_Sepsis_255Samples_Match", index=False)
-        res_cnt.to_excel(xw, sheet_name="2a_COVID43_Count_vs_Pct_CBC", index=False)
-        sep_cnt.to_excel(xw, sheet_name="2b_Sepsis44_Count_vs_Pct", index=False)
-        pd.read_csv(OUT_ROOT / "draw_sameday_sev_firstdraw_death_20261120" / "tables" / "T6_Tcell_ISG_13subsets_new_framework.csv").to_excel(xw, sheet_name="3a_COVID_TISG_13Subsets", index=False)
-        pd.read_csv(D30 / "T8b_Tcell_ISG_13subsets_time_windows.csv").to_excel(xw, sheet_name="3b_COVID_TISG_EarlyVsLate", index=False)
-        pd.read_csv(AUDIT_OUT / "A3d_covid_66firstdraw_CTL_NK_ISG.csv").to_excel(xw, sheet_name="3c_COVID_66FirstDraw_ISG", index=False)
-        pd.DataFrame(cv_rows).to_excel(xw, sheet_name="3d_COVID_TISG_50x5_CV", index=False)
-        pd.read_csv(AUDIT_OUT / "A3b_sepsis_pbisc_tcell_isg.csv").to_excel(xw, sheet_name="3e_Sepsis_PBISC_TISG", index=False)
-        pd.read_csv(AUDIT_OUT / "A3c_cross_disease_Tcell_19ISG_deg.csv").to_excel(xw, sheet_name="3f_CrossDisease_19ISG_DEG", index=False)
-    print(f"\n[DONE] Saved all audit tables + 11-sheet Excel workbook to {xlsx_path}")
+    print(f"\n[DONE] Saved all 3-focus forensic audit CSVs & AUDIT_FOCUS3_SUMMARY.json to {AUDIT_OUT}")
+    print("       (Run 07_build_fig6_fig7_supp6_10_revised.py next to rebuild Figs 6-7 & pure-stdlib 11-sheet Excel.)")
 
 
 if __name__ == "__main__":

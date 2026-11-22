@@ -47,79 +47,84 @@
       "n": 66,
       "deaths": 11,
       "AUC_base": 0.6877520661157024,
-      "AUC_ext": 0.8340495867768594,
-      "Delta_AUC": 0.14629752066115698
-    },
-    {
-      "model": "All 1st-dr (66) + T CD8 CTL ISG",
-      "n": 66,
-      "deaths": 11,
-      "AUC_base": 0.6877520661157024,
-      "AUC_ext": 0.7640330578512398,
-      "Delta_AUC": 0.07628099173553737
-    },
-    {
-      "model": "All 1st-dr (66) + CTL + ISG",
-      "n": 66,
-      "deaths": 11,
-      "AUC_base": 0.6877520661157024,
-      "AUC_ext": 0.8258181818181819,
-      "Delta_AUC": 0.1380661157024795
+      "AUC_ext": 0.8262809917355373,
+      "Delta_AUC": 0.13852892561983488
     },
     {
       "model": "All 1st-dr (66) + CTL + NK",
       "n": 66,
       "deaths": 11,
       "AUC_base": 0.6877520661157024,
-      "AUC_ext": 0.8370247933884296,
-      "Delta_AUC": 0.14927272727272722
-    },
-    {
-      "model": "All 1st-dr (66) + CTL + NK + ISG",
-      "n": 66,
-      "deaths": 11,
-      "AUC_base": 0.6877520661157024,
-      "AUC_ext": 0.8249256198347108,
-      "Delta_AUC": 0.1371735537190084
+      "AUC_ext": 0.8268760330578512,
+      "Delta_AUC": 0.1391239669421488
     },
     {
       "model": "Early <=7d (53) + T CD8 CTL",
-      "n": 52,
+      "n": 53,
       "deaths": 10,
-      "AUC_base": 0.6704761904761906,
-      "AUC_ext": 0.8331428571428571,
-      "Delta_AUC": 0.16266666666666652
+      "AUC_base": 0.6466279069767441,
+      "AUC_ext": 0.7767906976744184,
+      "Delta_AUC": 0.13016279069767434
     },
     {
-      "model": "Early <=7d (53) + T CD8 CTL ISG",
-      "n": 52,
-      "deaths": 10,
-      "AUC_base": 0.6704761904761906,
-      "AUC_ext": 0.7056190476190476,
-      "Delta_AUC": 0.03514285714285703
+      "model": "Exact 1st-dr (63) + T CD8 CTL ISG",
+      "n": 63,
+      "deaths": 11,
+      "AUC_base": 0.693513986013986,
+      "AUC_ext": 0.7625174825174825,
+      "Delta_AUC": 0.06900349650349658
     },
     {
-      "model": "Early <=7d (53) + CTL + ISG",
-      "n": 52,
+      "model": "Exact 1st-dr (63) + CTL + ISG",
+      "n": 63,
+      "deaths": 11,
+      "AUC_base": 0.693513986013986,
+      "AUC_ext": 0.857937062937063,
+      "Delta_AUC": 0.164423076923077
+    },
+    {
+      "model": "Exact 1st-dr (63) + CTL + NK + ISG",
+      "n": 63,
+      "deaths": 11,
+      "AUC_base": 0.693513986013986,
+      "AUC_ext": 0.8456293706293705,
+      "Delta_AUC": 0.15211538461538454
+    },
+    {
+      "model": "Early <=7d (50) + T CD8 CTL ISG",
+      "n": 50,
       "deaths": 10,
-      "AUC_base": 0.6704761904761906,
-      "AUC_ext": 0.8143809523809524,
-      "Delta_AUC": 0.14390476190476187
+      "AUC_base": 0.6522249999999999,
+      "AUC_ext": 0.69865,
+      "Delta_AUC": 0.04642500000000005
+    },
+    {
+      "model": "Early <=7d (50) + CTL + ISG",
+      "n": 50,
+      "deaths": 10,
+      "AUC_base": 0.6522249999999999,
+      "AUC_ext": 0.8109999999999999,
+      "Delta_AUC": 0.158775
     }
   ],
   "tisg_summary": {
     "ctl_vs_isg_213draws_rho": -0.2613801890273858,
     "ctl_vs_isg_213draws_p": 0.00011358092216883582,
-    "ctl_vs_isg_66firstdraw_rho": -0.39589595858383436,
-    "ctl_vs_isg_66firstdraw_p": 0.0010005537419218089,
-    "firstdraw_AUC_negCTL": 0.8016528925619835,
-    "firstdraw_p_negCTL": 0.001739198893278927,
-    "firstdraw_AUC_posISG": 0.6760330578512397,
-    "firstdraw_p_posISG": 0.0681767751478553,
-    "firstdraw_AUC_negCTL_posISG": 0.7851239669421488,
-    "firstdraw_p_negCTL_posISG": 0.003082056991721656,
-    "firstdraw_AUC_negCTLNK_posISG": 0.828099173553719,
-    "firstdraw_p_negCTLNK_posISG": 0.0006574044399729819,
+    "ctl_vs_isg_63exact_firstdraw_n": 63,
+    "ctl_vs_isg_63exact_firstdraw_rho": -0.40917818740399386,
+    "ctl_vs_isg_63exact_firstdraw_p": 0.0008691434265038011,
+    "firstdraw63_AUC_negCTL": 0.8356643356643356,
+    "firstdraw63_p_negCTL": 0.0005260275015500498,
+    "firstdraw63_AUC_posISG": 0.6853146853146853,
+    "firstdraw63_p_posISG": 0.05612091839758182,
+    "firstdraw63_AUC_negCTL_posISG": 0.8094405594405595,
+    "firstdraw63_p_negCTL_posISG": 0.001395584984988276,
+    "firstdraw63_AUC_negCTLNK_posISG": 0.8409090909090909,
+    "firstdraw63_p_negCTLNK_posISG": 0.00042918439814367985,
+    "sensitivity_66first_ISGeval_rho": -0.39589595858383436,
+    "sensitivity_66first_ISGeval_p": 0.0010005537419218089,
+    "sensitivity_66first_ISGeval_AUC_tri": 0.828099173553719,
+    "sensitivity_66first_ISGeval_p_tri": 0.0006574044399729819,
     "sepsis_pbisc_tisg_rho": -0.38788396142310927,
     "sepsis_pbisc_tisg_p": 1.1036435043691151e-05,
     "sepsis_pbisc_tisg_sepsis_vs_HC_p": 1.432371267001131e-06

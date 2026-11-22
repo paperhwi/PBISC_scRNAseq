@@ -405,14 +405,16 @@ def build_figure6(d):
               ("BP-init", float(off_r.loc["BayesPrism-init", "HSPC_median_pct"])),
               ("BP-upd", float(off_r.loc["BayesPrism-upd", "HSPC_median_pct"])),
               ("Calib-N", float(off_r.loc["Calib-NNLS", "HSPC_median_pct"])),
+              ("DWLS", float(off_r.loc["DWLS", "HSPC_median_pct"])),
               ("Bisque", float(off_r.loc["BisqueRNA", "HSPC_median_pct"])),
-              ("CSx/MuS", 0.01)]
+              ("MuSiC", float(off_r.loc["MuSiC", "HSPC_median_pct"])),
+              ("CSx/NN", 0.01)]
     yb_k = np.arange(len(h_rows))[::-1]
-    ax_k.barh(yb_k, [r[1] for r in h_rows], height=0.64,
-              color=[COL["Real"], COL["Ext"], COL["Bad"], COL["Bad"], COL["Bad"], PALETTE["neutral"], PALETTE["neutral"]],
+    ax_k.barh(yb_k, [r[1] for r in h_rows], height=0.66,
+              color=[COL["Real"], COL["Ext"], COL["Bad"], COL["Bad"], COL["Bad"], COL["Bad"], PALETTE["neutral"], PALETTE["neutral"], PALETTE["neutral"]],
               edgecolor="k", lw=0.45)
     for yi, (mn, hv) in zip(yb_k, h_rows):
-        ax_k.text(hv + 0.14, yi, f"{hv:.2f}%" if mn != "CSx/MuS" else "≤0.1%", va="center", fontsize=5.0,
+        ax_k.text(hv + 0.14, yi, f"{hv:.2f}%" if mn != "CSx/NN" else "≤0.1%", va="center", fontsize=5.0,
                   fontweight="bold" if mn in ("Real", "PBISC") or hv > 1.5 else "normal",
                   color=COL["Bad"] if hv > 1.5 else COL["Real"])
     ax_k.set_yticks(yb_k); ax_k.set_yticklabels([r[0] for r in h_rows], fontsize=5.0)
@@ -748,30 +750,30 @@ def build_figure7(d):
     ax_g2.set_ylabel("T-ISG", fontsize=5.1, labelpad=1); ax_g2.set_ylim(0.32, 0.60)
     panel_title(ax_g2, "Sepsis T-ISG suppression", size=5.7, pad=2)
 
-    # h: Baseline First-Draw T CD8 CTL Abundance vs T CD8 CTL ISG Anti-Correlation (N=66, rho=-0.396, P=0.0010)
+    # h: Baseline Exact First-Draw T CD8 CTL Abundance vs T CD8 CTL ISG Anti-Correlation (n=63 exact draw 1 >=5 CTL, rho=-0.409, P=8.7e-4)
     ax_h = fig.add_axes([0.305, 0.055, 0.175, 0.250]); fig_panel_label(fig, 0.258, 0.342, "h")
-    FD66 = d["A3_FD66"]
+    FD63 = d["A3_FD66"]
     for arm_v, sv, mkv in [("Real", "Real", "D"), ("PBISC new", "New", "o")]:
         for fv, cc, szv in [(0, COL[sv], 10), (1, COL["HSPC"], 22)]:
-            sb = FD66[(FD66["arm"] == arm_v) & (FD66["fatal_pub11"] == fv)]
+            sb = FD63[(FD63["arm"] == arm_v) & (FD63["fatal_pub11"] == fv)]
             ax_h.scatter(sb["ctl_zfd"], sb["isg_zfd"], s=szv, marker=mkv, c=cc,
                          edgecolors="k" if fv == 1 else "white", lw=0.45, alpha=0.72 if fv == 0 else 0.95, zorder=5 if fv == 1 else 2)
     # Regression line
     xr = np.linspace(-2.2, 2.2, 50)
-    sl, ic = np.polyfit(FD66["ctl_zfd"], FD66["isg_zfd"], 1)
+    sl, ic = np.polyfit(FD63["ctl_zfd"], FD63["isg_zfd"], 1)
     ax_h.plot(xr, sl * xr + ic, color=COL["Ext"], lw=0.95, ls="--", zorder=3)
     ax_h.axhline(0.0, color=PALETTE["neutral"], ls=":", lw=0.6); ax_h.axvline(0.0, color=PALETTE["neutral"], ls=":", lw=0.6)
     ax_h.axvspan(-2.5, 0.0, ymin=0.5, ymax=1.0, color=COL["CardRed"], alpha=0.25, zorder=0)
     tsum = d["A3_JSON"]["tisg_summary"]
-    ax_h.text(0.03, 0.97, f"1st-dr ρ={tsum['ctl_vs_isg_66firstdraw_rho']:+.2f}\nP={tsum['ctl_vs_isg_66firstdraw_p']:.4f}\nAll 213dr ρ=−0.26",
-              transform=ax_h.transAxes, ha="left", va="top", fontsize=5.0, fontweight="bold", color=COL["Ext"],
-              bbox=dict(fc="white", ec="none", alpha=0.88, pad=0.2))
-    ax_h.text(0.97, 0.03, f"−(CTL+NK)+ISG\nAUC={tsum['firstdraw_AUC_negCTLNK_posISG']:.3f}\nP=6.6e-4",
+    ax_h.text(0.97, 0.97, f"1st-dr ρ={tsum['ctl_vs_isg_63exact_firstdraw_rho']:+.2f}\nP=8.7e-4 (n=63)\nAll 213dr ρ=−0.26",
+              transform=ax_h.transAxes, ha="right", va="top", fontsize=5.0, fontweight="bold", color=COL["Ext"],
+              bbox=dict(fc="white", ec="none", alpha=0.90, pad=0.2), zorder=7)
+    ax_h.text(0.97, 0.03, f"−(CTL+NK)+ISG\nAUC={tsum['firstdraw63_AUC_negCTLNK_posISG']:.3f}\nP=4.3e-4",
               transform=ax_h.transAxes, ha="right", va="bottom", fontsize=5.0, fontweight="bold", color=COL["HSPC"],
-              bbox=dict(fc="white", ec="none", alpha=0.88, pad=0.2))
+              bbox=dict(fc="white", ec="none", alpha=0.90, pad=0.2), zorder=7)
     ax_h.set_xlim(-2.45, 2.45); ax_h.set_ylim(-2.45, 2.55); ax_h.set_xticks([-2, 0, 2]); ax_h.set_yticks([-2, 0, 2])
     ax_h.set_xlabel("1st-draw T CD8 CTL (z)", fontsize=5.2); ax_h.set_ylabel("1st-draw T CD8 CTL ISG (z)", fontsize=5.2, labelpad=1)
-    panel_title(ax_h, "CTL loss ↔ ISG coupling (N=66)", size=5.9, pad=3)
+    panel_title(ax_h, "CTL loss ↔ ISG coupling (n=63)", size=5.9, pad=3)
 
     # i: Longitudinal T CD8 CTL ISG fatal collapse (213 draws) + 5-compartment GEE Time x Fatal forest!
     ax_i1 = fig.add_axes([0.535, 0.198, 0.215, 0.118]); fig_panel_label(fig, 0.492, 0.342, "i")
@@ -809,12 +811,12 @@ def build_figure7(d):
     ax_i2.set_xlim(-1.05, 0.08); ax_i2.set_xticks([-0.8, -0.4, 0.0]); ax_i2.set_xlabel("Time×Fatal β/wk", fontsize=5.1)
     panel_title(ax_i2, "5-comp. fatal collapse", size=5.7, pad=2)
 
-    # j: Leak-free In-fold rank-INT 50x5 First-Draw Mortality CV (comparing +ISG, +CTL, +CTL+NK, <=7d, vs HSPC)
+    # j: Leak-free In-fold rank-INT 50x5 Canonical Exact First-Draw Mortality CV (n=66 / <=7d n=53 / ISG exact draw-1 n=63)
     ax_j = fig.add_axes([0.840, 0.055, 0.098, 0.250]); fig_panel_label(fig, 0.762, 0.342, "j")
     A3CV = d["A3_CV"].set_index("model")
     CV500 = d["CV_500K"]
     cv_rows_j = [
-        ("1st dr (66)\n+CTL ISG", A3CV.loc["All 1st-dr (66) + T CD8 CTL ISG", "AUC_base"], A3CV.loc["All 1st-dr (66) + T CD8 CTL ISG", "AUC_ext"], COL["Teal"], True),
+        ("1st dr (63)\n+CTL ISG", A3CV.loc["Exact 1st-dr (63) + T CD8 CTL ISG", "AUC_base"], A3CV.loc["Exact 1st-dr (63) + T CD8 CTL ISG", "AUC_ext"], COL["Teal"], True),
         ("1st dr (66)\n+T CD8 CTL", A3CV.loc["All 1st-dr (66) + T CD8 CTL", "AUC_base"], A3CV.loc["All 1st-dr (66) + T CD8 CTL", "AUC_ext"], COL["Ext"], True),
         ("1st dr (66)\n+CTL + NK", A3CV.loc["All 1st-dr (66) + CTL + NK", "AUC_base"], A3CV.loc["All 1st-dr (66) + CTL + NK", "AUC_ext"], COL["Ext"], True),
         ("≤7d (53)\n+T CD8 CTL", A3CV.loc["Early <=7d (53) + T CD8 CTL", "AUC_base"], A3CV.loc["Early <=7d (53) + T CD8 CTL", "AUC_ext"], COL["Ext"], True),
@@ -1369,7 +1371,7 @@ def build_excel_audit_bundle(d):
         ("2b_Sepsis44_Count_vs_Pct", d["A2_SEP"]),
         ("3a_COVID_TISG_13Subsets", d["T6_ISG"]),
         ("3b_COVID_TISG_EarlyVsLate", d["T8B_WIN"]),
-        ("3c_COVID_66FirstDraw_ISG", d["A3_FD66"]),
+        ("3c_COVID_63Exact1stDr_ISG", d["A3_FD66"]),
         ("3d_COVID_TISG_50x5_CV", d["A3_CV"]),
         ("3e_Sepsis_PBISC_TISG", d["A3_SEP_ISG"]),
         ("3f_CrossDisease_19ISG_DEG", d["A3_CROSS_DEG"]),
