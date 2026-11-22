@@ -326,6 +326,7 @@ def build_figR1():
     saved, audit = finalize_figure(fig, FIG_DIR / "FigR1_Patient_Swimmer_Draw_Schedule_66")
     print("FigR1 saved:", saved)
     print("FigR1 audit:", audit)
+    return saved, audit
 
 
 if __name__ == "__main__":

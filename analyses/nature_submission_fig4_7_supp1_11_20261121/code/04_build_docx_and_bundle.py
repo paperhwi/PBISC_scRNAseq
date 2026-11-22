@@ -120,24 +120,25 @@ def clean_math(s: str) -> str:
     return s
 
 
-def runs_from_inline(text: str, base_sz_halfpt: int = 22, force_bold: bool = False) -> str:
-    text = clean_math(text)
-    tokens = re.split(r"(\*\*[^*]+\*\*|\*[^*]+\*|`[^`]+`)", text)
+def runs_from_inline(text: str, base_sz_halfpt: int = 22, force_bold: bool = False, force_italic: bool = False, skip_clean: bool = False) -> str:
+    if not skip_clean:
+        text = clean_math(text)
+    tokens = re.split(r"(\*\*.*?\*\*|`[^`]+`|\*[^*\s][^*]*?\*)", text)
     out = []
     for tok in tokens:
         if not tok:
             continue
+        if tok.startswith("**") and tok.endswith("**") and len(tok) > 4:
+            out.append(runs_from_inline(tok[2:-2], base_sz_halfpt=base_sz_halfpt, force_bold=True, force_italic=force_italic, skip_clean=True))
+            continue
+        if tok.startswith("*") and tok.endswith("*") and not tok.startswith("**") and len(tok) > 2:
+            out.append(runs_from_inline(tok[1:-1], base_sz_halfpt=base_sz_halfpt, force_bold=force_bold, force_italic=True, skip_clean=True))
+            continue
         b = force_bold
-        it = False
+        it = force_italic
         font = "Times New Roman"
         val = tok
-        if tok.startswith("**") and tok.endswith("**") and len(tok) > 4:
-            b = True
-            val = tok[2:-2]
-        elif tok.startswith("*") and tok.endswith("*") and len(tok) > 2:
-            it = True
-            val = tok[1:-1]
-        elif tok.startswith("`") and tok.endswith("`") and len(tok) > 2:
+        if tok.startswith("`") and tok.endswith("`") and len(tok) >= 3:
             val = tok[1:-1]
             font = "Arial"
         rpr = [f'<w:rFonts w:ascii="{font}" w:hAnsi="{font}" w:cs="{font}"/>', f'<w:sz w:val="{base_sz_halfpt}"/>']
@@ -207,12 +208,14 @@ def main():
     build_docx(md_text, DOCX_PATH)
     print(f"[OK] Built Word manuscript: {DOCX_PATH.name} ({DOCX_PATH.stat().st_size:,} bytes)")
 
-    # Verify zero stray LaTeX backslash commands in DOCX XML
+    # Verify zero stray LaTeX backslash commands, '$' delimiters, or unparsed backticks in DOCX XML
     with zipfile.ZipFile(DOCX_PATH, "r") as zf:
         xml_txt = zf.read("word/document.xml").decode("utf-8")
     leaks = re.findall(r"\\[A-Za-z]+", xml_txt)
     assert len(leaks) == 0, f"Stray LaTeX leaks in DOCX: {leaks[:10]}"
-    print("[OK] Verified 0 LaTeX backslash leaks in Word XML.")
+    assert "`" not in xml_txt, "Stray Markdown backtick found in DOCX XML!"
+    assert "$" not in xml_txt, "Stray '$' math delimiter found in DOCX XML!"
+    print("[OK] Verified 0 LaTeX backslash, '$', and Markdown backtick leaks in Word XML.")
 
     # Copy current Main Figures 4-7 + SuppFig 6 metadata tables PNG into conversation artifact directory
     CONV_ART_DIR.mkdir(parents=True, exist_ok=True)
@@ -272,7 +275,7 @@ def main():
     a1 = json.loads((OUT_ROOT / "AUDIT_FIG4_5_SFIG1_5.json").read_text(encoding="utf-8"))
     a2 = json.loads((OUT_ROOT / "AUDIT_FIG6_7_SFIG6_11.json").read_text(encoding="utf-8"))
     all_audits = a1 + a2
-    assert len(all_audits) == 13, f"Expected 13 JSON-audited figures, got {len(all_audits)}"
+    assert len(all_audits) == 15, f"Expected 15 JSON-audited figures, got {len(all_audits)}"
     for rec in all_audits:
         assert rec["out_of_bounds_count"] == 0, f"Non-zero OOB in {rec['figure']}: {rec.get('out_of_bounds_examples')}"
         assert rec["below_min_pt_count"] == 0, f"Below-min font in {rec['figure']}"

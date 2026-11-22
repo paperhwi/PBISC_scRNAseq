@@ -424,6 +424,7 @@ def build_figR2():
     saved, audit = finalize_figure(fig, FIG_DIR / "FigR2_PatientMean_vs_SameDaySev_FirstDrawDeath")
     print("FigR2 saved:", saved)
     print("FigR2 audit:", audit)
+    return saved, audit
 
 
 if __name__ == "__main__":

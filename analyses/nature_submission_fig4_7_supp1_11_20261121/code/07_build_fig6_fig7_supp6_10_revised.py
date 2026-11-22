@@ -12,8 +12,8 @@
         (2) Population number (raw count & clinical CBC abs) vs percentage (% PBMC & % parent)
             severity (217 draws x same-day WHO GEE +wk) & mortality (66 first draws) check
         (3) Deep T-cell ISG scoring analysis (Shared-27 vs BayesPrism Z, time-bias removal,
-            Sepsis T-ISG suppression contrast, first-draw T CD8 CTL abundance vs ISG
-            anti-correlation rho=-0.396, triphasic Time x Fatal collapse, and leak-free 50x5 CV).
+            Sepsis T-ISG suppression contrast, exact draw-1 T CD8 CTL abundance vs ISG
+            anti-correlation rho=-0.409 [n=63], triphasic Time x Fatal collapse, and leak-free 50x5 CV).
   - Upgraded SuppFig 6 (exact Sepsis 93/8/7 + COVID 362 1:1 matching metadata tables),
     SuppFig 9 (Population number vs % & Clinical CBC audit + Sepsis 44-subset check + 14-var matrix),
     SuppFig 10 (13-subset T-cell ISG audit + Early/Late + Cross-disease 19-ISG DEG + HSPC/Stephenson/Power).
@@ -919,11 +919,22 @@ def build_suppfig6_metadata(d):
             f"{int(rc['deaths_pub11'])} ({d9_cnt})"
         ]
 
+    a1_sep = d["A1_SEP"]
+    def sep_row(label, ds, ag_grp, qc_s, grp_s, fixed_cells=False):
+        sb = a1_sep[(a1_sep["dataset"] == ds) & (a1_sep["age_group"] == ag_grp)]
+        n_s = len(sb)
+        c_str = "4,000 (fixed)" if fixed_cells else f"{sb['n_cells'].median():,.0f} ({sb['n_cells'].quantile(0.25)/1000:.1f}–{sb['n_cells'].quantile(0.75)/1000:.1f}k)"
+        a_v = sb["age"].dropna()
+        a_str = f"{a_v.median():.0f} ({a_v.quantile(0.25):.0f}–{a_v.quantile(0.75):.0f})"
+        m_n = int(sb["sex"].astype(str).str.upper().str.startswith("M").sum())
+        m_str = f"{m_n}/{n_s} ({int(round(100*m_n/max(n_s,1)))}%)"
+        return [label, str(n_s), str(n_s), "1.0 (1–1)", c_str, a_str, m_str, qc_s, "1-dr", grp_s, "—", "—"]
+
     rows_a = [
-        # EXACT audited Bacterial Sepsis (Ye et al., GSE279452 / GSE279448)
-        ["Sepsis · Real scRNA (adult)", "108", "108", "1.0 (1–1)", "5,664 (4.7–6.8k)", "67 (54–74)", "76/108 (70%)", "GEO GSM OK", "1-dr", "Sep 93 / ICU 8 / HC 7", "—", "—"],
-        ["Sepsis · Real scRNA (paed.)", "25", "25", "1.0 (1–1)", "5,460 (4.1–6.5k)", "4 (1–9)", "17/25 (68%)", "GEO GSM OK", "1-dr", "Sep 17 / ICU 4 / HC 4", "—", "—"],
-        ["Sepsis · PBISC (adult bulk*)", "121", "121", "1.0 (1–1)", "4,000 (fixed)", "65 (54–74)", "78/121 (64%)", "119/122 · 0 ovl", "1-dr", "Sep 68 / ICU 17 / HC 36", "—", "—"],
+        # EXACT audited Bacterial Sepsis (Ye et al., GSE279452 / GSE279448) dynamically from A1_SEP
+        sep_row("Sepsis · Real scRNA (adult)", "Real_scRNA", "adult", "GEO GSM OK", "Sep 93 / ICU 8 / HC 7", False),
+        sep_row("Sepsis · Real scRNA (paed.)", "Real_scRNA", "paediatric", "GEO GSM OK", "Sep 17 / ICU 4 / HC 4", False),
+        sep_row("Sepsis · PBISC (adult bulk*)", "PBISC_bulk_only", "adult", "119/122 · 0 ovl", "Sep 68 / ICU 17 / HC 36", True),
         # EXACT audited Imperial ESKD COVID-19 (107 donors / 362 matched samples)
         row_cov("ESKD · Real-only (NCL/Cam)", "Real-only (10 pts)", r_only, int(r_only["death_DIRECT9"].sum()), "2,718 (1.2–4.5k)", "0 mismatches"),
         row_cov("ESKD · Shared-27 (Real used)", "Shared-27 (Real used, 27 pts)", sh27, int(sh27["death_DIRECT9"].sum()), "2,078 (1.1–3.8k)", "59 PBISC val."),
@@ -1422,9 +1433,11 @@ def main():
         "Figure6_Rare_Population_Sepsis_COVID_Reproduction",
         "Figure7_COVID_Clinical_Metadata_CountPct_TISG",
         "SuppFig6_Cohort_Metadata_Tables",
+        "SuppFig7_Patient_Swimmer_Draw_Schedule_66",
         "SuppFig8_Audit_CLL_Funnel_Directional_Matrix",
         "SuppFig9_Count_vs_Pct_CBC_and_14VarMatrix",
         "SuppFig10_Deep_TISG_HSPC_Stephenson_Power",
+        "SuppFig11_Primary_SameDay_FirstDraw_vs_PatientMean",
     ]
     audit_path.write_text(json.dumps([prev[k] for k in order if k in prev], indent=2), encoding="utf-8")
 
