@@ -1,0 +1,7 @@
+cohort,source,n_cells,n_samples,n_features_stored,zero_cells,median_all_cell_umi,median_sample20k_umi,input,scope,UMI
+sepsis,Real,633072,108,37474,0,2042.0,2045.0,F:\PBISC\bulkonly_lora5_20261006\analysis\original_scRNA\sepsis_GSE279452_full\sepsis_GSE279452_recap.h5ad,adult in_paper_scheme,unique mapped Real columns from the 6000-feature PBISC panel; archived 20000 sampled rows verified exactly
+sepsis,PBISC,488000,122,6000,0,2121.0,2125.5,F:\PBISC\NewLora\ye2026_sepsis_draw1_K4000_ceiling.h5ad,all stored cells,all stored 6000 features
+sepsis,scSemiProfiler,51000,34,5961,0,1901.0,1901.0,F:\PBISC\bulkonly_lora5_20261006\analysis\integration_report_20261012\three_model_20261022\data\sepsis_scsemi.h5ad,frozen strict-five-pair paired-target reconstruction; one Poisson count readout,all stored modeled features
+covid,Real,578835,187,33559,0,1338.0,1332.5,F:\PBISC\bulkonly_lora5_20261006\analysis\original_scRNA\covid_eskd\eskd_covid19_recap.h5ad,published 187-sample roster,unique mapped Real columns from the 6000-feature PBISC panel; archived 20000 sampled rows verified exactly
+covid,PBISC,656000,164,6000,0,1592.0,1596.5,F:\PBISC\20261104 New reference dataset\imperial_eskd_newref_ceiling.h5ad,all stored cells; latest new-reference COVID only,all stored 6000 features
+covid,scSemiProfiler,60000,102,5745,0,1439.0,1439.0,F:\PBISC\bulkonly_lora5_20261006\analysis\integration_report_20261012\three_model_20261022\data\covid_scsemi.h5ad,frozen strict-five-pair paired-target reconstruction; one Poisson count readout,all stored modeled features

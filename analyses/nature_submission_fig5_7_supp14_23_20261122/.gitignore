@@ -1,0 +1,16 @@
+# Nature Portfolio Figs. 5-7, Methods (Figs. 4-7) & SuppFigs 14-23 release (2026-11-22):
+# Whitelist curated outputs, source-data CSVs, Excel workbook, Word/Markdown manuscript, and figures.
+!/*.docx
+!/*.xlsx
+!/*.json
+!/*.md
+!code/*.py
+!figures/*.png
+!figures/*.pdf
+!figures/*.svg
+!data/*.csv
+
+# Exclude binary caches and Python bytecode
+*.pkl
+__pycache__/
+*.py[cod]

@@ -1,0 +1,86 @@
+[
+  {
+    "figure": "Figure5_CrossCohort_BulkOnly_Comparison",
+    "width_mm": 180.0,
+    "height_mm": 236.73,
+    "n_text_spans": 211,
+    "min_font_pt": 5.1,
+    "max_font_pt": 8.5,
+    "below_min_pt_count": 0,
+    "below_min_pt_examples": [],
+    "out_of_bounds_count": 0,
+    "out_of_bounds_examples": []
+  },
+  {
+    "figure": "Figure6_Rare_Cell_Frequency_and_Expression",
+    "width_mm": 180.0,
+    "height_mm": 237.24,
+    "n_text_spans": 265,
+    "min_font_pt": 5.1,
+    "max_font_pt": 8.5,
+    "below_min_pt_count": 0,
+    "below_min_pt_examples": [],
+    "out_of_bounds_count": 0,
+    "out_of_bounds_examples": []
+  },
+  {
+    "figure": "SuppFig14_Coverage_Depth_and_Decomposition",
+    "width_mm": 180.0,
+    "height_mm": 234.95,
+    "n_text_spans": 168,
+    "min_font_pt": 5.1,
+    "max_font_pt": 8.5,
+    "below_min_pt_count": 0,
+    "below_min_pt_examples": [],
+    "out_of_bounds_count": 0,
+    "out_of_bounds_examples": []
+  },
+  {
+    "figure": "SuppFig15_Sepsis_Welch_DEG_Pseudobulk",
+    "width_mm": 180.0,
+    "height_mm": 234.95,
+    "n_text_spans": 182,
+    "min_font_pt": 5.2,
+    "max_font_pt": 8.5,
+    "below_min_pt_count": 0,
+    "below_min_pt_examples": [],
+    "out_of_bounds_count": 0,
+    "out_of_bounds_examples": []
+  },
+  {
+    "figure": "SuppFig16_COVID_Welch_DEG_Pseudobulk",
+    "width_mm": 180.0,
+    "height_mm": 234.95,
+    "n_text_spans": 181,
+    "min_font_pt": 5.2,
+    "max_font_pt": 8.5,
+    "below_min_pt_count": 0,
+    "below_min_pt_examples": [],
+    "out_of_bounds_count": 0,
+    "out_of_bounds_examples": []
+  },
+  {
+    "figure": "SuppFig17_Rare_Populations_Across_Patients",
+    "width_mm": 180.0,
+    "height_mm": 224.79,
+    "n_text_spans": 139,
+    "min_font_pt": 5.3,
+    "max_font_pt": 8.5,
+    "below_min_pt_count": 0,
+    "below_min_pt_examples": [],
+    "out_of_bounds_count": 0,
+    "out_of_bounds_examples": []
+  },
+  {
+    "figure": "SuppFig18_Rare_Population_Summed_Marker_Heatmaps",
+    "width_mm": 180.0,
+    "height_mm": 232.41,
+    "n_text_spans": 134,
+    "min_font_pt": 5.2,
+    "max_font_pt": 8.5,
+    "below_min_pt_count": 0,
+    "below_min_pt_examples": [],
+    "out_of_bounds_count": 0,
+    "out_of_bounds_examples": []
+  }
+]

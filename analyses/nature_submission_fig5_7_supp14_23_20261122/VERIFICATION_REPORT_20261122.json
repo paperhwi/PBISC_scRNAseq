@@ -1,0 +1,497 @@
+{
+  "generated_at": "2026-11-22",
+  "package_dir": "F:\\PBISC\\deliverables\\nature_submission_fig5_7_20261122",
+  "supp_numbering": "Supplementary Figures 14-23 (following Main Figures 1-4 Supplementary Figures 1-13 in strict Nature citation order)",
+  "total_checks": 81,
+  "passed": 81,
+  "failed": 0,
+  "all_passed": true,
+  "checks": [
+    {
+      "category": "Figures_Files",
+      "check": "Figure5_CrossCohort_BulkOnly_Comparison.png",
+      "status": "PASS",
+      "detail": "exists=True, bytes=2433343"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "Figure5_CrossCohort_BulkOnly_Comparison.pdf",
+      "status": "PASS",
+      "detail": "exists=True, bytes=769256"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "Figure5_CrossCohort_BulkOnly_Comparison.svg",
+      "status": "PASS",
+      "detail": "exists=True, bytes=1222783"
+    },
+    {
+      "category": "Figures_DPI",
+      "check": "Figure5_CrossCohort_BulkOnly_Comparison_600dpi_width",
+      "status": "PASS",
+      "detail": "px=4251x5592"
+    },
+    {
+      "category": "Figures_Geometry",
+      "check": "Figure5_CrossCohort_BulkOnly_Comparison_audit",
+      "status": "PASS",
+      "detail": "180.0x236.73 mm, min_pt=5.1, oob=0"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "Figure6_Rare_Cell_Frequency_and_Expression.png",
+      "status": "PASS",
+      "detail": "exists=True, bytes=1244536"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "Figure6_Rare_Cell_Frequency_and_Expression.pdf",
+      "status": "PASS",
+      "detail": "exists=True, bytes=234491"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "Figure6_Rare_Cell_Frequency_and_Expression.svg",
+      "status": "PASS",
+      "detail": "exists=True, bytes=395940"
+    },
+    {
+      "category": "Figures_DPI",
+      "check": "Figure6_Rare_Cell_Frequency_and_Expression_600dpi_width",
+      "status": "PASS",
+      "detail": "px=4251x5604"
+    },
+    {
+      "category": "Figures_Geometry",
+      "check": "Figure6_Rare_Cell_Frequency_and_Expression_audit",
+      "status": "PASS",
+      "detail": "180.0x237.24 mm, min_pt=5.1, oob=0"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "Figure7_SameDay_Severity_and_LastDraw_Mortality.png",
+      "status": "PASS",
+      "detail": "exists=True, bytes=1499000"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "Figure7_SameDay_Severity_and_LastDraw_Mortality.pdf",
+      "status": "PASS",
+      "detail": "exists=True, bytes=182184"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "Figure7_SameDay_Severity_and_LastDraw_Mortality.svg",
+      "status": "PASS",
+      "detail": "exists=True, bytes=319461"
+    },
+    {
+      "category": "Figures_DPI",
+      "check": "Figure7_SameDay_Severity_and_LastDraw_Mortality_600dpi_width",
+      "status": "PASS",
+      "detail": "px=4251x5616"
+    },
+    {
+      "category": "Figures_Geometry",
+      "check": "Figure7_SameDay_Severity_and_LastDraw_Mortality_audit",
+      "status": "PASS",
+      "detail": "180.0x237.74 mm, min_pt=5.0, oob=0"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig14_Coverage_Depth_and_Decomposition.png",
+      "status": "PASS",
+      "detail": "exists=True, bytes=866357"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig14_Coverage_Depth_and_Decomposition.pdf",
+      "status": "PASS",
+      "detail": "exists=True, bytes=113146"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig14_Coverage_Depth_and_Decomposition.svg",
+      "status": "PASS",
+      "detail": "exists=True, bytes=366204"
+    },
+    {
+      "category": "Figures_DPI",
+      "check": "SuppFig14_Coverage_Depth_and_Decomposition_600dpi_width",
+      "status": "PASS",
+      "detail": "px=4251x5550"
+    },
+    {
+      "category": "Figures_Geometry",
+      "check": "SuppFig14_Coverage_Depth_and_Decomposition_audit",
+      "status": "PASS",
+      "detail": "180.0x234.95 mm, min_pt=5.1, oob=0"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig15_Sepsis_Welch_DEG_Pseudobulk.png",
+      "status": "PASS",
+      "detail": "exists=True, bytes=1182304"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig15_Sepsis_Welch_DEG_Pseudobulk.pdf",
+      "status": "PASS",
+      "detail": "exists=True, bytes=220253"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig15_Sepsis_Welch_DEG_Pseudobulk.svg",
+      "status": "PASS",
+      "detail": "exists=True, bytes=348029"
+    },
+    {
+      "category": "Figures_DPI",
+      "check": "SuppFig15_Sepsis_Welch_DEG_Pseudobulk_600dpi_width",
+      "status": "PASS",
+      "detail": "px=4251x5550"
+    },
+    {
+      "category": "Figures_Geometry",
+      "check": "SuppFig15_Sepsis_Welch_DEG_Pseudobulk_audit",
+      "status": "PASS",
+      "detail": "180.0x234.95 mm, min_pt=5.2, oob=0"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig16_COVID_Welch_DEG_Pseudobulk.png",
+      "status": "PASS",
+      "detail": "exists=True, bytes=990664"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig16_COVID_Welch_DEG_Pseudobulk.pdf",
+      "status": "PASS",
+      "detail": "exists=True, bytes=150111"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig16_COVID_Welch_DEG_Pseudobulk.svg",
+      "status": "PASS",
+      "detail": "exists=True, bytes=223707"
+    },
+    {
+      "category": "Figures_DPI",
+      "check": "SuppFig16_COVID_Welch_DEG_Pseudobulk_600dpi_width",
+      "status": "PASS",
+      "detail": "px=4251x5550"
+    },
+    {
+      "category": "Figures_Geometry",
+      "check": "SuppFig16_COVID_Welch_DEG_Pseudobulk_audit",
+      "status": "PASS",
+      "detail": "180.0x234.95 mm, min_pt=5.2, oob=0"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig17_Rare_Populations_Across_Patients.png",
+      "status": "PASS",
+      "detail": "exists=True, bytes=694847"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig17_Rare_Populations_Across_Patients.pdf",
+      "status": "PASS",
+      "detail": "exists=True, bytes=166370"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig17_Rare_Populations_Across_Patients.svg",
+      "status": "PASS",
+      "detail": "exists=True, bytes=266926"
+    },
+    {
+      "category": "Figures_DPI",
+      "check": "SuppFig17_Rare_Populations_Across_Patients_600dpi_width",
+      "status": "PASS",
+      "detail": "px=4251x5310"
+    },
+    {
+      "category": "Figures_Geometry",
+      "check": "SuppFig17_Rare_Populations_Across_Patients_audit",
+      "status": "PASS",
+      "detail": "180.0x224.79 mm, min_pt=5.3, oob=0"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig18_Rare_Population_Summed_Marker_Heatmaps.png",
+      "status": "PASS",
+      "detail": "exists=True, bytes=650639"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig18_Rare_Population_Summed_Marker_Heatmaps.pdf",
+      "status": "PASS",
+      "detail": "exists=True, bytes=140697"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig18_Rare_Population_Summed_Marker_Heatmaps.svg",
+      "status": "PASS",
+      "detail": "exists=True, bytes=178763"
+    },
+    {
+      "category": "Figures_DPI",
+      "check": "SuppFig18_Rare_Population_Summed_Marker_Heatmaps_600dpi_width",
+      "status": "PASS",
+      "detail": "px=4251x5490"
+    },
+    {
+      "category": "Figures_Geometry",
+      "check": "SuppFig18_Rare_Population_Summed_Marker_Heatmaps_audit",
+      "status": "PASS",
+      "detail": "180.0x232.41 mm, min_pt=5.2, oob=0"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig19_Cohort_and_Sample_Metadata_Tables.png",
+      "status": "PASS",
+      "detail": "exists=True, bytes=677718"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig19_Cohort_and_Sample_Metadata_Tables.pdf",
+      "status": "PASS",
+      "detail": "exists=True, bytes=68358"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig19_Cohort_and_Sample_Metadata_Tables.svg",
+      "status": "PASS",
+      "detail": "exists=True, bytes=32013"
+    },
+    {
+      "category": "Figures_DPI",
+      "check": "SuppFig19_Cohort_and_Sample_Metadata_Tables_600dpi_width",
+      "status": "PASS",
+      "detail": "px=4251x4920"
+    },
+    {
+      "category": "Figures_Geometry",
+      "check": "SuppFig19_Cohort_and_Sample_Metadata_Tables_audit",
+      "status": "PASS",
+      "detail": "180.0x208.28 mm, min_pt=5.2, oob=0"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig20_Patient_Swimmer_276_Acute_Draws.png",
+      "status": "PASS",
+      "detail": "exists=True, bytes=715471"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig20_Patient_Swimmer_276_Acute_Draws.pdf",
+      "status": "PASS",
+      "detail": "exists=True, bytes=79977"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig20_Patient_Swimmer_276_Acute_Draws.svg",
+      "status": "PASS",
+      "detail": "exists=True, bytes=128387"
+    },
+    {
+      "category": "Figures_DPI",
+      "check": "SuppFig20_Patient_Swimmer_276_Acute_Draws_600dpi_width",
+      "status": "PASS",
+      "detail": "px=4251x5550"
+    },
+    {
+      "category": "Figures_Geometry",
+      "check": "SuppFig20_Patient_Swimmer_276_Acute_Draws_audit",
+      "status": "PASS",
+      "detail": "180.0x234.95 mm, min_pt=5.2, oob=0"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig21_43CellType_Sensitivity_and_OfficialR_Deconv.png",
+      "status": "PASS",
+      "detail": "exists=True, bytes=1175317"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig21_43CellType_Sensitivity_and_OfficialR_Deconv.pdf",
+      "status": "PASS",
+      "detail": "exists=True, bytes=94306"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig21_43CellType_Sensitivity_and_OfficialR_Deconv.svg",
+      "status": "PASS",
+      "detail": "exists=True, bytes=127906"
+    },
+    {
+      "category": "Figures_DPI",
+      "check": "SuppFig21_43CellType_Sensitivity_and_OfficialR_Deconv_600dpi_width",
+      "status": "PASS",
+      "detail": "px=4251x5370"
+    },
+    {
+      "category": "Figures_Geometry",
+      "check": "SuppFig21_43CellType_Sensitivity_and_OfficialR_Deconv_audit",
+      "status": "PASS",
+      "detail": "180.0x227.33 mm, min_pt=5.0, oob=0"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig22_SingleCell_TISG_and_HSPC_Programs.png",
+      "status": "PASS",
+      "detail": "exists=True, bytes=527058"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig22_SingleCell_TISG_and_HSPC_Programs.pdf",
+      "status": "PASS",
+      "detail": "exists=True, bytes=78514"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig22_SingleCell_TISG_and_HSPC_Programs.svg",
+      "status": "PASS",
+      "detail": "exists=True, bytes=63284"
+    },
+    {
+      "category": "Figures_DPI",
+      "check": "SuppFig22_SingleCell_TISG_and_HSPC_Programs_600dpi_width",
+      "status": "PASS",
+      "detail": "px=4251x5160"
+    },
+    {
+      "category": "Figures_Geometry",
+      "check": "SuppFig22_SingleCell_TISG_and_HSPC_Programs_audit",
+      "status": "PASS",
+      "detail": "180.0x218.44 mm, min_pt=5.1, oob=0"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig23_External_4Cohort_SameCriterion_Validation.png",
+      "status": "PASS",
+      "detail": "exists=True, bytes=1080998"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig23_External_4Cohort_SameCriterion_Validation.pdf",
+      "status": "PASS",
+      "detail": "exists=True, bytes=110033"
+    },
+    {
+      "category": "Figures_Files",
+      "check": "SuppFig23_External_4Cohort_SameCriterion_Validation.svg",
+      "status": "PASS",
+      "detail": "exists=True, bytes=139923"
+    },
+    {
+      "category": "Figures_DPI",
+      "check": "SuppFig23_External_4Cohort_SameCriterion_Validation_600dpi_width",
+      "status": "PASS",
+      "detail": "px=4251x5460"
+    },
+    {
+      "category": "Figures_Geometry",
+      "check": "SuppFig23_External_4Cohort_SameCriterion_Validation_audit",
+      "status": "PASS",
+      "detail": "180.0x231.14 mm, min_pt=5.0, oob=0"
+    },
+    {
+      "category": "Manuscript_SuppOrder",
+      "check": "Strict_Nature_citation_order_SuppFig14_to_SuppFig23",
+      "status": "PASS",
+      "detail": "first_citation_char_pos={14: 661, 15: 5479, 16: 5479, 17: 9038, 18: 11107, 19: 12236, 20: 12236, 21: 17112, 22: 17595, 23: 19260}"
+    },
+    {
+      "category": "Fig5_Scope",
+      "check": "Sepsis_122_bulkOnly_488k_cells",
+      "status": "PASS",
+      "detail": "samples=122, cells=488000"
+    },
+    {
+      "category": "Fig5_Scope",
+      "check": "COVID_164_bulkOnly_656k_cells",
+      "status": "PASS",
+      "detail": "samples=164, cells=656000"
+    },
+    {
+      "category": "Fig5_GeneMean",
+      "check": "Sepsis_and_COVID_log10_r",
+      "status": "PASS",
+      "detail": "r_sepsis=0.9757, r_covid=0.9656"
+    },
+    {
+      "category": "Fig5_PatientUnits",
+      "check": "Unique_patient_x_condition_units",
+      "status": "PASS",
+      "detail": "duplicates=0, rows=2130"
+    },
+    {
+      "category": "Fig5_LiteratureScores",
+      "check": "All_9_PBISC_literature_modules_FDR_sig_and_concordant",
+      "status": "PASS",
+      "detail": "n_modules=9, max_PBISC_q=8.249e-04"
+    },
+    {
+      "category": "Fig5_WelchDEG",
+      "check": "Welch_t_BH005_log2FC1_AUROC",
+      "status": "PASS",
+      "detail": "min_AUROC=0.7801, max_AUROC=0.9886"
+    },
+    {
+      "category": "Fig6_RareStates",
+      "check": "Fixed_14_Sepsis_13_COVID_and_HSC_HSPC_all_cells_denominator",
+      "status": "PASS",
+      "detail": "sepsis=14, covid=13, HSC/HSPC_parent={'all cells'}"
+    },
+    {
+      "category": "Fig6_InterPatientSummedR",
+      "check": "Zero_same_patient_pairs_and_exact_Pearson_medians",
+      "status": "PASS",
+      "detail": "mismatch_count=0"
+    },
+    {
+      "category": "Fig7_276Samples_Weights",
+      "check": "66_patients_276_samples_equal_patient_total_weight_1.0",
+      "status": "PASS",
+      "detail": "n_draws=276, n_pts=66, total_w=66.000000"
+    },
+    {
+      "category": "Fig7_66LastSamples",
+      "check": "Unique_last_sample_per_patient_55surv_11died_0ties",
+      "status": "PASS",
+      "detail": "n_last_maxday=66, surv=55, died=11"
+    },
+    {
+      "category": "Fig7_IndependentMath",
+      "check": "Exact_43_celltype_weighted_Spearman_and_MannWhitney_AUC_BH43",
+      "status": "PASS",
+      "detail": "n_types=43, max_rho_diff=1.11e-16, max_auc_diff=5.55e-17, max_qd_diff=1.11e-16"
+    },
+    {
+      "category": "Fig7_FDRRescue",
+      "check": "BH43_11to18_severity_and_0to2_mortality_HSPC_Tgd",
+      "status": "PASS",
+      "detail": "sev:11->18, death:0->2 (['HSPC', 'T g/d'])"
+    },
+    {
+      "category": "Fig7_External4Meta",
+      "check": "4_studies_300_samples_231_donors_RE_meta_k_ge_2",
+      "status": "PASS",
+      "detail": "n_samples=300, n_donors=231, exact_sig_sev=10"
+    },
+    {
+      "category": "Manuscript_DOCX",
+      "check": "Zero_OOXML_LaTeX_leaks_and_valid_package",
+      "status": "PASS",
+      "detail": "latex_leaks=[], bytes=33874"
+    },
+    {
+      "category": "Manuscript_Methods_Alignment",
+      "check": "All_user_specified_Fig4_to_Fig7_and_SuppFig14_23_rules_present",
+      "status": "PASS",
+      "detail": "missing=[]"
+    }
+  ]
+}

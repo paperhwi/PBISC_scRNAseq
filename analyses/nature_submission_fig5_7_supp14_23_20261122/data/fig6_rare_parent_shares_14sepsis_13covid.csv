@@ -1,0 +1,82 @@
+cohort,source,subset,parent,n_parent,n_target,percent_parent,annotation
+sepsis,Real,Mono_c06-CD14-MKI67,Monocytes,7318,17,0.2323039081716316,matched real-A 30-NN transfer
+sepsis,Real,B_c08-MKI67,B + plasma,6061,49,0.8084474509156905,matched real-A 30-NN transfer
+sepsis,Real,T_CD4_c07-MKI67,CD4 T,13215,16,0.1210745365115399,matched real-A 30-NN transfer
+sepsis,Real,T_CD8_c06-MKI67,CD8 T,6953,36,0.5177621170717676,matched real-A 30-NN transfer
+sepsis,Real,NK_c04-MKI67,NK,5034,5,0.0993245927691696,matched real-A 30-NN transfer
+sepsis,Real,B_c07-MZB1,B + plasma,6061,182,3.0028048176868505,matched real-A 30-NN transfer
+sepsis,Real,pDC,DC,65,6,9.23076923076923,matched real-A 30-NN transfer
+sepsis,Real,cDC,DC,65,59,90.76923076923076,matched real-A 30-NN transfer
+sepsis,Real,Macrophage,Mono + macrophage,7459,141,1.8903338249095047,matched real-A 30-NN transfer
+sepsis,Real,gdT,all T,21684,103,0.4750046116952592,matched real-A 30-NN transfer
+sepsis,Real,ILC,NK + ILC,5034,0,0.0,matched real-A 30-NN transfer
+sepsis,Real,HSC,all cells,41457,14,0.0337699302892153,matched real-A 30-NN transfer
+sepsis,Real,Mono_c01-CD14-HLA-DRA,Monocytes,7318,488,6.668488658103307,matched real-A 30-NN transfer
+sepsis,Real,NKT_c05-IFNG-CCL4hi,NKT,1413,541,38.28733191790516,matched real-A 30-NN transfer
+sepsis,PBISC,Mono_c06-CD14-MKI67,Monocytes,5784,1,0.0172890733056708,matched real-A 30-NN transfer
+sepsis,PBISC,B_c08-MKI67,B + plasma,4395,132,3.0034129692832763,matched real-A 30-NN transfer
+sepsis,PBISC,T_CD4_c07-MKI67,CD4 T,10823,28,0.2587083063845514,matched real-A 30-NN transfer
+sepsis,PBISC,T_CD8_c06-MKI67,CD8 T,6710,53,0.789865871833085,matched real-A 30-NN transfer
+sepsis,PBISC,NK_c04-MKI67,NK,2673,11,0.411522633744856,matched real-A 30-NN transfer
+sepsis,PBISC,B_c07-MZB1,B + plasma,4395,582,13.242320819112628,matched real-A 30-NN transfer
+sepsis,PBISC,pDC,DC,140,14,10.0,matched real-A 30-NN transfer
+sepsis,PBISC,cDC,DC,140,126,90.0,matched real-A 30-NN transfer
+sepsis,PBISC,Macrophage,Mono + macrophage,5814,30,0.5159958720330238,matched real-A 30-NN transfer
+sepsis,PBISC,gdT,all T,18166,50,0.275239458328746,matched real-A 30-NN transfer
+sepsis,PBISC,ILC,NK + ILC,2673,0,0.0,matched real-A 30-NN transfer
+sepsis,PBISC,HSC,all cells,33719,54,0.1601470980752691,matched real-A 30-NN transfer
+sepsis,PBISC,Mono_c01-CD14-HLA-DRA,Monocytes,5784,650,11.23789764868603,matched real-A 30-NN transfer
+sepsis,PBISC,NKT_c05-IFNG-CCL4hi,NKT,583,130,22.29845626072041,matched real-A 30-NN transfer
+sepsis,scSemiProfiler,Mono_c06-CD14-MKI67,Monocytes,1824,0,0.0,matched real-A 30-NN transfer
+sepsis,scSemiProfiler,B_c08-MKI67,B + plasma,2171,7,0.322432058959005,matched real-A 30-NN transfer
+sepsis,scSemiProfiler,T_CD4_c07-MKI67,CD4 T,27342,0,0.0,matched real-A 30-NN transfer
+sepsis,scSemiProfiler,T_CD8_c06-MKI67,CD8 T,5073,0,0.0,matched real-A 30-NN transfer
+sepsis,scSemiProfiler,NK_c04-MKI67,NK,1449,0,0.0,matched real-A 30-NN transfer
+sepsis,scSemiProfiler,B_c07-MZB1,B + plasma,2171,33,1.5200368493781669,matched real-A 30-NN transfer
+sepsis,scSemiProfiler,pDC,DC,17,0,0.0,matched real-A 30-NN transfer
+sepsis,scSemiProfiler,cDC,DC,17,17,100.0,matched real-A 30-NN transfer
+sepsis,scSemiProfiler,Macrophage,Mono + macrophage,1831,7,0.3823047515019115,matched real-A 30-NN transfer
+sepsis,scSemiProfiler,gdT,all T,32468,2,0.0061599112972773,matched real-A 30-NN transfer
+sepsis,scSemiProfiler,ILC,NK + ILC,1449,0,0.0,matched real-A 30-NN transfer
+sepsis,scSemiProfiler,HSC,all cells,39000,2,0.0051282051282051,matched real-A 30-NN transfer
+sepsis,scSemiProfiler,Mono_c01-CD14-HLA-DRA,Monocytes,1824,8,0.4385964912280701,matched real-A 30-NN transfer
+sepsis,scSemiProfiler,NKT_c05-IFNG-CCL4hi,NKT,51,0,0.0,matched real-A 30-NN transfer
+covid,Real,CD14mono_dex,CD14 mono,5999,20,0.3333888981496916,matched real-A 30-NN transfer
+covid,Real,CD14mono_IFN,CD14 mono,5999,1224,20.40340056676113,matched real-A 30-NN transfer
+covid,Real,B_ASC_IgG,plasmablasts,525,32,6.095238095238095,matched real-A 30-NN transfer
+covid,Real,B_ASC_dividing,plasmablasts,525,179,34.095238095238095,matched real-A 30-NN transfer
+covid,Real,T CD4 cycling,CD4 T,7915,4,0.0505369551484523,matched real-A 30-NN transfer
+covid,Real,ASDC,DC,1090,9,0.8256880733944955,matched real-A 30-NN transfer
+covid,Real,DC1,DC,1090,39,3.5779816513761467,matched real-A 30-NN transfer
+covid,Real,pDC,DC,1090,301,27.61467889908257,matched real-A 30-NN transfer
+covid,Real,HSPC,all cells,39866,76,0.1906386394421311,matched real-A 30-NN transfer
+covid,Real,ILC,NK + ILC,7063,1,0.0141582896786068,matched real-A 30-NN transfer
+covid,Real,T g/d,all T,16348,63,0.3853682407633961,matched real-A 30-NN transfer
+covid,Real,MAIT,all T,16348,127,0.7768534377293859,matched real-A 30-NN transfer
+covid,Real,NK CD56 bright,NK,7062,773,10.945907674879637,matched real-A 30-NN transfer
+covid,PBISC,CD14mono_dex,CD14 mono,5633,11,0.1952778270903603,matched real-A 30-NN transfer
+covid,PBISC,CD14mono_IFN,CD14 mono,5633,1385,24.58725368364992,matched real-A 30-NN transfer
+covid,PBISC,B_ASC_IgG,plasmablasts,5623,287,5.104036990930108,matched real-A 30-NN transfer
+covid,PBISC,B_ASC_dividing,plasmablasts,5623,1504,26.74728792459541,matched real-A 30-NN transfer
+covid,PBISC,T CD4 cycling,CD4 T,16221,40,0.246593921459836,matched real-A 30-NN transfer
+covid,PBISC,ASDC,DC,700,10,1.4285714285714286,matched real-A 30-NN transfer
+covid,PBISC,DC1,DC,700,14,2.0,matched real-A 30-NN transfer
+covid,PBISC,pDC,DC,700,130,18.571428571428573,matched real-A 30-NN transfer
+covid,PBISC,HSPC,all cells,52175,429,0.8222328701485385,matched real-A 30-NN transfer
+covid,PBISC,ILC,NK + ILC,4486,0,0.0,matched real-A 30-NN transfer
+covid,PBISC,T g/d,all T,29029,63,0.2170243549553894,matched real-A 30-NN transfer
+covid,PBISC,MAIT,all T,29029,191,0.6579627269282442,matched real-A 30-NN transfer
+covid,PBISC,NK CD56 bright,NK,4486,236,5.260811413285778,matched real-A 30-NN transfer
+covid,scSemiProfiler,CD14mono_dex,CD14 mono,8056,0,0.0,matched real-A 30-NN transfer
+covid,scSemiProfiler,CD14mono_IFN,CD14 mono,8056,1536,19.06653426017875,matched real-A 30-NN transfer
+covid,scSemiProfiler,B_ASC_IgG,plasmablasts,12,0,0.0,matched real-A 30-NN transfer
+covid,scSemiProfiler,B_ASC_dividing,plasmablasts,12,0,0.0,matched real-A 30-NN transfer
+covid,scSemiProfiler,T CD4 cycling,CD4 T,13558,0,0.0,matched real-A 30-NN transfer
+covid,scSemiProfiler,ASDC,DC,1228,0,0.0,matched real-A 30-NN transfer
+covid,scSemiProfiler,DC1,DC,1228,0,0.0,matched real-A 30-NN transfer
+covid,scSemiProfiler,pDC,DC,1228,408,33.22475570032573,matched real-A 30-NN transfer
+covid,scSemiProfiler,HSPC,all cells,42355,0,0.0,matched real-A 30-NN transfer
+covid,scSemiProfiler,ILC,NK + ILC,4399,0,0.0,matched real-A 30-NN transfer
+covid,scSemiProfiler,T g/d,all T,21329,43,0.2016034507009236,matched real-A 30-NN transfer
+covid,scSemiProfiler,MAIT,all T,21329,3,0.0140653570256458,matched real-A 30-NN transfer
+covid,scSemiProfiler,NK CD56 bright,NK,4399,128,2.909752216412821,matched real-A 30-NN transfer

@@ -1,0 +1,2131 @@
+cohort,source,patient,condition,cell_type,pct
+sepsis,Real,Abd-S103,case,T cell,56.2
+sepsis,Real,Abd-S103,case,NK cell,3.2
+sepsis,Real,Abd-S103,case,B cell,29.933333333333334
+sepsis,Real,Abd-S103,case,Monocyte,0.3333333333333333
+sepsis,Real,Abd-S103,case,DC,0.7666666666666667
+sepsis,Real,Abd-S103,case,Other,9.566666666666666
+sepsis,Real,Abd-S120,case,T cell,31.7
+sepsis,Real,Abd-S120,case,NK cell,10.9
+sepsis,Real,Abd-S120,case,B cell,10.166666666666666
+sepsis,Real,Abd-S120,case,Monocyte,43.4
+sepsis,Real,Abd-S120,case,DC,0.06666666666666667
+sepsis,Real,Abd-S120,case,Other,3.7666666666666666
+sepsis,Real,Abd-S123,case,T cell,18.0
+sepsis,Real,Abd-S123,case,NK cell,14.6
+sepsis,Real,Abd-S123,case,B cell,9.133333333333333
+sepsis,Real,Abd-S123,case,Monocyte,47.733333333333334
+sepsis,Real,Abd-S123,case,DC,0.16666666666666666
+sepsis,Real,Abd-S123,case,Other,10.366666666666667
+sepsis,Real,Abd-S156,case,T cell,38.1
+sepsis,Real,Abd-S156,case,NK cell,11.033333333333333
+sepsis,Real,Abd-S156,case,B cell,7.9
+sepsis,Real,Abd-S156,case,Monocyte,39.9
+sepsis,Real,Abd-S156,case,DC,0.13333333333333333
+sepsis,Real,Abd-S156,case,Other,2.933333333333333
+sepsis,Real,Abd-S39,case,T cell,22.507122507122507
+sepsis,Real,Abd-S39,case,NK cell,7.773707773707773
+sepsis,Real,Abd-S39,case,B cell,9.198209198209199
+sepsis,Real,Abd-S39,case,Monocyte,55.27065527065527
+sepsis,Real,Abd-S39,case,DC,0.2035002035002035
+sepsis,Real,Abd-S39,case,Other,5.046805046805047
+sepsis,Real,Abd-S42,case,T cell,59.266666666666666
+sepsis,Real,Abd-S42,case,NK cell,6.466666666666667
+sepsis,Real,Abd-S42,case,B cell,10.2
+sepsis,Real,Abd-S42,case,Monocyte,14.4
+sepsis,Real,Abd-S42,case,DC,0.2
+sepsis,Real,Abd-S42,case,Other,9.466666666666667
+sepsis,Real,Abd-S47,case,T cell,71.76666666666667
+sepsis,Real,Abd-S47,case,NK cell,2.2666666666666666
+sepsis,Real,Abd-S47,case,B cell,19.7
+sepsis,Real,Abd-S47,case,Monocyte,2.2
+sepsis,Real,Abd-S47,case,DC,0.26666666666666666
+sepsis,Real,Abd-S47,case,Other,3.8
+sepsis,Real,Abd-S51,case,T cell,22.033333333333335
+sepsis,Real,Abd-S51,case,NK cell,6.2
+sepsis,Real,Abd-S51,case,B cell,28.1
+sepsis,Real,Abd-S51,case,Monocyte,33.333333333333336
+sepsis,Real,Abd-S51,case,DC,0.8333333333333334
+sepsis,Real,Abd-S51,case,Other,9.5
+sepsis,Real,Abd-S54,case,T cell,51.96666666666667
+sepsis,Real,Abd-S54,case,NK cell,30.5
+sepsis,Real,Abd-S54,case,B cell,14.166666666666666
+sepsis,Real,Abd-S54,case,Monocyte,1.1
+sepsis,Real,Abd-S54,case,DC,0.1
+sepsis,Real,Abd-S54,case,Other,2.1666666666666665
+sepsis,Real,Abd-S79,case,T cell,56.233333333333334
+sepsis,Real,Abd-S79,case,NK cell,8.6
+sepsis,Real,Abd-S79,case,B cell,30.8
+sepsis,Real,Abd-S79,case,Monocyte,1.6
+sepsis,Real,Abd-S79,case,DC,0.03333333333333333
+sepsis,Real,Abd-S79,case,Other,2.7333333333333334
+sepsis,Real,Abd-S83,case,T cell,40.86666666666667
+sepsis,Real,Abd-S83,case,NK cell,28.166666666666668
+sepsis,Real,Abd-S83,case,B cell,17.566666666666666
+sepsis,Real,Abd-S83,case,Monocyte,4.466666666666667
+sepsis,Real,Abd-S83,case,DC,0.23333333333333334
+sepsis,Real,Abd-S83,case,Other,8.7
+sepsis,Real,Abd-S98,case,T cell,69.96666666666667
+sepsis,Real,Abd-S98,case,NK cell,14.2
+sepsis,Real,Abd-S98,case,B cell,11.166666666666666
+sepsis,Real,Abd-S98,case,Monocyte,2.0
+sepsis,Real,Abd-S98,case,DC,0.16666666666666666
+sepsis,Real,Abd-S98,case,Other,2.5
+sepsis,Real,HC01,control,T cell,58.166666666666664
+sepsis,Real,HC01,control,NK cell,10.033333333333333
+sepsis,Real,HC01,control,B cell,9.333333333333334
+sepsis,Real,HC01,control,Monocyte,16.866666666666667
+sepsis,Real,HC01,control,DC,2.7666666666666666
+sepsis,Real,HC01,control,Other,2.8333333333333335
+sepsis,Real,HC05,control,T cell,69.96666666666667
+sepsis,Real,HC05,control,NK cell,9.933333333333334
+sepsis,Real,HC05,control,B cell,8.866666666666667
+sepsis,Real,HC05,control,Monocyte,7.9
+sepsis,Real,HC05,control,DC,1.3
+sepsis,Real,HC05,control,Other,2.033333333333333
+sepsis,Real,HC09,control,T cell,65.43333333333334
+sepsis,Real,HC09,control,NK cell,10.4
+sepsis,Real,HC09,control,B cell,5.6
+sepsis,Real,HC09,control,Monocyte,12.866666666666667
+sepsis,Real,HC09,control,DC,1.1666666666666667
+sepsis,Real,HC09,control,Other,4.533333333333333
+sepsis,Real,HC13,control,T cell,60.03333333333333
+sepsis,Real,HC13,control,NK cell,18.7
+sepsis,Real,HC13,control,B cell,7.966666666666667
+sepsis,Real,HC13,control,Monocyte,8.7
+sepsis,Real,HC13,control,DC,0.7666666666666667
+sepsis,Real,HC13,control,Other,3.8333333333333335
+sepsis,Real,HC16,control,T cell,45.666666666666664
+sepsis,Real,HC16,control,NK cell,31.0
+sepsis,Real,HC16,control,B cell,5.166666666666667
+sepsis,Real,HC16,control,Monocyte,12.133333333333333
+sepsis,Real,HC16,control,DC,0.8333333333333334
+sepsis,Real,HC16,control,Other,5.2
+sepsis,Real,IC10,ICU control,T cell,60.166666666666664
+sepsis,Real,IC10,ICU control,NK cell,9.466666666666667
+sepsis,Real,IC10,ICU control,B cell,12.666666666666666
+sepsis,Real,IC10,ICU control,Monocyte,14.566666666666666
+sepsis,Real,IC10,ICU control,DC,0.36666666666666664
+sepsis,Real,IC10,ICU control,Other,2.7666666666666666
+sepsis,Real,IC15,ICU control,T cell,59.166666666666664
+sepsis,Real,IC15,ICU control,NK cell,6.9
+sepsis,Real,IC15,ICU control,B cell,4.566666666666666
+sepsis,Real,IC15,ICU control,Monocyte,24.466666666666665
+sepsis,Real,IC15,ICU control,DC,1.1666666666666667
+sepsis,Real,IC15,ICU control,Other,3.7333333333333334
+sepsis,Real,IC16,ICU control,T cell,35.46666666666667
+sepsis,Real,IC16,ICU control,NK cell,14.9
+sepsis,Real,IC16,ICU control,B cell,14.933333333333334
+sepsis,Real,IC16,ICU control,Monocyte,31.833333333333332
+sepsis,Real,IC16,ICU control,DC,0.3333333333333333
+sepsis,Real,IC16,ICU control,Other,2.533333333333333
+sepsis,Real,IC19,ICU control,T cell,39.266666666666666
+sepsis,Real,IC19,ICU control,NK cell,4.9
+sepsis,Real,IC19,ICU control,B cell,9.1
+sepsis,Real,IC19,ICU control,Monocyte,41.266666666666666
+sepsis,Real,IC19,ICU control,DC,0.7333333333333333
+sepsis,Real,IC19,ICU control,Other,4.733333333333333
+sepsis,Real,IC22,ICU control,T cell,16.2117903930131
+sepsis,Real,IC22,ICU control,NK cell,3.493449781659389
+sepsis,Real,IC22,ICU control,B cell,1.4192139737991267
+sepsis,Real,IC22,ICU control,Monocyte,71.61572052401746
+sepsis,Real,IC22,ICU control,DC,4.039301310043668
+sepsis,Real,IC22,ICU control,Other,3.2205240174672487
+sepsis,Real,Res-S10,case,T cell,80.56666666666666
+sepsis,Real,Res-S10,case,NK cell,7.733333333333333
+sepsis,Real,Res-S10,case,B cell,8.9
+sepsis,Real,Res-S10,case,Monocyte,0.9333333333333333
+sepsis,Real,Res-S10,case,DC,0.03333333333333333
+sepsis,Real,Res-S10,case,Other,1.8333333333333333
+sepsis,Real,Res-S125,case,T cell,48.36666666666667
+sepsis,Real,Res-S125,case,NK cell,11.066666666666666
+sepsis,Real,Res-S125,case,B cell,23.733333333333334
+sepsis,Real,Res-S125,case,Monocyte,12.366666666666667
+sepsis,Real,Res-S125,case,DC,0.26666666666666666
+sepsis,Real,Res-S125,case,Other,4.2
+sepsis,Real,Res-S127,case,T cell,32.33178163351672
+sepsis,Real,Res-S127,case,NK cell,6.136267456622937
+sepsis,Real,Res-S127,case,B cell,8.040626322471434
+sepsis,Real,Res-S127,case,Monocyte,46.974185357596276
+sepsis,Real,Res-S127,case,DC,1.2272534913245874
+sepsis,Real,Res-S127,case,Other,5.289885738468049
+sepsis,Real,Res-S146,case,T cell,54.56666666666667
+sepsis,Real,Res-S146,case,NK cell,10.0
+sepsis,Real,Res-S146,case,B cell,9.766666666666667
+sepsis,Real,Res-S146,case,Monocyte,22.9
+sepsis,Real,Res-S146,case,DC,1.1333333333333333
+sepsis,Real,Res-S146,case,Other,1.6333333333333333
+sepsis,Real,Res-S149,case,T cell,40.56666666666667
+sepsis,Real,Res-S149,case,NK cell,5.666666666666667
+sepsis,Real,Res-S149,case,B cell,10.233333333333333
+sepsis,Real,Res-S149,case,Monocyte,41.166666666666664
+sepsis,Real,Res-S149,case,DC,0.6
+sepsis,Real,Res-S149,case,Other,1.7666666666666666
+sepsis,Real,Res-S184,case,T cell,58.4
+sepsis,Real,Res-S184,case,NK cell,24.8
+sepsis,Real,Res-S184,case,B cell,11.2
+sepsis,Real,Res-S184,case,Monocyte,4.733333333333333
+sepsis,Real,Res-S184,case,DC,0.06666666666666667
+sepsis,Real,Res-S184,case,Other,0.8
+sepsis,Real,Res-S19,case,T cell,63.03333333333333
+sepsis,Real,Res-S19,case,NK cell,8.966666666666667
+sepsis,Real,Res-S19,case,B cell,8.633333333333333
+sepsis,Real,Res-S19,case,Monocyte,12.566666666666666
+sepsis,Real,Res-S19,case,DC,0.13333333333333333
+sepsis,Real,Res-S19,case,Other,6.666666666666667
+sepsis,Real,Res-S26,case,T cell,66.36666666666666
+sepsis,Real,Res-S26,case,NK cell,15.366666666666667
+sepsis,Real,Res-S26,case,B cell,14.233333333333333
+sepsis,Real,Res-S26,case,Monocyte,1.9333333333333333
+sepsis,Real,Res-S26,case,DC,0.2
+sepsis,Real,Res-S26,case,Other,1.9
+sepsis,Real,Res-S40,case,T cell,86.7
+sepsis,Real,Res-S40,case,NK cell,2.8
+sepsis,Real,Res-S40,case,B cell,9.3
+sepsis,Real,Res-S40,case,Monocyte,0.5666666666666667
+sepsis,Real,Res-S40,case,DC,0.1
+sepsis,Real,Res-S40,case,Other,0.5333333333333333
+sepsis,Real,Res-S87,case,T cell,39.13333333333333
+sepsis,Real,Res-S87,case,NK cell,7.733333333333333
+sepsis,Real,Res-S87,case,B cell,2.1666666666666665
+sepsis,Real,Res-S87,case,Monocyte,46.666666666666664
+sepsis,Real,Res-S87,case,DC,1.3666666666666667
+sepsis,Real,Res-S87,case,Other,2.933333333333333
+sepsis,Real,Skin-S140,case,T cell,29.766666666666666
+sepsis,Real,Skin-S140,case,NK cell,4.8
+sepsis,Real,Skin-S140,case,B cell,26.6
+sepsis,Real,Skin-S140,case,Monocyte,32.733333333333334
+sepsis,Real,Skin-S140,case,DC,0.3333333333333333
+sepsis,Real,Skin-S140,case,Other,5.766666666666667
+sepsis,Real,Skin-S152,case,T cell,39.8
+sepsis,Real,Skin-S152,case,NK cell,10.233333333333333
+sepsis,Real,Skin-S152,case,B cell,6.666666666666667
+sepsis,Real,Skin-S152,case,Monocyte,40.46666666666667
+sepsis,Real,Skin-S152,case,DC,1.7
+sepsis,Real,Skin-S152,case,Other,1.1333333333333333
+sepsis,Real,Skin-S38,case,T cell,83.76666666666667
+sepsis,Real,Skin-S38,case,NK cell,2.3333333333333335
+sepsis,Real,Skin-S38,case,B cell,13.0
+sepsis,Real,Skin-S38,case,Monocyte,0.06666666666666667
+sepsis,Real,Skin-S38,case,DC,0.06666666666666667
+sepsis,Real,Skin-S38,case,Other,0.7666666666666667
+sepsis,Real,Skin-S43,case,T cell,77.63333333333334
+sepsis,Real,Skin-S43,case,NK cell,2.533333333333333
+sepsis,Real,Skin-S43,case,B cell,8.2
+sepsis,Real,Skin-S43,case,Monocyte,3.8333333333333335
+sepsis,Real,Skin-S43,case,DC,0.1
+sepsis,Real,Skin-S43,case,Other,7.7
+sepsis,Real,Skin-S52,case,T cell,65.26666666666667
+sepsis,Real,Skin-S52,case,NK cell,1.9333333333333333
+sepsis,Real,Skin-S52,case,B cell,31.866666666666667
+sepsis,Real,Skin-S52,case,Monocyte,0.0
+sepsis,Real,Skin-S52,case,DC,0.1
+sepsis,Real,Skin-S52,case,Other,0.8333333333333334
+sepsis,Real,Uri-S157,case,T cell,33.53333333333333
+sepsis,Real,Uri-S157,case,NK cell,4.5
+sepsis,Real,Uri-S157,case,B cell,31.066666666666666
+sepsis,Real,Uri-S157,case,Monocyte,28.2
+sepsis,Real,Uri-S157,case,DC,0.6
+sepsis,Real,Uri-S157,case,Other,2.1
+sepsis,Real,Uri-S20,case,T cell,45.36666666666667
+sepsis,Real,Uri-S20,case,NK cell,4.533333333333333
+sepsis,Real,Uri-S20,case,B cell,8.5
+sepsis,Real,Uri-S20,case,Monocyte,35.166666666666664
+sepsis,Real,Uri-S20,case,DC,0.23333333333333334
+sepsis,Real,Uri-S20,case,Other,6.2
+sepsis,Real,Uri-S93,case,T cell,53.5
+sepsis,Real,Uri-S93,case,NK cell,3.3666666666666667
+sepsis,Real,Uri-S93,case,B cell,30.633333333333333
+sepsis,Real,Uri-S93,case,Monocyte,7.233333333333333
+sepsis,Real,Uri-S93,case,DC,0.3333333333333333
+sepsis,Real,Uri-S93,case,Other,4.933333333333334
+sepsis,PBISC,Abd-S114,case,T cell,59.925
+sepsis,PBISC,Abd-S114,case,NK cell,7.375
+sepsis,PBISC,Abd-S114,case,B cell,14.95
+sepsis,PBISC,Abd-S114,case,Monocyte,5.925
+sepsis,PBISC,Abd-S114,case,DC,0.05
+sepsis,PBISC,Abd-S114,case,Other,11.775
+sepsis,PBISC,Abd-S115,case,T cell,63.15
+sepsis,PBISC,Abd-S115,case,NK cell,5.025
+sepsis,PBISC,Abd-S115,case,B cell,11.4
+sepsis,PBISC,Abd-S115,case,Monocyte,8.775
+sepsis,PBISC,Abd-S115,case,DC,0.025
+sepsis,PBISC,Abd-S115,case,Other,11.625
+sepsis,PBISC,Abd-S126,case,T cell,57.7
+sepsis,PBISC,Abd-S126,case,NK cell,5.125
+sepsis,PBISC,Abd-S126,case,B cell,22.35
+sepsis,PBISC,Abd-S126,case,Monocyte,5.025
+sepsis,PBISC,Abd-S126,case,DC,0.025
+sepsis,PBISC,Abd-S126,case,Other,9.775
+sepsis,PBISC,Abd-S128,case,T cell,61.825
+sepsis,PBISC,Abd-S128,case,NK cell,5.05
+sepsis,PBISC,Abd-S128,case,B cell,17.15
+sepsis,PBISC,Abd-S128,case,Monocyte,4.725
+sepsis,PBISC,Abd-S128,case,DC,0.0
+sepsis,PBISC,Abd-S128,case,Other,11.25
+sepsis,PBISC,Abd-S132,case,T cell,55.25
+sepsis,PBISC,Abd-S132,case,NK cell,3.925
+sepsis,PBISC,Abd-S132,case,B cell,15.7
+sepsis,PBISC,Abd-S132,case,Monocyte,11.8
+sepsis,PBISC,Abd-S132,case,DC,0.125
+sepsis,PBISC,Abd-S132,case,Other,13.2
+sepsis,PBISC,Abd-S133,case,T cell,53.625
+sepsis,PBISC,Abd-S133,case,NK cell,7.1
+sepsis,PBISC,Abd-S133,case,B cell,12.225
+sepsis,PBISC,Abd-S133,case,Monocyte,17.775
+sepsis,PBISC,Abd-S133,case,DC,0.5
+sepsis,PBISC,Abd-S133,case,Other,8.775
+sepsis,PBISC,Abd-S137,case,T cell,47.3
+sepsis,PBISC,Abd-S137,case,NK cell,4.825
+sepsis,PBISC,Abd-S137,case,B cell,24.375
+sepsis,PBISC,Abd-S137,case,Monocyte,18.925
+sepsis,PBISC,Abd-S137,case,DC,0.575
+sepsis,PBISC,Abd-S137,case,Other,4.0
+sepsis,PBISC,Abd-S141,case,T cell,54.475
+sepsis,PBISC,Abd-S141,case,NK cell,4.9
+sepsis,PBISC,Abd-S141,case,B cell,12.05
+sepsis,PBISC,Abd-S141,case,Monocyte,18.05
+sepsis,PBISC,Abd-S141,case,DC,0.2
+sepsis,PBISC,Abd-S141,case,Other,10.325
+sepsis,PBISC,Abd-S148,case,T cell,53.3
+sepsis,PBISC,Abd-S148,case,NK cell,3.65
+sepsis,PBISC,Abd-S148,case,B cell,10.95
+sepsis,PBISC,Abd-S148,case,Monocyte,24.325
+sepsis,PBISC,Abd-S148,case,DC,0.45
+sepsis,PBISC,Abd-S148,case,Other,7.325
+sepsis,PBISC,Abd-S159,case,T cell,51.375
+sepsis,PBISC,Abd-S159,case,NK cell,13.175
+sepsis,PBISC,Abd-S159,case,B cell,7.975
+sepsis,PBISC,Abd-S159,case,Monocyte,19.175
+sepsis,PBISC,Abd-S159,case,DC,0.475
+sepsis,PBISC,Abd-S159,case,Other,7.825
+sepsis,PBISC,Abd-S165,case,T cell,55.3
+sepsis,PBISC,Abd-S165,case,NK cell,8.9
+sepsis,PBISC,Abd-S165,case,B cell,18.525
+sepsis,PBISC,Abd-S165,case,Monocyte,12.3
+sepsis,PBISC,Abd-S165,case,DC,0.25
+sepsis,PBISC,Abd-S165,case,Other,4.725
+sepsis,PBISC,Abd-S185,case,T cell,56.425
+sepsis,PBISC,Abd-S185,case,NK cell,13.875
+sepsis,PBISC,Abd-S185,case,B cell,13.05
+sepsis,PBISC,Abd-S185,case,Monocyte,6.45
+sepsis,PBISC,Abd-S185,case,DC,0.05
+sepsis,PBISC,Abd-S185,case,Other,10.15
+sepsis,PBISC,Abd-S190,case,T cell,56.725
+sepsis,PBISC,Abd-S190,case,NK cell,7.45
+sepsis,PBISC,Abd-S190,case,B cell,12.3
+sepsis,PBISC,Abd-S190,case,Monocyte,12.7
+sepsis,PBISC,Abd-S190,case,DC,0.175
+sepsis,PBISC,Abd-S190,case,Other,10.65
+sepsis,PBISC,Abd-S197,case,T cell,58.025
+sepsis,PBISC,Abd-S197,case,NK cell,2.225
+sepsis,PBISC,Abd-S197,case,B cell,17.95
+sepsis,PBISC,Abd-S197,case,Monocyte,10.1
+sepsis,PBISC,Abd-S197,case,DC,0.1
+sepsis,PBISC,Abd-S197,case,Other,11.6
+sepsis,PBISC,Abd-S198,case,T cell,51.75
+sepsis,PBISC,Abd-S198,case,NK cell,2.0
+sepsis,PBISC,Abd-S198,case,B cell,16.1
+sepsis,PBISC,Abd-S198,case,Monocyte,19.85
+sepsis,PBISC,Abd-S198,case,DC,0.425
+sepsis,PBISC,Abd-S198,case,Other,9.875
+sepsis,PBISC,Abd-S24,case,T cell,53.325
+sepsis,PBISC,Abd-S24,case,NK cell,8.075
+sepsis,PBISC,Abd-S24,case,B cell,22.875
+sepsis,PBISC,Abd-S24,case,Monocyte,11.325
+sepsis,PBISC,Abd-S24,case,DC,0.175
+sepsis,PBISC,Abd-S24,case,Other,4.225
+sepsis,PBISC,Abd-S25,case,T cell,48.525
+sepsis,PBISC,Abd-S25,case,NK cell,27.975
+sepsis,PBISC,Abd-S25,case,B cell,16.225
+sepsis,PBISC,Abd-S25,case,Monocyte,4.875
+sepsis,PBISC,Abd-S25,case,DC,0.075
+sepsis,PBISC,Abd-S25,case,Other,2.325
+sepsis,PBISC,Abd-S35,case,T cell,52.025
+sepsis,PBISC,Abd-S35,case,NK cell,5.0
+sepsis,PBISC,Abd-S35,case,B cell,11.525
+sepsis,PBISC,Abd-S35,case,Monocyte,19.8
+sepsis,PBISC,Abd-S35,case,DC,0.425
+sepsis,PBISC,Abd-S35,case,Other,11.225
+sepsis,PBISC,Abd-S37,case,T cell,62.6
+sepsis,PBISC,Abd-S37,case,NK cell,1.975
+sepsis,PBISC,Abd-S37,case,B cell,14.45
+sepsis,PBISC,Abd-S37,case,Monocyte,9.1
+sepsis,PBISC,Abd-S37,case,DC,0.125
+sepsis,PBISC,Abd-S37,case,Other,11.75
+sepsis,PBISC,Abd-S92,case,T cell,59.05
+sepsis,PBISC,Abd-S92,case,NK cell,3.0
+sepsis,PBISC,Abd-S92,case,B cell,13.25
+sepsis,PBISC,Abd-S92,case,Monocyte,15.45
+sepsis,PBISC,Abd-S92,case,DC,0.125
+sepsis,PBISC,Abd-S92,case,Other,9.125
+sepsis,PBISC,Abd-S96,case,T cell,41.75
+sepsis,PBISC,Abd-S96,case,NK cell,4.675
+sepsis,PBISC,Abd-S96,case,B cell,7.8
+sepsis,PBISC,Abd-S96,case,Monocyte,38.625
+sepsis,PBISC,Abd-S96,case,DC,1.125
+sepsis,PBISC,Abd-S96,case,Other,6.025
+sepsis,PBISC,Abd-S97,case,T cell,45.625
+sepsis,PBISC,Abd-S97,case,NK cell,4.0
+sepsis,PBISC,Abd-S97,case,B cell,8.55
+sepsis,PBISC,Abd-S97,case,Monocyte,34.7
+sepsis,PBISC,Abd-S97,case,DC,1.35
+sepsis,PBISC,Abd-S97,case,Other,5.775
+sepsis,PBISC,HC03,control,T cell,52.175
+sepsis,PBISC,HC03,control,NK cell,18.35
+sepsis,PBISC,HC03,control,B cell,15.625
+sepsis,PBISC,HC03,control,Monocyte,12.35
+sepsis,PBISC,HC03,control,DC,0.775
+sepsis,PBISC,HC03,control,Other,0.725
+sepsis,PBISC,HC04,control,T cell,58.025
+sepsis,PBISC,HC04,control,NK cell,18.0
+sepsis,PBISC,HC04,control,B cell,8.4
+sepsis,PBISC,HC04,control,Monocyte,13.45
+sepsis,PBISC,HC04,control,DC,0.725
+sepsis,PBISC,HC04,control,Other,1.4
+sepsis,PBISC,HC06,control,T cell,53.95
+sepsis,PBISC,HC06,control,NK cell,20.725
+sepsis,PBISC,HC06,control,B cell,8.15
+sepsis,PBISC,HC06,control,Monocyte,14.425
+sepsis,PBISC,HC06,control,DC,0.625
+sepsis,PBISC,HC06,control,Other,2.125
+sepsis,PBISC,HC08,control,T cell,57.4
+sepsis,PBISC,HC08,control,NK cell,23.525
+sepsis,PBISC,HC08,control,B cell,5.375
+sepsis,PBISC,HC08,control,Monocyte,11.65
+sepsis,PBISC,HC08,control,DC,0.6
+sepsis,PBISC,HC08,control,Other,1.45
+sepsis,PBISC,HC10,control,T cell,54.2
+sepsis,PBISC,HC10,control,NK cell,26.4
+sepsis,PBISC,HC10,control,B cell,16.425
+sepsis,PBISC,HC10,control,Monocyte,1.8
+sepsis,PBISC,HC10,control,DC,0.025
+sepsis,PBISC,HC10,control,Other,1.15
+sepsis,PBISC,HC11,control,T cell,59.55
+sepsis,PBISC,HC11,control,NK cell,22.275
+sepsis,PBISC,HC11,control,B cell,8.275
+sepsis,PBISC,HC11,control,Monocyte,5.525
+sepsis,PBISC,HC11,control,DC,0.1
+sepsis,PBISC,HC11,control,Other,4.275
+sepsis,PBISC,HC14,control,T cell,50.45
+sepsis,PBISC,HC14,control,NK cell,43.65
+sepsis,PBISC,HC14,control,B cell,3.075
+sepsis,PBISC,HC14,control,Monocyte,1.8
+sepsis,PBISC,HC14,control,DC,0.05
+sepsis,PBISC,HC14,control,Other,0.975
+sepsis,PBISC,HC15,control,T cell,59.075
+sepsis,PBISC,HC15,control,NK cell,19.15
+sepsis,PBISC,HC15,control,B cell,8.5
+sepsis,PBISC,HC15,control,Monocyte,10.05
+sepsis,PBISC,HC15,control,DC,0.35
+sepsis,PBISC,HC15,control,Other,2.875
+sepsis,PBISC,HC17,control,T cell,57.0
+sepsis,PBISC,HC17,control,NK cell,17.025
+sepsis,PBISC,HC17,control,B cell,6.775
+sepsis,PBISC,HC17,control,Monocyte,15.625
+sepsis,PBISC,HC17,control,DC,1.25
+sepsis,PBISC,HC17,control,Other,2.325
+sepsis,PBISC,HC18,control,T cell,54.65
+sepsis,PBISC,HC18,control,NK cell,23.775
+sepsis,PBISC,HC18,control,B cell,7.975
+sepsis,PBISC,HC18,control,Monocyte,11.05
+sepsis,PBISC,HC18,control,DC,0.575
+sepsis,PBISC,HC18,control,Other,1.975
+sepsis,PBISC,HC19,control,T cell,58.325
+sepsis,PBISC,HC19,control,NK cell,15.85
+sepsis,PBISC,HC19,control,B cell,8.35
+sepsis,PBISC,HC19,control,Monocyte,13.3
+sepsis,PBISC,HC19,control,DC,0.55
+sepsis,PBISC,HC19,control,Other,3.625
+sepsis,PBISC,HC20,control,T cell,55.775
+sepsis,PBISC,HC20,control,NK cell,20.275
+sepsis,PBISC,HC20,control,B cell,6.875
+sepsis,PBISC,HC20,control,Monocyte,13.1
+sepsis,PBISC,HC20,control,DC,0.475
+sepsis,PBISC,HC20,control,Other,3.5
+sepsis,PBISC,HC21,control,T cell,56.675
+sepsis,PBISC,HC21,control,NK cell,12.075
+sepsis,PBISC,HC21,control,B cell,10.575
+sepsis,PBISC,HC21,control,Monocyte,16.825
+sepsis,PBISC,HC21,control,DC,1.0
+sepsis,PBISC,HC21,control,Other,2.85
+sepsis,PBISC,HC22,control,T cell,42.4
+sepsis,PBISC,HC22,control,NK cell,48.225
+sepsis,PBISC,HC22,control,B cell,1.95
+sepsis,PBISC,HC22,control,Monocyte,4.975
+sepsis,PBISC,HC22,control,DC,0.225
+sepsis,PBISC,HC22,control,Other,2.225
+sepsis,PBISC,HC23,control,T cell,47.85
+sepsis,PBISC,HC23,control,NK cell,38.725
+sepsis,PBISC,HC23,control,B cell,3.6
+sepsis,PBISC,HC23,control,Monocyte,7.575
+sepsis,PBISC,HC23,control,DC,0.3
+sepsis,PBISC,HC23,control,Other,1.95
+sepsis,PBISC,HC24,control,T cell,54.475
+sepsis,PBISC,HC24,control,NK cell,14.925
+sepsis,PBISC,HC24,control,B cell,11.175
+sepsis,PBISC,HC24,control,Monocyte,16.275
+sepsis,PBISC,HC24,control,DC,1.0
+sepsis,PBISC,HC24,control,Other,2.15
+sepsis,PBISC,HC25,control,T cell,62.825
+sepsis,PBISC,HC25,control,NK cell,17.6
+sepsis,PBISC,HC25,control,B cell,10.175
+sepsis,PBISC,HC25,control,Monocyte,7.7
+sepsis,PBISC,HC25,control,DC,0.2
+sepsis,PBISC,HC25,control,Other,1.5
+sepsis,PBISC,HC26,control,T cell,50.55
+sepsis,PBISC,HC26,control,NK cell,34.325
+sepsis,PBISC,HC26,control,B cell,3.8
+sepsis,PBISC,HC26,control,Monocyte,9.85
+sepsis,PBISC,HC26,control,DC,0.375
+sepsis,PBISC,HC26,control,Other,1.1
+sepsis,PBISC,HC27,control,T cell,58.575
+sepsis,PBISC,HC27,control,NK cell,16.275
+sepsis,PBISC,HC27,control,B cell,11.975
+sepsis,PBISC,HC27,control,Monocyte,11.55
+sepsis,PBISC,HC27,control,DC,0.375
+sepsis,PBISC,HC27,control,Other,1.25
+sepsis,PBISC,HC28,control,T cell,52.8
+sepsis,PBISC,HC28,control,NK cell,38.775
+sepsis,PBISC,HC28,control,B cell,2.725
+sepsis,PBISC,HC28,control,Monocyte,4.35
+sepsis,PBISC,HC28,control,DC,0.175
+sepsis,PBISC,HC28,control,Other,1.175
+sepsis,PBISC,HC29,control,T cell,59.725
+sepsis,PBISC,HC29,control,NK cell,17.375
+sepsis,PBISC,HC29,control,B cell,7.225
+sepsis,PBISC,HC29,control,Monocyte,12.2
+sepsis,PBISC,HC29,control,DC,0.525
+sepsis,PBISC,HC29,control,Other,2.95
+sepsis,PBISC,HC30,control,T cell,54.9
+sepsis,PBISC,HC30,control,NK cell,30.475
+sepsis,PBISC,HC30,control,B cell,2.725
+sepsis,PBISC,HC30,control,Monocyte,10.5
+sepsis,PBISC,HC30,control,DC,0.375
+sepsis,PBISC,HC30,control,Other,1.025
+sepsis,PBISC,HC31,control,T cell,54.1
+sepsis,PBISC,HC31,control,NK cell,32.675
+sepsis,PBISC,HC31,control,B cell,4.675
+sepsis,PBISC,HC31,control,Monocyte,6.0
+sepsis,PBISC,HC31,control,DC,0.25
+sepsis,PBISC,HC31,control,Other,2.3
+sepsis,PBISC,HC32,control,T cell,49.675
+sepsis,PBISC,HC32,control,NK cell,33.5
+sepsis,PBISC,HC32,control,B cell,5.05
+sepsis,PBISC,HC32,control,Monocyte,9.725
+sepsis,PBISC,HC32,control,DC,0.3
+sepsis,PBISC,HC32,control,Other,1.75
+sepsis,PBISC,HC33,control,T cell,55.725
+sepsis,PBISC,HC33,control,NK cell,29.1
+sepsis,PBISC,HC33,control,B cell,4.775
+sepsis,PBISC,HC33,control,Monocyte,8.075
+sepsis,PBISC,HC33,control,DC,0.325
+sepsis,PBISC,HC33,control,Other,2.0
+sepsis,PBISC,HC34,control,T cell,59.25
+sepsis,PBISC,HC34,control,NK cell,12.625
+sepsis,PBISC,HC34,control,B cell,9.175
+sepsis,PBISC,HC34,control,Monocyte,14.25
+sepsis,PBISC,HC34,control,DC,0.675
+sepsis,PBISC,HC34,control,Other,4.025
+sepsis,PBISC,HC35,control,T cell,54.325
+sepsis,PBISC,HC35,control,NK cell,20.6
+sepsis,PBISC,HC35,control,B cell,8.075
+sepsis,PBISC,HC35,control,Monocyte,14.35
+sepsis,PBISC,HC35,control,DC,0.55
+sepsis,PBISC,HC35,control,Other,2.1
+sepsis,PBISC,HC36,control,T cell,55.775
+sepsis,PBISC,HC36,control,NK cell,12.075
+sepsis,PBISC,HC36,control,B cell,7.95
+sepsis,PBISC,HC36,control,Monocyte,15.8
+sepsis,PBISC,HC36,control,DC,0.5
+sepsis,PBISC,HC36,control,Other,7.9
+sepsis,PBISC,HC37,control,T cell,55.125
+sepsis,PBISC,HC37,control,NK cell,20.525
+sepsis,PBISC,HC37,control,B cell,5.125
+sepsis,PBISC,HC37,control,Monocyte,16.075
+sepsis,PBISC,HC37,control,DC,0.7
+sepsis,PBISC,HC37,control,Other,2.45
+sepsis,PBISC,HC38,control,T cell,58.025
+sepsis,PBISC,HC38,control,NK cell,20.0
+sepsis,PBISC,HC38,control,B cell,13.575
+sepsis,PBISC,HC38,control,Monocyte,6.225
+sepsis,PBISC,HC38,control,DC,0.2
+sepsis,PBISC,HC38,control,Other,1.975
+sepsis,PBISC,HC39,control,T cell,54.725
+sepsis,PBISC,HC39,control,NK cell,17.9
+sepsis,PBISC,HC39,control,B cell,12.05
+sepsis,PBISC,HC39,control,Monocyte,11.425
+sepsis,PBISC,HC39,control,DC,0.35
+sepsis,PBISC,HC39,control,Other,3.55
+sepsis,PBISC,HC40,control,T cell,55.575
+sepsis,PBISC,HC40,control,NK cell,13.525
+sepsis,PBISC,HC40,control,B cell,10.35
+sepsis,PBISC,HC40,control,Monocyte,14.9
+sepsis,PBISC,HC40,control,DC,0.725
+sepsis,PBISC,HC40,control,Other,4.925
+sepsis,PBISC,HC41,control,T cell,61.05
+sepsis,PBISC,HC41,control,NK cell,16.575
+sepsis,PBISC,HC41,control,B cell,7.775
+sepsis,PBISC,HC41,control,Monocyte,12.375
+sepsis,PBISC,HC41,control,DC,0.5
+sepsis,PBISC,HC41,control,Other,1.725
+sepsis,PBISC,HC42,control,T cell,45.825
+sepsis,PBISC,HC42,control,NK cell,46.375
+sepsis,PBISC,HC42,control,B cell,2.4
+sepsis,PBISC,HC42,control,Monocyte,4.1
+sepsis,PBISC,HC42,control,DC,0.05
+sepsis,PBISC,HC42,control,Other,1.25
+sepsis,PBISC,HC43,control,T cell,60.65
+sepsis,PBISC,HC43,control,NK cell,19.225
+sepsis,PBISC,HC43,control,B cell,6.925
+sepsis,PBISC,HC43,control,Monocyte,10.125
+sepsis,PBISC,HC43,control,DC,0.225
+sepsis,PBISC,HC43,control,Other,2.85
+sepsis,PBISC,HC44,control,T cell,58.0
+sepsis,PBISC,HC44,control,NK cell,10.975
+sepsis,PBISC,HC44,control,B cell,12.675
+sepsis,PBISC,HC44,control,Monocyte,14.35
+sepsis,PBISC,HC44,control,DC,0.975
+sepsis,PBISC,HC44,control,Other,3.025
+sepsis,PBISC,IC02,ICU control,T cell,48.5
+sepsis,PBISC,IC02,ICU control,NK cell,2.8
+sepsis,PBISC,IC02,ICU control,B cell,15.55
+sepsis,PBISC,IC02,ICU control,Monocyte,20.0
+sepsis,PBISC,IC02,ICU control,DC,0.35
+sepsis,PBISC,IC02,ICU control,Other,12.8
+sepsis,PBISC,IC03,ICU control,T cell,59.475
+sepsis,PBISC,IC03,ICU control,NK cell,19.2
+sepsis,PBISC,IC03,ICU control,B cell,12.7
+sepsis,PBISC,IC03,ICU control,Monocyte,4.025
+sepsis,PBISC,IC03,ICU control,DC,0.025
+sepsis,PBISC,IC03,ICU control,Other,4.575
+sepsis,PBISC,IC05,ICU control,T cell,55.325
+sepsis,PBISC,IC05,ICU control,NK cell,7.2
+sepsis,PBISC,IC05,ICU control,B cell,30.375
+sepsis,PBISC,IC05,ICU control,Monocyte,6.425
+sepsis,PBISC,IC05,ICU control,DC,0.175
+sepsis,PBISC,IC05,ICU control,Other,0.5
+sepsis,PBISC,IC06,ICU control,T cell,58.075
+sepsis,PBISC,IC06,ICU control,NK cell,2.7
+sepsis,PBISC,IC06,ICU control,B cell,21.575
+sepsis,PBISC,IC06,ICU control,Monocyte,8.75
+sepsis,PBISC,IC06,ICU control,DC,0.075
+sepsis,PBISC,IC06,ICU control,Other,8.825
+sepsis,PBISC,IC07,ICU control,T cell,63.775
+sepsis,PBISC,IC07,ICU control,NK cell,5.875
+sepsis,PBISC,IC07,ICU control,B cell,19.375
+sepsis,PBISC,IC07,ICU control,Monocyte,4.5
+sepsis,PBISC,IC07,ICU control,DC,0.025
+sepsis,PBISC,IC07,ICU control,Other,6.45
+sepsis,PBISC,IC11,ICU control,T cell,51.125
+sepsis,PBISC,IC11,ICU control,NK cell,5.425
+sepsis,PBISC,IC11,ICU control,B cell,12.75
+sepsis,PBISC,IC11,ICU control,Monocyte,26.975
+sepsis,PBISC,IC11,ICU control,DC,0.75
+sepsis,PBISC,IC11,ICU control,Other,2.975
+sepsis,PBISC,IC12,ICU control,T cell,63.075
+sepsis,PBISC,IC12,ICU control,NK cell,4.85
+sepsis,PBISC,IC12,ICU control,B cell,18.65
+sepsis,PBISC,IC12,ICU control,Monocyte,5.075
+sepsis,PBISC,IC12,ICU control,DC,0.05
+sepsis,PBISC,IC12,ICU control,Other,8.3
+sepsis,PBISC,IC13,ICU control,T cell,47.525
+sepsis,PBISC,IC13,ICU control,NK cell,4.75
+sepsis,PBISC,IC13,ICU control,B cell,12.0
+sepsis,PBISC,IC13,ICU control,Monocyte,29.725
+sepsis,PBISC,IC13,ICU control,DC,0.8
+sepsis,PBISC,IC13,ICU control,Other,5.2
+sepsis,PBISC,IC17,ICU control,T cell,67.525
+sepsis,PBISC,IC17,ICU control,NK cell,3.15
+sepsis,PBISC,IC17,ICU control,B cell,18.125
+sepsis,PBISC,IC17,ICU control,Monocyte,6.725
+sepsis,PBISC,IC17,ICU control,DC,0.05
+sepsis,PBISC,IC17,ICU control,Other,4.425
+sepsis,PBISC,IC18,ICU control,T cell,60.475
+sepsis,PBISC,IC18,ICU control,NK cell,8.95
+sepsis,PBISC,IC18,ICU control,B cell,16.2
+sepsis,PBISC,IC18,ICU control,Monocyte,5.75
+sepsis,PBISC,IC18,ICU control,DC,0.075
+sepsis,PBISC,IC18,ICU control,Other,8.55
+sepsis,PBISC,IC20,ICU control,T cell,53.5
+sepsis,PBISC,IC20,ICU control,NK cell,4.3
+sepsis,PBISC,IC20,ICU control,B cell,21.975
+sepsis,PBISC,IC20,ICU control,Monocyte,10.4
+sepsis,PBISC,IC20,ICU control,DC,0.1
+sepsis,PBISC,IC20,ICU control,Other,9.725
+sepsis,PBISC,IC21,ICU control,T cell,53.675
+sepsis,PBISC,IC21,ICU control,NK cell,21.1
+sepsis,PBISC,IC21,ICU control,B cell,5.975
+sepsis,PBISC,IC21,ICU control,Monocyte,15.975
+sepsis,PBISC,IC21,ICU control,DC,0.9
+sepsis,PBISC,IC21,ICU control,Other,2.375
+sepsis,PBISC,IC26,ICU control,T cell,37.425
+sepsis,PBISC,IC26,ICU control,NK cell,6.4
+sepsis,PBISC,IC26,ICU control,B cell,9.65
+sepsis,PBISC,IC26,ICU control,Monocyte,39.9
+sepsis,PBISC,IC26,ICU control,DC,1.25
+sepsis,PBISC,IC26,ICU control,Other,5.375
+sepsis,PBISC,IC27,ICU control,T cell,53.7
+sepsis,PBISC,IC27,ICU control,NK cell,8.025
+sepsis,PBISC,IC27,ICU control,B cell,18.775
+sepsis,PBISC,IC27,ICU control,Monocyte,17.175
+sepsis,PBISC,IC27,ICU control,DC,0.5
+sepsis,PBISC,IC27,ICU control,Other,1.825
+sepsis,PBISC,IC28,ICU control,T cell,39.225
+sepsis,PBISC,IC28,ICU control,NK cell,3.6
+sepsis,PBISC,IC28,ICU control,B cell,6.725
+sepsis,PBISC,IC28,ICU control,Monocyte,40.825
+sepsis,PBISC,IC28,ICU control,DC,2.05
+sepsis,PBISC,IC28,ICU control,Other,7.575
+sepsis,PBISC,IC30,ICU control,T cell,42.9
+sepsis,PBISC,IC30,ICU control,NK cell,11.5
+sepsis,PBISC,IC30,ICU control,B cell,6.475
+sepsis,PBISC,IC30,ICU control,Monocyte,33.6
+sepsis,PBISC,IC30,ICU control,DC,1.925
+sepsis,PBISC,IC30,ICU control,Other,3.6
+sepsis,PBISC,IC31,ICU control,T cell,50.475
+sepsis,PBISC,IC31,ICU control,NK cell,5.425
+sepsis,PBISC,IC31,ICU control,B cell,15.675
+sepsis,PBISC,IC31,ICU control,Monocyte,20.525
+sepsis,PBISC,IC31,ICU control,DC,0.625
+sepsis,PBISC,IC31,ICU control,Other,7.275
+sepsis,PBISC,Res-S105,case,T cell,55.45
+sepsis,PBISC,Res-S105,case,NK cell,4.725
+sepsis,PBISC,Res-S105,case,B cell,17.025
+sepsis,PBISC,Res-S105,case,Monocyte,13.15
+sepsis,PBISC,Res-S105,case,DC,0.075
+sepsis,PBISC,Res-S105,case,Other,9.575
+sepsis,PBISC,Res-S108,case,T cell,59.575
+sepsis,PBISC,Res-S108,case,NK cell,4.525
+sepsis,PBISC,Res-S108,case,B cell,13.275
+sepsis,PBISC,Res-S108,case,Monocyte,12.325
+sepsis,PBISC,Res-S108,case,DC,0.15
+sepsis,PBISC,Res-S108,case,Other,10.15
+sepsis,PBISC,Res-S130,case,T cell,50.8
+sepsis,PBISC,Res-S130,case,NK cell,28.25
+sepsis,PBISC,Res-S130,case,B cell,9.1
+sepsis,PBISC,Res-S130,case,Monocyte,4.175
+sepsis,PBISC,Res-S130,case,DC,0.025
+sepsis,PBISC,Res-S130,case,Other,7.65
+sepsis,PBISC,Res-S173,case,T cell,60.1
+sepsis,PBISC,Res-S173,case,NK cell,0.45
+sepsis,PBISC,Res-S173,case,B cell,25.0
+sepsis,PBISC,Res-S173,case,Monocyte,6.25
+sepsis,PBISC,Res-S173,case,DC,0.0
+sepsis,PBISC,Res-S173,case,Other,8.2
+sepsis,PBISC,Res-S181,case,T cell,51.55
+sepsis,PBISC,Res-S181,case,NK cell,23.85
+sepsis,PBISC,Res-S181,case,B cell,20.6
+sepsis,PBISC,Res-S181,case,Monocyte,2.175
+sepsis,PBISC,Res-S181,case,DC,0.0
+sepsis,PBISC,Res-S181,case,Other,1.825
+sepsis,PBISC,Res-S182,case,T cell,47.375
+sepsis,PBISC,Res-S182,case,NK cell,5.375
+sepsis,PBISC,Res-S182,case,B cell,10.725
+sepsis,PBISC,Res-S182,case,Monocyte,30.675
+sepsis,PBISC,Res-S182,case,DC,0.975
+sepsis,PBISC,Res-S182,case,Other,4.875
+sepsis,PBISC,Res-S186,case,T cell,54.375
+sepsis,PBISC,Res-S186,case,NK cell,23.375
+sepsis,PBISC,Res-S186,case,B cell,15.675
+sepsis,PBISC,Res-S186,case,Monocyte,3.15
+sepsis,PBISC,Res-S186,case,DC,0.025
+sepsis,PBISC,Res-S186,case,Other,3.4
+sepsis,PBISC,Res-S187,case,T cell,51.3
+sepsis,PBISC,Res-S187,case,NK cell,11.55
+sepsis,PBISC,Res-S187,case,B cell,11.0
+sepsis,PBISC,Res-S187,case,Monocyte,20.525
+sepsis,PBISC,Res-S187,case,DC,0.35
+sepsis,PBISC,Res-S187,case,Other,5.275
+sepsis,PBISC,Res-S194,case,T cell,42.975
+sepsis,PBISC,Res-S194,case,NK cell,11.175
+sepsis,PBISC,Res-S194,case,B cell,7.5
+sepsis,PBISC,Res-S194,case,Monocyte,31.875
+sepsis,PBISC,Res-S194,case,DC,1.575
+sepsis,PBISC,Res-S194,case,Other,4.9
+sepsis,PBISC,Res-S195,case,T cell,65.975
+sepsis,PBISC,Res-S195,case,NK cell,2.325
+sepsis,PBISC,Res-S195,case,B cell,5.375
+sepsis,PBISC,Res-S195,case,Monocyte,19.625
+sepsis,PBISC,Res-S195,case,DC,0.275
+sepsis,PBISC,Res-S195,case,Other,6.425
+sepsis,PBISC,Res-S196,case,T cell,71.125
+sepsis,PBISC,Res-S196,case,NK cell,1.65
+sepsis,PBISC,Res-S196,case,B cell,10.275
+sepsis,PBISC,Res-S196,case,Monocyte,5.7
+sepsis,PBISC,Res-S196,case,DC,0.05
+sepsis,PBISC,Res-S196,case,Other,11.2
+sepsis,PBISC,Res-S199,case,T cell,54.8
+sepsis,PBISC,Res-S199,case,NK cell,3.775
+sepsis,PBISC,Res-S199,case,B cell,16.375
+sepsis,PBISC,Res-S199,case,Monocyte,16.275
+sepsis,PBISC,Res-S199,case,DC,0.175
+sepsis,PBISC,Res-S199,case,Other,8.6
+sepsis,PBISC,Res-S202,case,T cell,58.6
+sepsis,PBISC,Res-S202,case,NK cell,6.675
+sepsis,PBISC,Res-S202,case,B cell,9.8
+sepsis,PBISC,Res-S202,case,Monocyte,16.55
+sepsis,PBISC,Res-S202,case,DC,0.2
+sepsis,PBISC,Res-S202,case,Other,8.175
+sepsis,PBISC,Res-S203,case,T cell,56.55
+sepsis,PBISC,Res-S203,case,NK cell,10.925
+sepsis,PBISC,Res-S203,case,B cell,7.1
+sepsis,PBISC,Res-S203,case,Monocyte,20.95
+sepsis,PBISC,Res-S203,case,DC,0.6
+sepsis,PBISC,Res-S203,case,Other,3.875
+sepsis,PBISC,Res-S204,case,T cell,55.1
+sepsis,PBISC,Res-S204,case,NK cell,4.775
+sepsis,PBISC,Res-S204,case,B cell,14.05
+sepsis,PBISC,Res-S204,case,Monocyte,14.425
+sepsis,PBISC,Res-S204,case,DC,0.225
+sepsis,PBISC,Res-S204,case,Other,11.425
+sepsis,PBISC,Res-S205,case,T cell,58.625
+sepsis,PBISC,Res-S205,case,NK cell,9.25
+sepsis,PBISC,Res-S205,case,B cell,22.15
+sepsis,PBISC,Res-S205,case,Monocyte,3.175
+sepsis,PBISC,Res-S205,case,DC,0.025
+sepsis,PBISC,Res-S205,case,Other,6.775
+sepsis,PBISC,Res-S206,case,T cell,44.325
+sepsis,PBISC,Res-S206,case,NK cell,5.5
+sepsis,PBISC,Res-S206,case,B cell,10.2
+sepsis,PBISC,Res-S206,case,Monocyte,31.75
+sepsis,PBISC,Res-S206,case,DC,0.475
+sepsis,PBISC,Res-S206,case,Other,7.75
+sepsis,PBISC,Res-S207,case,T cell,61.6
+sepsis,PBISC,Res-S207,case,NK cell,5.375
+sepsis,PBISC,Res-S207,case,B cell,20.575
+sepsis,PBISC,Res-S207,case,Monocyte,3.85
+sepsis,PBISC,Res-S207,case,DC,0.0
+sepsis,PBISC,Res-S207,case,Other,8.6
+sepsis,PBISC,Res-S209,case,T cell,58.1
+sepsis,PBISC,Res-S209,case,NK cell,12.8
+sepsis,PBISC,Res-S209,case,B cell,12.625
+sepsis,PBISC,Res-S209,case,Monocyte,10.325
+sepsis,PBISC,Res-S209,case,DC,0.225
+sepsis,PBISC,Res-S209,case,Other,5.925
+sepsis,PBISC,Res-S212,case,T cell,46.6
+sepsis,PBISC,Res-S212,case,NK cell,6.725
+sepsis,PBISC,Res-S212,case,B cell,10.2
+sepsis,PBISC,Res-S212,case,Monocyte,27.925
+sepsis,PBISC,Res-S212,case,DC,0.525
+sepsis,PBISC,Res-S212,case,Other,8.025
+sepsis,PBISC,Res-S214,case,T cell,39.05
+sepsis,PBISC,Res-S214,case,NK cell,3.325
+sepsis,PBISC,Res-S214,case,B cell,8.55
+sepsis,PBISC,Res-S214,case,Monocyte,40.6
+sepsis,PBISC,Res-S214,case,DC,1.55
+sepsis,PBISC,Res-S214,case,Other,6.925
+sepsis,PBISC,Res-S218,case,T cell,54.95
+sepsis,PBISC,Res-S218,case,NK cell,24.175
+sepsis,PBISC,Res-S218,case,B cell,7.7
+sepsis,PBISC,Res-S218,case,Monocyte,9.025
+sepsis,PBISC,Res-S218,case,DC,0.05
+sepsis,PBISC,Res-S218,case,Other,4.1
+sepsis,PBISC,Res-S219,case,T cell,33.225
+sepsis,PBISC,Res-S219,case,NK cell,5.375
+sepsis,PBISC,Res-S219,case,B cell,6.025
+sepsis,PBISC,Res-S219,case,Monocyte,49.7
+sepsis,PBISC,Res-S219,case,DC,1.35
+sepsis,PBISC,Res-S219,case,Other,4.325
+sepsis,PBISC,Res-S34,case,T cell,49.0
+sepsis,PBISC,Res-S34,case,NK cell,5.525
+sepsis,PBISC,Res-S34,case,B cell,10.675
+sepsis,PBISC,Res-S34,case,Monocyte,30.475
+sepsis,PBISC,Res-S34,case,DC,1.7
+sepsis,PBISC,Res-S34,case,Other,2.625
+sepsis,PBISC,Res-S64,case,T cell,42.625
+sepsis,PBISC,Res-S64,case,NK cell,4.675
+sepsis,PBISC,Res-S64,case,B cell,10.85
+sepsis,PBISC,Res-S64,case,Monocyte,36.175
+sepsis,PBISC,Res-S64,case,DC,0.725
+sepsis,PBISC,Res-S64,case,Other,4.95
+sepsis,PBISC,Res-S78,case,T cell,59.225
+sepsis,PBISC,Res-S78,case,NK cell,7.175
+sepsis,PBISC,Res-S78,case,B cell,12.05
+sepsis,PBISC,Res-S78,case,Monocyte,10.075
+sepsis,PBISC,Res-S78,case,DC,0.075
+sepsis,PBISC,Res-S78,case,Other,11.4
+sepsis,PBISC,Res-S89,case,T cell,70.125
+sepsis,PBISC,Res-S89,case,NK cell,9.55
+sepsis,PBISC,Res-S89,case,B cell,7.7
+sepsis,PBISC,Res-S89,case,Monocyte,7.575
+sepsis,PBISC,Res-S89,case,DC,0.1
+sepsis,PBISC,Res-S89,case,Other,4.95
+sepsis,PBISC,Skin-S117,case,T cell,46.025
+sepsis,PBISC,Skin-S117,case,NK cell,5.95
+sepsis,PBISC,Skin-S117,case,B cell,6.525
+sepsis,PBISC,Skin-S117,case,Monocyte,37.325
+sepsis,PBISC,Skin-S117,case,DC,2.225
+sepsis,PBISC,Skin-S117,case,Other,1.95
+sepsis,PBISC,Skin-S191,case,T cell,59.025
+sepsis,PBISC,Skin-S191,case,NK cell,13.625
+sepsis,PBISC,Skin-S191,case,B cell,7.55
+sepsis,PBISC,Skin-S191,case,Monocyte,12.025
+sepsis,PBISC,Skin-S191,case,DC,0.15
+sepsis,PBISC,Skin-S191,case,Other,7.625
+sepsis,PBISC,Skin-S192,case,T cell,39.95
+sepsis,PBISC,Skin-S192,case,NK cell,2.825
+sepsis,PBISC,Skin-S192,case,B cell,10.125
+sepsis,PBISC,Skin-S192,case,Monocyte,40.075
+sepsis,PBISC,Skin-S192,case,DC,1.525
+sepsis,PBISC,Skin-S192,case,Other,5.5
+sepsis,PBISC,Skin-S30,case,T cell,62.675
+sepsis,PBISC,Skin-S30,case,NK cell,0.85
+sepsis,PBISC,Skin-S30,case,B cell,25.675
+sepsis,PBISC,Skin-S30,case,Monocyte,3.625
+sepsis,PBISC,Skin-S30,case,DC,0.025
+sepsis,PBISC,Skin-S30,case,Other,7.15
+sepsis,PBISC,Skin-S99,case,T cell,56.65
+sepsis,PBISC,Skin-S99,case,NK cell,21.875
+sepsis,PBISC,Skin-S99,case,B cell,6.0
+sepsis,PBISC,Skin-S99,case,Monocyte,11.4
+sepsis,PBISC,Skin-S99,case,DC,0.15
+sepsis,PBISC,Skin-S99,case,Other,3.925
+sepsis,PBISC,Uri-S104,case,T cell,57.775
+sepsis,PBISC,Uri-S104,case,NK cell,4.3
+sepsis,PBISC,Uri-S104,case,B cell,16.65
+sepsis,PBISC,Uri-S104,case,Monocyte,14.6
+sepsis,PBISC,Uri-S104,case,DC,0.15
+sepsis,PBISC,Uri-S104,case,Other,6.525
+sepsis,PBISC,Uri-S124,case,T cell,62.925
+sepsis,PBISC,Uri-S124,case,NK cell,8.225
+sepsis,PBISC,Uri-S124,case,B cell,8.625
+sepsis,PBISC,Uri-S124,case,Monocyte,13.425
+sepsis,PBISC,Uri-S124,case,DC,0.125
+sepsis,PBISC,Uri-S124,case,Other,6.675
+sepsis,PBISC,Uri-S143,case,T cell,59.8
+sepsis,PBISC,Uri-S143,case,NK cell,3.175
+sepsis,PBISC,Uri-S143,case,B cell,25.05
+sepsis,PBISC,Uri-S143,case,Monocyte,5.475
+sepsis,PBISC,Uri-S143,case,DC,0.05
+sepsis,PBISC,Uri-S143,case,Other,6.45
+sepsis,PBISC,Uri-S155,case,T cell,56.8
+sepsis,PBISC,Uri-S155,case,NK cell,6.25
+sepsis,PBISC,Uri-S155,case,B cell,20.75
+sepsis,PBISC,Uri-S155,case,Monocyte,10.325
+sepsis,PBISC,Uri-S155,case,DC,0.125
+sepsis,PBISC,Uri-S155,case,Other,5.75
+sepsis,PBISC,Uri-S162,case,T cell,56.2
+sepsis,PBISC,Uri-S162,case,NK cell,6.675
+sepsis,PBISC,Uri-S162,case,B cell,18.275
+sepsis,PBISC,Uri-S162,case,Monocyte,13.825
+sepsis,PBISC,Uri-S162,case,DC,0.05
+sepsis,PBISC,Uri-S162,case,Other,4.975
+sepsis,PBISC,Uri-S180,case,T cell,54.6
+sepsis,PBISC,Uri-S180,case,NK cell,28.75
+sepsis,PBISC,Uri-S180,case,B cell,5.475
+sepsis,PBISC,Uri-S180,case,Monocyte,8.1
+sepsis,PBISC,Uri-S180,case,DC,0.125
+sepsis,PBISC,Uri-S180,case,Other,2.95
+sepsis,PBISC,Uri-S200,case,T cell,34.2
+sepsis,PBISC,Uri-S200,case,NK cell,5.925
+sepsis,PBISC,Uri-S200,case,B cell,6.55
+sepsis,PBISC,Uri-S200,case,Monocyte,47.025
+sepsis,PBISC,Uri-S200,case,DC,1.65
+sepsis,PBISC,Uri-S200,case,Other,4.65
+sepsis,PBISC,Uri-S201,case,T cell,33.725
+sepsis,PBISC,Uri-S201,case,NK cell,4.725
+sepsis,PBISC,Uri-S201,case,B cell,7.2
+sepsis,PBISC,Uri-S201,case,Monocyte,49.675
+sepsis,PBISC,Uri-S201,case,DC,1.15
+sepsis,PBISC,Uri-S201,case,Other,3.525
+sepsis,PBISC,Uri-S208,case,T cell,40.95
+sepsis,PBISC,Uri-S208,case,NK cell,2.35
+sepsis,PBISC,Uri-S208,case,B cell,9.525
+sepsis,PBISC,Uri-S208,case,Monocyte,41.4
+sepsis,PBISC,Uri-S208,case,DC,1.125
+sepsis,PBISC,Uri-S208,case,Other,4.65
+sepsis,PBISC,Uri-S213,case,T cell,53.3
+sepsis,PBISC,Uri-S213,case,NK cell,11.55
+sepsis,PBISC,Uri-S213,case,B cell,7.375
+sepsis,PBISC,Uri-S213,case,Monocyte,23.625
+sepsis,PBISC,Uri-S213,case,DC,1.375
+sepsis,PBISC,Uri-S213,case,Other,2.775
+sepsis,PBISC,Uri-S217,case,T cell,35.675
+sepsis,PBISC,Uri-S217,case,NK cell,3.525
+sepsis,PBISC,Uri-S217,case,B cell,7.325
+sepsis,PBISC,Uri-S217,case,Monocyte,45.0
+sepsis,PBISC,Uri-S217,case,DC,1.775
+sepsis,PBISC,Uri-S217,case,Other,6.7
+sepsis,PBISC,Uri-S48,case,T cell,61.225
+sepsis,PBISC,Uri-S48,case,NK cell,6.975
+sepsis,PBISC,Uri-S48,case,B cell,21.275
+sepsis,PBISC,Uri-S48,case,Monocyte,4.8
+sepsis,PBISC,Uri-S48,case,DC,0.0
+sepsis,PBISC,Uri-S48,case,Other,5.725
+sepsis,PBISC,Uri-S94,case,T cell,59.675
+sepsis,PBISC,Uri-S94,case,NK cell,3.7
+sepsis,PBISC,Uri-S94,case,B cell,20.675
+sepsis,PBISC,Uri-S94,case,Monocyte,8.4
+sepsis,PBISC,Uri-S94,case,DC,0.0
+sepsis,PBISC,Uri-S94,case,Other,7.55
+sepsis,PBISC,Uri-S95,case,T cell,57.8
+sepsis,PBISC,Uri-S95,case,NK cell,5.825
+sepsis,PBISC,Uri-S95,case,B cell,16.025
+sepsis,PBISC,Uri-S95,case,Monocyte,7.075
+sepsis,PBISC,Uri-S95,case,DC,0.075
+sepsis,PBISC,Uri-S95,case,Other,13.2
+sepsis,scSemiProfiler,Abd-S39,case,T cell,68.6
+sepsis,scSemiProfiler,Abd-S39,case,NK cell,2.2666666666666666
+sepsis,scSemiProfiler,Abd-S39,case,B cell,17.866666666666667
+sepsis,scSemiProfiler,Abd-S39,case,Monocyte,4.866666666666666
+sepsis,scSemiProfiler,Abd-S39,case,DC,0.4
+sepsis,scSemiProfiler,Abd-S39,case,Other,6.0
+sepsis,scSemiProfiler,Abd-S54,case,T cell,63.06666666666667
+sepsis,scSemiProfiler,Abd-S54,case,NK cell,7.733333333333333
+sepsis,scSemiProfiler,Abd-S54,case,B cell,1.9333333333333333
+sepsis,scSemiProfiler,Abd-S54,case,Monocyte,14.733333333333333
+sepsis,scSemiProfiler,Abd-S54,case,DC,8.666666666666666
+sepsis,scSemiProfiler,Abd-S54,case,Other,3.8666666666666667
+sepsis,scSemiProfiler,Abd-S57,case,T cell,82.93333333333334
+sepsis,scSemiProfiler,Abd-S57,case,NK cell,0.06666666666666667
+sepsis,scSemiProfiler,Abd-S57,case,B cell,6.466666666666667
+sepsis,scSemiProfiler,Abd-S57,case,Monocyte,4.333333333333333
+sepsis,scSemiProfiler,Abd-S57,case,DC,2.933333333333333
+sepsis,scSemiProfiler,Abd-S57,case,Other,3.2666666666666666
+sepsis,scSemiProfiler,Abd-S83,case,T cell,39.8
+sepsis,scSemiProfiler,Abd-S83,case,NK cell,10.733333333333333
+sepsis,scSemiProfiler,Abd-S83,case,B cell,17.333333333333332
+sepsis,scSemiProfiler,Abd-S83,case,Monocyte,3.0
+sepsis,scSemiProfiler,Abd-S83,case,DC,4.333333333333333
+sepsis,scSemiProfiler,Abd-S83,case,Other,24.8
+sepsis,scSemiProfiler,Abd-S98,case,T cell,68.26666666666667
+sepsis,scSemiProfiler,Abd-S98,case,NK cell,2.2666666666666666
+sepsis,scSemiProfiler,Abd-S98,case,B cell,19.666666666666668
+sepsis,scSemiProfiler,Abd-S98,case,Monocyte,5.2
+sepsis,scSemiProfiler,Abd-S98,case,DC,0.8
+sepsis,scSemiProfiler,Abd-S98,case,Other,3.8
+sepsis,scSemiProfiler,Abd-S102,case,T cell,72.46666666666667
+sepsis,scSemiProfiler,Abd-S102,case,NK cell,0.4
+sepsis,scSemiProfiler,Abd-S102,case,B cell,18.4
+sepsis,scSemiProfiler,Abd-S102,case,Monocyte,4.933333333333334
+sepsis,scSemiProfiler,Abd-S102,case,DC,0.2
+sepsis,scSemiProfiler,Abd-S102,case,Other,3.6
+sepsis,scSemiProfiler,Abd-S120,case,T cell,75.86666666666666
+sepsis,scSemiProfiler,Abd-S120,case,NK cell,1.1333333333333333
+sepsis,scSemiProfiler,Abd-S120,case,B cell,16.133333333333333
+sepsis,scSemiProfiler,Abd-S120,case,Monocyte,3.533333333333333
+sepsis,scSemiProfiler,Abd-S120,case,DC,0.2
+sepsis,scSemiProfiler,Abd-S120,case,Other,3.1333333333333333
+sepsis,scSemiProfiler,HC05,control,T cell,71.13333333333334
+sepsis,scSemiProfiler,HC05,control,NK cell,2.6666666666666665
+sepsis,scSemiProfiler,HC05,control,B cell,2.8666666666666667
+sepsis,scSemiProfiler,HC05,control,Monocyte,8.666666666666666
+sepsis,scSemiProfiler,HC05,control,DC,10.933333333333334
+sepsis,scSemiProfiler,HC05,control,Other,3.7333333333333334
+sepsis,scSemiProfiler,HC09,control,T cell,57.46666666666667
+sepsis,scSemiProfiler,HC09,control,NK cell,13.066666666666666
+sepsis,scSemiProfiler,HC09,control,B cell,3.2
+sepsis,scSemiProfiler,HC09,control,Monocyte,13.0
+sepsis,scSemiProfiler,HC09,control,DC,9.733333333333333
+sepsis,scSemiProfiler,HC09,control,Other,3.533333333333333
+sepsis,scSemiProfiler,HC12,control,T cell,49.06666666666667
+sepsis,scSemiProfiler,HC12,control,NK cell,23.933333333333334
+sepsis,scSemiProfiler,HC12,control,B cell,3.1333333333333333
+sepsis,scSemiProfiler,HC12,control,Monocyte,14.066666666666666
+sepsis,scSemiProfiler,HC12,control,DC,7.266666666666667
+sepsis,scSemiProfiler,HC12,control,Other,2.533333333333333
+sepsis,scSemiProfiler,HC13,control,T cell,51.86666666666667
+sepsis,scSemiProfiler,HC13,control,NK cell,18.933333333333334
+sepsis,scSemiProfiler,HC13,control,B cell,3.6666666666666665
+sepsis,scSemiProfiler,HC13,control,Monocyte,7.133333333333334
+sepsis,scSemiProfiler,HC13,control,DC,14.666666666666666
+sepsis,scSemiProfiler,HC13,control,Other,3.7333333333333334
+sepsis,scSemiProfiler,HC16,control,T cell,44.0
+sepsis,scSemiProfiler,HC16,control,NK cell,27.333333333333332
+sepsis,scSemiProfiler,HC16,control,B cell,2.8
+sepsis,scSemiProfiler,HC16,control,Monocyte,14.466666666666667
+sepsis,scSemiProfiler,HC16,control,DC,8.266666666666667
+sepsis,scSemiProfiler,HC16,control,Other,3.1333333333333333
+sepsis,scSemiProfiler,IC10,ICU control,T cell,60.666666666666664
+sepsis,scSemiProfiler,IC10,ICU control,NK cell,7.533333333333333
+sepsis,scSemiProfiler,IC10,ICU control,B cell,3.6666666666666665
+sepsis,scSemiProfiler,IC10,ICU control,Monocyte,16.0
+sepsis,scSemiProfiler,IC10,ICU control,DC,5.2
+sepsis,scSemiProfiler,IC10,ICU control,Other,6.933333333333334
+sepsis,scSemiProfiler,IC19,ICU control,T cell,91.26666666666667
+sepsis,scSemiProfiler,IC19,ICU control,NK cell,0.0
+sepsis,scSemiProfiler,IC19,ICU control,B cell,1.4666666666666666
+sepsis,scSemiProfiler,IC19,ICU control,Monocyte,3.066666666666667
+sepsis,scSemiProfiler,IC19,ICU control,DC,1.0666666666666667
+sepsis,scSemiProfiler,IC19,ICU control,Other,3.1333333333333333
+sepsis,scSemiProfiler,IC23,ICU control,T cell,99.2
+sepsis,scSemiProfiler,IC23,ICU control,NK cell,0.0
+sepsis,scSemiProfiler,IC23,ICU control,B cell,0.3333333333333333
+sepsis,scSemiProfiler,IC23,ICU control,Monocyte,0.3333333333333333
+sepsis,scSemiProfiler,IC23,ICU control,DC,0.0
+sepsis,scSemiProfiler,IC23,ICU control,Other,0.13333333333333333
+sepsis,scSemiProfiler,Res-S40,case,T cell,76.2
+sepsis,scSemiProfiler,Res-S40,case,NK cell,0.06666666666666667
+sepsis,scSemiProfiler,Res-S40,case,B cell,14.933333333333334
+sepsis,scSemiProfiler,Res-S40,case,Monocyte,4.133333333333334
+sepsis,scSemiProfiler,Res-S40,case,DC,1.3333333333333333
+sepsis,scSemiProfiler,Res-S40,case,Other,3.3333333333333335
+sepsis,scSemiProfiler,Res-S87,case,T cell,81.66666666666667
+sepsis,scSemiProfiler,Res-S87,case,NK cell,0.06666666666666667
+sepsis,scSemiProfiler,Res-S87,case,B cell,7.533333333333333
+sepsis,scSemiProfiler,Res-S87,case,Monocyte,4.733333333333333
+sepsis,scSemiProfiler,Res-S87,case,DC,3.2
+sepsis,scSemiProfiler,Res-S87,case,Other,2.8
+sepsis,scSemiProfiler,Res-S125,case,T cell,67.13333333333334
+sepsis,scSemiProfiler,Res-S125,case,NK cell,2.3333333333333335
+sepsis,scSemiProfiler,Res-S125,case,B cell,3.466666666666667
+sepsis,scSemiProfiler,Res-S125,case,Monocyte,17.533333333333335
+sepsis,scSemiProfiler,Res-S125,case,DC,6.533333333333333
+sepsis,scSemiProfiler,Res-S125,case,Other,3.0
+sepsis,scSemiProfiler,Res-S136,case,T cell,69.06666666666666
+sepsis,scSemiProfiler,Res-S136,case,NK cell,0.7333333333333333
+sepsis,scSemiProfiler,Res-S136,case,B cell,19.733333333333334
+sepsis,scSemiProfiler,Res-S136,case,Monocyte,2.3333333333333335
+sepsis,scSemiProfiler,Res-S136,case,DC,3.6
+sepsis,scSemiProfiler,Res-S136,case,Other,4.533333333333333
+sepsis,scSemiProfiler,Res-S139,case,T cell,38.46666666666667
+sepsis,scSemiProfiler,Res-S139,case,NK cell,30.666666666666668
+sepsis,scSemiProfiler,Res-S139,case,B cell,3.2
+sepsis,scSemiProfiler,Res-S139,case,Monocyte,22.333333333333332
+sepsis,scSemiProfiler,Res-S139,case,DC,1.9333333333333333
+sepsis,scSemiProfiler,Res-S139,case,Other,3.4
+sepsis,scSemiProfiler,Res-S146,case,T cell,74.6
+sepsis,scSemiProfiler,Res-S146,case,NK cell,0.0
+sepsis,scSemiProfiler,Res-S146,case,B cell,14.933333333333334
+sepsis,scSemiProfiler,Res-S146,case,Monocyte,0.0
+sepsis,scSemiProfiler,Res-S146,case,DC,7.066666666666666
+sepsis,scSemiProfiler,Res-S146,case,Other,3.4
+sepsis,scSemiProfiler,Res-S164,case,T cell,74.13333333333334
+sepsis,scSemiProfiler,Res-S164,case,NK cell,0.8666666666666667
+sepsis,scSemiProfiler,Res-S164,case,B cell,0.3333333333333333
+sepsis,scSemiProfiler,Res-S164,case,Monocyte,8.8
+sepsis,scSemiProfiler,Res-S164,case,DC,8.466666666666667
+sepsis,scSemiProfiler,Res-S164,case,Other,7.4
+sepsis,scSemiProfiler,Res-S166,case,T cell,72.8
+sepsis,scSemiProfiler,Res-S166,case,NK cell,0.4666666666666667
+sepsis,scSemiProfiler,Res-S166,case,B cell,19.133333333333333
+sepsis,scSemiProfiler,Res-S166,case,Monocyte,2.1333333333333333
+sepsis,scSemiProfiler,Res-S166,case,DC,1.1333333333333333
+sepsis,scSemiProfiler,Res-S166,case,Other,4.333333333333333
+sepsis,scSemiProfiler,Res-S174,case,T cell,70.33333333333333
+sepsis,scSemiProfiler,Res-S174,case,NK cell,0.2
+sepsis,scSemiProfiler,Res-S174,case,B cell,1.0
+sepsis,scSemiProfiler,Res-S174,case,Monocyte,8.933333333333334
+sepsis,scSemiProfiler,Res-S174,case,DC,14.466666666666667
+sepsis,scSemiProfiler,Res-S174,case,Other,5.066666666666666
+sepsis,scSemiProfiler,Res-S177,case,T cell,76.93333333333334
+sepsis,scSemiProfiler,Res-S177,case,NK cell,0.13333333333333333
+sepsis,scSemiProfiler,Res-S177,case,B cell,0.8666666666666667
+sepsis,scSemiProfiler,Res-S177,case,Monocyte,12.8
+sepsis,scSemiProfiler,Res-S177,case,DC,4.466666666666667
+sepsis,scSemiProfiler,Res-S177,case,Other,4.8
+sepsis,scSemiProfiler,Res-S184,case,T cell,81.4
+sepsis,scSemiProfiler,Res-S184,case,NK cell,0.0
+sepsis,scSemiProfiler,Res-S184,case,B cell,8.866666666666667
+sepsis,scSemiProfiler,Res-S184,case,Monocyte,3.6666666666666665
+sepsis,scSemiProfiler,Res-S184,case,DC,2.8
+sepsis,scSemiProfiler,Res-S184,case,Other,3.2666666666666666
+sepsis,scSemiProfiler,Skin-S38,case,T cell,88.8
+sepsis,scSemiProfiler,Skin-S38,case,NK cell,0.6
+sepsis,scSemiProfiler,Skin-S38,case,B cell,9.933333333333334
+sepsis,scSemiProfiler,Skin-S38,case,Monocyte,0.13333333333333333
+sepsis,scSemiProfiler,Skin-S38,case,DC,0.06666666666666667
+sepsis,scSemiProfiler,Skin-S38,case,Other,0.4666666666666667
+sepsis,scSemiProfiler,Skin-S46,case,T cell,73.2
+sepsis,scSemiProfiler,Skin-S46,case,NK cell,1.2
+sepsis,scSemiProfiler,Skin-S46,case,B cell,18.0
+sepsis,scSemiProfiler,Skin-S46,case,Monocyte,3.7333333333333334
+sepsis,scSemiProfiler,Skin-S46,case,DC,0.13333333333333333
+sepsis,scSemiProfiler,Skin-S46,case,Other,3.7333333333333334
+sepsis,scSemiProfiler,Skin-S52,case,T cell,97.46666666666667
+sepsis,scSemiProfiler,Skin-S52,case,NK cell,0.0
+sepsis,scSemiProfiler,Skin-S52,case,B cell,0.0
+sepsis,scSemiProfiler,Skin-S52,case,Monocyte,0.0
+sepsis,scSemiProfiler,Skin-S52,case,DC,0.0
+sepsis,scSemiProfiler,Skin-S52,case,Other,2.533333333333333
+sepsis,scSemiProfiler,Skin-S142,case,T cell,65.8
+sepsis,scSemiProfiler,Skin-S142,case,NK cell,4.8
+sepsis,scSemiProfiler,Skin-S142,case,B cell,21.333333333333332
+sepsis,scSemiProfiler,Skin-S142,case,Monocyte,2.8666666666666667
+sepsis,scSemiProfiler,Skin-S142,case,DC,1.5333333333333334
+sepsis,scSemiProfiler,Skin-S142,case,Other,3.6666666666666665
+sepsis,scSemiProfiler,Uri-S20,case,T cell,77.86666666666666
+sepsis,scSemiProfiler,Uri-S20,case,NK cell,0.3333333333333333
+sepsis,scSemiProfiler,Uri-S20,case,B cell,13.533333333333333
+sepsis,scSemiProfiler,Uri-S20,case,Monocyte,4.466666666666667
+sepsis,scSemiProfiler,Uri-S20,case,DC,0.4
+sepsis,scSemiProfiler,Uri-S20,case,Other,3.4
+sepsis,scSemiProfiler,Uri-S134,case,T cell,49.53333333333333
+sepsis,scSemiProfiler,Uri-S134,case,NK cell,16.933333333333334
+sepsis,scSemiProfiler,Uri-S134,case,B cell,3.3333333333333335
+sepsis,scSemiProfiler,Uri-S134,case,Monocyte,22.866666666666667
+sepsis,scSemiProfiler,Uri-S134,case,DC,1.8
+sepsis,scSemiProfiler,Uri-S134,case,Other,5.533333333333333
+sepsis,scSemiProfiler,Uri-S147,case,T cell,75.8
+sepsis,scSemiProfiler,Uri-S147,case,NK cell,0.2
+sepsis,scSemiProfiler,Uri-S147,case,B cell,1.7333333333333334
+sepsis,scSemiProfiler,Uri-S147,case,Monocyte,6.933333333333334
+sepsis,scSemiProfiler,Uri-S147,case,DC,10.6
+sepsis,scSemiProfiler,Uri-S147,case,Other,4.733333333333333
+sepsis,scSemiProfiler,Uri-S157,case,T cell,49.13333333333333
+sepsis,scSemiProfiler,Uri-S157,case,NK cell,18.6
+sepsis,scSemiProfiler,Uri-S157,case,B cell,3.8
+sepsis,scSemiProfiler,Uri-S157,case,Monocyte,19.133333333333333
+sepsis,scSemiProfiler,Uri-S157,case,DC,6.133333333333334
+sepsis,scSemiProfiler,Uri-S157,case,Other,3.2
+covid,Real,C103,control,T cell,50.733333333333334
+covid,Real,C103,control,NK cell,13.866666666666667
+covid,Real,C103,control,B cell,5.533333333333333
+covid,Real,C103,control,Monocyte,27.4
+covid,Real,C103,control,DC,2.4
+covid,Real,C103,control,Other,0.06666666666666667
+covid,Real,C104,control,T cell,30.959164292497626
+covid,Real,C104,control,NK cell,19.56315289648623
+covid,Real,C104,control,B cell,3.2288698955365622
+covid,Real,C104,control,Monocyte,39.22127255460589
+covid,Real,C104,control,DC,6.7426400759734095
+covid,Real,C104,control,Other,0.2849002849002849
+covid,Real,C113,case,T cell,59.92402659069326
+covid,Real,C113,case,NK cell,5.318138651471985
+covid,Real,C113,case,B cell,12.630579297245964
+covid,Real,C113,case,Monocyte,3.5137701804368473
+covid,Real,C113,case,DC,2.7540360873694207
+covid,Real,C113,case,Other,15.859449192782526
+covid,Real,C123,case,T cell,48.93333333333334
+covid,Real,C123,case,NK cell,23.51111111111111
+covid,Real,C123,case,B cell,5.822222222222222
+covid,Real,C123,case,Monocyte,18.288888888888888
+covid,Real,C123,case,DC,2.0444444444444443
+covid,Real,C123,case,Other,1.3999999999999997
+covid,Real,C124,case,T cell,51.345362456473566
+covid,Real,C124,case,NK cell,25.546058879392216
+covid,Real,C124,case,B cell,12.978790756568534
+covid,Real,C124,case,Monocyte,7.280785058562837
+covid,Real,C124,case,DC,2.152579930357708
+covid,Real,C124,case,Other,0.6964229186451408
+covid,Real,C127,case,T cell,55.365622032288705
+covid,Real,C127,case,NK cell,20.06964229186451
+covid,Real,C127,case,B cell,8.388730610952834
+covid,Real,C127,case,Monocyte,14.52991452991453
+covid,Real,C127,case,DC,1.4245014245014245
+covid,Real,C127,case,Other,0.22158911047799937
+covid,Real,C128,case,T cell,70.13333333333333
+covid,Real,C128,case,NK cell,6.955555555555556
+covid,Real,C128,case,B cell,8.177777777777777
+covid,Real,C128,case,Monocyte,12.800000000000002
+covid,Real,C128,case,DC,1.8444444444444443
+covid,Real,C128,case,Other,0.08888888888888889
+covid,Real,C132,case,T cell,67.33333333333333
+covid,Real,C132,case,NK cell,10.644444444444444
+covid,Real,C132,case,B cell,14.377777777777778
+covid,Real,C132,case,Monocyte,5.155555555555555
+covid,Real,C132,case,DC,2.333333333333333
+covid,Real,C132,case,Other,0.15555555555555556
+covid,Real,C138,case,T cell,26.614884143068217
+covid,Real,C138,case,NK cell,23.459798918012527
+covid,Real,C138,case,B cell,7.02175670552929
+covid,Real,C138,case,Monocyte,34.41589820950262
+covid,Real,C138,case,DC,2.0102835441174327
+covid,Real,C138,case,Other,6.477378479769906
+covid,Real,C138,control,T cell,33.333333333333336
+covid,Real,C138,control,NK cell,20.1329534662868
+covid,Real,C138,control,B cell,2.5641025641025643
+covid,Real,C138,control,Monocyte,36.18233618233618
+covid,Real,C138,control,DC,7.312440645773979
+covid,Real,C138,control,Other,0.4748338081671415
+covid,Real,C140,case,T cell,17.03077679449361
+covid,Real,C140,case,NK cell,23.877482792527037
+covid,Real,C140,case,B cell,32.79547689282203
+covid,Real,C140,case,Monocyte,21.157817109144542
+covid,Real,C140,case,DC,4.427335299901672
+covid,Real,C140,case,Other,0.7111111111111111
+covid,Real,C140,control,T cell,28.8
+covid,Real,C140,control,NK cell,13.733333333333333
+covid,Real,C140,control,B cell,38.0
+covid,Real,C140,control,Monocyte,12.266666666666667
+covid,Real,C140,control,DC,6.733333333333333
+covid,Real,C140,control,Other,0.4666666666666667
+covid,Real,C145,case,T cell,31.53115498335186
+covid,Real,C145,case,NK cell,18.992886100352624
+covid,Real,C145,case,B cell,29.61394265618363
+covid,Real,C145,case,Monocyte,15.848065385546409
+covid,Real,C145,case,DC,1.7297241495910274
+covid,Real,C145,case,Other,2.2842267249744403
+covid,Real,C145,control,T cell,59.757738896366085
+covid,Real,C145,control,NK cell,27.052489905787347
+covid,Real,C145,control,B cell,5.787348586810229
+covid,Real,C145,control,Monocyte,3.2301480484522207
+covid,Real,C145,control,DC,1.8842530282637955
+covid,Real,C145,control,Other,2.288021534320323
+covid,Real,C146,case,T cell,57.99212011333223
+covid,Real,C146,case,NK cell,8.640928842949045
+covid,Real,C146,case,B cell,15.499988227260955
+covid,Real,C146,case,Monocyte,14.93071089030685
+covid,Real,C146,case,DC,1.94224032607871
+covid,Real,C146,case,Other,0.9940116000722062
+covid,Real,C146,control,T cell,68.94586894586895
+covid,Real,C146,control,NK cell,11.20607787274454
+covid,Real,C146,control,B cell,4.843304843304844
+covid,Real,C146,control,Monocyte,11.301044634377968
+covid,Real,C146,control,DC,2.943969610636277
+covid,Real,C146,control,Other,0.7597340930674265
+covid,Real,C147,case,T cell,29.9
+covid,Real,C147,case,NK cell,18.366666666666667
+covid,Real,C147,case,B cell,25.0
+covid,Real,C147,case,Monocyte,21.433333333333334
+covid,Real,C147,case,DC,1.7
+covid,Real,C147,case,Other,3.6
+covid,Real,C147,control,T cell,52.8
+covid,Real,C147,control,NK cell,19.4
+covid,Real,C147,control,B cell,12.933333333333334
+covid,Real,C147,control,Monocyte,11.0
+covid,Real,C147,control,DC,3.2
+covid,Real,C147,control,Other,0.6666666666666666
+covid,Real,C161,control,T cell,67.07317073170732
+covid,Real,C161,control,NK cell,1.3414634146341464
+covid,Real,C161,control,B cell,6.341463414634147
+covid,Real,C161,control,Monocyte,20.73170731707317
+covid,Real,C161,control,DC,4.024390243902439
+covid,Real,C161,control,Other,0.4878048780487805
+covid,Real,C167,control,T cell,70.4653371320038
+covid,Real,C167,control,NK cell,14.52991452991453
+covid,Real,C167,control,B cell,3.4188034188034186
+covid,Real,C167,control,Monocyte,10.54131054131054
+covid,Real,C167,control,DC,0.7597340930674265
+covid,Real,C167,control,Other,0.2849002849002849
+covid,Real,C168,case,T cell,34.07138507266203
+covid,Real,C168,case,NK cell,17.59448532687347
+covid,Real,C168,case,B cell,20.324114650012994
+covid,Real,C168,case,Monocyte,21.21430387783186
+covid,Real,C168,case,DC,5.885012143589829
+covid,Real,C168,case,Other,0.9106989290298159
+covid,Real,C168,control,T cell,49.762583095916426
+covid,Real,C168,control,NK cell,18.51851851851852
+covid,Real,C168,control,B cell,5.223171889838556
+covid,Real,C168,control,Monocyte,19.65811965811966
+covid,Real,C168,control,DC,6.267806267806268
+covid,Real,C168,control,Other,0.5698005698005698
+covid,Real,C169,case,T cell,52.867681741853936
+covid,Real,C169,case,NK cell,21.025850665291433
+covid,Real,C169,case,B cell,13.721711749673487
+covid,Real,C169,case,Monocyte,7.761404921081152
+covid,Real,C169,case,DC,3.5162439283116256
+covid,Real,C169,case,Other,1.1071069937883773
+covid,Real,C169,control,T cell,43.9696106362773
+covid,Real,C169,control,NK cell,24.976258309591643
+covid,Real,C169,control,B cell,11.016144349477683
+covid,Real,C169,control,Monocyte,15.289648622981955
+covid,Real,C169,control,DC,2.943969610636277
+covid,Real,C169,control,Other,1.8043684710351378
+covid,Real,C190,case,T cell,5.476416587527699
+covid,Real,C190,case,NK cell,14.8781259892371
+covid,Real,C190,case,B cell,27.90440012662235
+covid,Real,C190,case,Monocyte,45.473251028806594
+covid,Real,C190,case,DC,5.286483064260842
+covid,Real,C190,case,Other,0.9813232035454257
+covid,Real,C190,control,T cell,5.413105413105413
+covid,Real,C190,control,NK cell,34.09306742640076
+covid,Real,C190,control,B cell,8.547008547008547
+covid,Real,C190,control,Monocyte,47.00854700854701
+covid,Real,C190,control,DC,3.89363722697056
+covid,Real,C190,control,Other,1.0446343779677112
+covid,Real,C193,control,T cell,41.31054131054131
+covid,Real,C193,control,NK cell,17.663817663817664
+covid,Real,C193,control,B cell,3.038936372269706
+covid,Real,C193,control,Monocyte,34.66286799620133
+covid,Real,C193,control,DC,2.6590693257359925
+covid,Real,C193,control,Other,0.6647673314339981
+covid,Real,C195,control,T cell,48.52801519468186
+covid,Real,C195,control,NK cell,37.89173789173789
+covid,Real,C195,control,B cell,3.7037037037037037
+covid,Real,C195,control,Monocyte,9.211775878442545
+covid,Real,C195,control,DC,0.4748338081671415
+covid,Real,C195,control,Other,0.1899335232668566
+covid,Real,C197,control,T cell,59.666666666666664
+covid,Real,C197,control,NK cell,8.866666666666667
+covid,Real,C197,control,B cell,13.6
+covid,Real,C197,control,Monocyte,13.533333333333333
+covid,Real,C197,control,DC,1.9333333333333333
+covid,Real,C197,control,Other,2.4
+covid,Real,C20,case,T cell,41.92782526115859
+covid,Real,C20,case,NK cell,17.94871794871795
+covid,Real,C20,case,B cell,33.52326685660019
+covid,Real,C20,case,Monocyte,3.561253561253561
+covid,Real,C20,case,DC,2.849002849002849
+covid,Real,C20,case,Other,0.1899335232668566
+covid,Real,C21,case,T cell,79.64444444444445
+covid,Real,C21,case,NK cell,2.6222222222222222
+covid,Real,C21,case,B cell,14.022222222222224
+covid,Real,C21,case,Monocyte,2.1777777777777776
+covid,Real,C21,case,DC,0.9111111111111111
+covid,Real,C21,case,Other,0.6222222222222222
+covid,Real,C212,control,T cell,54.17391304347826
+covid,Real,C212,control,NK cell,19.043478260869566
+covid,Real,C212,control,B cell,8.173913043478262
+covid,Real,C212,control,Monocyte,15.478260869565217
+covid,Real,C212,control,DC,2.6956521739130435
+covid,Real,C212,control,Other,0.43478260869565216
+covid,Real,C214,control,T cell,35.333333333333336
+covid,Real,C214,control,NK cell,14.933333333333334
+covid,Real,C214,control,B cell,8.8
+covid,Real,C214,control,Monocyte,37.333333333333336
+covid,Real,C214,control,DC,3.4
+covid,Real,C214,control,Other,0.2
+covid,Real,C23,case,T cell,68.56600189933523
+covid,Real,C23,case,NK cell,11.396011396011396
+covid,Real,C23,case,B cell,11.11111111111111
+covid,Real,C23,case,Monocyte,5.698005698005698
+covid,Real,C23,case,DC,2.7540360873694207
+covid,Real,C23,case,Other,0.4748338081671415
+covid,Real,C234,control,T cell,58.0
+covid,Real,C234,control,NK cell,12.4
+covid,Real,C234,control,B cell,8.6
+covid,Real,C234,control,Monocyte,18.733333333333334
+covid,Real,C234,control,DC,2.066666666666667
+covid,Real,C234,control,Other,0.2
+covid,Real,C238,control,T cell,88.33333333333333
+covid,Real,C238,control,NK cell,2.4
+covid,Real,C238,control,B cell,3.6666666666666665
+covid,Real,C238,control,Monocyte,4.066666666666666
+covid,Real,C238,control,DC,1.2666666666666666
+covid,Real,C238,control,Other,0.26666666666666666
+covid,Real,C246,control,T cell,73.99219765929779
+covid,Real,C246,control,NK cell,13.65409622886866
+covid,Real,C246,control,B cell,1.3003901170351104
+covid,Real,C246,control,Monocyte,8.712613784135241
+covid,Real,C246,control,DC,1.8205461638491547
+covid,Real,C246,control,Other,0.5201560468140443
+covid,Real,C34,case,T cell,78.46666666666668
+covid,Real,C34,case,NK cell,10.97777777777778
+covid,Real,C34,case,B cell,2.266666666666667
+covid,Real,C34,case,Monocyte,6.533333333333334
+covid,Real,C34,case,DC,1.5777777777777782
+covid,Real,C34,case,Other,0.17777777777777778
+covid,Real,C42,case,T cell,80.60000000000001
+covid,Real,C42,case,NK cell,6.466666666666666
+covid,Real,C42,case,B cell,8.266666666666667
+covid,Real,C42,case,Monocyte,3.0444444444444443
+covid,Real,C42,case,DC,0.9111111111111111
+covid,Real,C42,case,Other,0.7111111111111111
+covid,Real,C63,case,T cell,70.68692624248179
+covid,Real,C63,case,NK cell,8.420386198163976
+covid,Real,C63,case,B cell,14.941437163659387
+covid,Real,C63,case,Monocyte,4.874960430515986
+covid,Real,C63,case,DC,0.7280785058562836
+covid,Real,C63,case,Other,0.34821145932257047
+covid,Real,C69,control,T cell,80.43684710351377
+covid,Real,C69,control,NK cell,5.5080721747388415
+covid,Real,C69,control,B cell,3.133903133903134
+covid,Real,C69,control,Monocyte,6.647673314339981
+covid,Real,C69,control,DC,3.3238366571699904
+covid,Real,C69,control,Other,0.949667616334283
+covid,Real,C82,case,T cell,84.66666666666667
+covid,Real,C82,case,NK cell,3.8666666666666667
+covid,Real,C82,case,B cell,3.2666666666666666
+covid,Real,C82,case,Monocyte,5.066666666666666
+covid,Real,C82,case,DC,2.6666666666666665
+covid,Real,C82,case,Other,0.4666666666666667
+covid,Real,C93,case,T cell,46.333333333333336
+covid,Real,C93,case,NK cell,26.2
+covid,Real,C93,case,B cell,4.622222222222223
+covid,Real,C93,case,Monocyte,19.533333333333335
+covid,Real,C93,case,DC,2.8222222222222215
+covid,Real,C93,case,Other,0.48888888888888893
+covid,PBISC,C10,case,T cell,46.175000000000004
+covid,PBISC,C10,case,NK cell,5.208333333333333
+covid,PBISC,C10,case,B cell,12.566666666666668
+covid,PBISC,C10,case,Monocyte,28.075
+covid,PBISC,C10,case,DC,6.633333333333333
+covid,PBISC,C10,case,Other,1.3416666666666668
+covid,PBISC,C101,case,T cell,41.2375
+covid,PBISC,C101,case,NK cell,4.525
+covid,PBISC,C101,case,B cell,39.3125
+covid,PBISC,C101,case,Monocyte,10.6375
+covid,PBISC,C101,case,DC,0.4625
+covid,PBISC,C101,case,Other,3.8249999999999997
+covid,PBISC,C101,control,T cell,73.375
+covid,PBISC,C101,control,NK cell,9.1
+covid,PBISC,C101,control,B cell,6.7
+covid,PBISC,C101,control,Monocyte,9.725
+covid,PBISC,C101,control,DC,1.025
+covid,PBISC,C101,control,Other,0.075
+covid,PBISC,C105,case,T cell,59.86666666666667
+covid,PBISC,C105,case,NK cell,8.854166666666666
+covid,PBISC,C105,case,B cell,16.170833333333334
+covid,PBISC,C105,case,Monocyte,11.966666666666667
+covid,PBISC,C105,case,DC,2.629166666666667
+covid,PBISC,C105,case,Other,0.5125000000000001
+covid,PBISC,C105,control,T cell,55.425
+covid,PBISC,C105,control,NK cell,10.35
+covid,PBISC,C105,control,B cell,12.1
+covid,PBISC,C105,control,Monocyte,20.35
+covid,PBISC,C105,control,DC,1.225
+covid,PBISC,C105,control,Other,0.55
+covid,PBISC,C108,case,T cell,36.96666666666667
+covid,PBISC,C108,case,NK cell,2.9250000000000003
+covid,PBISC,C108,case,B cell,47.625
+covid,PBISC,C108,case,Monocyte,8.424999999999999
+covid,PBISC,C108,case,DC,0.45
+covid,PBISC,C108,case,Other,3.608333333333333
+covid,PBISC,C11,case,T cell,49.99375
+covid,PBISC,C11,case,NK cell,4.050000000000001
+covid,PBISC,C11,case,B cell,17.65
+covid,PBISC,C11,case,Monocyte,22.66875
+covid,PBISC,C11,case,DC,1.325
+covid,PBISC,C11,case,Other,4.3125
+covid,PBISC,C110,case,T cell,60.34375
+covid,PBISC,C110,case,NK cell,11.46875
+covid,PBISC,C110,case,B cell,15.3625
+covid,PBISC,C110,case,Monocyte,10.1
+covid,PBISC,C110,case,DC,0.7374999999999999
+covid,PBISC,C110,case,Other,1.9874999999999998
+covid,PBISC,C113,case,T cell,66.775
+covid,PBISC,C113,case,NK cell,2.475
+covid,PBISC,C113,case,B cell,16.2
+covid,PBISC,C113,case,Monocyte,9.525
+covid,PBISC,C113,case,DC,0.975
+covid,PBISC,C113,case,Other,4.05
+covid,PBISC,C114,case,T cell,54.43571428571429
+covid,PBISC,C114,case,NK cell,8.010714285714284
+covid,PBISC,C114,case,B cell,15.124999999999998
+covid,PBISC,C114,case,Monocyte,19.53928571428571
+covid,PBISC,C114,case,DC,1.7714285714285711
+covid,PBISC,C114,case,Other,1.1178571428571429
+covid,PBISC,C116,case,T cell,39.175
+covid,PBISC,C116,case,NK cell,3.5875000000000004
+covid,PBISC,C116,case,B cell,37.975
+covid,PBISC,C116,case,Monocyte,15.6125
+covid,PBISC,C116,case,DC,1.8875000000000002
+covid,PBISC,C116,case,Other,1.7625000000000002
+covid,PBISC,C12,case,T cell,59.14
+covid,PBISC,C12,case,NK cell,8.120000000000001
+covid,PBISC,C12,case,B cell,13.960000000000003
+covid,PBISC,C12,case,Monocyte,16.28
+covid,PBISC,C12,case,DC,1.1
+covid,PBISC,C12,case,Other,1.4000000000000001
+covid,PBISC,C123,case,T cell,51.15833333333333
+covid,PBISC,C123,case,NK cell,9.216666666666667
+covid,PBISC,C123,case,B cell,15.666666666666666
+covid,PBISC,C123,case,Monocyte,19.5
+covid,PBISC,C123,case,DC,1.7749999999999997
+covid,PBISC,C123,case,Other,2.6833333333333336
+covid,PBISC,C127,case,T cell,56.89166666666667
+covid,PBISC,C127,case,NK cell,7.258333333333333
+covid,PBISC,C127,case,B cell,26.55
+covid,PBISC,C127,case,Monocyte,6.349999999999999
+covid,PBISC,C127,case,DC,1.175
+covid,PBISC,C127,case,Other,1.7749999999999997
+covid,PBISC,C128,case,T cell,62.2
+covid,PBISC,C128,case,NK cell,8.9375
+covid,PBISC,C128,case,B cell,15.287500000000001
+covid,PBISC,C128,case,Monocyte,12.024999999999999
+covid,PBISC,C128,case,DC,0.8
+covid,PBISC,C128,case,Other,0.75
+covid,PBISC,C129,case,T cell,45.59375
+covid,PBISC,C129,case,NK cell,12.13125
+covid,PBISC,C129,case,B cell,19.1125
+covid,PBISC,C129,case,Monocyte,21.349999999999998
+covid,PBISC,C129,case,DC,0.73125
+covid,PBISC,C129,case,Other,1.08125
+covid,PBISC,C130,control,T cell,63.625
+covid,PBISC,C130,control,NK cell,11.6
+covid,PBISC,C130,control,B cell,6.375
+covid,PBISC,C130,control,Monocyte,15.975
+covid,PBISC,C130,control,DC,2.175
+covid,PBISC,C130,control,Other,0.25
+covid,PBISC,C132,case,T cell,68.16666666666667
+covid,PBISC,C132,case,NK cell,11.058333333333332
+covid,PBISC,C132,case,B cell,15.116666666666667
+covid,PBISC,C132,case,Monocyte,4.25
+covid,PBISC,C132,case,DC,1.2333333333333334
+covid,PBISC,C132,case,Other,0.17500000000000002
+covid,PBISC,C137,case,T cell,45.443749999999994
+covid,PBISC,C137,case,NK cell,2.91875
+covid,PBISC,C137,case,B cell,34.400000000000006
+covid,PBISC,C137,case,Monocyte,13.1375
+covid,PBISC,C137,case,DC,0.91875
+covid,PBISC,C137,case,Other,3.1812500000000004
+covid,PBISC,C145,case,T cell,50.975
+covid,PBISC,C145,case,NK cell,3.3
+covid,PBISC,C145,case,B cell,33.1
+covid,PBISC,C145,case,Monocyte,9.325
+covid,PBISC,C145,case,DC,1.1
+covid,PBISC,C145,case,Other,2.2
+covid,PBISC,C147,case,T cell,51.425
+covid,PBISC,C147,case,NK cell,17.35
+covid,PBISC,C147,case,B cell,13.2
+covid,PBISC,C147,case,Monocyte,16.725
+covid,PBISC,C147,case,DC,0.475
+covid,PBISC,C147,case,Other,0.825
+covid,PBISC,C149,case,T cell,70.1875
+covid,PBISC,C149,case,NK cell,9.8625
+covid,PBISC,C149,case,B cell,9.3625
+covid,PBISC,C149,case,Monocyte,9.45
+covid,PBISC,C149,case,DC,0.7625
+covid,PBISC,C149,case,Other,0.375
+covid,PBISC,C153,control,T cell,58.95
+covid,PBISC,C153,control,NK cell,7.225
+covid,PBISC,C153,control,B cell,7.825
+covid,PBISC,C153,control,Monocyte,22.0
+covid,PBISC,C153,control,DC,3.025
+covid,PBISC,C153,control,Other,0.975
+covid,PBISC,C162,control,T cell,69.5
+covid,PBISC,C162,control,NK cell,10.55
+covid,PBISC,C162,control,B cell,6.075
+covid,PBISC,C162,control,Monocyte,13.225
+covid,PBISC,C162,control,DC,0.55
+covid,PBISC,C162,control,Other,0.1
+covid,PBISC,C163,control,T cell,40.65
+covid,PBISC,C163,control,NK cell,47.25
+covid,PBISC,C163,control,B cell,2.75
+covid,PBISC,C163,control,Monocyte,8.225
+covid,PBISC,C163,control,DC,0.575
+covid,PBISC,C163,control,Other,0.55
+covid,PBISC,C166,control,T cell,56.55
+covid,PBISC,C166,control,NK cell,12.325
+covid,PBISC,C166,control,B cell,6.15
+covid,PBISC,C166,control,Monocyte,22.425
+covid,PBISC,C166,control,DC,1.975
+covid,PBISC,C166,control,Other,0.575
+covid,PBISC,C168,case,T cell,58.55
+covid,PBISC,C168,case,NK cell,6.25
+covid,PBISC,C168,case,B cell,14.925
+covid,PBISC,C168,case,Monocyte,19.1
+covid,PBISC,C168,case,DC,0.725
+covid,PBISC,C168,case,Other,0.45
+covid,PBISC,C169,case,T cell,62.675
+covid,PBISC,C169,case,NK cell,9.375
+covid,PBISC,C169,case,B cell,17.975
+covid,PBISC,C169,case,Monocyte,7.125
+covid,PBISC,C169,case,DC,1.975
+covid,PBISC,C169,case,Other,0.875
+covid,PBISC,C173,control,T cell,58.55
+covid,PBISC,C173,control,NK cell,12.45
+covid,PBISC,C173,control,B cell,7.0
+covid,PBISC,C173,control,Monocyte,18.9
+covid,PBISC,C173,control,DC,1.775
+covid,PBISC,C173,control,Other,1.325
+covid,PBISC,C18,case,T cell,69.20625000000001
+covid,PBISC,C18,case,NK cell,13.5375
+covid,PBISC,C18,case,B cell,12.31875
+covid,PBISC,C18,case,Monocyte,3.1937499999999996
+covid,PBISC,C18,case,DC,0.19374999999999998
+covid,PBISC,C18,case,Other,1.55
+covid,PBISC,C180,control,T cell,69.325
+covid,PBISC,C180,control,NK cell,17.325
+covid,PBISC,C180,control,B cell,5.175
+covid,PBISC,C180,control,Monocyte,6.925
+covid,PBISC,C180,control,DC,0.425
+covid,PBISC,C180,control,Other,0.825
+covid,PBISC,C187,case,T cell,41.025
+covid,PBISC,C187,case,NK cell,7.075
+covid,PBISC,C187,case,B cell,16.2
+covid,PBISC,C187,case,Monocyte,32.775
+covid,PBISC,C187,case,DC,1.275
+covid,PBISC,C187,case,Other,1.65
+covid,PBISC,C189,control,T cell,71.6
+covid,PBISC,C189,control,NK cell,5.675
+covid,PBISC,C189,control,B cell,6.4
+covid,PBISC,C189,control,Monocyte,15.75
+covid,PBISC,C189,control,DC,0.525
+covid,PBISC,C189,control,Other,0.05
+covid,PBISC,C20,case,T cell,62.525
+covid,PBISC,C20,case,NK cell,13.475
+covid,PBISC,C20,case,B cell,15.15
+covid,PBISC,C20,case,Monocyte,8.175
+covid,PBISC,C20,case,DC,0.35
+covid,PBISC,C20,case,Other,0.325
+covid,PBISC,C201,control,T cell,63.825
+covid,PBISC,C201,control,NK cell,7.425
+covid,PBISC,C201,control,B cell,12.025
+covid,PBISC,C201,control,Monocyte,13.75
+covid,PBISC,C201,control,DC,2.725
+covid,PBISC,C201,control,Other,0.25
+covid,PBISC,C21,case,T cell,52.15833333333334
+covid,PBISC,C21,case,NK cell,2.7583333333333333
+covid,PBISC,C21,case,B cell,27.25
+covid,PBISC,C21,case,Monocyte,13.200000000000001
+covid,PBISC,C21,case,DC,1.1416666666666666
+covid,PBISC,C21,case,Other,3.4916666666666667
+covid,PBISC,C22,case,T cell,65.51666666666667
+covid,PBISC,C22,case,NK cell,8.533333333333333
+covid,PBISC,C22,case,B cell,9.683333333333334
+covid,PBISC,C22,case,Monocyte,13.700000000000001
+covid,PBISC,C22,case,DC,0.7666666666666667
+covid,PBISC,C22,case,Other,1.8
+covid,PBISC,C24,case,T cell,61.65833333333333
+covid,PBISC,C24,case,NK cell,10.916666666666666
+covid,PBISC,C24,case,B cell,14.616666666666667
+covid,PBISC,C24,case,Monocyte,9.608333333333334
+covid,PBISC,C24,case,DC,1.0999999999999999
+covid,PBISC,C24,case,Other,2.1
+covid,PBISC,C241,control,T cell,67.65
+covid,PBISC,C241,control,NK cell,14.325
+covid,PBISC,C241,control,B cell,5.925
+covid,PBISC,C241,control,Monocyte,10.825
+covid,PBISC,C241,control,DC,1.075
+covid,PBISC,C241,control,Other,0.2
+covid,PBISC,C242,control,T cell,63.95
+covid,PBISC,C242,control,NK cell,18.525
+covid,PBISC,C242,control,B cell,3.15
+covid,PBISC,C242,control,Monocyte,13.275
+covid,PBISC,C242,control,DC,0.825
+covid,PBISC,C242,control,Other,0.275
+covid,PBISC,C245,control,T cell,62.575
+covid,PBISC,C245,control,NK cell,13.2
+covid,PBISC,C245,control,B cell,4.225
+covid,PBISC,C245,control,Monocyte,16.025
+covid,PBISC,C245,control,DC,1.125
+covid,PBISC,C245,control,Other,2.85
+covid,PBISC,C25,case,T cell,61.800000000000004
+covid,PBISC,C25,case,NK cell,8.133333333333333
+covid,PBISC,C25,case,B cell,11.266666666666666
+covid,PBISC,C25,case,Monocyte,16.833333333333332
+covid,PBISC,C25,case,DC,1.1416666666666668
+covid,PBISC,C25,case,Other,0.8249999999999998
+covid,PBISC,C257,control,T cell,64.0
+covid,PBISC,C257,control,NK cell,22.15
+covid,PBISC,C257,control,B cell,7.725
+covid,PBISC,C257,control,Monocyte,3.875
+covid,PBISC,C257,control,DC,1.4
+covid,PBISC,C257,control,Other,0.85
+covid,PBISC,C27,case,T cell,60.787499999999994
+covid,PBISC,C27,case,NK cell,13.2875
+covid,PBISC,C27,case,B cell,10.2375
+covid,PBISC,C27,case,Monocyte,13.8125
+covid,PBISC,C27,case,DC,0.9375
+covid,PBISC,C27,case,Other,0.9375
+covid,PBISC,C32,case,T cell,40.8
+covid,PBISC,C32,case,NK cell,4.45
+covid,PBISC,C32,case,B cell,9.75
+covid,PBISC,C32,case,Monocyte,38.675
+covid,PBISC,C32,case,DC,3.1
+covid,PBISC,C32,case,Other,3.225
+covid,PBISC,C33,case,T cell,44.3
+covid,PBISC,C33,case,NK cell,4.325
+covid,PBISC,C33,case,B cell,25.825
+covid,PBISC,C33,case,Monocyte,20.525
+covid,PBISC,C33,case,DC,0.65
+covid,PBISC,C33,case,Other,4.375
+covid,PBISC,C33,control,T cell,55.2
+covid,PBISC,C33,control,NK cell,31.1
+covid,PBISC,C33,control,B cell,6.9
+covid,PBISC,C33,control,Monocyte,5.2
+covid,PBISC,C33,control,DC,0.6
+covid,PBISC,C33,control,Other,1.0
+covid,PBISC,C34,case,T cell,67.05
+covid,PBISC,C34,case,NK cell,8.65
+covid,PBISC,C34,case,B cell,11.4
+covid,PBISC,C34,case,Monocyte,9.575
+covid,PBISC,C34,case,DC,2.725
+covid,PBISC,C34,case,Other,0.6
+covid,PBISC,C37,case,T cell,39.925
+covid,PBISC,C37,case,NK cell,2.7625
+covid,PBISC,C37,case,B cell,31.65
+covid,PBISC,C37,case,Monocyte,19.9375
+covid,PBISC,C37,case,DC,2.5375
+covid,PBISC,C37,case,Other,3.1875
+covid,PBISC,C40,case,T cell,59.54375
+covid,PBISC,C40,case,NK cell,11.899999999999999
+covid,PBISC,C40,case,B cell,10.80625
+covid,PBISC,C40,case,Monocyte,15.4125
+covid,PBISC,C40,case,DC,1.24375
+covid,PBISC,C40,case,Other,1.09375
+covid,PBISC,C42,case,T cell,72.25
+covid,PBISC,C42,case,NK cell,5.3625
+covid,PBISC,C42,case,B cell,7.3
+covid,PBISC,C42,case,Monocyte,13.975000000000001
+covid,PBISC,C42,case,DC,0.5625
+covid,PBISC,C42,case,Other,0.55
+covid,PBISC,C47,case,T cell,53.4
+covid,PBISC,C47,case,NK cell,9.316666666666668
+covid,PBISC,C47,case,B cell,17.591666666666665
+covid,PBISC,C47,case,Monocyte,16.866666666666667
+covid,PBISC,C47,case,DC,0.9666666666666668
+covid,PBISC,C47,case,Other,1.8583333333333334
+covid,PBISC,C48,case,T cell,43.7375
+covid,PBISC,C48,case,NK cell,7.9
+covid,PBISC,C48,case,B cell,19.775
+covid,PBISC,C48,case,Monocyte,25.975
+covid,PBISC,C48,case,DC,1.35
+covid,PBISC,C48,case,Other,1.2625000000000002
+covid,PBISC,C50,case,T cell,53.0
+covid,PBISC,C50,case,NK cell,4.975
+covid,PBISC,C50,case,B cell,11.0625
+covid,PBISC,C50,case,Monocyte,27.30625
+covid,PBISC,C50,case,DC,2.34375
+covid,PBISC,C50,case,Other,1.3125
+covid,PBISC,C59,case,T cell,59.8625
+covid,PBISC,C59,case,NK cell,5.625
+covid,PBISC,C59,case,B cell,23.3125
+covid,PBISC,C59,case,Monocyte,7.475
+covid,PBISC,C59,case,DC,0.3125
+covid,PBISC,C59,case,Other,3.4124999999999996
+covid,PBISC,C60,case,T cell,70.57499999999999
+covid,PBISC,C60,case,NK cell,8.399999999999999
+covid,PBISC,C60,case,B cell,11.84375
+covid,PBISC,C60,case,Monocyte,7.6000000000000005
+covid,PBISC,C60,case,DC,0.68125
+covid,PBISC,C60,case,Other,0.9
+covid,PBISC,C63,case,T cell,62.9375
+covid,PBISC,C63,case,NK cell,8.662500000000001
+covid,PBISC,C63,case,B cell,9.5625
+covid,PBISC,C63,case,Monocyte,16.65
+covid,PBISC,C63,case,DC,1.6
+covid,PBISC,C63,case,Other,0.5875
+covid,PBISC,C64,control,T cell,45.3
+covid,PBISC,C64,control,NK cell,4.1
+covid,PBISC,C64,control,B cell,20.125
+covid,PBISC,C64,control,Monocyte,27.725
+covid,PBISC,C64,control,DC,1.35
+covid,PBISC,C64,control,Other,1.4
+covid,PBISC,C65,case,T cell,43.085
+covid,PBISC,C65,case,NK cell,4.375
+covid,PBISC,C65,case,B cell,32.855000000000004
+covid,PBISC,C65,case,Monocyte,15.330000000000002
+covid,PBISC,C65,case,DC,1.19
+covid,PBISC,C65,case,Other,3.165
+covid,PBISC,C66,case,T cell,37.95
+covid,PBISC,C66,case,NK cell,2.775
+covid,PBISC,C66,case,B cell,25.6
+covid,PBISC,C66,case,Monocyte,27.375
+covid,PBISC,C66,case,DC,1.95
+covid,PBISC,C66,case,Other,4.35
+covid,PBISC,C67,case,T cell,38.825
+covid,PBISC,C67,case,NK cell,5.0
+covid,PBISC,C67,case,B cell,24.95
+covid,PBISC,C67,case,Monocyte,26.75
+covid,PBISC,C67,case,DC,2.1
+covid,PBISC,C67,case,Other,2.375
+covid,PBISC,C68,case,T cell,50.0
+covid,PBISC,C68,case,NK cell,8.15
+covid,PBISC,C68,case,B cell,7.375
+covid,PBISC,C68,case,Monocyte,30.925
+covid,PBISC,C68,case,DC,2.75
+covid,PBISC,C68,case,Other,0.8
+covid,PBISC,C7,case,T cell,64.2375
+covid,PBISC,C7,case,NK cell,14.5625
+covid,PBISC,C7,case,B cell,10.65
+covid,PBISC,C7,case,Monocyte,9.3375
+covid,PBISC,C7,case,DC,0.2875
+covid,PBISC,C7,case,Other,0.925
+covid,PBISC,C73,case,T cell,50.0875
+covid,PBISC,C73,case,NK cell,10.625
+covid,PBISC,C73,case,B cell,8.825
+covid,PBISC,C73,case,Monocyte,26.65
+covid,PBISC,C73,case,DC,2.525
+covid,PBISC,C73,case,Other,1.2875
+covid,PBISC,C77,case,T cell,59.075
+covid,PBISC,C77,case,NK cell,7.775
+covid,PBISC,C77,case,B cell,10.05
+covid,PBISC,C77,case,Monocyte,19.9
+covid,PBISC,C77,case,DC,2.425
+covid,PBISC,C77,case,Other,0.775
+covid,PBISC,C80,case,T cell,53.675
+covid,PBISC,C80,case,NK cell,4.525
+covid,PBISC,C80,case,B cell,21.825
+covid,PBISC,C80,case,Monocyte,12.95
+covid,PBISC,C80,case,DC,1.925
+covid,PBISC,C80,case,Other,5.1
+covid,PBISC,C82,case,T cell,67.4
+covid,PBISC,C82,case,NK cell,12.65
+covid,PBISC,C82,case,B cell,11.25
+covid,PBISC,C82,case,Monocyte,6.6
+covid,PBISC,C82,case,DC,1.775
+covid,PBISC,C82,case,Other,0.325
+covid,PBISC,C84,case,T cell,46.375
+covid,PBISC,C84,case,NK cell,3.45
+covid,PBISC,C84,case,B cell,14.975
+covid,PBISC,C84,case,Monocyte,31.2
+covid,PBISC,C84,case,DC,0.825
+covid,PBISC,C84,case,Other,3.175
+covid,PBISC,C87,case,T cell,63.06666666666666
+covid,PBISC,C87,case,NK cell,13.841666666666667
+covid,PBISC,C87,case,B cell,12.683333333333332
+covid,PBISC,C87,case,Monocyte,8.891666666666667
+covid,PBISC,C87,case,DC,0.7166666666666667
+covid,PBISC,C87,case,Other,0.8000000000000002
+covid,PBISC,C89,control,T cell,61.425
+covid,PBISC,C89,control,NK cell,5.725
+covid,PBISC,C89,control,B cell,21.525
+covid,PBISC,C89,control,Monocyte,7.675
+covid,PBISC,C89,control,DC,1.35
+covid,PBISC,C89,control,Other,2.3
+covid,PBISC,C9,case,T cell,62.4375
+covid,PBISC,C9,case,NK cell,11.8875
+covid,PBISC,C9,case,B cell,16.0875
+covid,PBISC,C9,case,Monocyte,8.8125
+covid,PBISC,C9,case,DC,0.4
+covid,PBISC,C9,case,Other,0.375
+covid,PBISC,C93,case,T cell,53.4125
+covid,PBISC,C93,case,NK cell,10.4625
+covid,PBISC,C93,case,B cell,13.825
+covid,PBISC,C93,case,Monocyte,18.2375
+covid,PBISC,C93,case,DC,1.95
+covid,PBISC,C93,case,Other,2.1125
+covid,PBISC,C99,case,T cell,46.35
+covid,PBISC,C99,case,NK cell,2.625
+covid,PBISC,C99,case,B cell,40.675
+covid,PBISC,C99,case,Monocyte,4.6125
+covid,PBISC,C99,case,DC,0.1625
+covid,PBISC,C99,case,Other,5.574999999999999
+covid,scSemiProfiler,C101,case,T cell,46.64696031445322
+covid,scSemiProfiler,C101,case,NK cell,9.649248140960193
+covid,scSemiProfiler,C101,case,B cell,2.513658989480626
+covid,scSemiProfiler,C101,case,Monocyte,30.720853350610138
+covid,scSemiProfiler,C101,case,DC,3.5344171827050723
+covid,scSemiProfiler,C101,case,Other,6.934862021790752
+covid,scSemiProfiler,C104,control,T cell,59.76230899830221
+covid,scSemiProfiler,C104,control,NK cell,10.69609507640068
+covid,scSemiProfiler,C104,control,B cell,6.791171477079796
+covid,scSemiProfiler,C104,control,Monocyte,18.845500848896435
+covid,scSemiProfiler,C104,control,DC,3.904923599320883
+covid,scSemiProfiler,C104,control,Other,0.0
+covid,scSemiProfiler,C108,case,T cell,37.395020771690724
+covid,scSemiProfiler,C108,case,NK cell,10.935386496135374
+covid,scSemiProfiler,C108,case,B cell,1.528784868143872
+covid,scSemiProfiler,C108,case,Monocyte,34.277579975106754
+covid,scSemiProfiler,C108,case,DC,5.09877760841627
+covid,scSemiProfiler,C108,case,Other,10.764450280507006
+covid,scSemiProfiler,C108,control,T cell,66.66666666666667
+covid,scSemiProfiler,C108,control,NK cell,7.142857142857143
+covid,scSemiProfiler,C108,control,B cell,3.741496598639456
+covid,scSemiProfiler,C108,control,Monocyte,15.646258503401361
+covid,scSemiProfiler,C108,control,DC,6.802721088435374
+covid,scSemiProfiler,C108,control,Other,0.0
+covid,scSemiProfiler,C113,case,T cell,45.67062818336163
+covid,scSemiProfiler,C113,case,NK cell,12.563667232597624
+covid,scSemiProfiler,C113,case,B cell,2.8862478777589136
+covid,scSemiProfiler,C113,case,Monocyte,31.40916808149406
+covid,scSemiProfiler,C113,case,DC,6.112054329371817
+covid,scSemiProfiler,C113,case,Other,1.3582342954159592
+covid,scSemiProfiler,C124,case,T cell,46.745897000565925
+covid,scSemiProfiler,C124,case,NK cell,11.827956989247312
+covid,scSemiProfiler,C124,case,B cell,3.338992642897566
+covid,scSemiProfiler,C124,case,Monocyte,29.71137521222411
+covid,scSemiProfiler,C124,case,DC,6.734578381437465
+covid,scSemiProfiler,C124,case,Other,1.6411997736276174
+covid,scSemiProfiler,C127,case,T cell,52.46940315458385
+covid,scSemiProfiler,C127,case,NK cell,13.029597804033893
+covid,scSemiProfiler,C127,case,B cell,4.8170541561276465
+covid,scSemiProfiler,C127,case,Monocyte,25.94552818297664
+covid,scSemiProfiler,C127,case,DC,3.4550662370211245
+covid,scSemiProfiler,C127,case,Other,0.2833504652568441
+covid,scSemiProfiler,C137,control,T cell,57.21561969439728
+covid,scSemiProfiler,C137,control,NK cell,11.884550084889643
+covid,scSemiProfiler,C137,control,B cell,4.584040747028863
+covid,scSemiProfiler,C137,control,Monocyte,23.429541595925297
+covid,scSemiProfiler,C137,control,DC,2.8862478777589136
+covid,scSemiProfiler,C137,control,Other,0.0
+covid,scSemiProfiler,C138,case,T cell,40.52838028250349
+covid,scSemiProfiler,C138,case,NK cell,12.063641245972073
+covid,scSemiProfiler,C138,case,B cell,2.123756973077856
+covid,scSemiProfiler,C138,case,Monocyte,33.47474388736819
+covid,scSemiProfiler,C138,case,DC,4.715561946340506
+covid,scSemiProfiler,C138,case,Other,7.093915664737882
+covid,scSemiProfiler,C138,control,T cell,56.87606112054329
+covid,scSemiProfiler,C138,control,NK cell,11.714770797962649
+covid,scSemiProfiler,C138,control,B cell,6.451612903225806
+covid,scSemiProfiler,C138,control,Monocyte,22.07130730050934
+covid,scSemiProfiler,C138,control,DC,2.8862478777589136
+covid,scSemiProfiler,C138,control,Other,0.0
+covid,scSemiProfiler,C142,control,T cell,57.06984667802385
+covid,scSemiProfiler,C142,control,NK cell,11.754684838160136
+covid,scSemiProfiler,C142,control,B cell,6.303236797274276
+covid,scSemiProfiler,C142,control,Monocyte,20.272572402044293
+covid,scSemiProfiler,C142,control,DC,4.599659284497444
+covid,scSemiProfiler,C142,control,Other,0.0
+covid,scSemiProfiler,C145,case,T cell,51.4557557114353
+covid,scSemiProfiler,C145,case,NK cell,11.15081921275291
+covid,scSemiProfiler,C145,case,B cell,3.840593838122969
+covid,scSemiProfiler,C145,case,Monocyte,24.61012073357701
+covid,scSemiProfiler,C145,case,DC,3.704716005386487
+covid,scSemiProfiler,C145,case,Other,5.237994498725323
+covid,scSemiProfiler,C145,control,T cell,58.50340136054422
+covid,scSemiProfiler,C145,control,NK cell,9.863945578231293
+covid,scSemiProfiler,C145,control,B cell,4.591836734693878
+covid,scSemiProfiler,C145,control,Monocyte,20.74829931972789
+covid,scSemiProfiler,C145,control,DC,6.292517006802721
+covid,scSemiProfiler,C145,control,Other,0.0
+covid,scSemiProfiler,C146,case,T cell,44.45556709401737
+covid,scSemiProfiler,C146,case,NK cell,11.190431231597236
+covid,scSemiProfiler,C146,case,B cell,2.267769960835537
+covid,scSemiProfiler,C146,case,Monocyte,31.553657261170812
+covid,scSemiProfiler,C146,case,DC,5.042273545127234
+covid,scSemiProfiler,C146,case,Other,5.490300907251814
+covid,scSemiProfiler,C146,control,T cell,70.52810902896081
+covid,scSemiProfiler,C146,control,NK cell,3.918228279386712
+covid,scSemiProfiler,C146,control,B cell,2.72572402044293
+covid,scSemiProfiler,C146,control,Monocyte,15.843270868824531
+covid,scSemiProfiler,C146,control,DC,6.6439522998296425
+covid,scSemiProfiler,C146,control,Other,0.34071550255536626
+covid,scSemiProfiler,C152,control,T cell,65.1360544217687
+covid,scSemiProfiler,C152,control,NK cell,5.782312925170068
+covid,scSemiProfiler,C152,control,B cell,3.9115646258503403
+covid,scSemiProfiler,C152,control,Monocyte,14.795918367346939
+covid,scSemiProfiler,C152,control,DC,10.204081632653061
+covid,scSemiProfiler,C152,control,Other,0.17006802721088435
+covid,scSemiProfiler,C161,control,T cell,33.673469387755105
+covid,scSemiProfiler,C161,control,NK cell,10.54421768707483
+covid,scSemiProfiler,C161,control,B cell,1.0204081632653061
+covid,scSemiProfiler,C161,control,Monocyte,40.30612244897959
+covid,scSemiProfiler,C161,control,DC,4.081632653061225
+covid,scSemiProfiler,C161,control,Other,10.374149659863946
+covid,scSemiProfiler,C164,control,T cell,68.5374149659864
+covid,scSemiProfiler,C164,control,NK cell,6.122448979591836
+covid,scSemiProfiler,C164,control,B cell,4.931972789115647
+covid,scSemiProfiler,C164,control,Monocyte,14.965986394557824
+covid,scSemiProfiler,C164,control,DC,5.442176870748299
+covid,scSemiProfiler,C164,control,Other,0.0
+covid,scSemiProfiler,C167,control,T cell,58.50340136054422
+covid,scSemiProfiler,C167,control,NK cell,11.73469387755102
+covid,scSemiProfiler,C167,control,B cell,5.782312925170068
+covid,scSemiProfiler,C167,control,Monocyte,19.217687074829932
+covid,scSemiProfiler,C167,control,DC,4.2517006802721085
+covid,scSemiProfiler,C167,control,Other,0.5102040816326531
+covid,scSemiProfiler,C168,case,T cell,55.48469387755102
+covid,scSemiProfiler,C168,case,NK cell,12.11734693877551
+covid,scSemiProfiler,C168,case,B cell,4.974489795918367
+covid,scSemiProfiler,C168,case,Monocyte,22.70408163265306
+covid,scSemiProfiler,C168,case,DC,3.018707482993197
+covid,scSemiProfiler,C168,case,Other,1.7006802721088434
+covid,scSemiProfiler,C168,control,T cell,57.508532423208194
+covid,scSemiProfiler,C168,control,NK cell,11.262798634812286
+covid,scSemiProfiler,C168,control,B cell,5.1194539249146755
+covid,scSemiProfiler,C168,control,Monocyte,23.549488054607508
+covid,scSemiProfiler,C168,control,DC,2.5597269624573378
+covid,scSemiProfiler,C168,control,Other,0.0
+covid,scSemiProfiler,C169,case,T cell,55.800792303338994
+covid,scSemiProfiler,C169,case,NK cell,11.035653650254668
+covid,scSemiProfiler,C169,case,B cell,5.772495755517827
+covid,scSemiProfiler,C169,case,Monocyte,21.84493491794001
+covid,scSemiProfiler,C169,case,DC,4.074702886247878
+covid,scSemiProfiler,C169,case,Other,1.4714204867006224
+covid,scSemiProfiler,C169,control,T cell,59.35374149659864
+covid,scSemiProfiler,C169,control,NK cell,10.884353741496598
+covid,scSemiProfiler,C169,control,B cell,4.591836734693878
+covid,scSemiProfiler,C169,control,Monocyte,22.789115646258505
+covid,scSemiProfiler,C169,control,DC,2.380952380952381
+covid,scSemiProfiler,C169,control,Other,0.0
+covid,scSemiProfiler,C170,case,T cell,56.71532902917817
+covid,scSemiProfiler,C170,case,NK cell,10.537961647590558
+covid,scSemiProfiler,C170,case,B cell,6.005316671094017
+covid,scSemiProfiler,C170,case,Monocyte,22.60538057894352
+covid,scSemiProfiler,C170,case,DC,3.513391774366793
+covid,scSemiProfiler,C170,case,Other,0.6226202988269445
+covid,scSemiProfiler,C170,control,T cell,55.178268251273344
+covid,scSemiProfiler,C170,control,NK cell,11.884550084889643
+covid,scSemiProfiler,C170,control,B cell,6.112054329371817
+covid,scSemiProfiler,C170,control,Monocyte,22.410865874363328
+covid,scSemiProfiler,C170,control,DC,4.4142614601018675
+covid,scSemiProfiler,C170,control,Other,0.0
+covid,scSemiProfiler,C187,case,T cell,36.284245384695616
+covid,scSemiProfiler,C187,case,NK cell,12.124010592311881
+covid,scSemiProfiler,C187,case,B cell,1.8294626198009016
+covid,scSemiProfiler,C187,case,Monocyte,34.36779311383838
+covid,scSemiProfiler,C187,case,DC,5.317088504907926
+covid,scSemiProfiler,C187,case,Other,10.077399784445294
+covid,scSemiProfiler,C187,control,T cell,62.81833616298812
+covid,scSemiProfiler,C187,control,NK cell,12.224108658743633
+covid,scSemiProfiler,C187,control,B cell,3.225806451612903
+covid,scSemiProfiler,C187,control,Monocyte,17.65704584040747
+covid,scSemiProfiler,C187,control,DC,3.735144312393888
+covid,scSemiProfiler,C187,control,Other,0.3395585738539898
+covid,scSemiProfiler,C190,case,T cell,52.55282715821306
+covid,scSemiProfiler,C190,case,NK cell,10.090357855212165
+covid,scSemiProfiler,C190,case,B cell,4.98882735024829
+covid,scSemiProfiler,C190,case,Monocyte,26.21867398898932
+covid,scSemiProfiler,C190,case,DC,3.768360117798652
+covid,scSemiProfiler,C190,case,Other,2.380953529538514
+covid,scSemiProfiler,C190,control,T cell,49.31740614334471
+covid,scSemiProfiler,C190,control,NK cell,8.532423208191126
+covid,scSemiProfiler,C190,control,B cell,2.901023890784983
+covid,scSemiProfiler,C190,control,Monocyte,29.86348122866894
+covid,scSemiProfiler,C190,control,DC,7.679180887372014
+covid,scSemiProfiler,C190,control,Other,1.7064846416382253
+covid,scSemiProfiler,C193,control,T cell,56.536502546689306
+covid,scSemiProfiler,C193,control,NK cell,10.69609507640068
+covid,scSemiProfiler,C193,control,B cell,5.772495755517827
+covid,scSemiProfiler,C193,control,Monocyte,22.750424448217316
+covid,scSemiProfiler,C193,control,DC,4.074702886247878
+covid,scSemiProfiler,C193,control,Other,0.1697792869269949
+covid,scSemiProfiler,C195,control,T cell,67.40237691001698
+covid,scSemiProfiler,C195,control,NK cell,5.432937181663837
+covid,scSemiProfiler,C195,control,B cell,2.037351443123939
+covid,scSemiProfiler,C195,control,Monocyte,16.468590831918505
+covid,scSemiProfiler,C195,control,DC,8.65874363327674
+covid,scSemiProfiler,C195,control,Other,0.0
+covid,scSemiProfiler,C20,case,T cell,37.214291489091394
+covid,scSemiProfiler,C20,case,NK cell,11.130216093228462
+covid,scSemiProfiler,C20,case,B cell,1.5291685434785118
+covid,scSemiProfiler,C20,case,Monocyte,33.728474411836046
+covid,scSemiProfiler,C20,case,DC,5.437268285922179
+covid,scSemiProfiler,C20,case,Other,10.960581176443412
+covid,scSemiProfiler,C23,case,T cell,56.36672325976231
+covid,scSemiProfiler,C23,case,NK cell,9.33786078098472
+covid,scSemiProfiler,C23,case,B cell,4.584040747028863
+covid,scSemiProfiler,C23,case,Monocyte,25.29711375212224
+covid,scSemiProfiler,C23,case,DC,4.244482173174872
+covid,scSemiProfiler,C23,case,Other,0.1697792869269949
+covid,scSemiProfiler,C240,control,T cell,63.775510204081634
+covid,scSemiProfiler,C240,control,NK cell,8.843537414965986
+covid,scSemiProfiler,C240,control,B cell,3.9115646258503403
+covid,scSemiProfiler,C240,control,Monocyte,18.877551020408163
+covid,scSemiProfiler,C240,control,DC,3.9115646258503403
+covid,scSemiProfiler,C240,control,Other,0.6802721088435374
+covid,scSemiProfiler,C251,control,T cell,60.54421768707483
+covid,scSemiProfiler,C251,control,NK cell,11.054421768707483
+covid,scSemiProfiler,C251,control,B cell,4.591836734693878
+covid,scSemiProfiler,C251,control,Monocyte,18.877551020408163
+covid,scSemiProfiler,C251,control,DC,4.761904761904762
+covid,scSemiProfiler,C251,control,Other,0.17006802721088435
+covid,scSemiProfiler,C31,case,T cell,57.41889285425545
+covid,scSemiProfiler,C31,case,NK cell,11.608995607297814
+covid,scSemiProfiler,C31,case,B cell,5.435920831264028
+covid,scSemiProfiler,C31,case,Monocyte,21.856580776056887
+covid,scSemiProfiler,C31,case,DC,3.453141301795195
+covid,scSemiProfiler,C31,case,Other,0.22646862933062303
+covid,scSemiProfiler,C33,case,T cell,33.06949128316858
+covid,scSemiProfiler,C33,case,NK cell,16.6752618139817
+covid,scSemiProfiler,C33,case,B cell,0.5103006563215859
+covid,scSemiProfiler,C33,case,Monocyte,34.37257356094056
+covid,scSemiProfiler,C33,case,DC,3.5170570215593333
+covid,scSemiProfiler,C33,case,Other,11.855315664028245
+covid,scSemiProfiler,C36,case,T cell,60.1549251159862
+covid,scSemiProfiler,C36,case,NK cell,9.139925135301139
+covid,scSemiProfiler,C36,case,B cell,5.392151181881043
+covid,scSemiProfiler,C36,case,Monocyte,20.320376873066092
+covid,scSemiProfiler,C36,case,DC,4.7656711747731455
+covid,scSemiProfiler,C36,case,Other,0.2269505189923783
+covid,scSemiProfiler,C40,case,T cell,49.7392483398811
+covid,scSemiProfiler,C40,case,NK cell,9.641534069618762
+covid,scSemiProfiler,C40,case,B cell,3.232354838585065
+covid,scSemiProfiler,C40,case,Monocyte,28.364372438356373
+covid,scSemiProfiler,C40,case,DC,4.878373836757872
+covid,scSemiProfiler,C40,case,Other,4.1441164768008285
+covid,scSemiProfiler,C60,case,T cell,54.49915110356537
+covid,scSemiProfiler,C60,case,NK cell,10.356536502546689
+covid,scSemiProfiler,C60,case,B cell,6.960950764006792
+covid,scSemiProfiler,C60,case,Monocyte,23.93887945670628
+covid,scSemiProfiler,C60,case,DC,3.904923599320883
+covid,scSemiProfiler,C60,case,Other,0.3395585738539898
+covid,scSemiProfiler,C63,case,T cell,50.68549604141998
+covid,scSemiProfiler,C63,case,NK cell,13.619372663741265
+covid,scSemiProfiler,C63,case,B cell,4.54230611470982
+covid,scSemiProfiler,C63,case,Monocyte,26.274252590683602
+covid,scSemiProfiler,C63,case,DC,4.311679165409053
+covid,scSemiProfiler,C63,case,Other,0.5668934240362812
+covid,scSemiProfiler,C65,case,T cell,40.04240632302723
+covid,scSemiProfiler,C65,case,NK cell,12.286476560063754
+covid,scSemiProfiler,C65,case,B cell,2.9461133632853254
+covid,scSemiProfiler,C65,case,Monocyte,32.04651413479936
+covid,scSemiProfiler,C65,case,DC,3.963152889905255
+covid,scSemiProfiler,C65,case,Other,8.715336728919072
+covid,scSemiProfiler,C69,control,T cell,67.68707482993197
+covid,scSemiProfiler,C69,control,NK cell,2.7210884353741496
+covid,scSemiProfiler,C69,control,B cell,2.380952380952381
+covid,scSemiProfiler,C69,control,Monocyte,19.387755102040817
+covid,scSemiProfiler,C69,control,DC,7.142857142857143
+covid,scSemiProfiler,C69,control,Other,0.6802721088435374
+covid,scSemiProfiler,C85,control,T cell,50.34013605442177
+covid,scSemiProfiler,C85,control,NK cell,8.673469387755102
+covid,scSemiProfiler,C85,control,B cell,0.8503401360544217
+covid,scSemiProfiler,C85,control,Monocyte,32.48299319727891
+covid,scSemiProfiler,C85,control,DC,6.122448979591836
+covid,scSemiProfiler,C85,control,Other,1.530612244897959

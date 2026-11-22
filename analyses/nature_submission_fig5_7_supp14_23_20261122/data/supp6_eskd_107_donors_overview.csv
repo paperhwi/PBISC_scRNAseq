@@ -1,0 +1,108 @@
+patient_id,cohort_role,age,sex,ethnicity,has_real_bulk,real_bulk_total,real_bulk_pos,real_bulk_neg,real_bulk_rec,has_real_sc,real_sc_total,real_sc_pos_qc200,real_sc_pos_lt200,real_sc_neg,real_sc_rec,has_pbisc,pbisc_total,pbisc_pos_prim,pbisc_pos_excl,pbisc_neg,pbisc_rec
+C7,PBISC new (Bulk -> scRNA),83,M,black,True,2,2,0,0,False,0,0,0,0,0,True,2,2,0,0,0
+C9,PBISC new (Bulk -> scRNA),55,M,other,True,2,2,0,0,False,0,0,0,0,0,True,2,2,0,0,0
+C10,PBISC new (Bulk -> scRNA),84,F,black,True,3,3,0,0,False,0,0,0,0,0,True,3,3,0,0,0
+C11,PBISC new (Bulk -> scRNA),62,M,white,True,4,4,0,0,False,0,0,0,0,0,True,4,4,0,0,0
+C12,PBISC new (Bulk -> scRNA),58,M,asian,True,5,5,0,0,False,0,0,0,0,0,True,5,5,0,0,0
+C18,PBISC new (Bulk -> scRNA),64,M,asian,True,4,4,0,0,False,0,0,0,0,0,True,4,4,0,0,0
+C20,Shared (Real ∩ PBISC),62,M,asian,True,3,3,0,0,True,3,3,0,0,0,True,1,1,0,0,0
+C21,Shared (Real ∩ PBISC),80,M,white,True,6,6,0,0,True,3,3,0,0,0,True,3,3,0,0,0
+C22,PBISC new (Bulk -> scRNA),65,M,asian,True,3,3,0,0,False,0,0,0,0,0,True,3,3,0,0,0
+C23,Real-only (scRNA primary),78,F,asian,True,2,2,0,0,True,3,3,0,0,0,False,0,0,0,0,0
+C24,PBISC new (Bulk -> scRNA),75,F,white,True,3,3,0,0,False,0,0,0,0,0,True,3,3,0,0,0
+C25,PBISC new (Bulk -> scRNA),38,M,black,True,3,3,0,0,False,0,0,0,0,0,True,3,3,0,0,0
+C27,PBISC new (Bulk -> scRNA),85,M,asian,True,2,2,0,0,False,0,0,0,0,0,True,2,2,0,0,0
+C31,Real-only (scRNA primary),39,F,black,True,6,6,0,0,True,3,3,0,0,0,True,3,0,3,0,0
+C32,PBISC new (Bulk -> scRNA),76,M,white,True,1,1,0,0,False,0,0,0,0,0,True,1,1,0,0,0
+C33,Shared (Real ∩ PBISC),75,M,asian,True,7,6,1,0,True,4,4,0,0,0,True,3,2,0,1,0
+C34,Shared (Real ∩ PBISC),74,F,white,True,4,4,0,0,True,3,3,0,0,0,True,1,1,0,0,0
+C36,Real-only (scRNA primary),66,M,asian,True,3,3,0,0,True,3,3,0,0,0,False,0,0,0,0,0
+C37,PBISC new (Bulk -> scRNA),82,F,asian,True,2,2,0,0,False,0,0,0,0,0,True,2,2,0,0,0
+C40,Shared (Real ∩ PBISC),57,M,black,True,7,7,0,0,True,3,3,0,0,0,True,4,4,0,0,0
+C42,Shared (Real ∩ PBISC),40,M,white,True,5,5,0,0,True,3,3,0,0,0,True,2,2,0,0,0
+C47,PBISC new (Bulk -> scRNA),72,M,white,True,3,3,0,0,False,0,0,0,0,0,True,3,3,0,0,0
+C48,PBISC new (Bulk -> scRNA),72,M,other,True,2,2,0,0,False,0,0,0,0,0,True,2,2,0,0,0
+C50,PBISC new (Bulk -> scRNA),66,M,asian,True,4,4,0,0,False,0,0,0,0,0,True,4,4,0,0,0
+C58,Shared (Real ∩ PBISC),72,F,white,True,7,5,1,1,True,7,5,0,1,1,True,1,1,0,0,0
+C59,PBISC new (Bulk -> scRNA),47,M,asian,True,2,2,0,0,False,0,0,0,0,0,True,2,2,0,0,0
+C60,Shared (Real ∩ PBISC),80,M,white,True,5,5,0,0,True,3,3,0,0,0,True,4,4,0,0,0
+C63,Shared (Real ∩ PBISC),45,M,black,True,5,5,0,0,True,3,3,0,0,0,True,2,2,0,0,0
+C64,COVID-negative ESKD control only,61,M,asian,True,1,0,1,0,False,0,0,0,0,0,True,1,0,0,1,0
+C65,Shared (Real ∩ PBISC),73,M,white,True,8,8,0,0,True,3,3,0,0,0,True,5,5,0,0,0
+C66,PBISC new (Bulk -> scRNA),60,F,black,True,1,1,0,0,False,0,0,0,0,0,True,1,1,0,0,0
+C67,PBISC new (Bulk -> scRNA),75,F,other,True,1,1,0,0,False,0,0,0,0,0,True,1,1,0,0,0
+C68,PBISC new (Bulk -> scRNA),75,M,other,True,1,1,0,0,False,0,0,0,0,0,True,1,1,0,0,0
+C69,COVID-negative ESKD control only,79,M,asian,True,1,0,1,0,True,1,0,0,1,0,False,0,0,0,0,0
+C73,Shared (Real ∩ PBISC),88,M,white,True,3,3,0,0,True,2,1,1,0,0,True,2,2,0,0,0
+C77,PBISC new (Bulk -> scRNA),64,F,white,True,1,1,0,0,False,0,0,0,0,0,True,1,1,0,0,0
+C80,PBISC new (Bulk -> scRNA),69,F,asian,True,1,1,0,0,False,0,0,0,0,0,True,1,1,0,0,0
+C82,Shared (Real ∩ PBISC),60,F,other,True,2,2,0,0,True,2,2,0,0,0,True,1,1,0,0,0
+C84,PBISC new (Bulk -> scRNA),75,M,asian,True,1,1,0,0,False,0,0,0,0,0,True,1,1,0,0,0
+C85,COVID-negative ESKD control only,74,F,white,True,1,0,1,0,True,1,0,0,1,0,False,0,0,0,0,0
+C87,PBISC new (Bulk -> scRNA),71,M,asian,True,3,3,0,0,False,0,0,0,0,0,True,3,3,0,0,0
+C89,COVID-negative ESKD control only,70,F,asian,True,1,0,1,0,False,0,0,0,0,0,True,1,0,0,1,0
+C93,Shared (Real ∩ PBISC),87,M,white,True,5,5,0,0,True,3,3,0,0,0,True,2,2,0,0,0
+C99,PBISC new (Bulk -> scRNA),60,M,white,True,2,2,0,0,False,0,0,0,0,0,True,2,2,0,0,0
+C101,Shared (Real ∩ PBISC),61,M,asian,True,9,7,1,1,True,6,5,0,0,1,True,3,2,0,1,0
+C103,COVID-negative ESKD control only,66,M,asian,True,1,0,1,0,True,1,0,0,1,0,False,0,0,0,0,0
+C104,COVID-negative ESKD control only,81,M,other,True,1,0,1,0,True,1,0,0,1,0,False,0,0,0,0,0
+C105,PBISC new (Bulk -> scRNA),75,F,asian,True,7,6,1,0,False,0,0,0,0,0,True,7,6,0,1,0
+C106,COVID-negative ESKD control only,82,M,white,True,1,0,1,0,True,1,0,0,1,0,False,0,0,0,0,0
+C108,Shared (Real ∩ PBISC),79,F,white,True,7,6,1,0,True,4,3,0,1,0,True,3,3,0,0,0
+C110,PBISC new (Bulk -> scRNA),74,M,black,True,4,4,0,0,False,0,0,0,0,0,True,4,4,0,0,0
+C113,Shared (Real ∩ PBISC),61,F,white,True,2,2,0,0,True,3,3,0,0,0,True,1,1,0,0,0
+C114,PBISC new (Bulk -> scRNA),68,M,asian,True,7,7,0,0,False,0,0,0,0,0,True,7,7,0,0,0
+C116,Excluded CLL (Real ∩ PBISC),87,M,white,True,2,2,0,0,True,3,3,0,0,0,True,2,2,0,0,0
+C123,Shared (Real ∩ PBISC),66,M,asian,True,6,6,0,0,True,3,3,0,0,0,True,3,3,0,0,0
+C124,Real-only (scRNA primary),81,M,asian,True,3,3,0,0,True,3,3,0,0,0,False,0,0,0,0,0
+C126,Shared (Real ∩ PBISC),64,M,asian,True,6,6,0,0,True,3,3,0,0,0,True,3,3,0,0,0
+C127,Shared (Real ∩ PBISC),69,F,other,True,6,6,0,0,True,3,3,0,0,0,True,3,3,0,0,0
+C128,Shared (Real ∩ PBISC),72,M,asian,True,5,5,0,0,True,3,3,0,0,0,True,2,2,0,0,0
+C129,PBISC new (Bulk -> scRNA),77,M,other,True,4,4,0,0,False,0,0,0,0,0,True,4,4,0,0,0
+C130,COVID-negative ESKD control only,71,M,other,True,1,0,1,0,False,0,0,0,0,0,True,1,0,0,1,0
+C132,Shared (Real ∩ PBISC),77,F,asian,True,6,6,0,0,True,3,3,0,0,0,True,3,3,0,0,0
+C134,COVID-negative ESKD control only,74,F,black,False,0,0,0,0,True,1,0,0,1,0,False,0,0,0,0,0
+C137,Shared (Real ∩ PBISC),60,F,asian,True,7,5,1,1,True,4,2,0,1,1,True,4,4,0,0,0
+C138,Real-only (scRNA primary),77,F,asian,True,6,4,1,1,True,7,6,0,1,0,True,1,0,0,0,1
+C139,Excluded CLL (Real sc + Bulk),85,M,white,True,8,6,1,1,True,7,2,4,1,0,True,1,0,0,0,1
+C140,Real-only (scRNA primary),23,F,asian,True,8,6,1,1,True,8,6,0,1,1,False,0,0,0,0,0
+C141,Real-only (scRNA primary),85,M,black,True,5,4,1,0,True,6,5,0,0,1,True,1,0,0,1,0
+C142,COVID-negative ESKD control only,74,M,asian,True,1,0,1,0,True,1,0,0,1,0,False,0,0,0,0,0
+C145,Shared (Real ∩ PBISC),65,F,asian,True,7,6,1,0,True,6,5,0,1,0,True,1,1,0,0,0
+C146,Real-only (scRNA primary),66,M,asian,True,8,6,1,1,True,8,6,0,1,1,False,0,0,0,0,0
+C147,Shared (Real ∩ PBISC),53,M,asian,True,6,5,1,0,True,6,5,0,1,0,True,1,1,0,0,0
+C149,PBISC new (Bulk -> scRNA),76,M,white,True,2,2,0,0,False,0,0,0,0,0,True,2,2,0,0,0
+C152,COVID-negative ESKD control only,76,M,other,True,1,0,1,0,True,1,0,0,1,0,False,0,0,0,0,0
+C153,COVID-negative ESKD control only,50,M,asian,True,1,0,1,0,False,0,0,0,0,0,True,1,0,0,1,0
+C161,COVID-negative ESKD control only,65,M,other,True,1,0,1,0,True,1,0,0,1,0,False,0,0,0,0,0
+C162,COVID-negative ESKD control only,62,M,white,True,1,0,1,0,False,0,0,0,0,0,True,1,0,0,1,0
+C163,COVID-negative ESKD control only,69,M,asian,True,1,0,1,0,False,0,0,0,0,0,True,1,0,0,1,0
+C164,COVID-negative ESKD control only,78,M,asian,True,1,0,1,0,True,1,0,0,1,0,False,0,0,0,0,0
+C166,COVID-negative ESKD control only,78,M,white,True,1,0,1,0,False,0,0,0,0,0,True,1,0,0,1,0
+C167,COVID-negative ESKD control only,73,F,asian,True,1,0,1,0,True,1,0,0,1,0,False,0,0,0,0,0
+C168,Shared (Real ∩ PBISC),75,M,asian,True,8,6,1,1,True,7,4,1,1,1,True,1,1,0,0,0
+C169,Shared (Real ∩ PBISC),73,F,asian,True,6,4,1,1,True,7,5,0,1,1,True,1,1,0,0,0
+C170,Real-only (scRNA primary),82,M,asian,True,5,3,1,1,True,8,6,0,1,1,False,0,0,0,0,0
+C173,COVID-negative ESKD control only,56,M,black,True,1,0,1,0,False,0,0,0,0,0,True,1,0,0,1,0
+C180,COVID-negative ESKD control only,48,M,asian,True,1,0,1,0,False,0,0,0,0,0,True,1,0,0,1,0
+C187,Shared (Real ∩ PBISC),70,M,other,True,7,5,1,1,True,7,5,0,1,1,True,1,1,0,0,0
+C189,COVID-negative ESKD control only,55,M,black,True,1,0,1,0,False,0,0,0,0,0,True,1,0,0,1,0
+C190,Real-only (scRNA primary),54,M,white,True,8,6,1,1,True,8,6,0,1,1,False,0,0,0,0,0
+C193,COVID-negative ESKD control only,82,M,white,True,1,0,1,0,True,1,0,0,1,0,False,0,0,0,0,0
+C195,COVID-negative ESKD control only,86,M,other,True,1,0,1,0,True,1,0,0,1,0,False,0,0,0,0,0
+C196,COVID-negative ESKD control only,72,M,white,False,0,0,0,0,True,1,0,0,1,0,False,0,0,0,0,0
+C197,COVID-negative ESKD control only,62,F,black,True,1,0,1,0,True,1,0,0,1,0,False,0,0,0,0,0
+C201,COVID-negative ESKD control only,56,M,black,True,1,0,1,0,False,0,0,0,0,0,True,1,0,0,1,0
+C212,COVID-negative ESKD control only,49,M,white,True,1,0,1,0,True,1,0,0,1,0,False,0,0,0,0,0
+C214,COVID-negative ESKD control only,68,F,white,True,1,0,1,0,True,1,0,0,1,0,False,0,0,0,0,0
+C224,COVID-negative ESKD control only,69,M,asian,True,1,0,1,0,True,1,0,0,1,0,False,0,0,0,0,0
+C234,COVID-negative ESKD control only,74,F,asian,True,1,0,1,0,True,1,0,0,1,0,False,0,0,0,0,0
+C237,COVID-negative ESKD control only,72,M,asian,True,1,0,1,0,True,1,0,0,1,0,False,0,0,0,0,0
+C238,COVID-negative ESKD control only,39,F,black,True,1,0,1,0,True,1,0,0,1,0,False,0,0,0,0,0
+C240,COVID-negative ESKD control only,62,M,asian,True,1,0,1,0,True,1,0,0,1,0,False,0,0,0,0,0
+C241,COVID-negative ESKD control only,65,M,black,True,1,0,1,0,False,0,0,0,0,0,True,1,0,0,1,0
+C242,COVID-negative ESKD control only,59,M,other,True,1,0,1,0,False,0,0,0,0,0,True,1,0,0,1,0
+C245,COVID-negative ESKD control only,62,M,asian,True,1,0,1,0,False,0,0,0,0,0,True,1,0,0,1,0
+C246,COVID-negative ESKD control only,71,M,white,True,1,0,1,0,True,1,0,0,1,0,False,0,0,0,0,0
+C251,COVID-negative ESKD control only,41,M,asian,True,1,0,1,0,True,1,0,0,1,0,False,0,0,0,0,0
+C257,COVID-negative ESKD control only,68,F,asian,True,1,0,1,0,False,0,0,0,0,0,True,1,0,0,1,0

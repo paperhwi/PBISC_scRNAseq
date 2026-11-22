@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="510.23622pt" height="590.4pt" viewBox="0 0 510.23622 590.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-22T22:14:23.410231</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 590.4 
+L 510.23622 590.4 
+L 510.23622 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 15.307087 60.149952 
+L 494.929134 60.149952 
+L 494.929134 43.6896 
+L 15.307087 43.6896 
+z
+" clip-path="url(#p131c2c23ed)" style="fill: #0f4d92"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 15.307087 76.610304 
+L 494.929134 76.610304 
+L 494.929134 60.149952 
+L 15.307087 60.149952 
+z
+" clip-path="url(#p131c2c23ed)" style="fill: #ffffff; stroke: #dde3ea; stroke-width: 0.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 15.307087 93.070656 
+L 494.929134 93.070656 
+L 494.929134 76.610304 
+L 15.307087 76.610304 
+z
+" clip-path="url(#p131c2c23ed)" style="fill: #f5f8fb; stroke: #dde3ea; stroke-width: 0.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 15.307087 109.531008 
+L 494.929134 109.531008 
+L 494.929134 93.070656 
+L 15.307087 93.070656 
+z
+" clip-path="url(#p131c2c23ed)" style="fill: #ffffff; stroke: #dde3ea; stroke-width: 0.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 15.307087 125.99136 
+L 494.929134 125.99136 
+L 494.929134 109.531008 
+L 15.307087 109.531008 
+z
+" clip-path="url(#p131c2c23ed)" style="fill: #f5f8fb; stroke: #dde3ea; stroke-width: 0.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 15.307087 142.451712 
+L 494.929134 142.451712 
+L 494.929134 125.99136 
+L 15.307087 125.99136 
+z
+" clip-path="url(#p131c2c23ed)" style="fill: #ffffff; stroke: #dde3ea; stroke-width: 0.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 15.307087 158.912064 
+L 494.929134 158.912064 
+L 494.929134 142.451712 
+L 15.307087 142.451712 
+z
+" clip-path="url(#p131c2c23ed)" style="fill: #e8eff7; stroke: #dde3ea; stroke-width: 0.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 6.4px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="15.307087" y="30.282735" transform="rotate(-0 15.307087 30.282735)">Bacterial Sepsis cohort metadata &amp; dataset alignment (Ye et al., Nat. Immunol. 2026)</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 5.35px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #ffffff" x="20.103307" y="53.304297" transform="rotate(-0 20.103307 53.304297)">Dataset / Stratum</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 5.35px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #ffffff" x="130.416378" y="53.304297" transform="rotate(-0 130.416378 53.304297)">Donors</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 5.35px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #ffffff" x="178.378583" y="53.304297" transform="rotate(-0 178.378583 53.304297)">Samples</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 5.35px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #ffffff" x="226.340787" y="53.304297" transform="rotate(-0 226.340787 53.304297)">Cells</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 5.35px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #ffffff" x="288.691654" y="53.304245" transform="rotate(-0 288.691654 53.304245)">Clinical groups (n)</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 5.35px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #ffffff" x="394.208504" y="53.304245" transform="rotate(-0 394.208504 53.304245)">Age / Sex &amp; QC verification</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="20.103307" y="69.72578" transform="rotate(-0 20.103307 69.72578)">Real scRNA-seq (Adult)</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="130.416378" y="69.725831" transform="rotate(-0 130.416378 69.725831)">108</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="178.378583" y="69.725831" transform="rotate(-0 178.378583 69.725831)">108</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="226.340787" y="69.725831" transform="rotate(-0 226.340787 69.725831)">633,072</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="288.691654" y="69.725831" transform="rotate(-0 288.691654 69.725831)">93 Sepsis / 8 ICU / 7 HC</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="394.208504" y="69.72578" transform="rotate(-0 394.208504 69.72578)">Adult primary scope; 82 paired w/ bulk</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="20.103307" y="86.186132" transform="rotate(-0 20.103307 86.186132)">Real scRNA-seq (Paed.)</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="130.416378" y="86.186183" transform="rotate(-0 130.416378 86.186183)">25</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="178.378583" y="86.186183" transform="rotate(-0 178.378583 86.186183)">25</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="226.340787" y="86.186183" transform="rotate(-0 226.340787 86.186183)">147,461</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="288.691654" y="86.186183" transform="rotate(-0 288.691654 86.186183)">17 Sepsis / 4 ICU / 4 HC</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="394.208504" y="86.186132" transform="rotate(-0 394.208504 86.186132)">Paed. reference audit (Fig. 6c)</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="20.103307" y="102.646484" transform="rotate(-0 20.103307 102.646484)">PBISC bulk-only (Adult)</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="130.416378" y="102.646535" transform="rotate(-0 130.416378 102.646535)">121</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="178.378583" y="102.646535" transform="rotate(-0 178.378583 102.646535)">121</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="226.340787" y="102.646535" transform="rotate(-0 226.340787 102.646535)">484,000</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="288.691654" y="102.646535" transform="rotate(-0 288.691654 102.646535)">68 Sepsis / 17 ICU / 36 HC</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="394.208504" y="102.646535" transform="rotate(-0 394.208504 102.646535)">K=4,000/sample; 0 overlap w/ Real</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="20.103307" y="119.106836" transform="rotate(-0 20.103307 119.106836)">PBISC bulk-only (Paed.)</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="130.416378" y="119.106887" transform="rotate(-0 130.416378 119.106887)">1</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="178.378583" y="119.106887" transform="rotate(-0 178.378583 119.106887)">1</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="226.340787" y="119.106887" transform="rotate(-0 226.340787 119.106887)">4,000</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="288.691654" y="119.106836" transform="rotate(-0 288.691654 119.106836)">1 Paed. ICU (PIC06)</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="394.208504" y="119.106836" transform="rotate(-0 394.208504 119.106836)">Excluded from adult primary scope</text>
+   </g>
+   <g id="text_32">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="20.103307" y="135.567239" transform="rotate(-0 20.103307 135.567239)">scSemiProfiler baseline</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="130.416378" y="135.567239" transform="rotate(-0 130.416378 135.567239)">34</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="178.378583" y="135.567239" transform="rotate(-0 178.378583 135.567239)">34</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="226.340787" y="135.567239" transform="rotate(-0 226.340787 135.567239)">51,000</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="288.691654" y="135.567239" transform="rotate(-0 288.691654 135.567239)">26 Sepsis / 3 ICU / 5 HC</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="394.208504" y="135.567239" transform="rotate(-0 394.208504 135.567239)">Adult held-out baseline</text>
+   </g>
+   <g id="text_38">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="20.103307" y="152.02754" transform="rotate(-0 20.103307 152.02754)">Total Sepsis (Real+PBISC)</text>
+   </g>
+   <g id="text_39">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="130.416378" y="152.027591" transform="rotate(-0 130.416378 152.027591)">255</text>
+   </g>
+   <g id="text_40">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="178.378583" y="152.027591" transform="rotate(-0 178.378583 152.027591)">255</text>
+   </g>
+   <g id="text_41">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="226.340787" y="152.027591" transform="rotate(-0 226.340787 152.027591)">1,268,533</text>
+   </g>
+   <g id="text_42">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="288.691654" y="152.027591" transform="rotate(-0 288.691654 152.027591)">0 donor overlap verified</text>
+   </g>
+   <g id="text_43">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="394.208504" y="152.02754" transform="rotate(-0 394.208504 152.02754)">5-fold LoRA adapted (GSE279448/52)</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_9">
+    <path d="M 15.307087 295.247232 
+L 494.929134 295.247232 
+L 494.929134 273.9456 
+L 15.307087 273.9456 
+z
+" clip-path="url(#pd18a2505a3)" style="fill: #0f4d92"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 15.307087 316.548864 
+L 494.929134 316.548864 
+L 494.929134 295.247232 
+L 15.307087 295.247232 
+z
+" clip-path="url(#pd18a2505a3)" style="fill: #ffffff; stroke: #dde3ea; stroke-width: 0.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 15.307087 337.850496 
+L 494.929134 337.850496 
+L 494.929134 316.548864 
+L 15.307087 316.548864 
+z
+" clip-path="url(#pd18a2505a3)" style="fill: #f5f8fb; stroke: #dde3ea; stroke-width: 0.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 15.307087 359.152128 
+L 494.929134 359.152128 
+L 494.929134 337.850496 
+L 15.307087 337.850496 
+z
+" clip-path="url(#pd18a2505a3)" style="fill: #ffffff; stroke: #dde3ea; stroke-width: 0.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 15.307087 380.45376 
+L 494.929134 380.45376 
+L 494.929134 359.152128 
+L 15.307087 359.152128 
+z
+" clip-path="url(#pd18a2505a3)" style="fill: #f5f8fb; stroke: #dde3ea; stroke-width: 0.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 15.307087 401.755392 
+L 494.929134 401.755392 
+L 494.929134 380.45376 
+L 15.307087 380.45376 
+z
+" clip-path="url(#pd18a2505a3)" style="fill: #ffffff; stroke: #dde3ea; stroke-width: 0.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 15.307087 423.057024 
+L 494.929134 423.057024 
+L 494.929134 401.755392 
+L 15.307087 401.755392 
+z
+" clip-path="url(#pd18a2505a3)" style="fill: #f5f8fb; stroke: #dde3ea; stroke-width: 0.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 15.307087 444.358656 
+L 494.929134 444.358656 
+L 494.929134 423.057024 
+L 15.307087 423.057024 
+z
+" clip-path="url(#pd18a2505a3)" style="fill: #e8eff7; stroke: #dde3ea; stroke-width: 0.45; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_44">
+    <text style="font-weight: 700; font-size: 6.4px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="15.307087" y="255.225135" transform="rotate(-0 15.307087 255.225135)">Imperial ESKD haemodialysis COVID-19 cohort metadata &amp; 276-draw accounting (Fig. 7)</text>
+   </g>
+   <g id="text_45">
+    <text style="font-weight: 700; font-size: 5.35px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #ffffff" x="20.103307" y="285.980937" transform="rotate(-0 20.103307 285.980937)">ESKD Cohort Stratum</text>
+   </g>
+   <g id="text_46">
+    <text style="font-weight: 700; font-size: 5.35px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #ffffff" x="135.212598" y="285.980937" transform="rotate(-0 135.212598 285.980937)">Patients</text>
+   </g>
+   <g id="text_47">
+    <text style="font-weight: 700; font-size: 5.35px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #ffffff" x="183.174803" y="285.980937" transform="rotate(-0 183.174803 285.980937)">Acute draws</text>
+   </g>
+   <g id="text_48">
+    <text style="font-weight: 700; font-size: 5.35px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #ffffff" x="240.729449" y="285.980937" transform="rotate(-0 240.729449 285.980937)">Last draws</text>
+   </g>
+   <g id="text_49">
+    <text style="font-weight: 700; font-size: 5.35px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #ffffff" x="298.284094" y="285.980885" transform="rotate(-0 298.284094 285.980885)">Deaths (TRUE_PUB_11)</text>
+   </g>
+   <g id="text_50">
+    <text style="font-weight: 700; font-size: 5.35px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #ffffff" x="375.023622" y="285.980885" transform="rotate(-0 375.023622 285.980885)">Same-day WHO &amp; longitudinal scope</text>
+   </g>
+   <g id="text_51">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="20.103307" y="307.2437" transform="rotate(-0 20.103307 307.2437)">Real-only acute COVID+</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="135.212598" y="307.243751" transform="rotate(-0 135.212598 307.243751)">10</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="183.174803" y="307.243751" transform="rotate(-0 183.174803 307.243751)">35</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="240.729449" y="307.2437" transform="rotate(-0 240.729449 307.2437)">10 (Real)</text>
+   </g>
+   <g id="text_55">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="298.284094" y="307.243751" transform="rotate(-0 298.284094 307.243751)">2 / 10 died</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="375.023622" y="307.245173" transform="rotate(-0 375.023622 307.245173)">Wave 2; 100% same-day WHO present</text>
+   </g>
+   <g id="text_57">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="20.103307" y="328.545383" transform="rotate(-0 20.103307 328.545383)">Shared-27 Real acute</text>
+   </g>
+   <g id="text_58">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="135.212598" y="328.545383" transform="rotate(-0 135.212598 328.545383)">27</text>
+   </g>
+   <g id="text_59">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="183.174803" y="328.545383" transform="rotate(-0 183.174803 328.545383)">103</text>
+   </g>
+   <g id="text_60">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="240.729449" y="328.545332" transform="rotate(-0 240.729449 328.545332)">14 (Real)</text>
+   </g>
+   <g id="text_61">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="298.284094" y="328.545383" transform="rotate(-0 298.284094 328.545383)">3 / 27 died</text>
+   </g>
+   <g id="text_62">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="375.023622" y="328.545332" transform="rotate(-0 375.023622 328.545332)">Different visit days from Shared PBISC</text>
+   </g>
+   <g id="text_63">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="20.103307" y="349.847015" transform="rotate(-0 20.103307 349.847015)">Shared-27 PBISC acute</text>
+   </g>
+   <g id="text_64">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="135.212598" y="349.846964" transform="rotate(-0 135.212598 349.846964)">(same 27)</text>
+   </g>
+   <g id="text_65">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="183.174803" y="349.847015" transform="rotate(-0 183.174803 349.847015)">59</text>
+   </g>
+   <g id="text_66">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="240.729449" y="349.846964" transform="rotate(-0 240.729449 349.846964)">13 (PBISC)</text>
+   </g>
+   <g id="text_67">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="298.284094" y="349.846964" transform="rotate(-0 298.284094 349.846964)">(same 3 / 27)</text>
+   </g>
+   <g id="text_68">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="375.023622" y="349.846964" transform="rotate(-0 375.023622 349.846964)">Complementary bulk-only acute visits</text>
+   </g>
+   <g id="text_69">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="20.103307" y="371.148596" transform="rotate(-0 20.103307 371.148596)">PBISC-only new acute (W1)</text>
+   </g>
+   <g id="text_70">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="135.212598" y="371.148647" transform="rotate(-0 135.212598 371.148647)">29</text>
+   </g>
+   <g id="text_71">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="183.174803" y="371.148647" transform="rotate(-0 183.174803 371.148647)">79</text>
+   </g>
+   <g id="text_72">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="240.729449" y="371.148596" transform="rotate(-0 240.729449 371.148596)">29 (PBISC)</text>
+   </g>
+   <g id="text_73">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="298.284094" y="371.148647" transform="rotate(-0 298.284094 371.148647)">6 / 29 died</text>
+   </g>
+   <g id="text_74">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="375.023622" y="371.148596" transform="rotate(-0 375.023622 371.148596)">Wave 1 bulk-only; 0 scRNA-seq</text>
+   </g>
+   <g id="text_75">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="20.103307" y="392.450279" transform="rotate(-0 20.103307 392.450279)">Excluded CLL donors</text>
+   </g>
+   <g id="text_76">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="135.212598" y="392.450279" transform="rotate(-0 135.212598 392.450279)">2</text>
+   </g>
+   <g id="text_77">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="183.174803" y="392.450228" transform="rotate(-0 183.174803 392.450228)">(7 excl.)</text>
+   </g>
+   <g id="text_78">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="240.729449" y="392.450279" transform="rotate(-0 240.729449 392.450279)">Excluded</text>
+   </g>
+   <g id="text_79">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="298.284094" y="392.450279" transform="rotate(-0 298.284094 392.450279)">C116, C139</text>
+   </g>
+   <g id="text_80">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="375.023622" y="392.450228" transform="rotate(-0 375.023622 392.450228)">B-cell malignancy excluded pre-analysis</text>
+   </g>
+   <g id="text_81">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="20.103307" y="413.75186" transform="rotate(-0 20.103307 413.75186)">Negative / recovery / QC&lt;200</text>
+   </g>
+   <g id="text_82">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="135.212598" y="413.75186" transform="rotate(-0 135.212598 413.75186)">39 neg+</text>
+   </g>
+   <g id="text_83">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="183.174803" y="413.75186" transform="rotate(-0 183.174803 413.75186)">(79 non-acute)</text>
+   </g>
+   <g id="text_84">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="240.729449" y="413.751911" transform="rotate(-0 240.729449 413.751911)">Control/rec.</text>
+   </g>
+   <g id="text_85">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="298.284094" y="413.751911" transform="rotate(-0 298.284094 413.751911)">—</text>
+   </g>
+   <g id="text_86">
+    <text style="font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="375.023622" y="413.75186" transform="rotate(-0 375.023622 413.75186)">Used in Fig. 5 case vs control only</text>
+   </g>
+   <g id="text_87">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="20.103307" y="435.053492" transform="rotate(-0 20.103307 435.053492)">Combined Fig. 7 Primary</text>
+   </g>
+   <g id="text_88">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="135.212598" y="435.053543" transform="rotate(-0 135.212598 435.053543)">66</text>
+   </g>
+   <g id="text_89">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="183.174803" y="435.053543" transform="rotate(-0 183.174803 435.053543)">276</text>
+   </g>
+   <g id="text_90">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="240.729449" y="435.053492" transform="rotate(-0 240.729449 435.053492)">66 (24R+42P)</text>
+   </g>
+   <g id="text_91">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="298.284094" y="435.053543" transform="rotate(-0 298.284094 435.053543)">11 died / 55 surv.</text>
+   </g>
+   <g id="text_92">
+    <text style="font-weight: 700; font-size: 5.2px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #272727" x="375.023622" y="435.053492" transform="rotate(-0 375.023622 435.053492)">Equal pt weight w_ij=1/n_i; 0 day ties</text>
+   </g>
+  </g>
+  <g id="text_93">
+   <text style="font-weight: 700; font-size: 8.5px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="4.08189" y="15.044232" transform="rotate(-0 4.08189 15.044232)">a</text>
+  </g>
+  <g id="text_94">
+   <text style="font-weight: 700; font-size: 8.5px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="4.08189" y="245.300232" transform="rotate(-0 4.08189 245.300232)">b</text>
+  </g>
+  <g id="text_95">
+   <text style="font-size: 5.3px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #4d4d4d" transform="translate(15.307087 559.502763)">Notes: Every one of the 276 eligible acute samples (condition=positive, primary 0–30 d scope, ≥200 cells, non-CLL) has complete same-day WHO grade (276/276)</text>
+   <text style="font-size: 5.3px; font-family: 'Arial', 'Helvetica', 'Arial', 'DejaVu Sans', sans-serif; fill: #4d4d4d" transform="translate(15.307087 565.271274)">and days_from_first_positive_swab (276/276), zero same-day Real/PBISC duplicates, and a unique un-tied last eligible acute sample per patient (N = 66).</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p131c2c23ed">
+   <rect x="15.307087" y="23.616" width="479.622047" height="200.736"/>
+  </clipPath>
+  <clipPath id="pd18a2505a3">
+   <rect x="15.307087" y="247.968" width="479.622047" height="259.776"/>
+  </clipPath>
+ </defs>
+</svg>
