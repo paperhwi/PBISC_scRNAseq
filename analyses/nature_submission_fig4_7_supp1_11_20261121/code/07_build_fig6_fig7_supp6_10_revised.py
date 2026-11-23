@@ -200,6 +200,8 @@ def load_data():
     d["H61_FD"] = pd.read_csv(DATA_OUT / "primary_61firstdraws_HSPC_modules.csv")
     d["S_meta"] = pd.read_csv(D28_DATA / "eskd_sample_metadata_verified.csv")
     d["pos_217"] = pd.read_csv(D28_DATA / "eskd_longitudinal_217_draws.csv")
+    d["MORT_AUD"] = pd.read_csv(D28_DATA / "metadata_mortality_audit_discrepancies.csv")
+    d["CLL_BULK"] = pd.read_csv(D28_DATA / "fig7_cll_molecular_screen.csv")
     d["MOD"] = pd.read_csv(D28_DATA / "suppS2_modality_scale_summary.csv")
     d["SH27"] = pd.read_csv(D28_DATA / "suppS2_shared27_paired_pct.csv")
     d["PR_REALB"] = pd.read_csv(D28_DATA / "suppS2_realB_transfer_precision_recall.csv").set_index("label")
@@ -1002,6 +1004,159 @@ def build_suppfig6_metadata(d):
 
 
 # =============================================================================
+# SUPPLEMENTARY FIGURE 8: LONGITUDINAL DRAW ASYMMETRY, FORENSIC MORTALITY AUDIT,
+#   CLL MOLECULAR EXCLUSION, 5-STEP BH43 FUNNEL & DIRECTIONAL ASSOCIATION MATRIX
+# =============================================================================
+def build_suppfig8_audit_funnel(d):
+    fig = plt.figure(figsize=(NATURE_2COL_IN, 8.65), facecolor="white")
+    S_meta, MORT_AUD, CLL_BULK, T3, T2 = d["S_meta"], d["MORT_AUD"], d["CLL_BULK"], d["T3_FUN"], d["T2_ALL"]
+    pos_samps = S_meta[
+        (S_meta["condition"] == "positive")
+        & S_meta["in_primary_scope"].astype(bool)
+        & S_meta["qc_pass_min200cells"].astype(bool)
+        & (~S_meta["patient_id"].isin(CLL))
+    ]
+    r_s = pos_samps[pos_samps["source"] == "Real"]
+    b_n = pos_samps[(pos_samps["source"] == "PBISC") & (~pos_samps["patient_id"].isin(set(r_s["patient_id"])))]
+
+    # a: 217 longitudinal draws & fatal sampling asymmetry
+    ax_a = fig.add_axes([0.175, 0.725, 0.340, 0.215]); fig_panel_label(fig, 0.012, 0.978, "a")
+    ax_a.axvspan(7.0, 31.5, color=COL["CardRed"], alpha=0.32, zorder=0)
+    ax_a.axvline(7.0, color=COL["CLL"], ls="--", lw=0.75)
+    rng_c = np.random.default_rng(12)
+    grps = [
+        ("PBISC new · Died (6; 8 dr)", b_n[b_n["fatal_pub11"] == 1]["days_from_first_positive_swab"], 0.0, "o", COL["CLL"]),
+        ("PBISC new · Surv. (23; 71)", b_n[b_n["fatal_pub11"] == 0]["days_from_first_positive_swab"], 1.0, "o", COL["New"]),
+        ("Real · Died (5; 20 dr)", r_s[r_s["fatal_pub11"] == 1]["days_from_first_positive_swab"], 2.1, "D", COL["CLL"]),
+        ("Real · Surv. (32; 118)", r_s[r_s["fatal_pub11"] == 0]["days_from_first_positive_swab"], 3.1, "D", COL["Real"]),
+    ]
+    for lab, s_d, y0, mk, cd in grps:
+        dv = s_d.dropna().values
+        ax_a.scatter(dv, y0 + rng_c.uniform(-0.18, 0.18, len(dv)), s=10, marker=mk, c=cd, edgecolors="white", lw=0.25, zorder=3)
+        q25, med, q75 = np.percentile(dv, [25, 50, 75])
+        ax_a.plot([q25, q75], [y0 - 0.30, y0 - 0.30], color="k", lw=1.0)
+        ax_a.scatter([med], [y0 - 0.30], s=14, marker="|", c="k", lw=1.1)
+    ax_a.text(0.98, 0.03, "91/217 (41.9%) same-day ≠ Peak WHO\nFatal draws: Real 4.0/pt vs PBISC 1.3/pt",
+              transform=ax_a.transAxes, ha="right", va="bottom", fontsize=5.0, fontweight="bold", color=COL["CLL"],
+              bbox=dict(fc="#FDEDEC", ec="none", alpha=0.92, pad=0.25), zorder=6)
+    ax_a.set_yticks([g[2] for g in grps]); ax_a.set_yticklabels([g[0] for g in grps], fontsize=5.3)
+    ax_a.tick_params(axis="y", length=0); ax_a.spines["left"].set_visible(False)
+    ax_a.set_xlim(-1.0, 31.5); ax_a.set_ylim(-0.88, 3.8); ax_a.set_xlabel("Days from 1st positive swab", fontsize=5.6)
+    panel_title(ax_a, "Longitudinal sampling & draw asymmetry (217 draws)", size=6.1, pad=3)
+
+    # b: Forensic mortality audit matrix (TRUE_PUB_11)
+    ax_b = fig.add_axes([0.625, 0.715, 0.355, 0.225]); fig_panel_label(fig, 0.535, 0.978, "b")
+    COLS_M = ["Table S1", "Zenodo", "2m Rec.", "TRUE 11", "Leg. 13"]
+    for i_m, (_, rm) in enumerate(MORT_AUD.iterrows()):
+        s1_t = "yes" if rm["stephenson2025_TableS1_fatal"] == "yes" else ("indir" if rm["stephenson2025_TableS1_fatal"] == "indirect" else ("no" if rm["stephenson2025_TableS1_fatal"] == "no" else "–"))
+        s1_c = COL["CLL"] if s1_t in ("yes", "indir") else (COL["Good"] if s1_t == "no" else "#EAEAEA")
+        rec_t = "YES" if bool(rm["has_2month_recovery_sample"]) else "–"
+        tr_t = "DIED" if int(rm["TRUE_PUBLISHED_11_PRIMARY"]) == 1 else "ALIVE"
+        lg_t = "DIED" if int(rm["legacy_13_hybrid"]) == 1 else "ALIVE"
+        row_c = [
+            (s1_t, s1_c, "white" if s1_c != "#EAEAEA" else COL["Real"]),
+            ("TRUE", "#FADBD8", COL["CLL"]),
+            (rec_t, COL["Good"] if rec_t == "YES" else "white", "white" if rec_t == "YES" else PALETTE["gray_1"]),
+            (tr_t, COL["CLL"] if tr_t == "DIED" else COL["Good"], "white"),
+            (lg_t, COL["Mid"] if (tr_t == "ALIVE" and lg_t == "DIED") else "#E5E7EB", "white" if (tr_t == "ALIVE" and lg_t == "DIED") else COL["Real"]),
+        ]
+        for j_m, (tx, fc, tc) in enumerate(row_c):
+            ax_b.add_patch(FancyBboxPatch((j_m + 0.05, i_m + 0.08), 0.90, 0.84, boxstyle="round,pad=0.01,rounding_size=0.06", fc=fc, ec="#333333", lw=0.25))
+            ax_b.text(j_m + 0.5, i_m + 0.5, tx, ha="center", va="center", fontsize=5.1, color=tc, fontweight="bold")
+    ax_b.set_xlim(0, len(COLS_M)); ax_b.set_ylim(len(MORT_AUD), 0)
+    ax_b.set_yticks(np.arange(len(MORT_AUD)) + 0.5)
+    ax_b.set_yticklabels([f"{r.patient_id} ({'Sh' if 'Shared' in r.cohort else ('R' if 'Real' in r.cohort else 'N')})" for _, r in MORT_AUD.iterrows()], fontsize=5.1, fontweight="bold")
+    ax_b.set_xticks(np.arange(len(COLS_M)) + 0.5); ax_b.set_xticklabels(COLS_M, fontsize=5.2, fontweight="bold")
+    ax_b.xaxis.tick_top(); ax_b.tick_params(length=0)
+    for sp_ in ax_b.spines.values():
+        sp_.set_visible(False)
+    panel_title(ax_b, "Forensic mortality audit (TRUE_PUB_11)", size=6.1, pad=12)
+
+    # c: Bulk ROR1 vs FMOD CLL screen & d: Primary 5-step selection funnel (BH43)
+    ax_c = fig.add_axes([0.085, 0.435, 0.255, 0.205]); fig_panel_label(fig, 0.012, 0.675, "c")
+    df_b = CLL_BULK.set_index("patient_id")
+    neg = df_b[~df_b["covid_positive_scope"] & (df_b["cohort_group"] != "Excluded CLL (C116, C139)")]
+    pos_r = df_b[df_b["covid_positive_scope"] & (df_b["cohort_group"] == "Real / Shared donor")]
+    pos_p = df_b[df_b["covid_positive_scope"] & (df_b["cohort_group"] == "PBISC-only donor")]
+    cll_p = df_b[df_b["cohort_group"] == "Excluded CLL (C116, C139)"]
+    ax_c.scatter(neg["ROR1"], neg["FMOD"], s=9, marker="o", c="white", edgecolors=PALETTE["neutral"], lw=0.5, label="COVID− (37)")
+    ax_c.scatter(pos_r["ROR1"], pos_r["FMOD"], s=12, marker="D", c=PALETTE["neutral"], edgecolors=COL["Real"], lw=0.5, label="Real/Sh (37)")
+    ax_c.scatter(pos_p["ROR1"], pos_p["FMOD"], s=14, marker="^", c=COL["New"], edgecolors="k", lw=0.4, label="PBISC new (29)")
+    ax_c.scatter(cll_p["ROR1"], cll_p["FMOD"], s=32, marker="D", c=COL["CLL"], edgecolors="k", lw=0.6, zorder=5, label="CLL (2)")
+    ax_c.annotate("C116", xy=(df_b.loc["C116", "ROR1"], df_b.loc["C116", "FMOD"]), xytext=(2.8, 4.8), fontsize=5.3, fontweight="bold", color=COL["CLL"], arrowprops=dict(arrowstyle="-", lw=0.6, color=COL["CLL"]))
+    ax_c.annotate("C139", xy=(df_b.loc["C139", "ROR1"], df_b.loc["C139", "FMOD"]), xytext=(3.1, 2.0), fontsize=5.3, fontweight="bold", color=COL["CLL"], arrowprops=dict(arrowstyle="-", lw=0.6, color=COL["CLL"]))
+    ax_c.axhline(1.0, color=PALETTE["gray_1"], ls="--", lw=0.55); ax_c.axvline(2.5, color=PALETTE["gray_1"], ls="--", lw=0.55)
+    ax_c.set_xlim(-0.3, 6.2); ax_c.set_ylim(-0.35, 6.5); ax_c.set_xlabel("Bulk ROR1 log2(CPM+1)", fontsize=5.5); ax_c.set_ylabel("Bulk FMOD log2(CPM+1)", fontsize=5.5)
+    ax_c.legend(loc="upper left", fontsize=5.1, handletextpad=0.15, labelspacing=0.15)
+    panel_title(ax_c, "Molecular CLL exclusion screen", size=6.1, pad=3)
+
+    ax_d = fig.add_axes([0.555, 0.435, 0.255, 0.205]); fig_panel_label(fig, 0.382, 0.675, "d")
+    n_test = int(len(T3))
+    m_fdr = (T3["new_sdWHO_q43"] < 0.05) | (T3["new_fd_q43"] < 0.10)
+    n_fdr = int(m_fdr.sum())
+    m_sign = ((T3["new_sdWHO_q43"] < 0.05) & T3["new_sdWHO_same_sign"]) | ((T3["new_fd_q43"] < 0.10) & T3["new_fd_same_sign"])
+    n_sign = int(m_sign.sum())
+    m_nost = m_sign & (T3["feature"] != "CD14mono_dex")
+    n_nost = int(m_nost.sum())
+    n_resc_sd = int(T3["new_sdWHO_PBISC_rescued"].sum())
+    n_resc_fd = int(T3["new_fd_PBISC_rescued"].sum())
+    n_resc = int((T3["new_sdWHO_PBISC_rescued"] | T3["new_fd_PBISC_rescued"]).sum())
+    steps = [
+        ("Tested fine types", n_test, "≥30% Real det."),
+        ("Combined FDR", n_fdr, f"{int((T3['new_sdWHO_q43']<0.05).sum())} SD-WHO + {int((T3['new_fd_q43']<0.10).sum())} 1st-dth"),
+        ("Concordant sign", n_sign, "−ASDC, −CD8N IFN"),
+        ("Steroid check", n_nost, "−CD14 mono dex"),
+        ("PBISC-rescued", n_resc, f"{n_resc_sd} SD-WHO + {n_resc_fd} 1st-dth"),
+    ]
+    ys = np.arange(len(steps))[::-1]
+    for yi, (lb, cnt, nt), fc in zip(ys, steps, ["#DCE6F2", "#B3CBE6", "#7FA9D6", COL["New"], COL["Ext"]]):
+        ax_d.barh(yi, cnt, height=0.64, color=fc, edgecolor="k", lw=0.6)
+        ax_d.text(cnt + 1.2, yi, f"{cnt} ({nt})", va="center", fontsize=5.1, fontweight="bold" if yi == 0 else "normal")
+    ax_d.set_yticks(ys); ax_d.set_yticklabels([s[0] for s in steps], fontsize=5.4)
+    ax_d.tick_params(axis="y", length=0); ax_d.spines["left"].set_visible(False)
+    ax_d.set_xlim(0, 102); ax_d.set_xlabel("Fine-grained immune subsets", fontsize=5.6)
+    panel_title(ax_d, "Primary 5-step selection funnel (BH43)", size=6.1, pad=3)
+
+    # e: Print-safe directional triangle matrix across all primary FDR & nominal first-draw subsets
+    ax_e = fig.add_axes([0.150, 0.115, 0.825, 0.220]); fig_panel_label(fig, 0.012, 0.365, "e")
+    t3_ix = T3.set_index("feature")
+    keep = sorted(
+        [f for f in LBL if (t3_ix.loc[f, "new_sdWHO_q43"] < 0.05) or (t3_ix.loc[f, "new_fd_p"] < 0.05)],
+        key=lambda f: t3_ix.loc[f, "new_sdWHO_beta"],
+    )
+    ROWS = [
+        ("Real", "sd_gee_wk_beta", "sd_gee_wk_p_q43", 0.05, "SD-WHO · Real (138)", 0.0),
+        ("PBISC new", "sd_gee_wk_beta", "sd_gee_wk_p_q43", 0.05, "SD-WHO · PBISC (79)", -1.0),
+        ("Combined", "sd_gee_wk_beta", "sd_gee_wk_p_q43", 0.05, "SD-WHO · Comb (217)", -2.0),
+        ("Real", "fd_AUC", "fd_q43", 0.10, "1st-Dth · Real (5d)", -3.3),
+        ("PBISC new", "fd_AUC", "fd_q43", 0.10, "1st-Dth · PBISC (6d)", -4.3),
+        ("Combined", "fd_AUC", "fd_q43", 0.10, "1st-Dth · Comb (11d)", -5.3),
+    ]
+    cmap = mpl.colormaps["RdBu_r"]; norm = mpl.colors.Normalize(-0.65, 0.65)
+    ax_e.axhline(-2.65, color=PALETTE["neutral"], ls="--", lw=0.6)
+    for st, vcol, qcol, q_thr, rlab, y_pos in ROWS:
+        for i, f in enumerate(keep):
+            r = T2[(T2["feature"] == f) & (T2["set"] == st)].iloc[0]
+            val = float(r[vcol]) if vcol == "sd_gee_wk_beta" else float(2.0 * (r[vcol] - 0.5))
+            qv = float(r[qcol])
+            is_fdr = np.isfinite(qv) and (qv < q_thr)
+            pv = float(r["sd_gee_wk_p"] if vcol == "sd_gee_wk_beta" else r["fd_p"])
+            sz = 14 + 40 * min(-np.log10(max(pv if np.isfinite(pv) else 1.0, 1e-5)), 4.5) / 4.5
+            mk_dir = "^" if val >= 0 else "v"
+            ax_e.scatter(i, y_pos, s=sz, marker=mk_dir, c=[cmap(norm(val))],
+                         edgecolors="black" if is_fdr else "#888888", linewidths=0.85 if is_fdr else 0.25, zorder=3)
+    ax_e.set_yticks([r[5] for r in ROWS]); ax_e.set_yticklabels([r[4] for r in ROWS], fontsize=5.3)
+    ax_e.set_xticks(range(len(keep))); ax_e.set_xticklabels([LBL[f] for f in keep], rotation=35, ha="right", fontsize=5.2, fontweight="bold")
+    ax_e.tick_params(length=0)
+    for sp_ in ax_e.spines.values():
+        sp_.set_visible(False)
+    ax_e.set_xlim(-0.6, len(keep) - 0.4); ax_e.set_ylim(-5.9, 0.8)
+    panel_title(ax_e, "Primary Same-day WHO & 1st-draw Death subsets (▲ pos / ▼ neg; bold outline = BH43)", size=6.1, pad=3)
+
+    return finalize_figure(fig, FIG_OUT / "SuppFig8_Audit_CLL_Funnel_Directional_Matrix")
+
+
+# =============================================================================
 # UPGRADED SUPPLEMENTARY FIGURE 9: POPULATION NUMBER (COUNT & CLINICAL CBC) VS
 #   PERCENTAGE AUDIT (COVID-43 & SEPSIS-44) + FIRST-DRAW SENS + 14-VAR MATRIX
 # =============================================================================
@@ -1413,6 +1568,7 @@ def main():
         "fig6": build_figure6,
         "fig7": build_figure7,
         "sfig6": build_suppfig6_metadata,
+        "sfig8": build_suppfig8_audit_funnel,
         "sfig9": build_suppfig9_count_pct,
         "sfig10": build_suppfig10_tisg_hspc,
     }

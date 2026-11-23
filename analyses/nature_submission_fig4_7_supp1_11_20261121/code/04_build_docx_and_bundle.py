@@ -1,4 +1,4 @@
-"""Convert PBISC_Nature_Manuscript_Fig4_7_and_SuppFig1_11_20261121.md into a cleanly styled
+"""Convert PBISC_Nature_Manuscript_Fig4_7_and_SuppFig1_11_20261123.md into a cleanly styled
 Microsoft Word (.docx) document using pure standard-library OOXML, verify 0 LaTeX leaks,
 copy Main Figures 4-7 + SuppFig 6 to the conversation artifact folder for inline preview,
 clean superseded files, and verify all 45 rendered figure files (15 x PNG/PDF/SVG) + automated audits.
@@ -11,10 +11,12 @@ import zipfile
 from xml.sax.saxutils import escape
 
 OUT_ROOT = pathlib.Path(r"F:\PBISC\deliverables\nature_submission_fig4_6_20261120")
-MD_PATH = OUT_ROOT / "PBISC_Nature_Manuscript_Fig4_7_and_SuppFig1_11_20261121.md"
-DOCX_PATH = OUT_ROOT / "PBISC_Nature_Manuscript_Fig4_7_and_SuppFig1_11_20261121.docx"
+MD_PATH = OUT_ROOT / "PBISC_Nature_Manuscript_Fig4_7_and_SuppFig1_11_20261123.md"
+DOCX_PATH = OUT_ROOT / "PBISC_Nature_Manuscript_Fig4_7_and_SuppFig1_11_20261123.docx"
 XLSX_PATH = OUT_ROOT / "PBISC_Metadata_CountVsPct_TISG_Audit_20261121.xlsx"
 LEGACY_FILES = [
+    OUT_ROOT / "PBISC_Nature_Manuscript_Fig4_7_and_SuppFig1_11_20261121.md",
+    OUT_ROOT / "PBISC_Nature_Manuscript_Fig4_7_and_SuppFig1_11_20261121.docx",
     OUT_ROOT / "PBISC_Nature_Manuscript_Fig4_7_and_SuppFig1_11_20261120.md",
     OUT_ROOT / "PBISC_Nature_Manuscript_Fig4_7_and_SuppFig1_11_20261120.docx",
     OUT_ROOT / "PBISC_Nature_Manuscript_Fig4_6_and_SuppFig1_10_20261120.md",
@@ -25,7 +27,7 @@ LEGACY_FILES = [
     OUT_ROOT / "code" / "03_build_fig6_supp6_10.py",
     OUT_ROOT / "code" / "03_build_fig6_fig7_supp6_11.py",
 ]
-CONV_ART_DIR = pathlib.Path(r"C:\Users\scott\.gemini\antigravity\brain\add4945a-39a0-4f8d-acd4-3287c21c6121")
+CONV_ART_DIR = pathlib.Path(r"C:\Users\scott\.gemini\antigravity\brain\8c7dddc9-c523-4416-bed6-a4ea6808d37f")
 LEGACY_ART_PNGS = [
     "Figure5_Rare_Populations_Disease_DEGs.png",
     "Figure6_COVID_Cohort_Expansion_Clinical.png",
@@ -171,6 +173,11 @@ def build_docx(md_text: str, out_docx: pathlib.Path):
         elif line.startswith("> "):
             t = line[2:].strip()
             paras.append(f'<w:p><w:pPr><w:ind w:left="360"/><w:spacing w:before="40" w:after="60"/></w:pPr>{runs_from_inline(t, 20, False)}</w:p>')
+        elif line.startswith("- "):
+            t = "• " + line[2:].strip()
+            paras.append(f'<w:p><w:pPr><w:ind w:left="360" w:hanging="180"/><w:spacing w:before="40" w:after="80" w:line="276" w:lineRule="auto"/></w:pPr>{runs_from_inline(t, 22, False)}</w:p>')
+        elif re.match(r"^\d+\.\s+", line):
+            paras.append(f'<w:p><w:pPr><w:ind w:left="360" w:hanging="240"/><w:spacing w:before="30" w:after="70" w:line="264" w:lineRule="auto"/></w:pPr>{runs_from_inline(line, 21, False)}</w:p>')
         else:
             paras.append(f'<w:p><w:pPr><w:spacing w:before="60" w:after="110" w:line="276" w:lineRule="auto"/></w:pPr>{runs_from_inline(line, 22, False)}</w:p>')
 

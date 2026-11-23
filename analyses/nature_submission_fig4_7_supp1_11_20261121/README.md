@@ -3,8 +3,10 @@
 - **Package root**: `F:\PBISC\deliverables\nature_submission_fig4_6_20261120\`
 - **Target format**: *Nature* / *Nature Biotechnology* / *Nature Medicine* (180.0 mm double-column width, height ≤ 240.0 mm, 600 DPI PNG + 450 DPI vector PDF + editable Arial SVG, zero out-of-bounds text, min font ≥ 5.0 pt).
 - **Manuscript files**:
-  - Markdown: `PBISC_Nature_Manuscript_Fig4_7_and_SuppFig1_11_20261121.md`
-  - Microsoft Word: `PBISC_Nature_Manuscript_Fig4_7_and_SuppFig1_11_20261121.docx` (`0` LaTeX leaks verified in OOXML)
+  - Markdown: `PBISC_Nature_Manuscript_Fig4_7_and_SuppFig1_11_20261123.md`
+  - Microsoft Word: `PBISC_Nature_Manuscript_Fig4_7_and_SuppFig1_11_20261123.docx` (`0` LaTeX leaks verified in OOXML; `1–30` references strictly ordered by first citation)
+- **Figure 7 Discovery Presentation**:
+  - PowerPoint: `PBISC_Figure7_RareCell_Transcriptome_Discovery_20261123.pptx` (12-slide 16:9 Korean deck highlighting Figure 7 rare-cell and single-cell transcriptomic discoveries)
 - **Master 11-sheet Excel Audit Workbook**:
   - `PBISC_Metadata_CountVsPct_TISG_Audit_20261121.xlsx` (exact 1:1 matched metadata for all `255` Sepsis & `362` ESKD COVID-19 samples, molecular sex-QC flags, 43-subset COVID & 44-subset Sepsis Count vs `% PBMC` vs `% Parent` vs `Real Clinical CBC` tables, 13-subset T-cell ISG audit, Sepsis PBISC T-ISG suppression, cross-disease 19-ISG DEG `log2FC`, 66-patient first-draw CTL–ISG coupling, and leak-free `50×5` CV benchmark)
 

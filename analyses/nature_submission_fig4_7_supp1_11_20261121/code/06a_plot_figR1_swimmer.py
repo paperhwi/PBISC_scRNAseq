@@ -324,9 +324,25 @@ def build_figR1():
               transform=ax_d.transAxes, ha="center", va="top", fontsize=5.1, color=PALETTE["gray_2"])
 
     saved, audit = finalize_figure(fig, FIG_DIR / "FigR1_Patient_Swimmer_Draw_Schedule_66")
-    print("FigR1 saved:", saved)
-    print("FigR1 audit:", audit)
-    return saved, audit
+    # Also sync directly to package figures/SuppFig7_Patient_Swimmer_Draw_Schedule_66.{png,pdf,svg} & AUDIT_FIG6_7_SFIG6_11.json
+    import json, shutil
+    out_root = ROOT.parent
+    pkg_fig = out_root / "figures"
+    pkg_fig.mkdir(parents=True, exist_ok=True)
+    for ext in ("png", "pdf", "svg"):
+        shutil.copy2(FIG_DIR / f"FigR1_Patient_Swimmer_Draw_Schedule_66.{ext}",
+                     pkg_fig / f"SuppFig7_Patient_Swimmer_Draw_Schedule_66.{ext}")
+    audit_pkg = dict(audit)
+    audit_pkg["figure"] = "SuppFig7_Patient_Swimmer_Draw_Schedule_66"
+    audit_json = out_root / "AUDIT_FIG6_7_SFIG6_11.json"
+    if audit_json.exists():
+        recs = json.loads(audit_json.read_text(encoding="utf-8"))
+        by_k = {r["figure"]: r for r in recs}
+        by_k["SuppFig7_Patient_Swimmer_Draw_Schedule_66"] = {k: (float(v) if isinstance(v, (np.floating,)) else v) for k, v in audit_pkg.items()}
+        audit_json.write_text(json.dumps(list(by_k.values()), indent=2), encoding="utf-8")
+    print("FigR1 / SuppFig7 saved:", saved)
+    print("FigR1 / SuppFig7 audit:", audit_pkg)
+    return saved, audit_pkg
 
 
 if __name__ == "__main__":

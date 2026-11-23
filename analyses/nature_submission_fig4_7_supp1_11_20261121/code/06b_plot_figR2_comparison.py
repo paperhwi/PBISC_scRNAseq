@@ -422,9 +422,25 @@ def build_figR2():
     ax_f.legend(loc="upper center", bbox_to_anchor=(0.5, -0.21), ncol=3, frameon=False, fontsize=5.0, handlelength=1.0, columnspacing=0.8)
 
     saved, audit = finalize_figure(fig, FIG_DIR / "FigR2_PatientMean_vs_SameDaySev_FirstDrawDeath")
-    print("FigR2 saved:", saved)
-    print("FigR2 audit:", audit)
-    return saved, audit
+    # Also sync directly to package figures/SuppFig11_Primary_SameDay_FirstDraw_vs_PatientMean.{png,pdf,svg} & AUDIT_FIG6_7_SFIG6_11.json
+    import json, shutil
+    out_root = ROOT.parent
+    pkg_fig = out_root / "figures"
+    pkg_fig.mkdir(parents=True, exist_ok=True)
+    for ext in ("png", "pdf", "svg"):
+        shutil.copy2(FIG_DIR / f"FigR2_PatientMean_vs_SameDaySev_FirstDrawDeath.{ext}",
+                     pkg_fig / f"SuppFig11_Primary_SameDay_FirstDraw_vs_PatientMean.{ext}")
+    audit_pkg = dict(audit)
+    audit_pkg["figure"] = "SuppFig11_Primary_SameDay_FirstDraw_vs_PatientMean"
+    audit_json = out_root / "AUDIT_FIG6_7_SFIG6_11.json"
+    if audit_json.exists():
+        recs = json.loads(audit_json.read_text(encoding="utf-8"))
+        by_k = {r["figure"]: r for r in recs}
+        by_k["SuppFig11_Primary_SameDay_FirstDraw_vs_PatientMean"] = {k: (float(v) if isinstance(v, (np.floating,)) else v) for k, v in audit_pkg.items()}
+        audit_json.write_text(json.dumps(list(by_k.values()), indent=2), encoding="utf-8")
+    print("FigR2 / SuppFig11 saved:", saved)
+    print("FigR2 / SuppFig11 audit:", audit_pkg)
+    return saved, audit_pkg
 
 
 if __name__ == "__main__":
