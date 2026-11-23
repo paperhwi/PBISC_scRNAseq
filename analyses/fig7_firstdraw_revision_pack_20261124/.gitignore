@@ -1,0 +1,10 @@
+# Whitelist all portable revision-pack guides, scripts, and CSV data tables
+!/*.md
+!/*.py
+!/*.json
+!/data/
+!/data/*.csv
+
+# Exclude caches
+__pycache__/
+*.py[cod]
