@@ -1,0 +1,364 @@
+{
+  "verification_date": "2026-11-25",
+  "package_directory": "nature_submission_fig4_7_final_20261125",
+  "status": "ALL_CHECKS_PASSED",
+  "total_checks": 65,
+  "passed_checks": 65,
+  "failed_checks": 0,
+  "summary_scope": {
+    "figures_verified": [
+      "Figure4_Paired_Reconstruction_and_Disease_Signal_Recovery.pdf",
+      "Figure4_Paired_Reconstruction_and_Disease_Signal_Recovery.png",
+      "Figure4_Paired_Reconstruction_and_Disease_Signal_Recovery.svg",
+      "Figure5_BulkOnly_Composition_and_Disease_Programs.pdf",
+      "Figure5_BulkOnly_Composition_and_Disease_Programs.png",
+      "Figure5_BulkOnly_Composition_and_Disease_Programs.svg",
+      "Figure6_Assigned_Rare_Populations_and_Molecular_Profiles.pdf",
+      "Figure6_Assigned_Rare_Populations_and_Molecular_Profiles.png",
+      "Figure6_Assigned_Rare_Populations_and_Molecular_Profiles.svg",
+      "Figure7_ESKD_COVID19_Severity_and_FirstDraw_Mortality.pdf",
+      "Figure7_ESKD_COVID19_Severity_and_FirstDraw_Mortality.png"
+    ],
+    "tables_verified": 22,
+    "excel_sheets_verified": 23,
+    "manuscript_files_verified": [
+      "PBISC_Manuscript_Fig4_7_Final_20261125.md",
+      "PBISC_Manuscript_Fig4_7_Final_20261125.docx",
+      "PBISC_Manuscript_Fig4_7_Final_20261125.pdf"
+    ],
+    "documented_boundary_notes": [
+      "Fig. 5n,o 42-row published program summary is verified from PBISC-Diffusion_20261123.pdf Page 11 master vector coordinates.",
+      "Fig. 5 COVID-19 Real B and PBISC composition subsets are specimen-unpaired and share 7 longitudinal donors (C113, C127, C145, C168, C169, C20, C63).",
+      "Fig. 5p-t Real volcano tables retain genome-wide BH q values (0 difference in binary Real DEG calls vs shared-panel BH).",
+      "Fig. 6a,b pooled case denominators are 272,000 Sepsis and 560,000 COVID-19 PBISC cells after frozen primary-scope filtering (excluding 3 C31 visits = 12,000 cells).",
+      "Fig. 7 first-draw mortality screen rests on 11 deaths (CD8 CTL and NK both BH q43 = 0.070), nominal OLS-residual WHO-adjusted P values, and fixed-feature 50x5 internal CV."
+    ]
+  },
+  "checks": [
+    {
+      "check": "fig_exists_and_github_safe::Figure4_Paired_Reconstruction_and_Disease_Signal_Recovery.pdf",
+      "passed": true,
+      "detail": "748573 B"
+    },
+    {
+      "check": "fig_exists_and_github_safe::Figure4_Paired_Reconstruction_and_Disease_Signal_Recovery.png",
+      "passed": true,
+      "detail": "2068364 B"
+    },
+    {
+      "check": "fig_exists_and_github_safe::Figure4_Paired_Reconstruction_and_Disease_Signal_Recovery.svg",
+      "passed": true,
+      "detail": "1718709 B"
+    },
+    {
+      "check": "fig_exists_and_github_safe::Figure5_BulkOnly_Composition_and_Disease_Programs.pdf",
+      "passed": true,
+      "detail": "896621 B"
+    },
+    {
+      "check": "fig_exists_and_github_safe::Figure5_BulkOnly_Composition_and_Disease_Programs.png",
+      "passed": true,
+      "detail": "1380563 B"
+    },
+    {
+      "check": "fig_exists_and_github_safe::Figure5_BulkOnly_Composition_and_Disease_Programs.svg",
+      "passed": true,
+      "detail": "1903230 B"
+    },
+    {
+      "check": "fig_exists_and_github_safe::Figure6_Assigned_Rare_Populations_and_Molecular_Profiles.pdf",
+      "passed": true,
+      "detail": "412204 B"
+    },
+    {
+      "check": "fig_exists_and_github_safe::Figure6_Assigned_Rare_Populations_and_Molecular_Profiles.png",
+      "passed": true,
+      "detail": "775189 B"
+    },
+    {
+      "check": "fig_exists_and_github_safe::Figure6_Assigned_Rare_Populations_and_Molecular_Profiles.svg",
+      "passed": true,
+      "detail": "1887949 B"
+    },
+    {
+      "check": "fig_exists_and_github_safe::Figure7_ESKD_COVID19_Severity_and_FirstDraw_Mortality.pdf",
+      "passed": true,
+      "detail": "373876 B"
+    },
+    {
+      "check": "fig_exists_and_github_safe::Figure7_ESKD_COVID19_Severity_and_FirstDraw_Mortality.png",
+      "passed": true,
+      "detail": "371652 B"
+    },
+    {
+      "check": "fig6_umap_state_swatches_preserved",
+      "passed": true,
+      "detail": "swatches=8"
+    },
+    {
+      "check": "fig7_png_pdf_synchronized",
+      "passed": true,
+      "detail": "ratio_diff=0.00e+00"
+    },
+    {
+      "check": "table_manifest_22_tables",
+      "passed": true,
+      "detail": "n=22"
+    },
+    {
+      "check": "xlsx_23_sheets_present",
+      "passed": true,
+      "detail": "sheets=23"
+    },
+    {
+      "check": "table_csv_and_xlsx::fig4_paired_composition_6types.csv",
+      "passed": true,
+      "detail": "rows=6, cols=9"
+    },
+    {
+      "check": "table_csv_and_xlsx::fig4_paired_ilisi_and_gene_r.csv",
+      "passed": true,
+      "detail": "rows=6, cols=15"
+    },
+    {
+      "check": "table_csv_and_xlsx::fig4_paired_limma_deg_metrics_32pairs.csv",
+      "passed": true,
+      "detail": "rows=16, cols=24"
+    },
+    {
+      "check": "table_csv_and_xlsx::fig4_supp12_d0_volcano_deg_counts.csv",
+      "passed": true,
+      "detail": "rows=24, cols=7"
+    },
+    {
+      "check": "table_csv_and_xlsx::fig4_supp13_native_effect_agreement.csv",
+      "passed": true,
+      "detail": "rows=16, cols=7"
+    },
+    {
+      "check": "table_csv_and_xlsx::fig5_composition_summary_by_group.csv",
+      "passed": true,
+      "detail": "rows=72, cols=7"
+    },
+    {
+      "check": "table_csv_and_xlsx::fig5_donor_condition_297units_composition.csv",
+      "passed": true,
+      "detail": "rows=1782, cols=7"
+    },
+    {
+      "check": "table_csv_and_xlsx::fig5_published_disease_signals_42rows.csv",
+      "passed": true,
+      "detail": "rows=42, cols=9"
+    },
+    {
+      "check": "table_csv_and_xlsx::fig5_welch_deg_fidelity_16rows.csv",
+      "passed": true,
+      "detail": "rows=16, cols=20"
+    },
+    {
+      "check": "table_csv_and_xlsx::fig6_rare_parent_shares_integer_counts.csv",
+      "passed": true,
+      "detail": "rows=81, cols=6"
+    },
+    {
+      "check": "table_csv_and_xlsx::fig6_similarity_summary_24groups.csv",
+      "passed": true,
+      "detail": "rows=19, cols=5"
+    },
+    {
+      "check": "table_csv_and_xlsx::fig6_interpatient_similarity_895profiles.csv",
+      "passed": true,
+      "detail": "rows=895, cols=7"
+    },
+    {
+      "check": "table_csv_and_xlsx::fig7_eskd_43subsets_severity_and_mortality_screen.csv",
+      "passed": true,
+      "detail": "rows=129, cols=61"
+    },
+    {
+      "check": "table_csv_and_xlsx::fig7_firstdraw_composite_and_50x5_cv.csv",
+      "passed": true,
+      "detail": "rows=26, cols=23"
+    },
+    {
+      "check": "table_csv_and_xlsx::fig7_panel_k_summary.csv",
+      "passed": true,
+      "detail": "rows=7, cols=14"
+    },
+    {
+      "check": "table_csv_and_xlsx::fig7_panel_l_summary.csv",
+      "passed": true,
+      "detail": "rows=7, cols=24"
+    },
+    {
+      "check": "table_csv_and_xlsx::fig7_external4_meta_23subsets.csv",
+      "passed": true,
+      "detail": "rows=24, cols=33"
+    },
+    {
+      "check": "table_csv_and_xlsx::fig7_external4_per_cohort_results.csv",
+      "passed": true,
+      "detail": "rows=89, cols=26"
+    },
+    {
+      "check": "table_csv_and_xlsx::fig7_eskd_63_first_draws_CTL_NK_ISG.csv",
+      "passed": true,
+      "detail": "rows=63, cols=14"
+    },
+    {
+      "check": "table_csv_and_xlsx::fig7_eskd_66_first_draws_43subsets.csv",
+      "passed": true,
+      "detail": "rows=66, cols=198"
+    },
+    {
+      "check": "table_csv_and_xlsx::fig7_eskd_217_acute_draws_43subsets.csv",
+      "passed": true,
+      "detail": "rows=217, cols=154"
+    },
+    {
+      "check": "table_csv_and_xlsx::fig7_external4_300_acute_samples.csv",
+      "passed": true,
+      "detail": "rows=300, cols=40"
+    },
+    {
+      "check": "fig4_comp_sums_to_100",
+      "passed": true,
+      "detail": "sums=[100.0, 100.0, 100.001, 99.999, 100.0, 100.0]"
+    },
+    {
+      "check": "fig4_sepsis_ilisi_exact",
+      "passed": true,
+      "detail": "1.77 / 1.51 / 1.00"
+    },
+    {
+      "check": "fig4_covid_ilisi_exact",
+      "passed": true,
+      "detail": "1.76 / 1.44 / 1.00"
+    },
+    {
+      "check": "fig4_pbisc_wins_recall_and_f1_all_8",
+      "passed": true,
+      "detail": "recall=8/8, F1=8/8, covid_r=4/4"
+    },
+    {
+      "check": "fig4_supp12_24_rows_and_supp13_16_rows",
+      "passed": true,
+      "detail": "s12=24, s13=16"
+    },
+    {
+      "check": "fig5_297_donor_condition_units",
+      "passed": true,
+      "detail": "units=297"
+    },
+    {
+      "check": "fig5_shared_donor_audit",
+      "passed": true,
+      "detail": "sepsis_overlap=0, covid_overlap=['C113', 'C127', 'C145', 'C168', 'C169', 'C20', 'C63']"
+    },
+    {
+      "check": "fig5_composition_means_exact",
+      "passed": true,
+      "detail": "max_diff=1.42e-14"
+    },
+    {
+      "check": "fig5_published_signals_6of7_and_7of7",
+      "passed": true,
+      "detail": "sepsis=6/7, covid=7/7"
+    },
+    {
+      "check": "fig5_pbisc_wins_auroc_all_8_lineages",
+      "passed": true,
+      "detail": "auroc_wins=8/8"
+    },
+    {
+      "check": "fig6_integer_counts_and_denominators_exact",
+      "passed": true,
+      "detail": "PBISC=13/14 & 12/13; scSemi_zero=7/14 & 8/13; den=272000,560000"
+    },
+    {
+      "check": "fig6_895_profiles_count",
+      "passed": true,
+      "detail": "total=895"
+    },
+    {
+      "check": "fig6_similarity_medians_recomputed_exact",
+      "passed": true,
+      "detail": "groups=19, max_diff=2.78e-17"
+    },
+    {
+      "check": "fig7_cohort_and_stratum_counts_exact",
+      "passed": true,
+      "detail": "strata={'Wave1_bulk_only_PBISC_29': 29, 'Measured_shared_with_bulk_27': 27, 'Measured_scRNA_only_10': 10}, who={0.0: 126, 1.0: 58, 2.0: 21, 3.0: 12}, <=7d=53/10"
+    },
+    {
+      "check": "fig7_43_subsets_present",
+      "passed": true,
+      "detail": "n=43"
+    },
+    {
+      "check": "fig7_van_der_waerden_rankINT_exact",
+      "passed": true,
+      "detail": "max217=4.44e-16, max66=4.44e-16"
+    },
+    {
+      "check": "fig7_gee_18_combined_9_measured_7_shared",
+      "passed": true,
+      "detail": "comb=18, meas=9, shared=7"
+    },
+    {
+      "check": "fig7_gee_focal5_betas_and_q43",
+      "passed": true,
+      "detail": "betas={divASC:0.422, HSPC:0.333}"
+    },
+    {
+      "check": "fig7_firstdraw_ctl_nk_auc_q43_whoadj",
+      "passed": true,
+      "detail": "CTL=0.2132 (q=0.0701, adjP=0.0329), NK=0.2165 (adjP=0.0302)"
+    },
+    {
+      "check": "fig7_composite_n63_auc_and_whoadj",
+      "passed": true,
+      "detail": "AUC=0.8409, P=0.000429, adjP=0.01279"
+    },
+    {
+      "check": "fig7_external_300_draws_231_patients_219_outcomes",
+      "passed": true,
+      "detail": "draws=300, pts=231, out_pts=219, deaths=22"
+    },
+    {
+      "check": "fig7_external_dl_meta_recomputed",
+      "passed": true,
+      "detail": "HSPC_rho=0.405, CD8naive_1st=0.266, CD16mono_last=0.320, exact_meta=23"
+    },
+    {
+      "check": "md_no_local_paths_leaked",
+      "passed": true,
+      "detail": "clean paths"
+    },
+    {
+      "check": "references_strict_1_to_20_order",
+      "passed": true,
+      "detail": "seen=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]"
+    },
+    {
+      "check": "references_pubmed_verified_entries",
+      "passed": true,
+      "detail": "Ye 2026, Gisby 2022, Stephenson 2025, van der Wijst 2021, Reyes 2021 verified"
+    },
+    {
+      "check": "docx_4_embedded_figures_byte_exact",
+      "passed": true,
+      "detail": "media=['word/media/image1.png', 'word/media/image2.png', 'word/media/image3.png', 'word/media/image4.png']"
+    },
+    {
+      "check": "docx_zero_markdown_leaks",
+      "passed": true,
+      "detail": "0 leaked backticks or **"
+    },
+    {
+      "check": "pdf_4_embedded_figures_and_sections",
+      "passed": true,
+      "detail": "pages=21, embedded_imgs=4"
+    }
+  ]
+}
