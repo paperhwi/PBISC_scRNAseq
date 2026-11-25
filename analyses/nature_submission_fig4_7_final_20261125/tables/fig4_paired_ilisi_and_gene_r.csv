@@ -1,0 +1,7 @@
+cohort,source,reference_sets,support_case_control_ratio,heldout_donors_per_ref,heldout_visits_per_ref,d0_umap_cells_per_source,shared_genes,gene_profile_log1p_r_mean,gene_profile_log1p_r_sd,pre_pca_50d_ilisi_printed_mean,pre_pca_50d_ilisi_ref1,pre_pca_50d_ilisi_ref2,pre_pca_50d_ilisi_ref3,pre_pca_50d_ilisi_sd
+Sepsis,Real-Real,D0/D1/D3,4 sepsis : 1 healthy,77,77,11550,5975,,,1.77,1.7745,1.7745,1.7745,0.0
+Sepsis,PBISC,D0/D1/D3,4 sepsis : 1 healthy,77,77,11550,5975,0.974,0.005,1.51,1.5555,1.4349,1.5333,0.0642
+Sepsis,scSemiProfiler,D0/D1/D3,4 sepsis : 1 healthy,77,77,11550,5975,0.953,0.015,1.0,1.0016,1.0016,1.0016,0.0
+COVID-19,Real-Real,D0/D1/D4,3 COVID+ : 2 COVID- ESKD,52,142-143,21250,5927,,,1.76,1.7635,1.7619,1.7635,0.0009
+COVID-19,PBISC,D0/D1/D4,3 COVID+ : 2 COVID- ESKD,52,142-143,21250,5927,0.972,0.004,1.44,1.4333,1.4571,1.4317,0.0142
+COVID-19,scSemiProfiler,D0/D1/D4,3 COVID+ : 2 COVID- ESKD,52,142-143,21250,5927,0.969,0.003,1.0,1.0016,1.0016,1.0016,0.0

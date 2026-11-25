@@ -48,7 +48,7 @@
     {
       "check": "fig_exists_and_github_safe::Figure4_Paired_Reconstruction_and_Disease_Signal_Recovery.svg",
       "passed": true,
-      "detail": "1718709 B"
+      "detail": "3174143 B"
     },
     {
       "check": "fig_exists_and_github_safe::Figure5_BulkOnly_Composition_and_Disease_Programs.pdf",
@@ -63,7 +63,7 @@
     {
       "check": "fig_exists_and_github_safe::Figure5_BulkOnly_Composition_and_Disease_Programs.svg",
       "passed": true,
-      "detail": "1903230 B"
+      "detail": "2632072 B"
     },
     {
       "check": "fig_exists_and_github_safe::Figure6_Assigned_Rare_Populations_and_Molecular_Profiles.pdf",
@@ -78,7 +78,7 @@
     {
       "check": "fig_exists_and_github_safe::Figure6_Assigned_Rare_Populations_and_Molecular_Profiles.svg",
       "passed": true,
-      "detail": "1887949 B"
+      "detail": "2004851 B"
     },
     {
       "check": "fig_exists_and_github_safe::Figure7_ESKD_COVID19_Severity_and_FirstDraw_Mortality.pdf",

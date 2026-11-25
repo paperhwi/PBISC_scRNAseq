@@ -31,3 +31,11 @@ venv/
 !analyses/NewLora/analysis_20261102/celldeep_source_deg/results/*.pdf
 !analyses/NewLora/analysis_20261102/celldeep_source_deg/sepsis/strata.csv
 !analyses/NewLora/analysis_20261102/celldeep_source_deg/covid/strata.csv
+
+# Unified final Figures 4-7 Nature submission package (2026-11-25)
+!analyses/nature_submission_fig4_7_final_20261125/*.docx
+!analyses/nature_submission_fig4_7_final_20261125/*.pdf
+!analyses/nature_submission_fig4_7_final_20261125/figures/*.pdf
+!analyses/nature_submission_fig4_7_final_20261125/figures/*.png
+!analyses/nature_submission_fig4_7_final_20261125/figures/*.svg
+!analyses/nature_submission_fig4_7_final_20261125/tables/*.csv
