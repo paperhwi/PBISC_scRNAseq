@@ -1,0 +1,58 @@
+[
+  {
+    "old": "`219` outcome patients, `22` deaths",
+    "new": "`219` outcome patients, `24` deaths"
+  },
+  {
+    "old": "`219` outcome-documented patients (`197` survivors, `22` deaths: `Steph. 73/7`, `COMBAT 75/7`, `vdW 42/5`, `Liu 29/3`)",
+    "new": "`219` outcome-documented patients (`195` survivors, `24` deaths: `Steph. 73/7`, `COMBAT 75/7`, `vdW 42/7`, `Liu 29/3`)"
+  },
+  {
+    "old": "`42` with outcomes, `5` deaths",
+    "new": "`42` with outcomes, `7` deaths"
+  },
+  {
+    "old": "`219` outcome-documented patients [`197` survivors, `22` deaths]",
+    "new": "`219` outcome-documented patients [`195` survivors, `24` deaths]"
+  },
+  {
+    "old": "`+0.40 / 0.57`",
+    "new": "`+0.40 / 0.66`"
+  },
+  {
+    "old": "`CD8 CTL*` (`pooled First AUC = 0.48`) and `NK` (`0.50`)",
+    "new": "`CD8 CTL*` (`pooled First AUC = 0.41, q23 = 0.343`) and `NK` (`0.48, q23 = 0.834`)"
+  },
+  {
+    "old": "non-dialysis mortality featured early **`CD8 naïve T`** (`First AUC = 0.27, q23 = 3.4 × 10⁻⁵†`) and **`MAIT` / `γδ T`** (`0.22`) loss—consistent with chronic uraemic naïve T-cell contraction¹³,¹⁴ in `ESKD` (`1st AUC = 0.488`)—before both `ESKD` and external cohorts converged on late **`CD16 mono`** depletion at the last draw (`Last AUC = 0.32, q23 = 0.020†`; `ESKD Last = 0.269`).",
+    "new": "non-dialysis mortality featured early **`MAIT`** (`First AUC = 0.21, q23 = 0.0024`) and **`CD8 naïve T`** (`0.32, q23 = 0.0076`) loss. At the last draw, lower `MAIT`, `CD8 naïve T`, `DC2` and `γδ T` fractions met `q23 < 0.05`. External late **`CD16 mono`** depletion retained its direction but did not meet the adjusted threshold (`Last AUC = 0.394 [95% CI 0.280–0.507], P = 0.066, q23 = 0.217`; `ESKD Last = 0.269`). These differences are compatible with differing baseline immune composition in uraemic `ESKD`¹³,¹⁴ (`CD8 naïve T` first-draw `AUC = 0.488`), but do not establish an ESKD-specific mechanism."
+  },
+  {
+    "old": "prior to shared late `CD16` monocyte depletion",
+    "new": "while external late `CD16` monocyte depletion remained a same-direction, non-significant trend (`AUC = 0.394, q23 = 0.217`)"
+  },
+  {
+    "old": "distinguished shared progression programs from host-specific baseline vulnerability",
+    "new": "distinguished shared progression programs from exploratory baseline associations"
+  },
+  {
+    "old": "First- versus last-draw mortality (**Fig. 7l**) used",
+    "new": "Clinical outcomes were adjudicated by donor identifier against the original clinical records. For `van der Wijst`, the authors’ `Data file S3`, worksheet `ClinicalCharacteristics`, fields `Donor_ID` and `Died`, establish `7` deaths among `42` patients; that final outcome is applied consistently to every visit from a donor. The documented-outcome analysis includes `Stephenson` London patient `AP3`, recorded as deceased in the authors’ Supplementary Table 2. The historical peak-grade sensitivity in **Supplementary Fig. 22** has different patient eligibility and `23` external deaths (`6 + 7 + 7 + 3`), whereas the primary first/last analysis has `24`. First- versus last-draw mortality (**Fig. 7l**) used"
+  },
+  {
+    "old": "**d–h**, Source-normalized patient-mean severity associations",
+    "new": "Source-coloured horizontal lines in **b, c** show 95% bootstrap confidence intervals for post-exclusion estimates; separate grey connectors show the pre-to-post exclusion shift. **d–h**, Source-normalized patient-mean severity associations"
+  },
+  {
+    "old": "Resampling power curves",
+    "new": "Observed resampling detection-rate curves"
+  },
+  {
+    "old": "quantifying sample size required for `80%` detection",
+    "new": "quantifying the measured-patient sample size reaching an observed `80%` detection rate"
+  },
+  {
+    "old": "detection rates at `n = 20` `Measured` patients (**c**) with versus without the `29` `PBISC` bulk-only patients",
+    "new": "detection rates at `n = 20` `Measured` patients (**c**) with versus without the `29` `PBISC` bulk-only patients; subsets are drawn without replacement from the observed cohort, and these rates do not constitute prospective power"
+  }
+]

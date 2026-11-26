@@ -39,3 +39,7 @@ venv/
 !analyses/nature_submission_fig4_7_final_20261125/figures/*.png
 !analyses/nature_submission_fig4_7_final_20261125/figures/*.svg
 !analyses/nature_submission_fig4_7_final_20261125/tables/*.csv
+
+# Reviewed & outcome-adjudicated Figures 4-7 reproduction package (2026-11-26, no docx/pdf/image binaries)
+!analyses/nature_submission_fig4_7_reviewed_20261126/tables/*.csv
+!analyses/nature_submission_fig4_7_reviewed_20261126/verification_20261126/*.csv

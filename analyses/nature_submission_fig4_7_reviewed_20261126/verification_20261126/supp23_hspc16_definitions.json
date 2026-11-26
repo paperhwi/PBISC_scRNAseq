@@ -1,0 +1,127 @@
+{
+  "Ery5": [
+    "GATA1",
+    "KLF1",
+    "TFRC",
+    "APOC1",
+    "BLVRB"
+  ],
+  "Cycle4": [
+    "MKI67",
+    "TOP2A",
+    "STMN1",
+    "TYMS"
+  ],
+  "MEP5": [
+    "GATA1",
+    "GATA2",
+    "KLF1",
+    "TFRC",
+    "ITGA2B"
+  ],
+  "MEP_EryMk": [
+    "GATA1",
+    "GATA2",
+    "KLF1",
+    "TFRC",
+    "ITGA2B",
+    "PF4",
+    "PPBP",
+    "GP9"
+  ],
+  "MkP_Platelet": [
+    "ITGA2B",
+    "PF4",
+    "PPBP",
+    "GP9",
+    "MPL",
+    "ITGB3",
+    "TUBB1",
+    "PLEK"
+  ],
+  "HSC5": [
+    "CD34",
+    "PROM1",
+    "AVP",
+    "HLF",
+    "CRHBP"
+  ],
+  "Stem_HSC": [
+    "CD34",
+    "PROM1",
+    "AVP",
+    "HLF",
+    "CRHBP",
+    "SPINK2",
+    "HOPX",
+    "MEIS1"
+  ],
+  "Myeloid4": [
+    "MPO",
+    "ELANE",
+    "CSF3R",
+    "CEBPD"
+  ],
+  "GMP_Myeloid": [
+    "MPO",
+    "ELANE",
+    "CTSG",
+    "LYZ",
+    "S100A8",
+    "S100A9",
+    "S100A12",
+    "CSF3R",
+    "CEBPD",
+    "MS4A3",
+    "RETN",
+    "MNDA"
+  ],
+  "Granule_GMP": [
+    "MPO",
+    "ELANE",
+    "CTSG",
+    "AZU1",
+    "PRTN3",
+    "MS4A3"
+  ],
+  "Alarmin_Inflam": [
+    "S100A8",
+    "S100A9",
+    "S100A12",
+    "LYZ",
+    "RETN",
+    "MNDA"
+  ],
+  "ISG_HSPC": [
+    "ISG15",
+    "IFI6",
+    "IFI44",
+    "IFI44L",
+    "IFIT1",
+    "IFIT2",
+    "IFIT3",
+    "MX1",
+    "MX2",
+    "OAS1",
+    "OAS2",
+    "OAS3",
+    "RSAD2",
+    "STAT1",
+    "IRF7",
+    "XAF1"
+  ],
+  "MEP_minus_Stem": null,
+  "GMP_minus_Stem": null,
+  "Alarmin_minus_Stem": null,
+  "HSC_broad_q": [
+    "CD34",
+    "PROM1",
+    "AVP",
+    "HLF",
+    "CRHBP",
+    "SPINK2",
+    "HOPX",
+    "MEIS1",
+    "MLLT3"
+  ]
+}

@@ -1,0 +1,43 @@
+panel,cohort,cell_type,program_label,published_direction,source,mean_log2FC_case_minus_control,sig_p_lt_0p05_on_published_side,provenance_note
+5n,"Sepsis (Ye et al., 2026)",T,NR4A2 stress / AP-1 ↑,up,Real B,1.67,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5n,"Sepsis (Ye et al., 2026)",T,NR4A2 stress / AP-1 ↑,up,PBISC,2.182,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5n,"Sepsis (Ye et al., 2026)",T,NR4A2 stress / AP-1 ↑,up,scSemiProfiler,1.152,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5n,"Sepsis (Ye et al., 2026)",T,CCL4 / CCL3 / TNF / IFNG ↑,up,Real B,1.175,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5n,"Sepsis (Ye et al., 2026)",T,CCL4 / CCL3 / TNF / IFNG ↑,up,PBISC,0.959,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5n,"Sepsis (Ye et al., 2026)",T,CCL4 / CCL3 / TNF / IFNG ↑,up,scSemiProfiler,1.949,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5n,"Sepsis (Ye et al., 2026)",B,AP-1 network ↑,up,Real B,1.143,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5n,"Sepsis (Ye et al., 2026)",B,AP-1 network ↑,up,PBISC,1.923,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5n,"Sepsis (Ye et al., 2026)",B,AP-1 network ↑,up,scSemiProfiler,1.247,False,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5n,"Sepsis (Ye et al., 2026)",B,Plasma cell / plasmablast ↑,up,Real B,1.135,False,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5n,"Sepsis (Ye et al., 2026)",B,Plasma cell / plasmablast ↑,up,PBISC,2.553,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5n,"Sepsis (Ye et al., 2026)",B,Plasma cell / plasmablast ↑,up,scSemiProfiler,0.965,False,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5n,"Sepsis (Ye et al., 2026)",Mono,MHC class II ↓,down,Real B,-1.647,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5n,"Sepsis (Ye et al., 2026)",Mono,MHC class II ↓,down,PBISC,-0.628,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5n,"Sepsis (Ye et al., 2026)",Mono,MHC class II ↓,down,scSemiProfiler,-4.235,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5n,"Sepsis (Ye et al., 2026)",Mono,S100A / RETN (MS1-like) ↑,up,Real B,1.258,False,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5n,"Sepsis (Ye et al., 2026)",Mono,S100A / RETN (MS1-like) ↑,up,PBISC,0.07,False,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5n,"Sepsis (Ye et al., 2026)",Mono,S100A / RETN (MS1-like) ↑,up,scSemiProfiler,1.189,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5n,"Sepsis (Ye et al., 2026)",NK,CCL4 / CCL3 / TNF / IFNG ↑,up,Real B,1.558,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5n,"Sepsis (Ye et al., 2026)",NK,CCL4 / CCL3 / TNF / IFNG ↑,up,PBISC,1.04,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5n,"Sepsis (Ye et al., 2026)",NK,CCL4 / CCL3 / TNF / IFNG ↑,up,scSemiProfiler,2.274,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5o,"COVID-19 (Stephenson et al., 2025)",T,Interferon α/β response ↑,up,Real B,0.953,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5o,"COVID-19 (Stephenson et al., 2025)",T,Interferon α/β response ↑,up,PBISC,0.769,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5o,"COVID-19 (Stephenson et al., 2025)",T,Interferon α/β response ↑,up,scSemiProfiler,2.225,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5o,"COVID-19 (Stephenson et al., 2025)",B,Interferon α/β response ↑,up,Real B,1.491,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5o,"COVID-19 (Stephenson et al., 2025)",B,Interferon α/β response ↑,up,PBISC,1.063,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5o,"COVID-19 (Stephenson et al., 2025)",B,Interferon α/β response ↑,up,scSemiProfiler,2.09,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5o,"COVID-19 (Stephenson et al., 2025)",B,Cell cycle ↑,up,Real B,1.066,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5o,"COVID-19 (Stephenson et al., 2025)",B,Cell cycle ↑,up,PBISC,0.585,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5o,"COVID-19 (Stephenson et al., 2025)",B,Cell cycle ↑,up,scSemiProfiler,0.18,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5o,"COVID-19 (Stephenson et al., 2025)",Mono,Interferon α/β response ↑,up,Real B,1.008,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5o,"COVID-19 (Stephenson et al., 2025)",Mono,Interferon α/β response ↑,up,PBISC,0.666,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5o,"COVID-19 (Stephenson et al., 2025)",Mono,Interferon α/β response ↑,up,scSemiProfiler,3.177,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5o,"COVID-19 (Stephenson et al., 2025)",Mono,MHC class II ↓,down,Real B,-0.45,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5o,"COVID-19 (Stephenson et al., 2025)",Mono,MHC class II ↓,down,PBISC,-0.309,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5o,"COVID-19 (Stephenson et al., 2025)",Mono,MHC class II ↓,down,scSemiProfiler,-0.712,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5o,"COVID-19 (Stephenson et al., 2025)",Mono,S100A / MCEMP1 / CD163 / PLAC8 ↑,up,Real B,0.991,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5o,"COVID-19 (Stephenson et al., 2025)",Mono,S100A / MCEMP1 / CD163 / PLAC8 ↑,up,PBISC,0.979,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5o,"COVID-19 (Stephenson et al., 2025)",Mono,S100A / MCEMP1 / CD163 / PLAC8 ↑,up,scSemiProfiler,1.885,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5o,"COVID-19 (Stephenson et al., 2025)",NK,Interferon α/β response ↑,up,Real B,1.066,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5o,"COVID-19 (Stephenson et al., 2025)",NK,Interferon α/β response ↑,up,PBISC,0.741,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors
+5o,"COVID-19 (Stephenson et al., 2025)",NK,Interferon α/β response ↑,up,scSemiProfiler,2.751,True,Verified against PBISC-Diffusion_20261123.pdf Page 11 master figure vectors

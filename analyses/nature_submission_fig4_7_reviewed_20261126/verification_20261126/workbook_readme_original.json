@@ -1,0 +1,236 @@
+[
+  [
+    "PBISC Unified Source Data & Summary Tables — Figures 4–7 and Supplementary Figs. 8–27 (2026-11-25)",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    "Every worksheet corresponds 1:1 to a verified CSV file in tables/ and is cross-checked by code/03_verify_all_fig4_7.py.",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  [
+    "excel_sheet",
+    "csv_filename",
+    "n_rows",
+    "n_cols",
+    "bytes",
+    "sha256",
+    "description"
+  ],
+  [
+    "Fig4_Comp_6Types",
+    "fig4_paired_composition_6types.csv",
+    6,
+    9,
+    439,
+    "57ecb3ab964e425ef4366a3028ae36185763f622c7dd99142f8737df98edcf44",
+    "Figure 4j,k: Paired donor-balanced 6-type PBMC composition (%)"
+  ],
+  [
+    "Fig4_iLISI_GeneR",
+    "fig4_paired_ilisi_and_gene_r.csv",
+    6,
+    15,
+    976,
+    "2d2cfd52e98086975b6daf958ba79461ecaf03eb2f4cf9c89bc99a6683a5ae61",
+    "Figure 4f,h,l,m: Paired gene-profile r_ref and 50-D PRE-PCA iLISI"
+  ],
+  [
+    "Fig4_Paired_limma_DEG",
+    "fig4_paired_limma_deg_metrics_32pairs.csv",
+    16,
+    24,
+    3156,
+    "16780138cbecef6abf32b10a77465e4cab88738b78b7079e9a5f0419cfd4c1df",
+    "Figure 4n: Paired TMM/limma-voom logFC r, DEG recall, precision, and F1"
+  ],
+  [
+    "Supp12_D0_Volcano_DEGs",
+    "fig4_supp12_d0_volcano_deg_counts.csv",
+    24,
+    7,
+    1677,
+    "446dbe00588cac4c710e3fcf2ea6c0d39ee6191be78632649a606ac9c4dd1856",
+    "Supplementary Fig. 12: D0 paired TMM/limma-voom volcano DEG counts"
+  ],
+  [
+    "Supp13_Native_Effect",
+    "fig4_supp13_native_effect_agreement.csv",
+    16,
+    7,
+    787,
+    "21b77db3dabd3478a2d68482abb6e74b05957bf6fa4a5322e9c1dde5953da717",
+    "Supplementary Fig. 13: 3-reference mean native disease-effect r and CCC"
+  ],
+  [
+    "Fig5_Comp_Summary",
+    "fig5_composition_summary_by_group.csv",
+    72,
+    7,
+    5029,
+    "3f4c565609e499a686e7711e00d8cd65c717b37e43c1258553bb516fdf93737c",
+    "Figure 5j,k,m: Donor-condition 6-type composition summary"
+  ],
+  [
+    "Fig5_297_DonorUnits",
+    "fig5_donor_condition_297units_composition.csv",
+    1782,
+    7,
+    95086,
+    "f913093327519599052ceea6cbc9c7c9817c0851cafafbcc486636cee134a26f",
+    "Figure 5j,k,m: All 297 donor x condition units (with 7 shared COVID donors flagged)"
+  ],
+  [
+    "Fig5_Disease_Programs",
+    "fig5_published_disease_signals_42rows.csv",
+    42,
+    9,
+    7063,
+    "711f986cf2c798fc4a7737c790894dbca598d60024d1f11c3fcd708917249803",
+    "Figure 5n,o: 14 published Sepsis and COVID-19 disease programs across 3 sources"
+  ],
+  [
+    "Fig5_Welch_DEG_16Rows",
+    "fig5_welch_deg_fidelity_16rows.csv",
+    16,
+    20,
+    4271,
+    "735874f7cae07c0e2835ce172462d47df6090ee8e84511455c13fdfa44cb3ead",
+    "Figure 5p-t & SuppFigs. 16-17: Unpaired Welch pseudobulk DEG fidelity"
+  ],
+  [
+    "Fig6_Rare_IntCounts",
+    "fig6_rare_parent_shares_integer_counts.csv",
+    81,
+    6,
+    4215,
+    "e58bb9e839e6b6aa69e55be0c7c546d7262ea9bfb3752b49882b9ce1d742de2c",
+    "Figure 6a,b: Pooled case rare-state integer numerators, denominators, and %"
+  ],
+  [
+    "Fig6_Sim_24Groups",
+    "fig6_similarity_summary_24groups.csv",
+    19,
+    5,
+    935,
+    "6b53a593b6837fecc8ce74becd8b289036cb7c49ae21aa2bd2c9c3d8f522eb81",
+    "Figure 6e,f: Inter-patient 2,000-HVG baseline-subtracted similarity summary"
+  ],
+  [
+    "Fig6_Sim_895Profiles",
+    "fig6_interpatient_similarity_895profiles.csv",
+    895,
+    7,
+    55011,
+    "416a87ad2b4aa678a6e0f1b0a0a83e4495cf6bfecdcdcf44211b54fb035c01a8",
+    "Figure 6e,f: Individual sample-by-rare-state similarity scores (270 Sepsis + 625 COVID)"
+  ],
+  [
+    "Fig7_43Subsets_Screen",
+    "fig7_eskd_43subsets_severity_and_mortality_screen.csv",
+    129,
+    61,
+    122387,
+    "127eccea9ac392aa21d4ba7ee4386d0c0f2135ea552d5249281b6d4fdc0e174a",
+    "Figure 7c,d: Full 43-subset ESKD GEE draw-day severity and first-draw mortality screen"
+  ],
+  [
+    "Fig7_Composite_50x5CV",
+    "fig7_firstdraw_composite_and_50x5_cv.csv",
+    26,
+    23,
+    5315,
+    "3156c312fd68aedb90f73eb72ae1a030f255b6ddf3c7c396f29c6418c14d5ae3",
+    "Figure 7d,j: First-draw CD8 CTL / NK / ISG composite and fixed-feature 50x5 internal CV"
+  ],
+  [
+    "Fig7_PanelK_Severity",
+    "fig7_panel_k_summary.csv",
+    7,
+    14,
+    1972,
+    "380d8c041dd732db89cb19ab17e073578eb314f3f68e868b44fa29b5a39450bd",
+    "Figure 7k: Focal draw-day severity external meta-analysis summary"
+  ],
+  [
+    "Fig7_PanelL_Mortality",
+    "fig7_panel_l_summary.csv",
+    7,
+    24,
+    3460,
+    "d128b3067109538cee8274e5d78a40226ffa8db38b7b3f118029dba73ab5c6fb",
+    "Figure 7l: Focal first- vs last-draw external mortality comparison"
+  ],
+  [
+    "Fig7_Ext4_Meta23",
+    "fig7_external4_meta_23subsets.csv",
+    24,
+    33,
+    13580,
+    "f6a4f5e9004f08121d43372bbbcba6163d7ef57b76b91a50e8cfaf8c84ec61af",
+    "Figure 7k,l: DerSimonian-Laird random-effects meta-analysis across 23 subsets"
+  ],
+  [
+    "Fig7_Ext4_PerCohort",
+    "fig7_external4_per_cohort_results.csv",
+    89,
+    26,
+    33080,
+    "db3c283ea9dbebbb7983414d770a5dab1698479b6e8dc781dca964d83262e357",
+    "Figure 7k,l: Per-cohort severity rho and first/last-draw mortality AUC"
+  ],
+  [
+    "Fig7_ESKD_63_CTL_ISG",
+    "fig7_eskd_63_first_draws_CTL_NK_ISG.csv",
+    63,
+    14,
+    11767,
+    "775a86533e2741834a5ca0e0ca7a7bf2f4b4f603936a78d7148be2a87baf8d5e",
+    "Figure 7h-j: Patient-level n=63 first draws with >=5 CD8 CTL cells"
+  ],
+  [
+    "Fig7_ESKD_66_FirstDraw",
+    "fig7_eskd_66_first_draws_43subsets.csv",
+    66,
+    198,
+    176702,
+    "12e88bfbdfe903e44a680d0883b78aef32d2e744151bc2e3ca8f8b824ae84304",
+    "Figure 7a,b,d: Patient-level N=66 first acute blood draws (10 scRNA-only + 27 shared + 29 PBISC)"
+  ],
+  [
+    "Fig7_ESKD_217_Draws",
+    "fig7_eskd_217_acute_draws_43subsets.csv",
+    217,
+    154,
+    403221,
+    "d4d0c49738f51aca4803cacd42be67b814c79eef48201d3eb1d22969b1651d1f",
+    "Figure 7a-c,e-g2: Visit-level 217 source-priority ESKD acute blood draws"
+  ],
+  [
+    "Fig7_Ext4_300_Draws",
+    "fig7_external4_300_acute_samples.csv",
+    300,
+    40,
+    146152,
+    "0e07f9aa002ca103d82a7f7994ddb82b35f4b8f6d9413b1744ac582e10e9e023",
+    "Figure 7k,l: Visit-level 300 external acute COVID-19 blood draws (>=500 PBMCs)"
+  ]
+]

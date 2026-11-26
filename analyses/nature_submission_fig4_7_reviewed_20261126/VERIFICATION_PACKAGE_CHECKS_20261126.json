@@ -1,0 +1,275 @@
+{
+  "verification_date": "2026-11-26",
+  "package_directory": "nature_submission_fig4_7_reviewed_20261126",
+  "distribution_mode": "reproduction_elements_only",
+  "status": "ALL_CHECKS_PASSED",
+  "total_checks": 51,
+  "passed_checks": 51,
+  "failed_checks": 0,
+  "tables_verified": 22,
+  "section_word_counts": {
+    "Results": 1792,
+    "Main Figures and Figure Legends": 2642,
+    "Discussion": 482,
+    "Methods": 3000,
+    "Supplementary Figures and Legends (Supplementary Figs. 8–27)": 2153,
+    "References": 479
+  },
+  "checks": [
+    {
+      "check": "table_manifest_22_tables",
+      "passed": true,
+      "detail": "n=22"
+    },
+    {
+      "check": "table_csv_manifest::fig4_paired_composition_6types.csv",
+      "passed": true,
+      "detail": "rows=6, cols=9"
+    },
+    {
+      "check": "table_csv_manifest::fig4_paired_ilisi_and_gene_r.csv",
+      "passed": true,
+      "detail": "rows=6, cols=15"
+    },
+    {
+      "check": "table_csv_manifest::fig4_paired_limma_deg_metrics_32pairs.csv",
+      "passed": true,
+      "detail": "rows=16, cols=24"
+    },
+    {
+      "check": "table_csv_manifest::fig4_supp12_d0_volcano_deg_counts.csv",
+      "passed": true,
+      "detail": "rows=24, cols=7"
+    },
+    {
+      "check": "table_csv_manifest::fig4_supp13_native_effect_agreement.csv",
+      "passed": true,
+      "detail": "rows=16, cols=7"
+    },
+    {
+      "check": "table_csv_manifest::fig5_composition_summary_by_group.csv",
+      "passed": true,
+      "detail": "rows=72, cols=7"
+    },
+    {
+      "check": "table_csv_manifest::fig5_donor_condition_297units_composition.csv",
+      "passed": true,
+      "detail": "rows=1782, cols=7"
+    },
+    {
+      "check": "table_csv_manifest::fig5_published_disease_signals_42rows.csv",
+      "passed": true,
+      "detail": "rows=42, cols=9"
+    },
+    {
+      "check": "table_csv_manifest::fig5_welch_deg_fidelity_16rows.csv",
+      "passed": true,
+      "detail": "rows=16, cols=20"
+    },
+    {
+      "check": "table_csv_manifest::fig6_rare_parent_shares_integer_counts.csv",
+      "passed": true,
+      "detail": "rows=81, cols=6"
+    },
+    {
+      "check": "table_csv_manifest::fig6_similarity_summary_24groups.csv",
+      "passed": true,
+      "detail": "rows=19, cols=5"
+    },
+    {
+      "check": "table_csv_manifest::fig6_interpatient_similarity_895profiles.csv",
+      "passed": true,
+      "detail": "rows=895, cols=7"
+    },
+    {
+      "check": "table_csv_manifest::fig7_eskd_43subsets_severity_and_mortality_screen.csv",
+      "passed": true,
+      "detail": "rows=129, cols=61"
+    },
+    {
+      "check": "table_csv_manifest::fig7_firstdraw_composite_and_50x5_cv.csv",
+      "passed": true,
+      "detail": "rows=26, cols=23"
+    },
+    {
+      "check": "table_csv_manifest::fig7_panel_k_summary.csv",
+      "passed": true,
+      "detail": "rows=7, cols=14"
+    },
+    {
+      "check": "table_csv_manifest::fig7_panel_l_summary.csv",
+      "passed": true,
+      "detail": "rows=7, cols=24"
+    },
+    {
+      "check": "table_csv_manifest::fig7_external4_meta_23subsets.csv",
+      "passed": true,
+      "detail": "rows=24, cols=33"
+    },
+    {
+      "check": "table_csv_manifest::fig7_external4_per_cohort_results.csv",
+      "passed": true,
+      "detail": "rows=89, cols=26"
+    },
+    {
+      "check": "table_csv_manifest::fig7_eskd_63_first_draws_CTL_NK_ISG.csv",
+      "passed": true,
+      "detail": "rows=63, cols=14"
+    },
+    {
+      "check": "table_csv_manifest::fig7_eskd_66_first_draws_43subsets.csv",
+      "passed": true,
+      "detail": "rows=66, cols=198"
+    },
+    {
+      "check": "table_csv_manifest::fig7_eskd_217_acute_draws_43subsets.csv",
+      "passed": true,
+      "detail": "rows=217, cols=154"
+    },
+    {
+      "check": "table_csv_manifest::fig7_external4_300_acute_samples.csv",
+      "passed": true,
+      "detail": "rows=300, cols=40"
+    },
+    {
+      "check": "clinical_vdw_official_adjudication_zero_mismatch",
+      "passed": true,
+      "detail": "vdW_mismatches=0, donor_inconsistencies=0"
+    },
+    {
+      "check": "supp23_hspc_unique16_recomputed_exact",
+      "passed": true,
+      "detail": "Ery5_AUC=0.7522 (q16=0.1500), HSC5_AUC=0.5125"
+    },
+    {
+      "check": "fig4_comp_sums_to_100",
+      "passed": true,
+      "detail": "sums=[100.0, 100.0, 100.001, 99.999, 100.0, 100.0]"
+    },
+    {
+      "check": "fig4_sepsis_ilisi_exact",
+      "passed": true,
+      "detail": "1.77 / 1.51 / 1.00"
+    },
+    {
+      "check": "fig4_covid_ilisi_exact",
+      "passed": true,
+      "detail": "1.76 / 1.44 / 1.00"
+    },
+    {
+      "check": "fig4_pbisc_wins_recall_and_f1_all_8",
+      "passed": true,
+      "detail": "recall=8/8, F1=8/8, covid_r=4/4"
+    },
+    {
+      "check": "fig4_supp12_24_rows_and_supp13_16_rows",
+      "passed": true,
+      "detail": "s12=24, s13=16"
+    },
+    {
+      "check": "fig5_297_donor_condition_units",
+      "passed": true,
+      "detail": "units=297"
+    },
+    {
+      "check": "fig5_shared_donor_audit",
+      "passed": true,
+      "detail": "sepsis_overlap=0, covid_overlap=['C113', 'C127', 'C145', 'C168', 'C169', 'C20', 'C63']"
+    },
+    {
+      "check": "fig5_composition_means_exact",
+      "passed": true,
+      "detail": "max_diff=0.00e+00"
+    },
+    {
+      "check": "fig5_published_signals_6of7_and_7of7",
+      "passed": true,
+      "detail": "sepsis=6/7, covid=7/7"
+    },
+    {
+      "check": "fig5_pbisc_wins_auroc_all_8_lineages",
+      "passed": true,
+      "detail": "auroc_wins=8/8"
+    },
+    {
+      "check": "fig6_integer_counts_and_denominators_exact",
+      "passed": true,
+      "detail": "PBISC=13/14 & 12/13; scSemi_zero=7/14 & 8/13; den=272000,560000"
+    },
+    {
+      "check": "fig6_895_profiles_count",
+      "passed": true,
+      "detail": "total=895"
+    },
+    {
+      "check": "fig6_similarity_medians_recomputed_exact",
+      "passed": true,
+      "detail": "groups=19, max_diff=0.00e+00"
+    },
+    {
+      "check": "fig7_cohort_and_stratum_counts_exact",
+      "passed": true,
+      "detail": "strata={'Wave1_bulk_only_PBISC_29': 29, 'Measured_shared_with_bulk_27': 27, 'Measured_scRNA_only_10': 10}, who={0.0: 126, 1.0: 58, 2.0: 21, 3.0: 12}, <=7d=53/10"
+    },
+    {
+      "check": "fig7_43_subsets_present",
+      "passed": true,
+      "detail": "n=43"
+    },
+    {
+      "check": "fig7_van_der_waerden_rankINT_exact",
+      "passed": true,
+      "detail": "max217=0.00e+00, max66=0.00e+00"
+    },
+    {
+      "check": "fig7_gee_18_combined_9_measured_7_shared",
+      "passed": true,
+      "detail": "comb=18, meas=9, shared=7"
+    },
+    {
+      "check": "fig7_gee_focal5_betas_and_q43",
+      "passed": true,
+      "detail": "betas={divASC:0.422, HSPC:0.333}"
+    },
+    {
+      "check": "fig7_firstdraw_ctl_nk_auc_q43_whoadj",
+      "passed": true,
+      "detail": "CTL=0.2132 (q=0.0701, adjP=0.0329), NK=0.2165 (adjP=0.0302)"
+    },
+    {
+      "check": "fig7_composite_n63_auc_and_whoadj",
+      "passed": true,
+      "detail": "AUC=0.8409, P=0.000429, adjP=0.01279"
+    },
+    {
+      "check": "fig7_external_300_draws_231_patients_219_outcomes_24_deaths",
+      "passed": true,
+      "detail": "draws=300, pts=231, out_pts=219, deaths=24"
+    },
+    {
+      "check": "fig7_external_dl_meta_recomputed",
+      "passed": true,
+      "detail": "HSPC_rho=0.405, CD8naive_1st=0.323, CD16mono_last=0.394, exact_meta=23"
+    },
+    {
+      "check": "md_no_local_paths_leaked",
+      "passed": true,
+      "detail": "clean paths"
+    },
+    {
+      "check": "manuscript_concise_results_and_discussion",
+      "passed": true,
+      "detail": "Results=1792 words, Discussion+Conclusion=482 words"
+    },
+    {
+      "check": "references_strict_1_to_20_order",
+      "passed": true,
+      "detail": "seen=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]"
+    },
+    {
+      "check": "references_pubmed_verified_entries",
+      "passed": true,
+      "detail": "Ye 2026, Gisby 2022, Stephenson 2025, van der Wijst 2021, Reyes 2021 verified"
+    }
+  ]
+}

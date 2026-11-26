@@ -1,0 +1,117 @@
+{
+  "fig7_legacy_raster_source": {
+    "pixels": [
+      768,
+      1024
+    ],
+    "dpi": null
+  },
+  "analyses/nature_submission_fig4_7_final_20261125\\figures\\Figure7_ESKD_COVID19_Severity_and_FirstDraw_Mortality.png": {
+    "pixels": [
+      576,
+      768
+    ],
+    "dpi": [
+      96.012,
+      96.012
+    ]
+  },
+  "fig7_pdf": {
+    "page_pt": [
+      0.0,
+      0.0,
+      518.7401733398438,
+      691.653564453125
+    ],
+    "images": [
+      [
+        5,
+        0,
+        576,
+        768,
+        8,
+        "ICCBased",
+        "",
+        "fzImg0",
+        "FlateDecode"
+      ]
+    ]
+  },
+  "fig7_original_default_render": {
+    "page_pt": [
+      0.0,
+      0.0,
+      576.0,
+      768.0
+    ],
+    "pix72": [
+      576,
+      768
+    ]
+  },
+  "fig7_detection_below30pct": [],
+  "gene_display_paths": [
+    "verification_20261126/sepsis_gene_display_source.csv"
+  ],
+  "gene_display_schema": {
+    "columns": [
+      "rank",
+      "feature_index",
+      "gene",
+      "Real",
+      "PBISC",
+      "scSemiProfiler"
+    ],
+    "head": [
+      {
+        "rank": 1,
+        "feature_index": 3861,
+        "gene": "RPL41",
+        "Real": 59.62985,
+        "PBISC": 61.99525,
+        "scSemiProfiler": 56.00159999999976
+      },
+      {
+        "rank": 2,
+        "feature_index": 338,
+        "gene": "S100A8",
+        "Real": 55.0297,
+        "PBISC": 15.382,
+        "scSemiProfiler": 13.39034999999998
+      }
+    ]
+  },
+  "sepsis_scsemi_gene_r": {
+    "shared_genes": 5961,
+    "real_archive_vs_full_scsemi": 0.9365457478281101,
+    "both_display_table": 0.9363050815079447,
+    "caveat": "Real mean is the archived per-gene mean, not a fresh full Real-file recomputation."
+  },
+  "scsemi_full_ncells": 51000,
+  "real_BH_prior_recompute": {
+    "sepsis T cell Real": 0.0025128973728022475,
+    "sepsis T cell PBISC": 3.6146818760407484e-08,
+    "sepsis T cell scSemiProfiler": 6.17214612752548e-15,
+    "sepsis B cell Real": 0.002679362232185789,
+    "sepsis B cell PBISC": 3.9588846645344233e-08,
+    "sepsis B cell scSemiProfiler": 3.514549762329011e-15,
+    "sepsis NK cell Real": 0.0013537261899106423,
+    "sepsis NK cell PBISC": 3.5613296089920254e-08,
+    "sepsis NK cell scSemiProfiler": 6.938893903907228e-15,
+    "sepsis Monocyte Real": 0.0012898739880400911,
+    "sepsis Monocyte PBISC": 3.9090903736216376e-08,
+    "sepsis Monocyte scSemiProfiler": 1.8431436932253575e-15,
+    "covid T cell Real": 0.0021637094290584136,
+    "covid T cell PBISC": 4.4156092227076726e-08,
+    "covid T cell scSemiProfiler": 2.942524696125659e-15,
+    "covid B cell Real": 0.0034468539359335804,
+    "covid B cell PBISC": 3.9611404489825475e-08,
+    "covid B cell scSemiProfiler": 5.384581669432009e-15,
+    "covid NK cell Real": 0.002968211694572065,
+    "covid NK cell PBISC": 4.4453460912308174e-08,
+    "covid NK cell scSemiProfiler": 3.329368031268487e-15,
+    "covid Monocyte Real": 0.002537533014123461,
+    "covid Monocyte PBISC": 4.0480778285001406e-08,
+    "covid Monocyte scSemiProfiler": 2.4936649967166602e-15
+  }
+}

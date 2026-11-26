@@ -1,0 +1,221 @@
+{
+  "verification_date": "2026-11-26",
+  "status": "CORRECTED_WITH_REMAINING_LIMITATIONS",
+  "original_package": "analyses/nature_submission_fig4_7_final_20261125",
+  "reviewed_package": "analyses/nature_submission_fig4_7_reviewed_20261126",
+  "clinical_outcome_correction": {
+    "official_vdw_deaths": [
+      "Rep_C_1029",
+      "Rep_C_1037",
+      "Rep_C_1047",
+      "Rep_C_1050",
+      "Rep_C_1130",
+      "Rep_C_1154",
+      "Rep_C_1161"
+    ],
+    "discordant_first_patients": 10,
+    "discordant_last_patients": 12,
+    "patients_with_inconsistent_old_death_across_visits": 8,
+    "old_estimates_reproduced": 178,
+    "known_outcome_patients": 219,
+    "deaths": 24,
+    "clinical_source": "van der Wijst Data file S3, ClinicalCharacteristics, Donor_ID / Died",
+    "per_cohort_vdw_CI": "10,000 within-outcome percentile bootstrap; seed 20261126; other per-cohort CI columns retained",
+    "primary_meta_CI": "unchanged Wald 1.96 x random-effects SE; q23 excludes B_ASC_total"
+  },
+  "current_independent_checks": {
+    "checks": 56,
+    "failed": 0,
+    "xlsx_data_cells_compared": 92537,
+    "evidence": "verification_20261126/final_independent_checks.json"
+  },
+  "selected_package_checks": {
+    "checks": 87,
+    "failed": 0,
+    "evidence": "VERIFICATION_PACKAGE_CHECKS_20261126.json",
+    "scope_note": "File consistency and selected statistical checks, not full raw-data or clinical-source validation of every panel."
+  },
+  "HSPC_raw_recomputation": {
+    "patient_counts": [
+      33,
+      29
+    ],
+    "shared_genes": 5762,
+    "programmes": 16,
+    "cohort_estimates": 48,
+    "max_AUC_difference": 0,
+    "max_P_difference": 2.8318417388817352e-08,
+    "max_q_difference": 3.020631189620815e-08,
+    "CI_note": "Archived 10,000 outcome-stratified bootstrap intervals retained."
+  },
+  "figure5_split_half_recomputation": {
+    "rows": 16,
+    "max_absolute_difference": 2.220446049250313e-16,
+    "input": "supplied patient-level pseudobulk matrices; seed/stateful order preserved"
+  },
+  "render_QA": {
+    "word": {
+      "pages": 37,
+      "images": 24,
+      "replacement_chars": 0,
+      "solid_square_chars": 0,
+      "text_blocks_outside_page": [],
+      "bytes": 8354054
+    },
+    "pdf": {
+      "pages": 37,
+      "images": 24,
+      "replacement_chars": 0,
+      "solid_square_chars": 0,
+      "text_blocks_outside_page": [],
+      "bytes": 8354054,
+      "renderer": "Microsoft Word content-only export"
+    },
+    "supplement": {
+      "pages": 40,
+      "images": 135,
+      "replacement_chars": 0,
+      "solid_square_chars": 0,
+      "text_blocks_outside_page": [],
+      "bytes": 9219749
+    }
+  },
+  "visual_review": {
+    "Word_manuscript_pages": 37,
+    "final_PDF_pages": 37,
+    "alternative_ReportLab_PDF_pages": 37,
+    "supplementary_full_captions": 20,
+    "notes": "All manuscript pages and 20 supplementary full-caption renders visually reviewed. No clipping/overlap or missing-glyph defect observed. Figure 7 upper raster detail retains native-resolution limitation."
+  },
+  "limitations": [
+    "Figure 4 original limma fit, per-gene results and exact numerical reference outputs are not locally archived; available summaries are PDF-digitized approximations.",
+    "Figure 5n/o final 14 gene-set definitions and patient-level score/P/CI inputs are not archived; 42 rows are graphic transcriptions.",
+    "Final Figure 5m/Supplement15 bootstrap script and RNG path not identified. Independent sensitivity agrees on focal binary T/B classifications but differs on some star thresholds.",
+    "Supplement27 upper severity and 276-draw internal sensitivity estimates retain historical definitions and are not fully reconstructed; lower external mortality now uses primary adjudicated mappings/BH23.",
+    "Figure7 legacy source is 768x1024 raster, approximately 107 ppi at 183 mm; only revised annotations/forest plot are vector.",
+    "Other supplementary raw-expression models/bootstrap paths were not all rerun; COMBAT and Liu clinical source records were not newly adjudicated in this audit."
+  ],
+  "file_manifest": [
+    {
+      "path": "tables/00_table_manifest.csv",
+      "bytes": 4736,
+      "sha256": "bdab59f0989f0f49535f5ef1c91776ba7094447caf4d681f33c8fdd640c76c95"
+    },
+    {
+      "path": "tables/fig4_paired_composition_6types.csv",
+      "bytes": 439,
+      "sha256": "57ecb3ab964e425ef4366a3028ae36185763f622c7dd99142f8737df98edcf44"
+    },
+    {
+      "path": "tables/fig4_paired_ilisi_and_gene_r.csv",
+      "bytes": 976,
+      "sha256": "2d2cfd52e98086975b6daf958ba79461ecaf03eb2f4cf9c89bc99a6683a5ae61"
+    },
+    {
+      "path": "tables/fig4_paired_limma_deg_metrics_32pairs.csv",
+      "bytes": 3156,
+      "sha256": "16780138cbecef6abf32b10a77465e4cab88738b78b7079e9a5f0419cfd4c1df"
+    },
+    {
+      "path": "tables/fig4_supp12_d0_volcano_deg_counts.csv",
+      "bytes": 1677,
+      "sha256": "446dbe00588cac4c710e3fcf2ea6c0d39ee6191be78632649a606ac9c4dd1856"
+    },
+    {
+      "path": "tables/fig4_supp13_native_effect_agreement.csv",
+      "bytes": 787,
+      "sha256": "21b77db3dabd3478a2d68482abb6e74b05957bf6fa4a5322e9c1dde5953da717"
+    },
+    {
+      "path": "tables/fig5_composition_summary_by_group.csv",
+      "bytes": 5029,
+      "sha256": "3f4c565609e499a686e7711e00d8cd65c717b37e43c1258553bb516fdf93737c"
+    },
+    {
+      "path": "tables/fig5_donor_condition_297units_composition.csv",
+      "bytes": 95086,
+      "sha256": "f913093327519599052ceea6cbc9c7c9817c0851cafafbcc486636cee134a26f"
+    },
+    {
+      "path": "tables/fig5_published_disease_signals_42rows.csv",
+      "bytes": 7063,
+      "sha256": "711f986cf2c798fc4a7737c790894dbca598d60024d1f11c3fcd708917249803"
+    },
+    {
+      "path": "tables/fig5_welch_deg_fidelity_16rows.csv",
+      "bytes": 4271,
+      "sha256": "735874f7cae07c0e2835ce172462d47df6090ee8e84511455c13fdfa44cb3ead"
+    },
+    {
+      "path": "tables/fig6_interpatient_similarity_895profiles.csv",
+      "bytes": 55011,
+      "sha256": "416a87ad2b4aa678a6e0f1b0a0a83e4495cf6bfecdcdcf44211b54fb035c01a8"
+    },
+    {
+      "path": "tables/fig6_rare_parent_shares_integer_counts.csv",
+      "bytes": 4215,
+      "sha256": "e58bb9e839e6b6aa69e55be0c7c546d7262ea9bfb3752b49882b9ce1d742de2c"
+    },
+    {
+      "path": "tables/fig6_similarity_summary_24groups.csv",
+      "bytes": 935,
+      "sha256": "6b53a593b6837fecc8ce74becd8b289036cb7c49ae21aa2bd2c9c3d8f522eb81"
+    },
+    {
+      "path": "tables/fig7_eskd_217_acute_draws_43subsets.csv",
+      "bytes": 403221,
+      "sha256": "d4d0c49738f51aca4803cacd42be67b814c79eef48201d3eb1d22969b1651d1f"
+    },
+    {
+      "path": "tables/fig7_eskd_43subsets_severity_and_mortality_screen.csv",
+      "bytes": 122387,
+      "sha256": "127eccea9ac392aa21d4ba7ee4386d0c0f2135ea552d5249281b6d4fdc0e174a"
+    },
+    {
+      "path": "tables/fig7_eskd_63_first_draws_CTL_NK_ISG.csv",
+      "bytes": 11767,
+      "sha256": "775a86533e2741834a5ca0e0ca7a7bf2f4b4f603936a78d7148be2a87baf8d5e"
+    },
+    {
+      "path": "tables/fig7_eskd_66_first_draws_43subsets.csv",
+      "bytes": 176702,
+      "sha256": "12e88bfbdfe903e44a680d0883b78aef32d2e744151bc2e3ca8f8b824ae84304"
+    },
+    {
+      "path": "tables/fig7_external4_300_acute_samples.csv",
+      "bytes": 146152,
+      "sha256": "50c298a25483c12aad126fe2d52d64469620eaa4ac5ae5bc78add185614ded57"
+    },
+    {
+      "path": "tables/fig7_external4_meta_23subsets.csv",
+      "bytes": 13703,
+      "sha256": "2933ea916652ab43653cc2683f449ee610382cc9684fc3b8abfaba1890f97fd3"
+    },
+    {
+      "path": "tables/fig7_external4_per_cohort_results.csv",
+      "bytes": 33148,
+      "sha256": "3171715978c162c10900ab4dd6169d1b00b2ab0f99839acc835c48619ad7db6f"
+    },
+    {
+      "path": "tables/fig7_firstdraw_composite_and_50x5_cv.csv",
+      "bytes": 5315,
+      "sha256": "3156c312fd68aedb90f73eb72ae1a030f255b6ddf3c7c396f29c6418c14d5ae3"
+    },
+    {
+      "path": "tables/fig7_panel_k_summary.csv",
+      "bytes": 1972,
+      "sha256": "380d8c041dd732db89cb19ab17e073578eb314f3f68e868b44fa29b5a39450bd"
+    },
+    {
+      "path": "tables/fig7_panel_l_summary.csv",
+      "bytes": 3519,
+      "sha256": "6e316d6def2707c721b0ccece6de9c2113db5e1bd85a53025220a599f6e2d808"
+    },
+    {
+      "path": "PBISC_Manuscript_Fig4_7_Final_20261125.md",
+      "bytes": 81779,
+      "sha256": "ff632e5f5921d55216b85e753c1082abdaacd651ae712a4fad558866f2a252ba"
+    }
+  ],
+  "github_distribution_mode": "reproduction_elements_only (excludes .docx, .pdf, .xlsx, rendered figure binaries, and raw external zip archives)"
+}

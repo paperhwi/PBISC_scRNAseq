@@ -1,0 +1,19 @@
+[
+  {
+    "file": "vdw_data_files_S1_S9.zip",
+    "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8601717.2/scitranslmed.abh2624_data_files_s1_to_s9.zip",
+    "bytes": 24390695,
+    "sha256": "7f88d96341f1525e61b5972f83800665f54cc2f92be8b414ff544cbb2f18938b"
+  },
+  {
+    "file": "van_der_Wijst_Data_file_S3.xlsx",
+    "archive_member": "scitranslmed.abh2624_Data_file_S3.xlsx",
+    "sha256": "8a284c8664d15713114962c73b9f7b6cf44af6494c51c07dd3d04e1be49ca1ca"
+  },
+  {
+    "file": "stephenson2021_supp_tables.xlsx",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41591-021-01329-2/MediaObjects/41591_2021_1329_MOESM3_ESM.xlsx",
+    "bytes": 12855042,
+    "sha256": "85cf707ad68d55f93241ebb26735fd838e995c69ed09eea9268903a118de3838"
+  }
+]

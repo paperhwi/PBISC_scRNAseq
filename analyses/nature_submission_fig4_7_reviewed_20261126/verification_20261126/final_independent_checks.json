@@ -1,0 +1,359 @@
+{
+  "checks": [
+    {
+      "check": "XLSX/CSV exact cell parity Fig4_Comp_6Types",
+      "status": "PASS",
+      "detail": {
+        "data_cells": 54,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "CSV manifest hash fig4_paired_composition_6types.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "XLSX/CSV exact cell parity Fig4_iLISI_GeneR",
+      "status": "PASS",
+      "detail": {
+        "data_cells": 90,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "CSV manifest hash fig4_paired_ilisi_and_gene_r.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "XLSX/CSV exact cell parity Fig4_Paired_limma_DEG",
+      "status": "PASS",
+      "detail": {
+        "data_cells": 384,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "CSV manifest hash fig4_paired_limma_deg_metrics_32pairs.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "XLSX/CSV exact cell parity Supp12_D0_Volcano_DEGs",
+      "status": "PASS",
+      "detail": {
+        "data_cells": 168,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "CSV manifest hash fig4_supp12_d0_volcano_deg_counts.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "XLSX/CSV exact cell parity Supp13_Native_Effect",
+      "status": "PASS",
+      "detail": {
+        "data_cells": 112,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "CSV manifest hash fig4_supp13_native_effect_agreement.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "XLSX/CSV exact cell parity Fig5_Comp_Summary",
+      "status": "PASS",
+      "detail": {
+        "data_cells": 504,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "CSV manifest hash fig5_composition_summary_by_group.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "XLSX/CSV exact cell parity Fig5_297_DonorUnits",
+      "status": "PASS",
+      "detail": {
+        "data_cells": 12474,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "CSV manifest hash fig5_donor_condition_297units_composition.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "XLSX/CSV exact cell parity Fig5_Disease_Programs",
+      "status": "PASS",
+      "detail": {
+        "data_cells": 378,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "CSV manifest hash fig5_published_disease_signals_42rows.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "XLSX/CSV exact cell parity Fig5_Welch_DEG_16Rows",
+      "status": "PASS",
+      "detail": {
+        "data_cells": 320,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "CSV manifest hash fig5_welch_deg_fidelity_16rows.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "XLSX/CSV exact cell parity Fig6_Rare_IntCounts",
+      "status": "PASS",
+      "detail": {
+        "data_cells": 486,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "CSV manifest hash fig6_rare_parent_shares_integer_counts.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "XLSX/CSV exact cell parity Fig6_Sim_24Groups",
+      "status": "PASS",
+      "detail": {
+        "data_cells": 95,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "CSV manifest hash fig6_similarity_summary_24groups.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "XLSX/CSV exact cell parity Fig6_Sim_895Profiles",
+      "status": "PASS",
+      "detail": {
+        "data_cells": 6265,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "CSV manifest hash fig6_interpatient_similarity_895profiles.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "XLSX/CSV exact cell parity Fig7_43Subsets_Screen",
+      "status": "PASS",
+      "detail": {
+        "data_cells": 7869,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "CSV manifest hash fig7_eskd_43subsets_severity_and_mortality_screen.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "XLSX/CSV exact cell parity Fig7_Composite_50x5CV",
+      "status": "PASS",
+      "detail": {
+        "data_cells": 598,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "CSV manifest hash fig7_firstdraw_composite_and_50x5_cv.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "XLSX/CSV exact cell parity Fig7_PanelK_Severity",
+      "status": "PASS",
+      "detail": {
+        "data_cells": 98,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "CSV manifest hash fig7_panel_k_summary.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "XLSX/CSV exact cell parity Fig7_PanelL_Mortality",
+      "status": "PASS",
+      "detail": {
+        "data_cells": 168,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "CSV manifest hash fig7_panel_l_summary.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "XLSX/CSV exact cell parity Fig7_Ext4_Meta23",
+      "status": "PASS",
+      "detail": {
+        "data_cells": 792,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "CSV manifest hash fig7_external4_meta_23subsets.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "XLSX/CSV exact cell parity Fig7_Ext4_PerCohort",
+      "status": "PASS",
+      "detail": {
+        "data_cells": 2314,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "CSV manifest hash fig7_external4_per_cohort_results.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "XLSX/CSV exact cell parity Fig7_ESKD_63_CTL_ISG",
+      "status": "PASS",
+      "detail": {
+        "data_cells": 882,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "CSV manifest hash fig7_eskd_63_first_draws_CTL_NK_ISG.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "XLSX/CSV exact cell parity Fig7_ESKD_66_FirstDraw",
+      "status": "PASS",
+      "detail": {
+        "data_cells": 13068,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "CSV manifest hash fig7_eskd_66_first_draws_43subsets.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "XLSX/CSV exact cell parity Fig7_ESKD_217_Draws",
+      "status": "PASS",
+      "detail": {
+        "data_cells": 33418,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "CSV manifest hash fig7_eskd_217_acute_draws_43subsets.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "XLSX/CSV exact cell parity Fig7_Ext4_300_Draws",
+      "status": "PASS",
+      "detail": {
+        "data_cells": 12000,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "CSV manifest hash fig7_external4_300_acute_samples.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Stephenson authors source: 89 samples / donor IDs / outcomes",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "vdW final outcome fixed across every visit",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "vdW 42 donors / seven official deaths",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "vdW every visit matches primary clinical workbook",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "178 corrected cohort AUCs: independent pairwise implementation",
+      "status": "PASS",
+      "detail": {
+        "max_abs_difference": 8.326672684688674e-17
+      }
+    },
+    {
+      "check": "first DL AUC and independently sorted BH23",
+      "status": "PASS",
+      "detail": {
+        "AUC_maxdiff": 0,
+        "q_maxdiff": 7.771561172376096e-16
+      }
+    },
+    {
+      "check": "last DL AUC and independently sorted BH23",
+      "status": "PASS",
+      "detail": {
+        "AUC_maxdiff": 0,
+        "q_maxdiff": 7.216449660063518e-16
+      }
+    },
+    {
+      "check": "External severity estimates unchanged",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Figure4_Paired_Reconstruction_and_Disease_Signal_Recovery PDF unchanged",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Figure6_Assigned_Rare_Populations_and_Molecular_Profiles PDF unchanged",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "24 current embedded figures in manuscript source",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "Combined supplement: 40 pages",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "xlsx_cells_compared": 92537
+}

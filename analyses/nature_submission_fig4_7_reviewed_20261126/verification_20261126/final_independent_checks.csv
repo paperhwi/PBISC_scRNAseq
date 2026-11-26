@@ -1,0 +1,57 @@
+check,status,detail
+XLSX/CSV exact cell parity Fig4_Comp_6Types,PASS,"{'data_cells': 54, 'mismatches': []}"
+CSV manifest hash fig4_paired_composition_6types.csv,PASS,
+XLSX/CSV exact cell parity Fig4_iLISI_GeneR,PASS,"{'data_cells': 90, 'mismatches': []}"
+CSV manifest hash fig4_paired_ilisi_and_gene_r.csv,PASS,
+XLSX/CSV exact cell parity Fig4_Paired_limma_DEG,PASS,"{'data_cells': 384, 'mismatches': []}"
+CSV manifest hash fig4_paired_limma_deg_metrics_32pairs.csv,PASS,
+XLSX/CSV exact cell parity Supp12_D0_Volcano_DEGs,PASS,"{'data_cells': 168, 'mismatches': []}"
+CSV manifest hash fig4_supp12_d0_volcano_deg_counts.csv,PASS,
+XLSX/CSV exact cell parity Supp13_Native_Effect,PASS,"{'data_cells': 112, 'mismatches': []}"
+CSV manifest hash fig4_supp13_native_effect_agreement.csv,PASS,
+XLSX/CSV exact cell parity Fig5_Comp_Summary,PASS,"{'data_cells': 504, 'mismatches': []}"
+CSV manifest hash fig5_composition_summary_by_group.csv,PASS,
+XLSX/CSV exact cell parity Fig5_297_DonorUnits,PASS,"{'data_cells': 12474, 'mismatches': []}"
+CSV manifest hash fig5_donor_condition_297units_composition.csv,PASS,
+XLSX/CSV exact cell parity Fig5_Disease_Programs,PASS,"{'data_cells': 378, 'mismatches': []}"
+CSV manifest hash fig5_published_disease_signals_42rows.csv,PASS,
+XLSX/CSV exact cell parity Fig5_Welch_DEG_16Rows,PASS,"{'data_cells': 320, 'mismatches': []}"
+CSV manifest hash fig5_welch_deg_fidelity_16rows.csv,PASS,
+XLSX/CSV exact cell parity Fig6_Rare_IntCounts,PASS,"{'data_cells': 486, 'mismatches': []}"
+CSV manifest hash fig6_rare_parent_shares_integer_counts.csv,PASS,
+XLSX/CSV exact cell parity Fig6_Sim_24Groups,PASS,"{'data_cells': 95, 'mismatches': []}"
+CSV manifest hash fig6_similarity_summary_24groups.csv,PASS,
+XLSX/CSV exact cell parity Fig6_Sim_895Profiles,PASS,"{'data_cells': 6265, 'mismatches': []}"
+CSV manifest hash fig6_interpatient_similarity_895profiles.csv,PASS,
+XLSX/CSV exact cell parity Fig7_43Subsets_Screen,PASS,"{'data_cells': 7869, 'mismatches': []}"
+CSV manifest hash fig7_eskd_43subsets_severity_and_mortality_screen.csv,PASS,
+XLSX/CSV exact cell parity Fig7_Composite_50x5CV,PASS,"{'data_cells': 598, 'mismatches': []}"
+CSV manifest hash fig7_firstdraw_composite_and_50x5_cv.csv,PASS,
+XLSX/CSV exact cell parity Fig7_PanelK_Severity,PASS,"{'data_cells': 98, 'mismatches': []}"
+CSV manifest hash fig7_panel_k_summary.csv,PASS,
+XLSX/CSV exact cell parity Fig7_PanelL_Mortality,PASS,"{'data_cells': 168, 'mismatches': []}"
+CSV manifest hash fig7_panel_l_summary.csv,PASS,
+XLSX/CSV exact cell parity Fig7_Ext4_Meta23,PASS,"{'data_cells': 792, 'mismatches': []}"
+CSV manifest hash fig7_external4_meta_23subsets.csv,PASS,
+XLSX/CSV exact cell parity Fig7_Ext4_PerCohort,PASS,"{'data_cells': 2314, 'mismatches': []}"
+CSV manifest hash fig7_external4_per_cohort_results.csv,PASS,
+XLSX/CSV exact cell parity Fig7_ESKD_63_CTL_ISG,PASS,"{'data_cells': 882, 'mismatches': []}"
+CSV manifest hash fig7_eskd_63_first_draws_CTL_NK_ISG.csv,PASS,
+XLSX/CSV exact cell parity Fig7_ESKD_66_FirstDraw,PASS,"{'data_cells': 13068, 'mismatches': []}"
+CSV manifest hash fig7_eskd_66_first_draws_43subsets.csv,PASS,
+XLSX/CSV exact cell parity Fig7_ESKD_217_Draws,PASS,"{'data_cells': 33418, 'mismatches': []}"
+CSV manifest hash fig7_eskd_217_acute_draws_43subsets.csv,PASS,
+XLSX/CSV exact cell parity Fig7_Ext4_300_Draws,PASS,"{'data_cells': 12000, 'mismatches': []}"
+CSV manifest hash fig7_external4_300_acute_samples.csv,PASS,
+Stephenson authors source: 89 samples / donor IDs / outcomes,PASS,
+vdW final outcome fixed across every visit,PASS,
+vdW 42 donors / seven official deaths,PASS,
+vdW every visit matches primary clinical workbook,PASS,
+178 corrected cohort AUCs: independent pairwise implementation,PASS,{'max_abs_difference': 8.326672684688674e-17}
+first DL AUC and independently sorted BH23,PASS,"{'AUC_maxdiff': 0, 'q_maxdiff': 7.771561172376096e-16}"
+last DL AUC and independently sorted BH23,PASS,"{'AUC_maxdiff': 0, 'q_maxdiff': 7.216449660063518e-16}"
+External severity estimates unchanged,PASS,
+Figure4_Paired_Reconstruction_and_Disease_Signal_Recovery PDF unchanged,PASS,
+Figure6_Assigned_Rare_Populations_and_Molecular_Profiles PDF unchanged,PASS,
+24 current embedded figures in manuscript source,PASS,
+Combined supplement: 40 pages,PASS,

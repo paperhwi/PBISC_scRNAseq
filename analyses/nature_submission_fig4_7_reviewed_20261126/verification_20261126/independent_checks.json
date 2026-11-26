@@ -1,0 +1,377 @@
+[
+  {
+    "check": "PDF/PNG aspect Figure4_Paired_Reconstruction_and_Disease_Signal_Recovery",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "PDF/PNG aspect Figure5_BulkOnly_Composition_and_Disease_Programs",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "PDF/PNG aspect Figure6_Assigned_Rare_Populations_and_Molecular_Profiles",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "PDF/PNG aspect Figure7_ESKD_COVID19_Severity_and_FirstDraw_Mortality",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "PDF/PNG aspect Supplementary_Figure_08_Matched_Support_Allocation_and_Reference_Selection",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "PDF/PNG aspect Supplementary_Figure_09_Paired_Cohort_Reconstruction_and_Exploratory_Limits",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "PDF/PNG aspect Supplementary_Figure_10_Major_Cell_Immune_Program_Covariance",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "PDF/PNG aspect Supplementary_Figure_11_Monocyte_and_NK_Disease_Program_Heatmaps_Paired",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "PDF/PNG aspect Supplementary_Figure_12_Cell_Type_Resolved_Disease_Effects",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "PDF/PNG aspect Supplementary_Figure_13_Cell_Type_Resolved_Disease_Effect_Agreement",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "PDF/PNG aspect Supplementary_Figure_14_Gene_Coverage_Cell_Numbers_and_Sequencing_Depth",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "PDF/PNG aspect Supplementary_Figure_15_BulkOnly_SixType_Fractions_and_Disease_Heatmaps",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "PDF/PNG aspect Supplementary_Figure_16_Sepsis_Disease_DEG_Pseudobulk",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "PDF/PNG aspect Supplementary_Figure_17_COVID_Disease_DEG_Pseudobulk",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "PDF/PNG aspect Supplementary_Figure_18_Ratio_of_Rare_Populations_Across_Patients",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "PDF/PNG aspect Supplementary_Figure_19_Heatmap_of_Rare_Populations",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "PDF/PNG aspect Supplementary_Figure_20_CLL_Exclusion_and_Cross_Source_Fractions",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "PDF/PNG aspect Supplementary_Figure_21_Cell_Type_Screen_Subsampling_and_Sensitivity",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "PDF/PNG aspect Supplementary_Figure_22_Peak_Severity_and_Mortality_Public_Cohorts",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "PDF/PNG aspect Supplementary_Figure_23_HSPC_Fractions_Erythroid_Expression_and_Mortality",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "PDF/PNG aspect Supplementary_Figure_24_Literature_Expression_Signatures_and_Death",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "PDF/PNG aspect Supplementary_Figure_25_Blood_Draw_Timing_and_WHO_Severity_217Draws",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "PDF/PNG aspect Supplementary_Figure_26_All_ESKD_Cell_Type_Associations_q005",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "PDF/PNG aspect Supplementary_Figure_27_Direct_External_Validation_ESKD_Associations",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "check": "XLSX cell parity Fig4_Comp_6Types",
+    "status": "PASS",
+    "detail": "{'rows': 6, 'columns': 9, 'mismatches': []}"
+  },
+  {
+    "check": "XLSX cell parity Fig4_iLISI_GeneR",
+    "status": "PASS",
+    "detail": "{'rows': 6, 'columns': 15, 'mismatches': []}"
+  },
+  {
+    "check": "XLSX cell parity Fig4_Paired_limma_DEG",
+    "status": "PASS",
+    "detail": "{'rows': 16, 'columns': 24, 'mismatches': []}"
+  },
+  {
+    "check": "XLSX cell parity Supp12_D0_Volcano_DEGs",
+    "status": "PASS",
+    "detail": "{'rows': 24, 'columns': 7, 'mismatches': []}"
+  },
+  {
+    "check": "XLSX cell parity Supp13_Native_Effect",
+    "status": "PASS",
+    "detail": "{'rows': 16, 'columns': 7, 'mismatches': []}"
+  },
+  {
+    "check": "XLSX cell parity Fig5_Comp_Summary",
+    "status": "PASS",
+    "detail": "{'rows': 72, 'columns': 7, 'mismatches': []}"
+  },
+  {
+    "check": "XLSX cell parity Fig5_297_DonorUnits",
+    "status": "PASS",
+    "detail": "{'rows': 1782, 'columns': 7, 'mismatches': []}"
+  },
+  {
+    "check": "XLSX cell parity Fig5_Disease_Programs",
+    "status": "PASS",
+    "detail": "{'rows': 42, 'columns': 9, 'mismatches': []}"
+  },
+  {
+    "check": "XLSX cell parity Fig5_Welch_DEG_16Rows",
+    "status": "PASS",
+    "detail": "{'rows': 16, 'columns': 20, 'mismatches': []}"
+  },
+  {
+    "check": "XLSX cell parity Fig6_Rare_IntCounts",
+    "status": "PASS",
+    "detail": "{'rows': 81, 'columns': 6, 'mismatches': []}"
+  },
+  {
+    "check": "XLSX cell parity Fig6_Sim_24Groups",
+    "status": "PASS",
+    "detail": "{'rows': 19, 'columns': 5, 'mismatches': []}"
+  },
+  {
+    "check": "XLSX cell parity Fig6_Sim_895Profiles",
+    "status": "PASS",
+    "detail": "{'rows': 895, 'columns': 7, 'mismatches': []}"
+  },
+  {
+    "check": "XLSX cell parity Fig7_43Subsets_Screen",
+    "status": "PASS",
+    "detail": "{'rows': 129, 'columns': 61, 'mismatches': []}"
+  },
+  {
+    "check": "XLSX cell parity Fig7_Composite_50x5CV",
+    "status": "PASS",
+    "detail": "{'rows': 26, 'columns': 23, 'mismatches': []}"
+  },
+  {
+    "check": "XLSX cell parity Fig7_PanelK_Severity",
+    "status": "PASS",
+    "detail": "{'rows': 7, 'columns': 14, 'mismatches': []}"
+  },
+  {
+    "check": "XLSX cell parity Fig7_PanelL_Mortality",
+    "status": "PASS",
+    "detail": "{'rows': 7, 'columns': 24, 'mismatches': []}"
+  },
+  {
+    "check": "XLSX cell parity Fig7_Ext4_Meta23",
+    "status": "PASS",
+    "detail": "{'rows': 24, 'columns': 33, 'mismatches': []}"
+  },
+  {
+    "check": "XLSX cell parity Fig7_Ext4_PerCohort",
+    "status": "PASS",
+    "detail": "{'rows': 89, 'columns': 26, 'mismatches': []}"
+  },
+  {
+    "check": "XLSX cell parity Fig7_ESKD_63_CTL_ISG",
+    "status": "PASS",
+    "detail": "{'rows': 63, 'columns': 14, 'mismatches': []}"
+  },
+  {
+    "check": "XLSX cell parity Fig7_ESKD_66_FirstDraw",
+    "status": "PASS",
+    "detail": "{'rows': 66, 'columns': 198, 'mismatches': []}"
+  },
+  {
+    "check": "XLSX cell parity Fig7_ESKD_217_Draws",
+    "status": "PASS",
+    "detail": "{'rows': 217, 'columns': 154, 'mismatches': []}"
+  },
+  {
+    "check": "XLSX cell parity Fig7_Ext4_300_Draws",
+    "status": "PASS",
+    "detail": "{'rows': 300, 'columns': 40, 'mismatches': []}"
+  },
+  {
+    "check": "Prior raw audit parity fig6_rare_parent_shares_integer_counts.csv",
+    "status": "PASS",
+    "detail": "{'shape': [81, 6], 'prior_sha256': 'e58bb9e839e6b6aa69e55be0c7c546d7262ea9bfb3752b49882b9ce1d742de2c'}"
+  },
+  {
+    "check": "Prior raw audit parity fig6_interpatient_similarity_895profiles.csv",
+    "status": "PASS",
+    "detail": "{'shape': [895, 7], 'prior_sha256': '416a87ad2b4aa678a6e0f1b0a0a83e4495cf6bfecdcdcf44211b54fb035c01a8'}"
+  },
+  {
+    "check": "Prior raw audit parity fig5_donor_condition_297units_composition.csv",
+    "status": "PASS",
+    "detail": "{'shape': [1782, 7], 'prior_sha256': '4f60bfd0f3f956aebbf9a03644dba2bbca62f8412a88140c168e6b15fa5b57ad'}"
+  },
+  {
+    "check": "Prior raw audit parity fig5_composition_summary_by_group.csv",
+    "status": "PASS",
+    "detail": "{'shape': [72, 7], 'prior_sha256': '3f4c565609e499a686e7711e00d8cd65c717b37e43c1258553bb516fdf93737c'}"
+  },
+  {
+    "check": "Prior F7 stats parity fig7_eskd_217_acute_draws_43subsets.csv",
+    "status": "PASS",
+    "detail": "[217, 154]"
+  },
+  {
+    "check": "Prior F7 stats parity fig7_eskd_66_first_draws_43subsets.csv",
+    "status": "PASS",
+    "detail": "[66, 198]"
+  },
+  {
+    "check": "Prior F7 stats parity fig7_eskd_63_first_draws_CTL_NK_ISG.csv",
+    "status": "PASS",
+    "detail": "[63, 14]"
+  },
+  {
+    "check": "Prior F7 stats parity fig7_eskd_43subsets_severity_and_mortality_screen.csv",
+    "status": "PASS",
+    "detail": "[129, 61]"
+  },
+  {
+    "check": "Prior F7 stats parity fig7_external4_300_acute_samples.csv",
+    "status": "PASS",
+    "detail": "[300, 40]"
+  },
+  {
+    "check": "Prior F7 stats parity fig7_external4_per_cohort_results.csv",
+    "status": "PASS",
+    "detail": "[89, 26]"
+  },
+  {
+    "check": "Prior F7 stats parity fig7_external4_meta_23subsets.csv",
+    "status": "PASS",
+    "detail": "[24, 33]"
+  },
+  {
+    "check": "Prior F7 stats parity fig7_panel_k_summary.csv",
+    "status": "PASS",
+    "detail": "[7, 14]"
+  },
+  {
+    "check": "Prior F7 stats parity fig7_panel_l_summary.csv",
+    "status": "PASS",
+    "detail": "[7, 24]"
+  },
+  {
+    "check": "Pseudobulk split-half gen_reliability",
+    "status": "PASS",
+    "detail": "1.1102230246251565e-16"
+  },
+  {
+    "check": "Pseudobulk split-half real_reliability",
+    "status": "PASS",
+    "detail": "0.0"
+  },
+  {
+    "check": "Pseudobulk split-half r_disattenuated",
+    "status": "PASS",
+    "detail": "2.220446049250313e-16"
+  },
+  {
+    "check": "Pseudobulk split-half slope_corrected",
+    "status": "PASS",
+    "detail": "2.220446049250313e-16"
+  },
+  {
+    "check": "Pseudobulk split-half real_splithalf_AUROC",
+    "status": "PASS",
+    "detail": "0.0"
+  },
+  {
+    "check": "Pseudobulk split-half r",
+    "status": "PASS",
+    "detail": "2.220446049250313e-16"
+  },
+  {
+    "check": "Pseudobulk split-half AUROC",
+    "status": "PASS",
+    "detail": "0.0"
+  },
+  {
+    "check": "Pseudobulk split-half recall_fixed",
+    "status": "PASS",
+    "detail": "0.0"
+  },
+  {
+    "check": "Final table vs pseudobulk gen_reliability",
+    "status": "PASS",
+    "detail": "1.1102230246251565e-16"
+  },
+  {
+    "check": "Final table vs pseudobulk real_reliability",
+    "status": "PASS",
+    "detail": "0.0"
+  },
+  {
+    "check": "Final table vs pseudobulk r_disattenuated",
+    "status": "PASS",
+    "detail": "2.220446049250313e-16"
+  },
+  {
+    "check": "Final table vs pseudobulk slope_corrected",
+    "status": "PASS",
+    "detail": "2.220446049250313e-16"
+  },
+  {
+    "check": "Final table vs pseudobulk real_splithalf_AUROC",
+    "status": "PASS",
+    "detail": "1.1102230246251565e-16"
+  },
+  {
+    "check": "Final table vs pseudobulk r",
+    "status": "PASS",
+    "detail": "2.220446049250313e-16"
+  },
+  {
+    "check": "Final table vs pseudobulk AUROC",
+    "status": "PASS",
+    "detail": "1.1102230246251565e-16"
+  },
+  {
+    "check": "Final table vs pseudobulk recall_fixed",
+    "status": "PASS",
+    "detail": "6.938893903907228e-17"
+  }
+]

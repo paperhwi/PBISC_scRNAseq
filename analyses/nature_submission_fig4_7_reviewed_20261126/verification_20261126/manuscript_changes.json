@@ -1,0 +1,122 @@
+[
+  {
+    "old": "> **Verification status**: Independently recomputed and cross-audited on `2026-11-25` across master vector graphics (`PBISC-Diffusion_20261123.pdf` Pages 8–15, 32–71 and finalized `Figure 7`), raw single-cell/sample-level matrices, archived differential expression tables, DerSimonian–Laird external meta-analyses, and fixed-feature internal cross-validation (`VERIFICATION_FINAL_FIG4_7_20261125.json`).",
+    "new": "> **Verification status**: Reviewed on `2026-11-26`. Available sample-level analyses, archived DEG statistics and supplied split-half pseudobulks were checked independently. Figure 4 summaries digitized from the master PDF, Figure 5n,o programme estimates and the archived Supplementary Fig. 27 comparison have distinct verification limits; see `AUDIT_REPORT_KO_20261126.md` and `VERIFICATION_REVIEWED_20261126.json`. The earlier `2026-11-25` package checks establish file consistency and selected statistical reproducibility, rather than complete raw-data reproduction of every panel.",
+    "reason": "검증 완료 범위와 PDF 전사·미보관 분석을 구분",
+    "n": 1
+  },
+  {
+    "old": "within-donor `case − control` differential expression",
+    "new": "`case − control` differential expression in source-matched held-out donor cohorts",
+    "reason": "paired는 Real/생성 source 대응이며 환자 내 case-control 변화라는 뜻이 아님",
+    "n": 1
+  },
+  {
+    "old": "Having verified within-donor fidelity on paired samples",
+    "new": "Having assessed reconstruction fidelity on source-matched paired samples",
+    "reason": "같은 환자 재구성 대응과 질병 내적 대응 구분",
+    "n": 1
+  },
+  {
+    "old": "Cell-type-resolved paired disease contrasts (**Fig. 4n–r** and **Supplementary Figs. 11–13**) compared",
+    "new": "Cell-type-resolved disease contrasts in source-matched cohorts (**Fig. 4n–r** and **Supplementary Figs. 11–13**; “paired” denotes the Real/generated source correspondence, not a within-person case–control contrast) compared",
+    "reason": "Figure 4 paired 용어 범위 명시",
+    "n": 1
+  },
+  {
+    "old": "schematic label `\"other donors, unpaired\"` denotes unmatched specimens, with zero shared donors in Sepsis and seven shared longitudinal COVID-19 donors",
+    "new": "schematic label `\"unmatched specimens\"`, with zero shared donors in Sepsis and seven shared longitudinal COVID-19 donors",
+    "reason": "실제 Figure 5 도식과 범례의 공유 환자 설명 일치",
+    "n": 1
+  },
+  {
+    "old": "In genome-panel unpaired Welch pseudobulk tests (`5,664` Sepsis and `5,610` COVID-19 genes;",
+    "new": "In genome-panel unpaired Welch pseudobulk tests (using the fixed `60,000`-cell `PBISC` evaluation subset per cohort; `5,664` Sepsis and `5,610` COVID-19 genes;",
+    "reason": "DEG와 분할 신뢰도는 full generation이 아니라 60k 평가 부분표본",
+    "n": 1
+  },
+  {
+    "old": "Unpaired per-gene pseudobulk differential expression (**Fig. 5p–t** and **Supplementary Figs. 16 and 17**) was evaluated across",
+    "new": "Unpaired per-gene pseudobulk differential expression (**Fig. 5p–t** and **Supplementary Figs. 16 and 17**) used a fixed `60,000`-cell `PBISC` evaluation subset per cohort (stratified sample, seed `20261024`, with frozen `six_tr` labels), together with the archived `Real` and full `scSemiProfiler` inputs. The same pseudobulks were used for the split-half reliability analysis. This evaluation subset is distinct from the full generated populations used for the composition and rare-population analyses. Differential expression was evaluated across",
+    "reason": "실제 build_pb.py 입력 표본·seed·label 공개",
+    "n": 1
+  },
+  {
+    "old": "`max |Δq| ≈ 0.0025`",
+    "new": "`max |Δq| ≈ 0.00345`",
+    "reason": "8개 Real DEG 표의 shared-panel 재보정 최대 차이 .0034468539359335804",
+    "n": 1
+  },
+  {
+    "old": "against the full source panel and `0.9363` [`0.936`] in the archived display table",
+    "new": "when the full `51,000`-cell generated-source means are correlated with the archived `Real` means over the same shared genes, and `0.9363` [`0.936`] when both means are taken from the archived display table",
+    "reason": "상관계수 차이의 정확한 계산 입력 명시",
+    "n": 1
+  },
+  {
+    "old": "representative-donor copying (`scSemiProfiler`⁴",
+    "new": "`scSemiProfiler`⁴ under the same five-donor supports (",
+    "reason": "scSemiProfiler는 실제 deep generative model이므로 donor-copying으로 규정하지 않음",
+    "n": 1
+  },
+  {
+    "old": "under the same five-donor supports (; **Fig. 4**)",
+    "new": "under the same five-donor supports (**Fig. 4**)",
+    "reason": "비교 방법 치환 후 괄호 정리",
+    "n": 1
+  },
+  {
+    "old": "To test whether `PBISC` synthesizes genuine rare immune states (`<0.05%` to `2%` of total PBMCs) rather than absorbing them into major-lineage centroids,",
+    "new": "To assess whether reference-assigned rare populations (`<0.05%` to `2%` of total PBMCs) retain their abundance and molecular profiles,",
+    "reason": "전이 annotation 및 분자 유사도는 독립적인 실제 상태 인증이 아님",
+    "n": 1
+  },
+  {
+    "old": "patient-generalizable molecular profiles",
+    "new": "cross-patient molecular similarity",
+    "reason": "타 환자 상관분석을 예측 일반화 성능으로 과장하지 않음",
+    "n": 1
+  },
+  {
+    "old": "host-specific baseline immune vulnerability",
+    "new": "exploratory baseline immune associations",
+    "reason": "비투석 코호트 미재현만으로 ESKD 특이 기전이 입증되지 않음",
+    "n": 1
+  },
+  {
+    "old": "**Fig. 7k,l** and **Supplementary Figs. 22 and 27**",
+    "new": "**Fig. 7k,l** and **Supplementary Fig. 22**; the archived `276`-draw sensitivity comparison is shown separately in **Supplementary Fig. 27**",
+    "reason": "Sup27은 다른 eligibility/mapping/BH family의 보관 sensitivity 분석",
+    "n": 1
+  },
+  {
+    "old": "full `16`-program `HSPC` plus `24`-test Hallmark multi-lineage expression screen (**c**)",
+    "new": "updated `16`-unique-program `HSPC` screen plus the archived `24`-test Hallmark multi-lineage expression screen (**c**). HSPC programmes use the verified published `11`-death endpoint, `33` measured plus `29` bulk-only patients, all-visit cell-pooled patient means of `log1p(CP10K)`, and within-source normal scores for the combined analysis. The duplicated cycling indicator is replaced by the unique broad-HSC programme `HSC_broad_q`; `BH q16` is reported for all sixteen HSPC rows. HSPC 95% confidence intervals retain the archived `10,000` outcome-stratified bootstrap estimates; Hallmark values and their original `q24` families are retained separately",
+    "reason": "표의 초기/불완전 HSPC 16행을 실제 unique16 최종 결과로 통일",
+    "n": 1
+  },
+  {
+    "old": "(`HSPC`, `γδ T`, `CD16 mono`) passing",
+    "new": "(`HSPC`, `γδ T`, `CD16 mono C1`) passing",
+    "reason": "실제 Sup26 last-draw panel은 CD16mono_C1",
+    "n": 1
+  },
+  {
+    "old": "horizontal bars, pooled medians).\n\n---\n\n![Supplementary Figure 27.",
+    "new": "horizontal bars, pooled medians). These archived `276`-draw results form a separate sensitivity analysis; their `18` severity associations and last-draw mortality estimates are not the primary `217`-draw / first-draw results of **Fig. 7**.\n\n---\n\n![Supplementary Figure 27.",
+    "reason": "276 vs217, last vsfirst 분석 집합 구분",
+    "n": 1
+  },
+  {
+    "old": "### **Supplementary Fig. 27 | Direct external validation of each ESKD association.**",
+    "new": "### **Supplementary Fig. 27 | Archived external comparison of the 276-draw ESKD sensitivity associations.**",
+    "reason": "Sup27의 버전/분석 목적을 제목에 표시",
+    "n": 1
+  },
+  {
+    "old": "Per-candidate multi-cohort external comparison across `Stephenson (2021)`, `COMBAT (2022)`, `van der Wijst (2021)` and `Liu (2021)` (`300` graded acute visits; DerSimonian–Laird random-effects synthesis) evaluating direct annotation matches and leave-one-cohort-out / Hartung–Knapp sensitivity for the `18` `ESKD` draw-day severity candidates and three **last-draw** mortality candidates shown in **Supplementary Fig. 26**.",
+    "new": "Archived per-candidate comparison of the `18` severity and three **last-draw** mortality associations from the `276`-draw ESKD sensitivity set (**Supplementary Fig. 26**) across `Stephenson (2021)`, `COMBAT (2022)`, `van der Wijst (2021)` and `Liu (2021)`. This analysis retains its historical eligibility rules and direct annotation mappings, with up to `230` external severity patients and `218` orderable last-draw outcome patients; it is distinct from the updated `231` / `219`-patient, `BH q23` analysis in **Fig. 7k,l**. External `BH` families comprise `18` severity and three mortality targets, including unavailable annotation slots. DerSimonian–Laird pooled estimates use `k ≥ 2` cohorts; single-cohort estimates are identified separately. “Supported” refers to concordant direction and the archived family-adjusted `q < 0.05` rule. No pooled association passed `q < 0.05` under modified Hartung–Knapp inference. This table should not be used to substitute estimates or q values into the primary **Fig. 7** analysis.",
+    "reason": "외부 환자 수·직접 매핑·18/3 BH family와23 family 혼동 해소",
+    "n": 1
+  }
+]

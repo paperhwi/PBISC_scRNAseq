@@ -1,0 +1,76 @@
+check,status,detail
+PDF/PNG aspect Figure4_Paired_Reconstruction_and_Disease_Signal_Recovery,PASS,
+PDF/PNG aspect Figure5_BulkOnly_Composition_and_Disease_Programs,PASS,
+PDF/PNG aspect Figure6_Assigned_Rare_Populations_and_Molecular_Profiles,PASS,
+PDF/PNG aspect Figure7_ESKD_COVID19_Severity_and_FirstDraw_Mortality,PASS,
+PDF/PNG aspect Supplementary_Figure_08_Matched_Support_Allocation_and_Reference_Selection,PASS,
+PDF/PNG aspect Supplementary_Figure_09_Paired_Cohort_Reconstruction_and_Exploratory_Limits,PASS,
+PDF/PNG aspect Supplementary_Figure_10_Major_Cell_Immune_Program_Covariance,PASS,
+PDF/PNG aspect Supplementary_Figure_11_Monocyte_and_NK_Disease_Program_Heatmaps_Paired,PASS,
+PDF/PNG aspect Supplementary_Figure_12_Cell_Type_Resolved_Disease_Effects,PASS,
+PDF/PNG aspect Supplementary_Figure_13_Cell_Type_Resolved_Disease_Effect_Agreement,PASS,
+PDF/PNG aspect Supplementary_Figure_14_Gene_Coverage_Cell_Numbers_and_Sequencing_Depth,PASS,
+PDF/PNG aspect Supplementary_Figure_15_BulkOnly_SixType_Fractions_and_Disease_Heatmaps,PASS,
+PDF/PNG aspect Supplementary_Figure_16_Sepsis_Disease_DEG_Pseudobulk,PASS,
+PDF/PNG aspect Supplementary_Figure_17_COVID_Disease_DEG_Pseudobulk,PASS,
+PDF/PNG aspect Supplementary_Figure_18_Ratio_of_Rare_Populations_Across_Patients,PASS,
+PDF/PNG aspect Supplementary_Figure_19_Heatmap_of_Rare_Populations,PASS,
+PDF/PNG aspect Supplementary_Figure_20_CLL_Exclusion_and_Cross_Source_Fractions,PASS,
+PDF/PNG aspect Supplementary_Figure_21_Cell_Type_Screen_Subsampling_and_Sensitivity,PASS,
+PDF/PNG aspect Supplementary_Figure_22_Peak_Severity_and_Mortality_Public_Cohorts,PASS,
+PDF/PNG aspect Supplementary_Figure_23_HSPC_Fractions_Erythroid_Expression_and_Mortality,PASS,
+PDF/PNG aspect Supplementary_Figure_24_Literature_Expression_Signatures_and_Death,PASS,
+PDF/PNG aspect Supplementary_Figure_25_Blood_Draw_Timing_and_WHO_Severity_217Draws,PASS,
+PDF/PNG aspect Supplementary_Figure_26_All_ESKD_Cell_Type_Associations_q005,PASS,
+PDF/PNG aspect Supplementary_Figure_27_Direct_External_Validation_ESKD_Associations,PASS,
+XLSX cell parity Fig4_Comp_6Types,PASS,"{'rows': 6, 'columns': 9, 'mismatches': []}"
+XLSX cell parity Fig4_iLISI_GeneR,PASS,"{'rows': 6, 'columns': 15, 'mismatches': []}"
+XLSX cell parity Fig4_Paired_limma_DEG,PASS,"{'rows': 16, 'columns': 24, 'mismatches': []}"
+XLSX cell parity Supp12_D0_Volcano_DEGs,PASS,"{'rows': 24, 'columns': 7, 'mismatches': []}"
+XLSX cell parity Supp13_Native_Effect,PASS,"{'rows': 16, 'columns': 7, 'mismatches': []}"
+XLSX cell parity Fig5_Comp_Summary,PASS,"{'rows': 72, 'columns': 7, 'mismatches': []}"
+XLSX cell parity Fig5_297_DonorUnits,PASS,"{'rows': 1782, 'columns': 7, 'mismatches': []}"
+XLSX cell parity Fig5_Disease_Programs,PASS,"{'rows': 42, 'columns': 9, 'mismatches': []}"
+XLSX cell parity Fig5_Welch_DEG_16Rows,PASS,"{'rows': 16, 'columns': 20, 'mismatches': []}"
+XLSX cell parity Fig6_Rare_IntCounts,PASS,"{'rows': 81, 'columns': 6, 'mismatches': []}"
+XLSX cell parity Fig6_Sim_24Groups,PASS,"{'rows': 19, 'columns': 5, 'mismatches': []}"
+XLSX cell parity Fig6_Sim_895Profiles,PASS,"{'rows': 895, 'columns': 7, 'mismatches': []}"
+XLSX cell parity Fig7_43Subsets_Screen,PASS,"{'rows': 129, 'columns': 61, 'mismatches': []}"
+XLSX cell parity Fig7_Composite_50x5CV,PASS,"{'rows': 26, 'columns': 23, 'mismatches': []}"
+XLSX cell parity Fig7_PanelK_Severity,PASS,"{'rows': 7, 'columns': 14, 'mismatches': []}"
+XLSX cell parity Fig7_PanelL_Mortality,PASS,"{'rows': 7, 'columns': 24, 'mismatches': []}"
+XLSX cell parity Fig7_Ext4_Meta23,PASS,"{'rows': 24, 'columns': 33, 'mismatches': []}"
+XLSX cell parity Fig7_Ext4_PerCohort,PASS,"{'rows': 89, 'columns': 26, 'mismatches': []}"
+XLSX cell parity Fig7_ESKD_63_CTL_ISG,PASS,"{'rows': 63, 'columns': 14, 'mismatches': []}"
+XLSX cell parity Fig7_ESKD_66_FirstDraw,PASS,"{'rows': 66, 'columns': 198, 'mismatches': []}"
+XLSX cell parity Fig7_ESKD_217_Draws,PASS,"{'rows': 217, 'columns': 154, 'mismatches': []}"
+XLSX cell parity Fig7_Ext4_300_Draws,PASS,"{'rows': 300, 'columns': 40, 'mismatches': []}"
+Prior raw audit parity fig6_rare_parent_shares_integer_counts.csv,PASS,"{'shape': [81, 6], 'prior_sha256': 'e58bb9e839e6b6aa69e55be0c7c546d7262ea9bfb3752b49882b9ce1d742de2c'}"
+Prior raw audit parity fig6_interpatient_similarity_895profiles.csv,PASS,"{'shape': [895, 7], 'prior_sha256': '416a87ad2b4aa678a6e0f1b0a0a83e4495cf6bfecdcdcf44211b54fb035c01a8'}"
+Prior raw audit parity fig5_donor_condition_297units_composition.csv,PASS,"{'shape': [1782, 7], 'prior_sha256': '4f60bfd0f3f956aebbf9a03644dba2bbca62f8412a88140c168e6b15fa5b57ad'}"
+Prior raw audit parity fig5_composition_summary_by_group.csv,PASS,"{'shape': [72, 7], 'prior_sha256': '3f4c565609e499a686e7711e00d8cd65c717b37e43c1258553bb516fdf93737c'}"
+Prior F7 stats parity fig7_eskd_217_acute_draws_43subsets.csv,PASS,"[217, 154]"
+Prior F7 stats parity fig7_eskd_66_first_draws_43subsets.csv,PASS,"[66, 198]"
+Prior F7 stats parity fig7_eskd_63_first_draws_CTL_NK_ISG.csv,PASS,"[63, 14]"
+Prior F7 stats parity fig7_eskd_43subsets_severity_and_mortality_screen.csv,PASS,"[129, 61]"
+Prior F7 stats parity fig7_external4_300_acute_samples.csv,PASS,"[300, 40]"
+Prior F7 stats parity fig7_external4_per_cohort_results.csv,PASS,"[89, 26]"
+Prior F7 stats parity fig7_external4_meta_23subsets.csv,PASS,"[24, 33]"
+Prior F7 stats parity fig7_panel_k_summary.csv,PASS,"[7, 14]"
+Prior F7 stats parity fig7_panel_l_summary.csv,PASS,"[7, 24]"
+Pseudobulk split-half gen_reliability,PASS,1.1102230246251565e-16
+Pseudobulk split-half real_reliability,PASS,0.0
+Pseudobulk split-half r_disattenuated,PASS,2.220446049250313e-16
+Pseudobulk split-half slope_corrected,PASS,2.220446049250313e-16
+Pseudobulk split-half real_splithalf_AUROC,PASS,0.0
+Pseudobulk split-half r,PASS,2.220446049250313e-16
+Pseudobulk split-half AUROC,PASS,0.0
+Pseudobulk split-half recall_fixed,PASS,0.0
+Final table vs pseudobulk gen_reliability,PASS,1.1102230246251565e-16
+Final table vs pseudobulk real_reliability,PASS,0.0
+Final table vs pseudobulk r_disattenuated,PASS,2.220446049250313e-16
+Final table vs pseudobulk slope_corrected,PASS,2.220446049250313e-16
+Final table vs pseudobulk real_splithalf_AUROC,PASS,1.1102230246251565e-16
+Final table vs pseudobulk r,PASS,2.220446049250313e-16
+Final table vs pseudobulk AUROC,PASS,1.1102230246251565e-16
+Final table vs pseudobulk recall_fixed,PASS,6.938893903907228e-17
